@@ -1,0 +1,8 @@
+{
+  "name": "Muhn Pace Direct (English Dub)",
+  "description": "Read-only Pixeldrain catalog for English dub edits",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/plugins.json"
+  ]
+}
