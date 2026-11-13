@@ -16,7 +16,7 @@ import org.json.JSONObject
  */
 class MuhnPaceProvider : MainAPI() {
     override var name = "Muhn Pace Direct (English Dub)"
-    override var mainUrl = "https://pixeldrain.com"
+    override var mainUrl = "https://pixeldrain.dev"
     override var lang = "en"
     override val supportedTypes = setOf(TvType.TvSeries)
     override val hasMainPage = true
@@ -54,7 +54,7 @@ class MuhnPaceProvider : MainAPI() {
         )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse =
-        newHomePageResponse(request.name, if (page == 1) arcs.map(::arcSearchResponse) else emptyList())
+        newHomePageResponse(request.name, if (page == 1) arcs.map(::arcSearchResponse) else emptyList(), hasNext = false)
 
     override suspend fun search(query: String): List<SearchResponse> {
         val words = query.lowercase().trim().split(Regex("\\s+")).filter(String::isNotBlank)
@@ -78,30 +78,37 @@ class MuhnPaceProvider : MainAPI() {
     }
 
     override suspend fun load(url: String): LoadResponse? {
-        val arc = arcs.firstOrNull { url == "$mainUrl/l/${it.listId}" } ?: return null
-        val result = JSONObject(app.get("$mainUrl/api/list/${arc.listId}").text)
+        val arc = arcs.firstOrNull { url == "$mainUrl/l/${it.listId}" || url == "https://pixeldrain.com/l/${it.listId}" } ?: return null
+        val response = app.get("$mainUrl/api/list/${arc.listId}")
+        val result = try {
+            JSONObject(response.text)
+        } catch (_: org.json.JSONException) {
+            throw ErrorLoadingException("Pixeldrain returned an unreadable collection (HTTP ${response.code}).")
+        }
         if (!result.optBoolean("success", false)) {
             throw ErrorLoadingException(result.optString("message", "Pixeldrain refused the collection request"))
         }
         val files = result.optJSONArray("files")
             ?: throw ErrorLoadingException("Pixeldrain returned no file listing")
 
-        // Pixeldrain's list API documents its files as an ordered array.
-        // Keeping that order avoids mis-sorting episode numbers and resolution labels.
+        // These collections can start mid-arc and can contain multiple edits of one episode.
         val episodes = (0 until files.length()).mapNotNull { fileIndex ->
             val file = files.optJSONObject(fileIndex) ?: return@mapNotNull null
             val id = file.optString("id")
-            if (!FILE_ID.matches(id) || !isVideoFile(file)) return@mapNotNull null
-            id to file.optString("name", "Episode ${fileIndex + 1}")
-        }.mapIndexed { episodeIndex, (fileId, fileName) ->
-            // IMPORTANT: pass a complete HTTPS URL. The previous prototype passed
-            // raw IDs through newEpisode(), which silently rewrote them with fixUrl.
+            val fileName = file.optString("name")
+            if (!FILE_ID.matches(id) || !isVideoFile(file) || !isDubEpisode(fileName)) return@mapNotNull null
+            val title = BRACKET_TAG.replace(fileName.substringBeforeLast('.'), " ")
+            val number = EPISODE_NUMBER.find(title)?.value?.toIntOrNull() ?: return@mapNotNull null
+            number to (id to fileName)
+        }.groupBy({ it.first }, { it.second }).map { (number, edits) ->
+            val (fileId, fileName) = edits.firstOrNull { !VARIANT.containsMatchIn(it.second) } ?: edits.first()
             newEpisode("$mainUrl/api/file/$fileId") {
                 name = fileName
-                episode = episodeIndex + 1
+                episode = number
                 season = 1
             }
         }
+        if (episodes.isEmpty()) throw ErrorLoadingException("Pixeldrain has no matching English-dub episodes in this collection.")
 
         return newTvSeriesLoadResponse(
             "Muhn Pace • ${arc.title} (English Dub)", url, TvType.TvSeries, episodes
@@ -119,16 +126,24 @@ class MuhnPaceProvider : MainAPI() {
     ): Boolean {
         // Prevent unexpectedly accepting an arbitrary remote URL as a stream.
         if (!DIRECT_FILE_URL.matches(data)) return false
+        val url = "$mainUrl/api/file/${data.substringAfterLast('/')}"
 
-        callback(newExtractorLink(name, "Pixeldrain • Direct HTTPS", data, ExtractorLinkType.VIDEO) {
-            referer = "$mainUrl/"
+        callback(newExtractorLink(name, "Pixeldrain • Direct HTTPS", url, ExtractorLinkType.VIDEO) {
             quality = Qualities.Unknown.value
         })
         return true
     }
 
     companion object {
+        private val MUHN_TAG = Regex("^\\[muhn\\s*pace\\]", RegexOption.IGNORE_CASE)
+        private val BRACKET_TAG = Regex("\\[[^\\]]*\\]")
+        private val EPISODE_NUMBER = Regex("\\b\\d{1,3}\\b")
+        private val VARIANT = Regex("\\b(?:alt|filler(?:ver)?)\\b", RegexOption.IGNORE_CASE)
+        private fun isDubEpisode(name: String): Boolean =
+            !name.contains("[SUB]", ignoreCase = true) &&
+                (MUHN_TAG.containsMatchIn(name) || name.contains("[DUB]", ignoreCase = true))
+
         private val FILE_ID = Regex("^[A-Za-z0-9_-]{1,64}$")
-        private val DIRECT_FILE_URL = Regex("^https://pixeldrain\\.com/api/file/[A-Za-z0-9_-]{1,64}$")
+        private val DIRECT_FILE_URL = Regex("^https://pixeldrain\\.(?:dev|com)/api/file/[A-Za-z0-9_-]{1,64}$")
     }
 }
