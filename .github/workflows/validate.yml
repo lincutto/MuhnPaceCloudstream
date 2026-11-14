@@ -1,0 +1,92 @@
+name: Validate development extension
+
+on:
+  push:
+    branches:
+      - 'codex/**'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out this extension
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Check out the official Cloudstream Gradle wrapper
+        uses: actions/checkout@v6
+        with:
+          repository: recloudstream/extensions
+          ref: cf16b3b45cda911a36ddca69f9acbe4763c6a4b1
+          path: upstream
+          sparse-checkout: |
+            gradle/wrapper
+            gradlew
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Prepare the Gradle wrapper and check Android API 35
+        run: |
+          cp upstream/gradlew .
+          mkdir -p gradle
+          cp -R upstream/gradle/wrapper gradle/
+          chmod +x gradlew
+          test -f "$ANDROID_HOME/platforms/android-35/android.jar"
+
+      - name: Run the project checks
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Build the Android Cloudstream extension
+        run: ./gradlew :MuhnPace:make --no-daemon --stacktrace
+
+      - name: Assemble and validate the repository
+        run: |
+          python3 scripts/publish.py --build-dir MuhnPace/build --repo "$GITHUB_REPOSITORY" --out published
+          python3 - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          import hashlib, json
+          out = Path('published')
+          repo = json.loads((out / 'repo.json').read_text())
+          [entry] = json.loads((out / 'plugins.json').read_text())
+          package = out / 'MuhnPace.cs3'
+          assert repo['pluginLists'][0].endswith('/builds/plugins.json')
+          assert entry['url'].endswith('/builds/' + package.name)
+          assert entry['fileHash'] == 'sha256-' + hashlib.sha256(package.read_bytes()).hexdigest()
+          assert entry['fileSize'] == package.stat().st_size
+          with ZipFile(package) as z:
+              assert z.testzip() is None
+              manifest = json.loads(z.read('manifest.json'))
+              assert manifest['name'] == entry['internalName']
+              assert manifest['version'] == entry['version']
+              assert manifest['pluginClassName'] == 'com.muhnpacedirect.MuhnPacePlugin'
+              dex = z.read('classes.dex')
+              assert dex.startswith(b'dex\n')
+              assert b'Lcom/muhnpacedirect/MuhnPacePlugin;' in dex
+              assert b'Lcom/muhnpacedirect/MuhnPaceProvider;' in dex
+          PY
+
+      - name: Upload the compiled extension and indexes
+        uses: actions/upload-artifact@v7
+        with:
+          name: MuhnPace-validation-${{ github.sha }}
+          path: published/
+          if-no-files-found: error
+

@@ -3,10 +3,10 @@ name: Build and publish Muhn Pace Cloudstream extension
 on:
   workflow_dispatch:
   push:
-    branches: [main, master]
+    branches: [main]
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: publish-muhn-pace
@@ -14,6 +14,10 @@ concurrency:
 
 jobs:
   build:
+    # A manual dispatch from a development branch must never publish.
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
     runs-on: ubuntu-24.04
     steps:
       - name: Check out this extension
@@ -86,6 +90,7 @@ jobs:
           if-no-files-found: error
 
       - name: Publish the Cloudstream repository
+        if: github.ref == 'refs/heads/main'
         run: |
           if git ls-remote --exit-code origin refs/heads/builds > /dev/null; then
             git fetch origin refs/heads/builds:refs/remotes/origin/builds
