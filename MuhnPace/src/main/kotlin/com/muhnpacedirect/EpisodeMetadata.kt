@@ -32,11 +32,23 @@ internal data class EpisodeMetadata(
     val title: String,
     val edition: EpisodeEdition,
     val originalEpisodes: OriginalEpisodeMapping? = null,
+    val thumbnailUrl: String? = null,
+    val summary: String? = null,
 ) {
     val description: String
-        get() = originalEpisodes?.let {
+        get() = listOfNotNull(summary, originalEpisodes?.let {
             "Original One Piece episodes: ${it.label}. Source: ${it.sourceUrl}"
-        } ?: "Original One Piece episode mapping is unverified."
+        } ?: "Original One Piece episode mapping is unverified.").joinToString("\n")
+
+    /** Describe only facts known about this edit; never borrow another episode's synopsis. */
+    fun withPresentation(arcTitle: String, fallbackPosterUrl: String? = null): EpisodeMetadata {
+        val arcName = arcTitle.substringBefore(" • Episode ")
+        val editionNote = if (edition.label.isEmpty()) "" else " ${edition.label}."
+        return copy(
+            summary = "$arcName • Muhn Pace edit $editNumber. English dub.$editionNote",
+            thumbnailUrl = thumbnailUrl ?: fallbackPosterUrl,
+        )
+    }
 }
 
 /** Pure catalogue selection shared by the provider and the offline JVM tests. */
@@ -99,6 +111,11 @@ internal object EpisodeCatalog {
             title = "$displayArc • Episode $number$suffix",
             edition = edition,
             originalEpisodes = originalMappings[fileId],
+            // Only use a thumbnail advertised for this exact file. Missing/foreign links
+            // fall back to the arc artwork in the presentation layer.
+            thumbnailUrl = file.optString("thumbnail_href")
+                .takeIf { it == "/file/$fileId/thumbnail" }
+                ?.let { "https://pixeldrain.dev/api$it?width=256&height=144" },
         )
     }
 

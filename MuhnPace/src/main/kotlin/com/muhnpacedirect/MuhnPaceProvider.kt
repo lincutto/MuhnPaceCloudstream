@@ -66,12 +66,19 @@ class MuhnPaceProvider : MainAPI() {
         }.map(::arcSearchResponse)
     }
 
-    internal fun episodesFromFiles(collectionId: String, arcTitle: String, files: JSONArray): List<Episode> =
+    internal fun episodesFromFiles(
+        collectionId: String,
+        arcTitle: String,
+        files: JSONArray,
+        fallbackPosterUrl: String? = null,
+    ): List<Episode> =
         EpisodeCatalog.select(collectionId, arcTitle, files).map { metadata ->
+            val presented = metadata.withPresentation(arcTitle, fallbackPosterUrl)
             val fileId = metadata.fileId
             newEpisode("$mainUrl/api/file/$fileId") {
                 name = metadata.title
-                description = metadata.description
+                description = presented.description
+                posterUrl = presented.thumbnailUrl
                 episode = metadata.editNumber
                 season = 1
             }
