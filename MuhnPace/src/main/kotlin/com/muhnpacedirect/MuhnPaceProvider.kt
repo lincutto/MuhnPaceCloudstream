@@ -52,7 +52,9 @@ class MuhnPaceProvider : MainAPI() {
             "Muhn Pace • ${arc.title} (Dub)",
             "$mainUrl/l/${arc.listId}",
             TvType.TvSeries,
-        )
+        ) {
+            posterUrl = ArcPresentations.byCollection[arc.listId]?.poster
+        }
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse =
         newHomePageResponse(request.name, if (page == 1) arcs.map(::arcSearchResponse) else emptyList(), hasNext = false)
@@ -99,15 +101,17 @@ class MuhnPaceProvider : MainAPI() {
             ?: throw ErrorLoadingException("Pixeldrain returned no file listing")
 
         // Keep source edit numbers (including gaps) and sort numerically within this collection.
-        val episodes = episodesFromFiles(arc.listId, arc.title, files)
+        val presentation = ArcPresentations.byCollection.getValue(arc.listId)
+        val episodes = episodesFromFiles(arc.listId, arc.title, files, presentation.episodeFallback)
         if (episodes.isEmpty()) throw ErrorLoadingException("Pixeldrain has no matching English-dub episodes in this collection.")
 
         return newTvSeriesLoadResponse(
             "Muhn Pace • ${arc.title} (English Dub)", url, TvType.TvSeries, episodes
         ) {
-            plot = "English-dubbed fan edit. Episodes are sorted by Muhn Pace edit number; gaps in the source numbering are preserved. " +
-                "Original One Piece episode mappings are shown only when verified. " +
-                "Direct HTTPS playback depends on Pixeldrain's access, hotlinking and transfer restrictions."
+            posterUrl = presentation.poster
+            backgroundPosterUrl = presentation.background
+            plot = presentation.description(episodes.size)
+            tags = presentation.tags
         }
     }
 
