@@ -46,7 +46,18 @@ internal data class EpisodeMetadata(
         val editionNote = if (edition.label.isEmpty()) "" else " ${edition.label}."
         return copy(
             summary = "$arcName • Muhn Pace edit $editNumber. English dub.$editionNote",
-            thumbnailUrl = thumbnailUrl ?: fallbackPosterUrl,
+            thumbnailUrl = thumbnailUrl?.takeUnless { fileId in knownBlankThumbnailIds } ?: fallbackPosterUrl,
+        )
+    }
+
+    companion object {
+        // Decoded previews verified 2026-11-14: every RGB channel is 0 or 1.
+        // Use arc artwork for these frames without extra image probes while browsing.
+        // Evidence and hashes: thumbnail-verification-2026-11-14.json.
+        private val knownBlankThumbnailIds = setOf(
+            "67SvndHA", "CcKSPHJZ", "QG7THm8t", "U8HMFkPE", "zEmPxD6p", // Enies Lobby 11–15
+            "fn7rEMkN", // Impel Down 1
+            "qogFLkFu", "r8HSo1Gp", // Post Marineford 7–8
         )
     }
 }

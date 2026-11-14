@@ -67,7 +67,7 @@ class EpisodePresentationTest {
     }
 
     @Test
-    fun `all recovered selected edits have independently verified thumbnail URLs`() {
+    fun `all recovered selected edits use verified thumbnails or arc art for blank frames`() {
         fun resource(name: String) = javaClass.getResourceAsStream(name)!!.bufferedReader().use { JSONObject(it.readText()) }
         val proof = resource("/thumbnail-verification-2026-11-14.json").getJSONArray("episodes")
         val verified = (0 until proof.length()).associate { index ->
@@ -80,6 +80,7 @@ class EpisodePresentationTest {
         }
         val collections = resource("/catalogue-2026-11-14.json").getJSONArray("collections")
         var checked = 0
+        var blankFrames = 0
         for (index in 0 until collections.length()) {
             val collection = collections.getJSONObject(index)
             val files = collection.getJSONArray("files")
@@ -89,15 +90,26 @@ class EpisodePresentationTest {
                     sourceFile.put("thumbnail_href", it.getString("thumbnail_href"))
                 }
             }
+            val fallback = ArcPresentations.byCollection.getValue(collection.getString("id")).episodeFallback
             val entries = MuhnPaceProvider().episodesFromFiles(
                 collection.getString("id"), collection.getString("arc_title"), files,
+                fallback,
             )
             for (episode in entries) {
                 val fileId = episode.data.substringAfterLast('/')
-                assertEquals(verified.getValue(fileId).getString("url"), episode.posterUrl)
+                val record = verified.getValue(fileId)
+                if (record.getBoolean("blank")) {
+                    assertTrue(record.getInt("max_rgb_channel") <= 1)
+                    assertNotNull(fallback)
+                    assertEquals(fallback, episode.posterUrl)
+                    blankFrames++
+                } else {
+                    assertEquals(record.getString("url"), episode.posterUrl)
+                }
                 checked++
             }
         }
         assertEquals(274, checked)
+        assertEquals(8, blankFrames)
     }
 }
