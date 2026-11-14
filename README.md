@@ -14,7 +14,9 @@ https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/repo.json
 
 ## Catalogue and playback
 
-The provider reads the 16 collections in the [community dub guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934). It keeps numbered Muhn Pace edits and explicitly dub-labelled episodes, filters out subtitled-only and comparison files, and uses the episode numbers in the filenames. The numbers refer to the fan edit. For example, Wano Act 3 begins at edit 71.
+The provider reads the 16 collections in the [community dub guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934). It keeps numbered Muhn Pace edits and explicitly dub-labelled episodes, filters out subtitled-only and comparison files, and sorts episodes numerically. Clean titles use the arc and edit number, such as **Dressrosa • Episode 2**. The numbers refer to the fan edit, and gaps are preserved. For example, Wano Act 3 begins at edit 71.
+
+Original One Piece episode mappings are explicitly marked **unverified** until a source verifies the exact edit. Filename version, resolution and unlabelled range tags are not treated as original anime episode numbers.
 
 When several versions share an episode number within a collection, the provider prefers the regular edit. The dedicated Fishman Island episode 15 collection also appears in the guide. Its dub can appear in the main Fishman Island list too.
 
@@ -22,7 +24,9 @@ The video host controls availability and transfer limits. If the host blocks a r
 
 ## Build
 
-The GitHub Actions workflow builds the Kotlin provider against the Cloudstream library with JDK 17, checks the package and its index, and publishes three files to `builds`.
+The development workflow validates pushes to `codex/**` and pull requests to `main`. It runs Kotlin unit tests, compiles the Android extension, and checks the package and indexes. It has read-only repository permissions, stores test reports and build artifacts, and has no publication step.
+
+The separate production workflow can publish only from `main`. Its job and publishing step both require `refs/heads/main`. Phase 1 development does not publish an extension. The production repository contains these three files:
 
 | File | Purpose |
 | --- | --- |
@@ -33,7 +37,10 @@ The GitHub Actions workflow builds the Kotlin provider against the Cloudstream l
 To build locally, use Gradle 8.12 (or the Gradle wrapper from the pinned Cloudstream template in the workflow), JDK 17 and Android SDK 35. From the project root, run:
 
 ```sh
-gradle :MuhnPace:make
+python3 -m pip install -r tests/requirements.txt
 python3 -m unittest discover -s tests -v
+gradle :MuhnPace:testDebugUnitTest :MuhnPace:make --no-daemon
 python3 scripts/publish.py --build-dir MuhnPace/build --repo lincutto/MuhnPaceCloudstream --out published
 ```
+
+`scripts/publish.py` assembles local files only; it makes no network requests. Kotlin tests use saved catalogue fixtures and do not request media. See [the Phase 1 handover](docs/V3_HANDOVER.md) for recovery details, validation evidence, and limitations.
