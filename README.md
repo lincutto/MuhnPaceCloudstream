@@ -18,7 +18,9 @@ The provider reads the 16 collections in the [community dub guide](https://steam
 
 Original One Piece episode mappings are explicitly marked **unverified** until a source verifies the exact edit. Filename version, resolution and unlabelled range tags are not treated as original anime episode numbers.
 
-On the development branch, arc pages include distinct synopses, anime/adventure tags and the live number of available edits. Episodes use Pixeldrain's thumbnail for the exact selected edit, with factual English-dub/edit descriptions. The host supplies small 256×144 previews, which can show opening credits. High-quality arc posters and backgrounds are still pending source verification; Phase 2 is not yet complete.
+On the development branch, all 16 collections have original arc-themed posters (768×1152), widescreen backgrounds (1920×1080), distinct synopses, anime/adventure tags and the live number of available edits. The [original geometric artwork](assets/artwork/README.md) is a deliberate fallback, not official anime promotional art. Its HTTPS URLs are pinned to a verified artwork commit.
+
+Episodes use Pixeldrain's thumbnail for the exact selected edit, with factual English-dub/edit descriptions. The host supplies small 256×144 previews, which can show opening credits. Missing, mismatched and eight known black-frame previews use the matching arc background. Cloudstream handles image caching and rendering. Phase 2 is implemented on the development branch; real Fire TV layout verification and any production publication remain separate.
 
 When several versions share an episode number within a collection, the provider prefers the regular edit. The dedicated Fishman Island episode 15 collection also appears in the guide. Its dub can appear in the main Fishman Island list too.
 
@@ -28,7 +30,7 @@ The video host controls availability and transfer limits. If the host blocks a r
 
 The development workflow validates pushes to `codex/**` and pull requests to `main`. It runs Kotlin unit tests, compiles the Android extension, and checks the package and indexes. It has read-only repository permissions, stores test reports and build artifacts, and has no publication step.
 
-The separate production workflow can publish only from `main`. Its job and publishing step both require `refs/heads/main`. Phase 1 development does not publish an extension. The production repository contains these three files:
+The separate production workflow can publish only from `main`. Its job and publishing step both require `refs/heads/main`. Development validation does not publish an extension. The production repository contains these three files:
 
 | File | Purpose |
 | --- | --- |
@@ -45,4 +47,4 @@ gradle :MuhnPace:testDebugUnitTest :MuhnPace:make --no-daemon
 python3 scripts/publish.py --build-dir MuhnPace/build --repo lincutto/MuhnPaceCloudstream --out published
 ```
 
-`scripts/publish.py` assembles local files only; it makes no network requests. Kotlin tests use saved catalogue fixtures and do not request media. See [the v3 handover](docs/V3_HANDOVER.md) for recovery details, Phase 2 progress, validation evidence, and limitations.
+`scripts/publish.py` assembles local files only; it makes no network requests. Kotlin tests use saved catalogue fixtures and do not request media. See [the v3 handover](docs/V3_HANDOVER.md) for recovery details, Phase 2 delivery, validation evidence, and limitations.
