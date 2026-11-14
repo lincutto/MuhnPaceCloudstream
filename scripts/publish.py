@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assemble a Cloudstream repository from a *genuinely compiled* .cs3 file."""
+"""Assemble local repository files from a compiled .cs3; this script makes no network requests."""
 import argparse
 import hashlib
 import json
@@ -48,7 +48,7 @@ def main():
         'manifestVersion': 1,
         'pluginLists': [f'{base}/plugins.json'],
     }, indent=2) + '\n', encoding='utf-8')
-    print(f'Published files for {args.repo}: {source.name}, plugins.json, repo.json')
+    print(f'Assembled local files for {args.repo}: {source.name}, plugins.json, repo.json')
     print(f'Cloudstream repository: {base}/repo.json')
 
 
