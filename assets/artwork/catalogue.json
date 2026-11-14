@@ -1,0 +1,325 @@
+{
+  "source": "Original geometric artwork for this repository",
+  "collections": [
+    {
+      "collection_id": "6VyLVkB2",
+      "slug": "enies-lobby",
+      "title": "ENIES LOBBY",
+      "label": "JUDICIAL ISLAND",
+      "poster": {
+        "file": "enies-lobby-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 196715,
+        "sha256": "649c7ac124a53b5dd35cd1823f0bc9e48947db38279b4fd5faafba8e28e9c708"
+      },
+      "background": {
+        "file": "enies-lobby-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 247139,
+        "sha256": "4dd707c757d843ec3ad0ecb3d9435b518bba44059dcc6e3ecae6ab8c844b4e67"
+      }
+    },
+    {
+      "collection_id": "jVhFqouN",
+      "slug": "post-enies-lobby",
+      "title": "POST-ENIES LOBBY",
+      "label": "BACK IN WATER SEVEN",
+      "poster": {
+        "file": "post-enies-lobby-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 222861,
+        "sha256": "f25ffa707b9b639d2051892433dbbc47569998aa44804fb375e26da415f6b18a"
+      },
+      "background": {
+        "file": "post-enies-lobby-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 271423,
+        "sha256": "c4c66295d2731a3ca67a806515e43e67e3cdf596e1704599ac1ee0d2e43132e2"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "slug": "thriller-bark",
+      "title": "THRILLER BARK",
+      "label": "THROUGH THE FLORIAN TRIANGLE",
+      "poster": {
+        "file": "thriller-bark-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 218981,
+        "sha256": "635dd10079b59ddbcf77875c2b6219a8120c618c46e4eb342421301fe3823f89"
+      },
+      "background": {
+        "file": "thriller-bark-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 269760,
+        "sha256": "7e9416dd09444f1f9a7fcb03854e5666a3f1291b1b00833d8519c9e6686af0bc"
+      }
+    },
+    {
+      "collection_id": "KztkSCuY",
+      "slug": "sabaody",
+      "title": "SABAODY ARCHIPELAGO",
+      "label": "THE MANGROVE GROVES",
+      "poster": {
+        "file": "sabaody-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 249079,
+        "sha256": "36d142c47e860bcf4fcdffd4fc36580311c49be962484c66fb8809f540f3c29b"
+      },
+      "background": {
+        "file": "sabaody-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 296277,
+        "sha256": "48f0a46ea916100dacbff8bd2ea750025e9cd53c534b3aaca4811f121329b892"
+      }
+    },
+    {
+      "collection_id": "TuZJgwRL",
+      "slug": "amazon-lily",
+      "title": "AMAZON LILY",
+      "label": "ISLAND OF WARRIORS",
+      "poster": {
+        "file": "amazon-lily-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 213863,
+        "sha256": "2924245d7466156be22e3be5368c24f3cc09c7b166d83697d84dba79587ed743"
+      },
+      "background": {
+        "file": "amazon-lily-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 267926,
+        "sha256": "045b79869b56744a6e248abde3edc54c82a85d665c5b9712fd1fd9be808a7084"
+      }
+    },
+    {
+      "collection_id": "4AN9Xxht",
+      "slug": "impel-down",
+      "title": "IMPEL DOWN",
+      "label": "THE UNDERWATER PRISON",
+      "poster": {
+        "file": "impel-down-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 194973,
+        "sha256": "9d41c5723bfc97c6f3ab8f9030d87e76fd44c8245d904e975d1055751d6c6c20"
+      },
+      "background": {
+        "file": "impel-down-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 235357,
+        "sha256": "7ce0a5d415f52f44e06f63b1fe74ecbbb3565d2b62425a6d0a941c9358f93c8a"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "slug": "marineford",
+      "title": "MARINEFORD",
+      "label": "NAVY HEADQUARTERS",
+      "poster": {
+        "file": "marineford-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 220888,
+        "sha256": "a7174f6d00964663587639a386f2b09f41171d31562ac92b68afa18237c703ef"
+      },
+      "background": {
+        "file": "marineford-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 289998,
+        "sha256": "c5b3d9ee4a6a571b7cef6cec3fb06fec051a8489dfe05260afca8c03dbd150a2"
+      }
+    },
+    {
+      "collection_id": "MH7AQkgr",
+      "slug": "post-marineford",
+      "title": "POST- MARINEFORD",
+      "label": "TOWARD THE NEXT VOYAGE",
+      "poster": {
+        "file": "post-marineford-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 259301,
+        "sha256": "379befcb7ef01ff496d1e5b7807f3901f69886435f2ee1877ec5f57fa529c4e4"
+      },
+      "background": {
+        "file": "post-marineford-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 321949,
+        "sha256": "2445a1e57ed84eae41613955d28be3511afb63e51983962032e8bc66b8252340"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "slug": "fishman-island",
+      "title": "FISHMAN ISLAND",
+      "label": "TEN THOUSAND METRES BELOW",
+      "poster": {
+        "file": "fishman-island-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 243760,
+        "sha256": "59c9f0d1ac2f8b75162a0745343d2b471309921e8ef7d7012d66d1cf7ef256f4"
+      },
+      "background": {
+        "file": "fishman-island-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 310470,
+        "sha256": "3788ec6b45d84bbe985de1c936bebe1bdc7a50229347e721c25b593a4f09f6be"
+      }
+    },
+    {
+      "collection_id": "kuoQYqfR",
+      "slug": "fishman-special",
+      "title": "FISHMAN ISLAND",
+      "label": "EDIT 15 / CORRECTED GROUP SHOT",
+      "poster": {
+        "file": "fishman-special-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 240713,
+        "sha256": "fbe7616e7a2f5b02867603f303a512ee5de007a1a742d7d8866415ecb186dbaf"
+      },
+      "background": {
+        "file": "fishman-special-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 305404,
+        "sha256": "f9a2c01a2597992df5d3f9f7f69cb6b095a61c37de283d9acdd7aee8191256ec"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "slug": "punk-hazard",
+      "title": "PUNK HAZARD",
+      "label": "AN ISLAND OF FIRE AND ICE",
+      "poster": {
+        "file": "punk-hazard-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 211999,
+        "sha256": "1f4c4e899eb556ea6efd5866e4470a427c09a235caf91770d097158c853112a3"
+      },
+      "background": {
+        "file": "punk-hazard-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 261612,
+        "sha256": "5b5a303b0f50b905a22361c29e8de0409eceda1d5a2d9ac46abbe57fdd1d8f2b"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "slug": "dressrosa",
+      "title": "DRESSROSA",
+      "label": "THE KINGDOM OF TOYS",
+      "poster": {
+        "file": "dressrosa-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 231274,
+        "sha256": "db1e90ae1e1361076b9a22a0b7e9b548f3b4bb276c02da68a13db1b38802cb84"
+      },
+      "background": {
+        "file": "dressrosa-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 293684,
+        "sha256": "e89b11533afd670a69f31a238a49016d7bb5d2657d1e857641115b39e49812db"
+      }
+    },
+    {
+      "collection_id": "totP9Xmm",
+      "slug": "zou",
+      "title": "ZOU",
+      "label": "A HOMELAND ABOVE THE SEA",
+      "poster": {
+        "file": "zou-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 226778,
+        "sha256": "64d5baf7ff3b7d2e74a02b360c9caefdd1d813be6ced156ccf3e6ebb9bfcb3e8"
+      },
+      "background": {
+        "file": "zou-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 282975,
+        "sha256": "779632cfb09ea028b03f4c675911a204ca92304ebb0206e999b86c30a50abc59"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "slug": "whole-cake",
+      "title": "WHOLE CAKE ISLAND",
+      "label": "IN BIG MOM'S TERRITORY",
+      "poster": {
+        "file": "whole-cake-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 236695,
+        "sha256": "d533b7e20a5bf9f0f1ae4cdbbb2d09497e8733ae276e25f5a830a30770b97820"
+      },
+      "background": {
+        "file": "whole-cake-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 293681,
+        "sha256": "b270285fef55d27106a4a00210ea157fde9bb854d11e93e4613342db6bce42b4"
+      }
+    },
+    {
+      "collection_id": "QZw3Ejpy",
+      "slug": "wano-acts-1-2",
+      "title": "WANO",
+      "label": "ACTS 1 & 2",
+      "poster": {
+        "file": "wano-acts-1-2-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 215728,
+        "sha256": "261021629ada196353810a46ce17c0c0168e0b94d1c980f5485de20b1a33e628"
+      },
+      "background": {
+        "file": "wano-acts-1-2-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 281585,
+        "sha256": "e1bbb56e634c56176786610bfb9fea381191d338c9c2e56645111a362ceac953"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "slug": "wano-act-3",
+      "title": "WANO",
+      "label": "ACT 3 / LATER EDITS",
+      "poster": {
+        "file": "wano-act-3-poster.png",
+        "width": 768,
+        "height": 1152,
+        "bytes": 216589,
+        "sha256": "307629256f34fc07e597bf8f19be1d34fba3021070684e28eddc73ed9ff26abd"
+      },
+      "background": {
+        "file": "wano-act-3-background.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 270538,
+        "sha256": "8689c88a0683d6591d2ae833a0770014ec570218dd1273547e20e9c1dcea638e"
+      }
+    }
+  ]
+}
