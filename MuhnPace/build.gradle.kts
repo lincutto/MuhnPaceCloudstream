@@ -1,5 +1,9 @@
 version = 2
 
+dependencies {
+    testImplementation("junit:junit:4.13.2")
+}
+
 cloudstream {
     description = "English-dubbed Muhn Pace arcs from public Pixeldrain lists (direct HTTPS; subject to host restrictions)"
     authors = listOf("Independent prototype")

@@ -27,7 +27,8 @@ class MuhnPaceSourceChecks(unittest.TestCase):
 
     def test_consistent_playback_url_and_id_validation(self):
         self.assertIn('DIRECT_FILE_URL.matches(data)', SOURCE)
-        self.assertIn('FILE_ID.matches(id)', SOURCE)
+        metadata = (ROOT / 'MuhnPace/src/main/kotlin/com/muhnpacedirect/EpisodeMetadata.kt').read_text()
+        self.assertIn('fileIdPattern.matches(fileId)', metadata)
         self.assertIn('newExtractorLink', SOURCE)
 
     def test_workflow_builds_using_official_gradle_plugin(self):

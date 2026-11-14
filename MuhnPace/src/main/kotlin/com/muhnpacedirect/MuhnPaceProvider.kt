@@ -5,6 +5,7 @@ import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.ExtractorLinkType
 import com.lagradost.cloudstream3.utils.Qualities
 import com.lagradost.cloudstream3.utils.newExtractorLink
+import org.json.JSONArray
 import org.json.JSONObject
 
 /**
@@ -65,17 +66,16 @@ class MuhnPaceProvider : MainAPI() {
         }.map(::arcSearchResponse)
     }
 
-    private fun isVideoFile(file: JSONObject): Boolean {
-        val name = file.optString("name")
-        val mime = file.optString("mime_type")
-        return mime.startsWith("video/", ignoreCase = true) ||
-            name.endsWith(".mp4", ignoreCase = true) ||
-            name.endsWith(".mkv", ignoreCase = true) ||
-            name.endsWith(".m4v", ignoreCase = true) ||
-            name.endsWith(".webm", ignoreCase = true) ||
-            name.endsWith(".mov", ignoreCase = true) ||
-            name.endsWith(".avi", ignoreCase = true)
-    }
+    internal fun episodesFromFiles(collectionId: String, arcTitle: String, files: JSONArray): List<Episode> =
+        EpisodeCatalog.select(collectionId, arcTitle, files).map { metadata ->
+            val fileId = metadata.fileId
+            newEpisode("$mainUrl/api/file/$fileId") {
+                name = metadata.title
+                description = metadata.description
+                episode = metadata.editNumber
+                season = 1
+            }
+        }
 
     override suspend fun load(url: String): LoadResponse? {
         val arc = arcs.firstOrNull { url == "$mainUrl/l/${it.listId}" || url == "https://pixeldrain.com/l/${it.listId}" } ?: return null
@@ -91,29 +91,15 @@ class MuhnPaceProvider : MainAPI() {
         val files = result.optJSONArray("files")
             ?: throw ErrorLoadingException("Pixeldrain returned no file listing")
 
-        // These collections can start mid-arc and can contain multiple edits of one episode.
-        val episodes = (0 until files.length()).mapNotNull { fileIndex ->
-            val file = files.optJSONObject(fileIndex) ?: return@mapNotNull null
-            val id = file.optString("id")
-            val fileName = file.optString("name")
-            if (!FILE_ID.matches(id) || !isVideoFile(file) || !isDubEpisode(fileName)) return@mapNotNull null
-            val title = BRACKET_TAG.replace(fileName.substringBeforeLast('.'), " ")
-            val number = EPISODE_NUMBER.find(title)?.value?.toIntOrNull() ?: return@mapNotNull null
-            number to (id to fileName)
-        }.groupBy({ it.first }, { it.second }).map { (number, edits) ->
-            val (fileId, fileName) = edits.firstOrNull { !VARIANT.containsMatchIn(it.second) } ?: edits.first()
-            newEpisode("$mainUrl/api/file/$fileId") {
-                name = fileName
-                episode = number
-                season = 1
-            }
-        }
+        // Keep source edit numbers (including gaps) and sort numerically within this collection.
+        val episodes = episodesFromFiles(arc.listId, arc.title, files)
         if (episodes.isEmpty()) throw ErrorLoadingException("Pixeldrain has no matching English-dub episodes in this collection.")
 
         return newTvSeriesLoadResponse(
             "Muhn Pace • ${arc.title} (English Dub)", url, TvType.TvSeries, episodes
         ) {
-            plot = "English-dubbed fan edit. Episodes are listed in the public Pixeldrain collection's original order. " +
+            plot = "English-dubbed fan edit. Episodes are sorted by Muhn Pace edit number; gaps in the source numbering are preserved. " +
+                "Original One Piece episode mappings are shown only when verified. " +
                 "Direct HTTPS playback depends on Pixeldrain's access, hotlinking and transfer restrictions."
         }
     }
@@ -135,15 +121,6 @@ class MuhnPaceProvider : MainAPI() {
     }
 
     companion object {
-        private val MUHN_TAG = Regex("^\\[muhn\\s*pace\\]", RegexOption.IGNORE_CASE)
-        private val BRACKET_TAG = Regex("\\[[^\\]]*\\]")
-        private val EPISODE_NUMBER = Regex("\\b\\d{1,3}\\b")
-        private val VARIANT = Regex("\\b(?:alt|filler(?:ver)?)\\b", RegexOption.IGNORE_CASE)
-        private fun isDubEpisode(name: String): Boolean =
-            !name.contains("[SUB]", ignoreCase = true) &&
-                (MUHN_TAG.containsMatchIn(name) || name.contains("[DUB]", ignoreCase = true))
-
-        private val FILE_ID = Regex("^[A-Za-z0-9_-]{1,64}$")
         private val DIRECT_FILE_URL = Regex("^https://pixeldrain\\.(?:dev|com)/api/file/[A-Za-z0-9_-]{1,64}$")
     }
 }
