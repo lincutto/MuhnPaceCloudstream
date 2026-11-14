@@ -18,6 +18,8 @@ The provider reads the 16 collections in the [community dub guide](https://steam
 
 Original One Piece episode mappings are explicitly marked **unverified** until a source verifies the exact edit. Filename version, resolution and unlabelled range tags are not treated as original anime episode numbers.
 
+On the development branch, arc pages include distinct synopses, anime/adventure tags and the live number of available edits. Episodes use Pixeldrain's thumbnail for the exact selected edit, with factual English-dub/edit descriptions. The host supplies small 256×144 previews, which can show opening credits. High-quality arc posters and backgrounds are still pending source verification; Phase 2 is not yet complete.
+
 When several versions share an episode number within a collection, the provider prefers the regular edit. The dedicated Fishman Island episode 15 collection also appears in the guide. Its dub can appear in the main Fishman Island list too.
 
 The video host controls availability and transfer limits. If the host blocks a request on your connection, the app may show a playback error. The plugin uses Pixeldrain directly and contains no video files. [Pixeldrain API documentation](https://pixeldrain.dev/api)
@@ -43,4 +45,4 @@ gradle :MuhnPace:testDebugUnitTest :MuhnPace:make --no-daemon
 python3 scripts/publish.py --build-dir MuhnPace/build --repo lincutto/MuhnPaceCloudstream --out published
 ```
 
-`scripts/publish.py` assembles local files only; it makes no network requests. Kotlin tests use saved catalogue fixtures and do not request media. See [the Phase 1 handover](docs/V3_HANDOVER.md) for recovery details, validation evidence, and limitations.
+`scripts/publish.py` assembles local files only; it makes no network requests. Kotlin tests use saved catalogue fixtures and do not request media. See [the v3 handover](docs/V3_HANDOVER.md) for recovery details, Phase 2 progress, validation evidence, and limitations.

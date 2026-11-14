@@ -1,10 +1,73 @@
-# MuhnPaceCloudstream v3 — Phase 1 handover
+# MuhnPaceCloudstream v3 — handover
 
-Updated: 2026-11-14 (UTC). Scope: Phase 1 metadata and validation only. Phase 2 has not begun.
+Updated: 2026-11-14 (UTC). Phase 1 is complete. Phase 2 is in progress and blocked on artwork-source access. Phases 3 and 4 have not begun.
 
 Phase 1 is complete, with unsupported original-episode mappings explicitly left unknown as requested. No extension was published.
 
-## Recovery
+## Phase 2 progress and remaining blocker
+
+The user supplied photographs of Cloudstream Beta on an Amazon Fire TV Stick 4K (2nd Generation), showing grey arc cards, sparse pages, raw episode filenames and existing watch progress. These show the published provider, not a device test of the development branch. Phase 1's clean titles are preserved.
+
+| Commit | Verified change |
+| --- | --- |
+| `be72443` | Exact-edit thumbnails and factual episode descriptions; all 12 Phase 1 Kotlin tests plus 5 new tests pass |
+| `6e6267c` | Distinct synopses for all 16 collections, live edit counts, anime/adventure tags, supported artwork fields and fallback hooks; 20 Kotlin tests pass |
+
+**Phase 2 is not complete. No high-quality arc poster/background URLs have been configured yet.** Existing runtime network policy blocks `one-piece.com`, `en.wikipedia.org` and `image.tmdb.org` with proxy HTTP CONNECT 403 responses. Do not invent URLs, assume image permission, or present 256-pixel edit thumbnails as finished television-quality posters.
+
+A restricted-network draft has been saved with the existing domains preserved and these five proposed additions: `one-piece.com`, `en.wikipedia.org`, `upload.wikimedia.org`, `www.themoviedb.org`, `image.tmdb.org`. Saving the agent draft does **not** apply runtime access or publish anything. The tool reported `requires_publish: true` for the saved configuration. The owner must review/save the settings through the product; recheck live access before resuming artwork research. No environment or extension was published by the agent.
+
+After access is available, finish these Phase 2 requirements before declaring completion:
+
+1. Verify legitimate source terms, attribution and stable HTTPS image URLs, select suitable arc-specific posters/backgrounds, and inspect the images. Add URL/configuration evidence and tests for all 16 entries, including Wano parts and the Fishman Island special.
+2. Populate `ArcPresentations`' artwork fields and deliberate fallback choices. The current fallback order is configured poster → fallback poster; background → chosen poster; missing episode image → chosen background/poster. Network failures after an image is handed to Cloudstream are handled by the host app; no custom on-error hook exists in `Episode` metadata.
+3. Add original anime arc coverage only where verified, using the existing `OriginalEpisodeMapping` type and a source. Broad arc coverage must not be mistaken for edit-level mapping.
+4. Re-run relevant tests, local compilation and development-only CI; update this handover and retain the production branch safeguards.
+
+### Supported Cloudstream fields and implementation
+
+The real library API was inspected at Cloudstream commit `5d66bbeaf3b35c0c18ad2e0b9ce6b0aea4f5241c` and the implementation compiled against the project's actual dependency:
+
+- Search/home cards: `SearchResponse.posterUrl`.
+- Arc pages: `TvSeriesLoadResponse.posterUrl`, `backgroundPosterUrl`, `plot`, and `tags`.
+- Episode rows: `Episode.posterUrl` and `description`. Cloudstream's `EpisodeAdapter` chooses its richer row when a poster or description exists and binds these fields. TV layouts still belong to Cloudstream, not the extension.
+- Cloudstream's Coil image loader enables memory, disk and network caching. The extension hands it stable URLs and does not prefetch images or add per-image metadata/HEAD requests during browsing.
+
+Presentation extends the existing `EpisodeMetadata` with nullable thumbnail and factual-summary fields. `withPresentation` returns an enriched copy without changing file ID, collection ID, edit number, edition, original mapping or clean title. `ArcPresentation.kt` keeps editorial descriptions and artwork configuration separate from streaming and the existing sixteen collection identities.
+
+Every collection now has a distinct self-authored, premise-only synopsis, including the Fishman Island corrected-group-shot special and both Wano parts. Counts come from the live selected episode list rather than a fixed total. Tags are Anime, Action, Adventure and Fantasy; no unsupported ratings, dates or cast data are added.
+
+Example Dressrosa page text:
+
+> The Straw Hats visit Dressrosa, where living toys share the streets and a colosseum attracts fighters from across the seas. Their mission brings them into conflict with the kingdom's powerful ruler.
+>
+> 48 Muhn Pace edits available • English dub. Numbers below identify Muhn Pace edits.
+
+Example edit 25 keeps the title `Dressrosa • Episode 25` and now describes only known facts:
+
+> Dressrosa • Muhn Pace edit 25. English dub.
+> Original One Piece episode mapping is unverified.
+
+There is no verified edit-specific story synopsis. Do not copy an official single-episode description onto a multi-episode fan edit or infer the story from the arc synopsis.
+
+### Thumbnail source, verification and limitations
+
+The [Pixeldrain API](https://pixeldrain.dev/api) documents `/file/{id}/thumbnail?width=x&height=x`. The implementation accepts only a `thumbnail_href` matching the exact selected file (`/file/<selected-id>/thumbnail`) and uses `https://pixeldrain.dev/api/file/<selected-id>/thumbnail?width=256&height=144`. Missing or mismatched links use configured arc artwork when available. Stream URLs and the `loadLinks` implementation remain unchanged.
+
+All **274** selected files' thumbnail URLs were fetched on 2026-11-14: HTTP 200, `image/png`, successfully decoded at 256×144. Their source references, URLs, dimensions, response cache policy and SHA-256 are recorded in `MuhnPace/src/test/resources/thumbnail-verification-2026-11-14.json`. Images themselves are **not** committed. These are remotely hosted previews of the existing edit files, not original-anime mappings or a claim of redistribution rights.
+
+Pixeldrain allows dimensions only in multiples of 16 up to 256. A 1280×720 request was rejected with HTTP 400. The thumbnails are suitable for small rows, not HD backgrounds. Inspected examples include opening-credit imagery, so multiple edits may look similar and spoiler freedom is not guaranteed. The API may return a generic file icon when it cannot generate a thumbnail. Successful responses carry `Cache-Control: public, max-age=31536000`; Cloudstream controls its own cache and rendering.
+
+Thumbnail code validation: [run 43591490583](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43591490583) **succeeded** for `be72443` in 1m 27s, with test-report and package artifacts. The arc-description commit passed **20 Kotlin tests**, **10 Python checks**, and `:MuhnPace:make` locally. [Development run 43591948009](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43591948009) **succeeded** for `6e6267c` in 1m 26s, also producing both artifacts. The same CI package assertions passed locally against the assembled files under `/tmp/muhnpace-phase2-package`.
+
+### Later requirements preserved, not implemented
+
+- **Phase 3:** improved paused-playback titles; verified original One Piece episode numbers/ranges; proper anime/arc metadata during playback; better Continue Watching presentation.
+- The user is currently at **original One Piece episode 684 (Dressrosa)**. The photographed history includes Muhn Pace edit 25. There is **no verified equivalence** between those positions; do not infer one. Continue showing the Muhn Pace edit number until evidence exists.
+- **Phase 4:** automatic/manual intro skipping using supported Cloudstream functionality and verified timestamps for the actual edit, without skipping story content.
+- Updated Fire TV layouts, artwork rendering, remote navigation, persisted history and playback-overlay behaviour require a later real-device test. No updated visual/device verification is claimed here.
+
+## Phase 1 recovery
 
 - The terminal and the published environment's JDK 17, Gradle 8.12 and Android API 35 toolchains work.
 - The initial checkout was the clean `work` branch at `8ade241e95405d91c0606bd3ea6080ac0709992a`. There were no tracked/untracked edits or stashes to rescue.
@@ -109,4 +172,4 @@ Remote protected destinations were checked after that push and remained:
 - Existing Cloudstream Gradle/plugin library dependencies still use `-SNAPSHOT`; upstream changes can affect future builds. This recovery did not change dependency strategy.
 - GitHub REST/log access is blocked in this environment, although Git operations and public Actions run pages work.
 
-Phase 2 features, production publication, and changes to `main` or `builds` are outside this handover's scope.
+Production publication and changes to `main` or `builds` remain prohibited without explicit approval. Continue Phase 2 only after its artwork-access blocker is resolved; stop before Phase 3.
