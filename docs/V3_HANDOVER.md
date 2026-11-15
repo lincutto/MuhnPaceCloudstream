@@ -1,12 +1,32 @@
 # MuhnPaceCloudstream v3 — handover
 
-Updated: 2026-11-14 (UTC). Phase 1 is complete. Phase 2 is implemented with original thematic artwork as the deliberate fallback for every collection. Phases 3 and 4 have not begun. No extension or environment was published.
+Updated: 2026-11-15 (UTC). Phase 1 is complete. Phase 2 is implemented with original thematic artwork as the deliberate fallback for every collection. Phases 3 and 4 have not begun. No extension or environment was published.
 
 Phase 1 is complete, with unsupported original-episode mappings explicitly left unknown as requested. No extension was published.
 
+## Episode-title correction (2026-11-15)
+
+Recovered the clean development branch `codex/v3-overhaul` at `5723fc1266dce9de8242205c87dec3304277f769` after confirming terminal execution and GitHub Git access. Phase 1 and Phase 2 were already complete; this change only corrects episode title formatting and its regression coverage. Phase 3 has not begun.
+
+- Unknown original mapping: `Dressrosa • Muhn Pace 25`.
+- Verified mapping: `One Piece <original range> • <arc> <edit number>`, with an en dash for ranges and a single number for a single original episode.
+- There are still **zero verified catalogue mappings**. Mapped-title tests use explicitly synthetic evidence only. No equivalence between Dressrosa edit 25 and any original anime episode is asserted.
+- `EpisodeMetadata.title` is now derived from the arc title, edit number, edition and optional verified mapping, so changing mapping metadata cannot leave a stale display title. Alternate/filler/fixed-group-shot labels and Wano act qualifiers remain visible. The Fishman special's collection title is unchanged; its episode title avoids repeating the collection's episode label.
+- Provider and plugin identity, collection IDs/URLs/titles, selected file IDs, Pixeldrain playback URLs, explicit edit numbers and season 1 are unchanged. `MuhnPaceProvider.kt`, including `loadLinks`, is byte-for-byte unchanged from the recovered commit. Titles remain display metadata, not serialized playback or history identifiers.
+- Regression coverage checks the new names and all 274 baseline file IDs, playback URLs, edit numbers and seasons. Formatter tests cover unknown mappings, synthetic ranges/single episodes, clearing a mapping, editions and special collection normalization.
+
+Local validation passed:
+
+- **25 Kotlin/JUnit tests**, zero failures/errors/skips; **12 Python checks** passed.
+- `gradle :MuhnPace:testDebugUnitTest :MuhnPace:make --no-daemon --console=plain` succeeded, including Android Kotlin/test compilation and DEX/package generation (1m 48s).
+- Local assembly under `/tmp/muhnpace-title-package` passed the exact package assertions from `validate.yml`: ZIP/DEX, plugin identity, manifest version `2`, index size/hash and URLs. Package SHA-256: `66f880ea00d9506ffbf1157e5026b23644878d0afc471e879f379247a8864a25` (not a reproducible-build claim).
+- Development CI will run on the `codex/v3-overhaul` push; its result will be appended after verification. No workflow changes are needed. GitHub REST remains blocked by the proxy; public Actions pages are accessible.
+
+This correction does not publish the extension or change `main` or `builds`. Fire TV rendering, playback and persisted device history still require real-device verification; the compatibility claims here concern provider/API inputs.
+
 ## Phase 2 delivery
 
-The user supplied photographs of Cloudstream Beta on an Amazon Fire TV Stick 4K (2nd Generation), showing grey arc cards, sparse pages, raw episode filenames and existing watch progress. These show the published provider, not a device test of the development branch. Phase 1's clean titles are preserved.
+The user supplied photographs of Cloudstream Beta on an Amazon Fire TV Stick 4K (2nd Generation), showing grey arc cards, sparse pages, raw episode filenames and existing watch progress. These show the published provider, not a device test of the development branch. Phase 1's clean titles were preserved during Phase 2 and are clarified by the title correction above.
 
 | Commit | Verified change |
 | --- | --- |
@@ -63,7 +83,7 @@ Example Dressrosa page text:
 >
 > 48 Muhn Pace edits available • English dub. Numbers below identify Muhn Pace edits.
 
-Example edit 25 keeps the title `Dressrosa • Episode 25` and now describes only known facts:
+Example edit 25 now uses the title `Dressrosa • Muhn Pace 25` and describes only known facts:
 
 > Dressrosa • Muhn Pace edit 25. English dub.
 > Original One Piece episode mapping is unverified.

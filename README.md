@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/repo.json
 
 ## Catalogue and playback
 
-The provider reads the 16 collections in the [community dub guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934). It keeps numbered Muhn Pace edits and explicitly dub-labelled episodes, filters out subtitled-only and comparison files, and sorts episodes numerically. Clean titles use the arc and edit number, such as **Dressrosa • Episode 2**. The numbers refer to the fan edit, and gaps are preserved. For example, Wano Act 3 begins at edit 71.
+The provider reads the 16 collections in the [community dub guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934). It keeps numbered Muhn Pace edits and explicitly dub-labelled episodes, filters out subtitled-only and comparison files, and sorts episodes numerically. Titles explicitly identify fan edits, such as **Dressrosa • Muhn Pace 2**. Only verified original-anime mappings use `One Piece <original range> • <arc> <edit number>`; no such mappings are currently available. Edit numbers and gaps are preserved. For example, Wano Act 3 begins at edit 71.
 
 Original One Piece episode mappings are explicitly marked **unverified** until a source verifies the exact edit. Filename version, resolution and unlabelled range tags are not treated as original anime episode numbers.
 

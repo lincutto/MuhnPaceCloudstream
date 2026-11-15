@@ -40,6 +40,12 @@ class EpisodeCatalogTest {
                 assertEquals(title, baseline.getInt("number"), episode.episode)
                 assertEquals(title, 1, episode.season)
                 assertEquals(id, entry.collectionId)
+                assertEquals(baseline.getString("file_id"), entry.fileId)
+                val suffix = if (entry.edition.label.isEmpty()) "" else " (${entry.edition.label})"
+                assertEquals(
+                    "${title.substringBefore(" • Episode ")} • Muhn Pace ${baseline.getInt("number")}$suffix",
+                    episode.name,
+                )
                 assertEquals(entry.title, episode.name)
                 assertFalse(entry.title.contains('['))
                 assertFalse(entry.title.endsWith(".mp4"))
@@ -60,7 +66,7 @@ class EpisodeCatalogTest {
         )
         assertEquals(listOf(1, 2, 10), episodes.map { it.editNumber })
         assertEquals(listOf("one", "two", "ten"), episodes.map { it.fileId })
-        assertEquals("Dressrosa • Episode 2", episodes[1].title)
+        assertEquals("Dressrosa • Muhn Pace 2", episodes[1].title)
         assertEquals("[Muhn Pace] Dressrosa 02.mp4", episodes[1].sourceFileName)
     }
 
@@ -72,7 +78,7 @@ class EpisodeCatalogTest {
             arc = "Wano • Act 3",
         )
         assertEquals(listOf(71, 95), episodes.map { it.editNumber })
-        assertEquals("Wano • Act 3 • Episode 71", episodes.first().title)
+        assertEquals("Wano • Act 3 • Muhn Pace 71", episodes.first().title)
     }
 
     @Test
@@ -80,7 +86,7 @@ class EpisodeCatalogTest {
         val name = "[V3][DUB][632-633] Fishman Island 15 (FIXED GROUP SHOT) [1080p].mp4"
         val episode = select(file(name), arc = "Fishman Island • Episode 15").single()
         assertEquals(15, episode.editNumber)
-        assertEquals("Fishman Island • Episode 15 (Fixed group shot)", episode.title)
+        assertEquals("Fishman Island • Muhn Pace 15 (Fixed group shot)", episode.title)
         assertEquals(EpisodeEdition.FIXED_GROUP_SHOT, episode.edition)
         assertNull(episode.originalEpisodes)
         assertFalse(episode.description.contains("632"))
@@ -111,8 +117,8 @@ class EpisodeCatalogTest {
             arc = "Wano • Act 3",
         )
         assertEquals(listOf(80, 94), episodes.map { it.editNumber })
-        assertEquals("Wano • Act 3 • Episode 94 (Filler edit)", episodes.last().title)
-        assertEquals("Wano • Act 3 • Episode 80 (Alternate edit)", episodes.first().title)
+        assertEquals("Wano • Act 3 • Muhn Pace 94 (Filler edit)", episodes.last().title)
+        assertEquals("Wano • Act 3 • Muhn Pace 80 (Alternate edit)", episodes.first().title)
         val tied = select(
             file("[Muhn Pace] Dressrosa 1 Filler.mp4", "first"),
             file("[Muhn Pace] Dressrosa 1 Alt.mp4", "second"),
@@ -157,10 +163,10 @@ class EpisodeCatalogTest {
 
     @Test
     fun `source arc aliases use catalogue titles for display`() {
-        assertEquals("Post Marineford • Episode 7", select(
+        assertEquals("Post Marineford • Muhn Pace 7", select(
             file("[Muhn Pace] Post War 7.mp4"), arc = "Post Marineford",
         ).single().title)
-        assertEquals("Thriller Bark • Episode 1", select(
+        assertEquals("Thriller Bark • Muhn Pace 1", select(
             file("[Muhn Pace] Thrillerbark 01.mp4"), arc = "Thriller Bark",
         ).single().title)
     }
@@ -180,12 +186,38 @@ class EpisodeCatalogTest {
         // Synthetic numbers exercise rendering only; these are NOT catalogue evidence.
         val verified = unknown.copy(originalEpisodes = OriginalEpisodeMapping(1, 3, "https://example.org/test-evidence"))
         assertTrue(unknown.description.contains("unverified"))
+        assertEquals("Dressrosa • Muhn Pace 1", unknown.title)
+        assertEquals("One Piece 1–3 • Dressrosa 1", verified.title)
         assertEquals("Original One Piece episodes: 1–3. Source: https://example.org/test-evidence", verified.description)
+        assertEquals(unknown.collectionId, verified.collectionId)
         assertEquals(unknown.fileId, verified.fileId)
         assertEquals(unknown.editNumber, verified.editNumber)
+        assertEquals(unknown.sourceFileName, verified.sourceFileName)
+        assertEquals(unknown.edition, verified.edition)
+        assertEquals(unknown, verified.copy(originalEpisodes = null))
         assertEquals("1", OriginalEpisodeMapping(1, 1, "https://example.org/test-evidence").label)
         assertThrows(IllegalArgumentException::class.java) { OriginalEpisodeMapping(0, 3, "https://example.org") }
         assertThrows(IllegalArgumentException::class.java) { OriginalEpisodeMapping(3, 1, "https://example.org") }
         assertThrows(IllegalArgumentException::class.java) { OriginalEpisodeMapping(1, 3, "") }
+    }
+
+    @Test
+    fun `synthetic single episode mappings retain act and edition labels`() {
+        // Synthetic mapping only: not evidence for any real edit.
+        val unknown = select(file("[Muhn Pace] Wano 80 Alt.mp4"), arc = "Wano • Act 3").single()
+        val mapped = unknown.copy(originalEpisodes = OriginalEpisodeMapping(7, 7, "https://example.org/test-evidence"))
+        assertEquals("One Piece 7 • Wano • Act 3 80 (Alternate edit)", mapped.title)
+        assertEquals("Wano • Act 3 • Muhn Pace 80 (Alternate edit)", mapped.copy(originalEpisodes = null).title)
+    }
+
+    @Test
+    fun `synthetic mapped special collection strips duplicate episode label and preserves editions`() {
+        val original = select(
+            file("[DUB] Fishman Island 15 (FIXED GROUP SHOT).mp4"), arc = "Fishman Island • Episode 15",
+        ).single()
+        // Synthetic range, not a real Fishman Island mapping.
+        val mapped = original.copy(originalEpisodes = OriginalEpisodeMapping(1, 3, "https://example.org/test-evidence"))
+        assertEquals("One Piece 1–3 • Fishman Island 15 (Fixed group shot)", mapped.title)
+        assertEquals("One Piece 1–3 • Fishman Island 15 (Filler edit)", mapped.copy(edition = EpisodeEdition.FILLER).title)
     }
 }

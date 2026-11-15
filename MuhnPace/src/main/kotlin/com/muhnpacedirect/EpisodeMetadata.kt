@@ -29,12 +29,21 @@ internal data class EpisodeMetadata(
     val fileId: String,
     val sourceFileName: String,
     val editNumber: Int,
-    val title: String,
+    val arcTitle: String,
     val edition: EpisodeEdition,
     val originalEpisodes: OriginalEpisodeMapping? = null,
     val thumbnailUrl: String? = null,
     val summary: String? = null,
 ) {
+    /** Only verified mappings may label numbers as original One Piece episodes. */
+    val title: String
+        get() {
+            val arcName = arcTitle.substringBefore(" • Episode ")
+            val suffix = if (edition.label.isEmpty()) "" else " (${edition.label})"
+            return (originalEpisodes?.let { "One Piece ${it.label} • $arcName $editNumber" }
+                ?: "$arcName • Muhn Pace $editNumber") + suffix
+        }
+
     val description: String
         get() = listOfNotNull(summary, originalEpisodes?.let {
             "Original One Piece episodes: ${it.label}. Source: ${it.sourceUrl}"
@@ -93,7 +102,6 @@ internal object EpisodeCatalog {
         val extension = fileName.substringAfterLast('.', "").lowercase()
         val stem = if (extension in videoExtensions) fileName.substringBeforeLast('.') else fileName
         val clean = bracketTag.replace(stem, " ").replace(whitespace, " ").trim()
-        val displayArc = arcTitle.substringBefore(" • Episode ")
         val sourceArc = when (val title = arcTitle.substringBefore(" •")) {
             "Post Marineford" -> "Post War"
             "Thriller Bark" -> "Thrillerbark"
@@ -113,13 +121,12 @@ internal object EpisodeCatalog {
             "(fixed group shot)" -> EpisodeEdition.FIXED_GROUP_SHOT
             else -> return null // Do not turn comparisons or unknown extras into episodes.
         }
-        val suffix = if (edition.label.isEmpty()) "" else " (${edition.label})"
         return EpisodeMetadata(
             collectionId = collectionId,
             fileId = fileId,
             sourceFileName = fileName,
             editNumber = number,
-            title = "$displayArc • Episode $number$suffix",
+            arcTitle = arcTitle,
             edition = edition,
             originalEpisodes = originalMappings[fileId],
             // Only use a thumbnail advertised for this exact file. Missing/foreign links

@@ -22,7 +22,7 @@ class EpisodePresentationTest {
         ).single()
         assertEquals("https://pixeldrain.dev/api/file/yUkgcapt/thumbnail?width=256&height=144", episode.posterUrl)
         assertEquals("https://pixeldrain.dev/api/file/yUkgcapt", episode.data)
-        assertEquals("Dressrosa • Episode 25", episode.name)
+        assertEquals("Dressrosa • Muhn Pace 25", episode.name)
         assertEquals(25, episode.episode)
         assertEquals(1, episode.season)
         assertEquals(
