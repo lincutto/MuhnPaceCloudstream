@@ -33,7 +33,11 @@ class ArcArtworkTest {
                 assertTrue(record.getString("url").startsWith(
                     "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/$commit/assets/artwork/",
                 ))
-                assertEquals(record.getString("url"), if (kind == "poster") presentation.poster else presentation.background)
+                if (id == "f8HTXmAk") {
+                    if (kind == "poster") assertEquals(record.getString("url"), presentation.fallbackPosterUrl)
+                    assertEquals(ResearchDataset.ARTWORK_BASE + "/dressrosa/$kind.jpg",
+                        if (kind == "poster") presentation.poster else presentation.background)
+                } else assertEquals(record.getString("url"), if (kind == "poster") presentation.poster else presentation.background)
             }
             distinctPosters.add(presentation.poster!!)
             assertEquals(presentation.background, presentation.episodeFallback)
@@ -48,23 +52,19 @@ class ArcArtworkTest {
         val request = MainPageRequest(page.name, page.data, page.horizontalImages)
         val home = provider.getMainPage(1, request)
         val cards = home.items.single().list
-        val snapshot = resource("/catalogue-2026-11-14.json").getJSONArray("collections")
-        assertEquals(16, cards.size)
+        assertEquals(1, cards.size)
         assertFalse(home.hasNext)
         assertFalse(home.items.single().isHorizontalImages)
-        for ((index, card) in cards.withIndex()) {
-            val collection = snapshot.getJSONObject(index)
-            val id = collection.getString("id")
-            assertEquals("https://pixeldrain.dev/l/$id", card.url)
-            assertEquals("One Piece • ${collection.getString("arc_title").replace(" • Episode ", " • Edit ")} (Muhn Pace)", card.name)
-            assertEquals("Muhn Pace Direct (English Dub)", card.apiName)
-            assertEquals(ArcPresentations.byCollection.getValue(id).poster, card.posterUrl)
-        }
+        val card = cards.single()
+        assertEquals("https://pixeldrain.dev/muhnpace/one-piece", card.url)
+        assertEquals("One Piece (Muhn Pace)", card.name)
+        assertEquals("Muhn Pace Direct (English Dub)", card.apiName)
+        assertEquals(SeriesCatalogue.poster, card.posterUrl)
         val results = provider.search("one piece")
         assertEquals(cards.map { it.url to it.posterUrl }, results.map { it.url to it.posterUrl })
-        val dressrosa = provider.search("dressrosa").single()
-        assertEquals("https://pixeldrain.dev/l/f8HTXmAk", dressrosa.url)
-        assertEquals(ArcPresentations.byCollection.getValue("f8HTXmAk").poster, dressrosa.posterUrl)
+        assertEquals(card.url, provider.search("dressrosa").single().url)
+        assertTrue(provider.search("unrelated series").isEmpty())
+        assertTrue(provider.search(" ").isEmpty())
         assertTrue(provider.getMainPage(2, request).items.single().list.isEmpty())
     }
 
@@ -83,8 +83,8 @@ class ArcArtworkTest {
             )
             for (episode in episodes) {
                 assertNotNull(episode.posterUrl)
-                assertEquals(presentation.background, episode.posterUrl)
-                assertTrue(episode.description!!.contains("Muhn Pace edit ${episode.episode}."))
+                assertEquals(EditResearchRegistry.entries.singleOrNull { it.fileId == episode.data.substringAfterLast('/') }?.thumbnailUrl ?: presentation.background, episode.posterUrl)
+                assertFalse(episode.description!!.contains("Muhn Pace edit"))
                 checked++
             }
         }

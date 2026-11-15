@@ -22,11 +22,11 @@ class EpisodePresentationTest {
         ).single()
         assertEquals("https://pixeldrain.dev/api/file/yUkgcapt/thumbnail?width=256&height=144", episode.posterUrl)
         assertEquals("https://pixeldrain.dev/api/file/yUkgcapt", episode.data)
-        assertEquals("Dressrosa • Muhn Pace 25", episode.name)
+        assertEquals("Title unavailable - original episodes unknown", episode.name)
         assertEquals(25, episode.episode)
         assertEquals(1, episode.season)
         assertEquals(
-            "Dressrosa • Muhn Pace edit 25. English dub.\nOriginal One Piece episode mapping is unverified.",
+            "Dressrosa • English dub. Individual story synopsis is not yet documented.\nOriginal One Piece episode coverage is unknown.",
             episode.description,
         )
     }
@@ -55,7 +55,7 @@ class EpisodePresentationTest {
         assertEquals(original.title, presented.title)
         assertEquals(original.originalEpisodes, presented.originalEpisodes)
         assertTrue(presented.description.contains("Filler edit."))
-        assertTrue(presented.description.contains("Original One Piece episodes: 1–3."))
+        assertTrue(presented.description.contains("Original One Piece episodes: 1-3."))
         assertFalse(presented.description.contains("unverified"))
     }
 
@@ -63,7 +63,7 @@ class EpisodePresentationTest {
     fun `special collection description does not repeat the episode label`() {
         val presented = metadata(file()).copy(editNumber = 15, edition = EpisodeEdition.FIXED_GROUP_SHOT)
             .withPresentation("Fishman Island • Episode 15")
-        assertEquals("Fishman Island • Muhn Pace edit 15. English dub. Fixed group shot.", presented.summary)
+        assertEquals("Fishman Island • English dub. Fixed group shot. Individual story synopsis is not yet documented.", presented.summary)
     }
 
     @Test
@@ -104,7 +104,7 @@ class EpisodePresentationTest {
                     assertEquals(fallback, episode.posterUrl)
                     blankFrames++
                 } else {
-                    assertEquals(record.getString("url"), episode.posterUrl)
+                    assertEquals(EditResearchRegistry.entries.singleOrNull { it.fileId == fileId }?.thumbnailUrl ?: record.getString("url"), episode.posterUrl)
                 }
                 checked++
             }

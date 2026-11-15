@@ -1,4 +1,8 @@
-# Phase 3: original-episode mapping research
+# Original-episode mapping research
+
+Current revised Phase 4A policy and results: [Dressrosa sample](PHASE4A_DRESSROSA.md). Three One Pace-derived ranges are admitted, five conflicts remain unresolved, and zero full Muhn Pace mappings are directly verified. The records below are the **historical Phase 3 investigation** and retain its stricter admission rule; they are not the current display policy.
+
+## Historical Phase 3 investigation
 
 Checked 2026-11-15 (UTC). **Accepted mappings: 0.** All 274 selected edits remain explicitly unknown. No verified edit-specific story title or synopsis was added.
 

@@ -7,6 +7,7 @@ internal data class ArcPresentation(
     val backgroundUrl: String? = null,
     val fallbackPosterUrl: String? = null,
     val originalArcEpisodes: OriginalEpisodeMapping? = null,
+    val artworkCredit: String? = null,
     val tags: List<String> = listOf("Anime", "Action", "Adventure", "Fantasy"),
 ) {
     val poster: String? get() = posterUrl ?: fallbackPosterUrl
@@ -15,17 +16,18 @@ internal data class ArcPresentation(
 
     fun description(availableEdits: Int): String {
         require(availableEdits >= 0)
-        val availability = if (availableEdits == 1) "1 Muhn Pace edit available" else "$availableEdits Muhn Pace edits available"
+        val availability = if (availableEdits == 1) "1 video available" else "$availableEdits videos available"
         val coverage = originalArcEpisodes?.let {
             // Arc coverage is context, never a mapping for an individual fan edit.
             "Original One Piece arc: episodes ${it.label}. Individual edit mappings may be unverified."
         }
         return listOfNotNull(
             // The TV pause overlay reads LoadResponse.plot, not Episode.description.
-            // Put numbering context first so it survives the host's five-line overview limit.
-            "$availability • English dub. Player numbers identify Muhn Pace edits.",
+            // Keep the useful synopsis near the beginning of the host's five-line overview.
+            "$availability • English dub.",
             synopsis,
             coverage,
+            artworkCredit,
         ).joinToString("\n\n")
     }
 }
@@ -81,7 +83,7 @@ internal object ArcPresentations {
                 "welcomes them into tensions shaped by the long relationship between humans and fish-men.",
         ),
         "kuoQYqfR" to presentation("fishman-special",
-            "A separately listed English-dubbed version of Fishman Island edit 15, labelled with a corrected group shot. " +
+            "A separately listed English-dubbed version of a Fishman Island scene, with a corrected group shot. " +
                 "It belongs to the same underwater adventure as the main Fishman Island collection.",
         ),
         "A1jFtPvQ" to presentation("punk-hazard",
@@ -91,7 +93,9 @@ internal object ArcPresentations {
         "f8HTXmAk" to presentation("dressrosa",
             "The Straw Hats visit Dressrosa, where living toys share the streets and a colosseum attracts fighters " +
                 "from across the seas. Their mission brings them into conflict with the kingdom's powerful ruler.",
-        ),
+        ).copy(posterUrl = ResearchDataset.ARTWORK_BASE + "/dressrosa/poster.jpg",
+            backgroundUrl = ResearchDataset.ARTWORK_BASE + "/dressrosa/background.jpg",
+            artworkCredit = SeriesCatalogue.ARTWORK_CREDIT),
         "totP9Xmm" to presentation("zou",
             "The search for their companions brings the crew to Zou, a homeland carried on the back of a giant elephant. " +
                 "Meeting its inhabitants reveals new questions about the journey ahead.",

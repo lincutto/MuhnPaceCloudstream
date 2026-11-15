@@ -20,12 +20,13 @@ def transform(name, text):
         text = replace_checked(text, "class MuhnPaceProvider", "class MuhnPacePreviewProvider", 1)
         text = replace_checked(text, 'name = "Muhn Pace Direct (English Dub)"', 'name = "Muhn Pace v3 Preview"', 1)
         text = replace_checked(text, '(Muhn Pace)"', '(Muhn Pace Preview)"', 1)
-        text = replace_checked(text, '"muhn" to "Muhn Pace • English dub arcs"',
-                               '"muhn-preview" to "Muhn Pace v3 Preview • English dub arcs"', 1)
+        text = replace_checked(text, '"muhn" to "Muhn Pace • English dub"',
+                               '"muhn-preview" to "Muhn Pace v3 Preview • English dub"', 1)
         # Virtual catalogue routes are dispatched to load(), never requested from Pixeldrain.
         # They isolate the host's URL-derived series AND episode history keys.
-        text = replace_checked(text, '$mainUrl/l/', '$mainUrl/muhnpace-v3-preview/l/', 2)
+        text = replace_checked(text, '$mainUrl/l/', '$mainUrl/muhnpace-v3-preview/l/', 1)
         text = replace_checked(text, 'https://pixeldrain.com/l/', 'https://pixeldrain.com/muhnpace-v3-preview/l/', 1)
+        text = replace_checked(text, '/muhnpace/one-piece', '/muhnpace-v3-preview/one-piece', 2)
     elif name == "MuhnPacePlugin.kt":
         text = replace_checked(text, "class MuhnPacePlugin", "class MuhnPacePreviewPlugin", 1)
         text = replace_checked(text, "MuhnPaceProvider()", "MuhnPacePreviewProvider()", 1)

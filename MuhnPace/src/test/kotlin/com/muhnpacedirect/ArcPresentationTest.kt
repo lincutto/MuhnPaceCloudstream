@@ -16,8 +16,8 @@ class ArcPresentationTest {
             assertTrue(presentation.synopsis.length in 100..400)
             assertTrue(presentation.tags.containsAll(listOf("Anime", "Adventure")))
             assertFalse(presentation.description(48).contains("hotlink"))
-            assertTrue(presentation.description(48).contains("48 Muhn Pace edits available"))
-            assertTrue(presentation.description(1).contains("1 Muhn Pace edit available"))
+            assertTrue(presentation.description(48).contains("48 videos available"))
+            assertTrue(presentation.description(1).contains("1 video available"))
         }
     }
 
@@ -27,7 +27,7 @@ class ArcPresentationTest {
             synopsis = "Synthetic test synopsis.",
             originalArcEpisodes = OriginalEpisodeMapping(1, 3, "https://example.org/synthetic-arc-source"),
         )
-        assertTrue(presentation.description(2).contains("Original One Piece arc: episodes 1–3."))
+        assertTrue(presentation.description(2).contains("Original One Piece arc: episodes 1-3."))
         assertTrue(presentation.description(2).contains("Individual edit mappings may be unverified."))
     }
 

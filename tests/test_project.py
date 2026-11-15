@@ -8,7 +8,7 @@ SOURCE = (ROOT / 'MuhnPace/src/main/kotlin/com/muhnpacedirect/MuhnPaceProvider.k
 
 class MuhnPaceSourceChecks(unittest.TestCase):
     def test_sixteen_real_guide_collection_ids(self):
-        links = re.findall(r'Arc\("[^"]+", "([A-Za-z0-9_-]+)"\)', SOURCE)
+        links = re.findall(r'CatalogueArc\("[^"]+", "([A-Za-z0-9_-]+)",', (ROOT / 'MuhnPace/src/main/kotlin/com/muhnpacedirect/SeriesCatalogue.kt').read_text())
         self.assertEqual(len(links), 16)
         self.assertEqual(len(set(links)), 16)
         self.assertIn('f8HTXmAk', links)

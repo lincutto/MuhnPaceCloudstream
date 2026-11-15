@@ -16,13 +16,12 @@ class PlaybackMetadataTest {
     fun `real load responses provide player and resume labels without changing history inputs`() = runBlocking {
         val provider = MuhnPaceProvider()
         val collections = collections()
-        val search = provider.search("one piece").associateBy { it.url }
         var checked = 0
         for (i in 0 until collections.length()) {
             val collection = collections.getJSONObject(i)
             val id = collection.getString("id")
             val arcTitle = collection.getString("arc_title")
-            val expectedName = "One Piece • ${arcTitle.replace(" • Episode ", " • Edit ")} (Muhn Pace)"
+            val expectedName = "One Piece • ${SeriesCatalogue.arcs.single { it.listId == id }.seasonTitle} (Muhn Pace)"
             val files = collection.getJSONArray("files")
             // Keep even legacy URLs exactly as before: normalizing them would change history keys.
             for (host in listOf("pixeldrain.dev", "pixeldrain.com")) {
@@ -40,9 +39,8 @@ class PlaybackMetadataTest {
                 assertEquals(presentation.background, load.backgroundPosterUrl)
                 assertEquals(presentation.tags, load.tags)
                 assertEquals(presentation.description(load.episodes.size), load.plot)
-                assertTrue(load.plot!!.substringBefore('\n').contains("Player numbers identify Muhn Pace edits."))
+                assertTrue(load.plot!!.substringBefore('\n').contains("English dub."))
                 assertTrue(load.plot!!.contains(presentation.synopsis))
-                assertEquals(search.getValue("https://pixeldrain.dev/l/$id").name, load.name)
                 val expected = collection.getJSONArray("expected_episodes")
                 assertEquals(expected.length(), load.episodes.size)
                 for ((index, episode) in load.episodes.withIndex()) {
@@ -50,9 +48,9 @@ class PlaybackMetadataTest {
                     assertEquals("https://pixeldrain.dev/api/file/${baseline.getString("file_id")}", episode.data)
                     assertEquals(baseline.getInt("number"), episode.episode)
                     assertEquals(1, episode.season)
-                    assertTrue(episode.name!!.contains(" • Muhn Pace ${episode.episode}"))
-                    assertTrue(episode.description!!.contains("mapping is unverified"))
-                    assertEquals(presentation.episodeFallback, episode.posterUrl)
+                    assertEquals(expectedEpisodeName(baseline.getString("file_id")), episode.name)
+                    assertFalse(episode.description!!.contains("Muhn Pace edit"))
+                    assertEquals(EditResearchRegistry.entries.singleOrNull { it.fileId == baseline.getString("file_id") }?.thumbnailUrl ?: presentation.episodeFallback, episode.posterUrl)
                 }
             }
             checked += collection.getJSONArray("expected_episodes").length()
@@ -70,9 +68,9 @@ class PlaybackMetadataTest {
         val provider = MuhnPaceProvider()
         val baseline = provider.episodeFromMetadata(unknown)
         val episode = provider.episodeFromMetadata(mapped)
-        assertEquals("One Piece 1–3 • Dressrosa 25", episode.name)
-        assertTrue(episode.description!!.contains("Original One Piece episodes: 1–3."))
-        assertTrue(episode.description!!.contains("Muhn Pace edit 25."))
+        assertEquals("Title unavailable - 1-3", episode.name)
+        assertTrue(episode.description!!.contains("Original One Piece episodes: 1-3."))
+        assertFalse(episode.description!!.contains("Muhn Pace edit"))
         assertFalse(episode.description!!.contains("unverified"))
         assertEquals(baseline.data, episode.data)
         assertEquals(25, episode.episode)
@@ -87,8 +85,8 @@ class PlaybackMetadataTest {
             .put("mime_type", "video/mp4").put("description", "One Piece episodes 683-686")
             .put("original_episodes", "683-686").put("title", "Invented story title"))
         val episode = MuhnPaceProvider().episodesFromFiles("f8HTXmAk", "Dressrosa", files).single()
-        assertEquals("Dressrosa • Muhn Pace 25", episode.name)
-        assertTrue(episode.description!!.contains("mapping is unverified"))
+        assertEquals("Title unavailable - original episodes unknown", episode.name)
+        assertTrue(episode.description!!.contains("coverage is unknown"))
         assertFalse(episode.description!!.contains("683"))
         assertFalse(episode.description!!.contains("Invented"))
     }

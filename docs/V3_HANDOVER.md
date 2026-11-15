@@ -1,8 +1,17 @@
 # MuhnPaceCloudstream v3 — handover
 
-Updated: 2026-11-15 (UTC). Phase 1 is complete. Phase 2 is implemented with original thematic artwork as the deliberate fallback for every collection. Phase 3 is implemented within the supported API, with zero verified original-episode mappings. Phases 4 and 5 have not begun. Only the isolated v3 visual preview is published; production remains unchanged.
+Updated: 2026-11-15 (UTC). Revised Phase 4A **A1 and A2 are implemented and locally validated**; A3 publication is pending the development CI result. One series, sixteen native seasons, 274 preserved file URLs, eight improved Dressrosa records. Stop after the isolated preview update for user feedback; do not start B/C, unrelated optimization or Phase 5.
 
-Phase 1 is complete, with unsupported original-episode mappings explicitly left unknown as requested. No extension was published.
+## Phase 4A A1/A2 — locally validated
+
+- Recovered `10fbf54` and preserved unfinished work in checkpoint `fbac35fa64a652f7be13e44485f9ba42b4e5a3fa`, pushed to development. Full [architecture, mapping, artwork and source findings](PHASE4A_DRESSROSA.md).
+- Home/search now expose **One Piece (Muhn Pace)** once. Sixteen named native collection seasons retain all 274 streams; Dressrosa is season 12. Fishman Island's separately supplied alternate scene is season 10, adjacent to the main collection.
+- Legacy arc routes, stream callback, provider/plugin identity and old season/episode history inputs remain intact for saved entries. Unified-series progress starts separately; no history migration/reset. Native episode indices remain navigation positions because partial/overlapping original numbering breaks host sorting/deduplication. No internal edit number is inserted into provider-authored titles/descriptions.
+- Eight One Pace titles, eight individual story synopses and eight distinct exact-file interior stills. Coverage: **0 DIRECTLY_VERIFIED, 3 ONE_PACE_DERIVED, 5 CONFLICTING, 266 UNKNOWN**. `White Town - 701-702` is derived, with partial scene evidence for 701 recorded separately. Conflicting ranges are not displayed as established facts; unresearched titles use explicit unknown placeholders.
+- New temporary main series art uses the recovered Law portrait and Luffy/Law background. Ten images are pinned to the recovery commit. Source/licensing limits remain explicit; no TMDB secret or unauthorized image mirror/hotlink. All eight formerly repeated thumbnails are replaced; the other 266 are outside this audit.
+- **45 Kotlin/JUnit tests** (41 main + 4 preview), **20 Python checks**, Android compilation/DEX/`.cs3` creation pass locally. [Live API/image check](research/phase4a-live-validation.json) verifies 16 collections, all 274 baseline IDs/filenames, eight media-reported hashes and ten image URLs/dimensions/hashes. `amap` replaced unavailable direct coroutine imports after the first compile failed; no dependency was added.
+- [Actual library/TV API inspection](CLOUDSTREAM_METADATA.md#phase-4a-native-seasons-and-skip-segments) confirms native season names and host indices. The paused plot remains series-level; Continue Watching lacks episode-title/range fields. Native skip buttons exist in the host but no public provider timestamp API is exposed. No unsupported seeking workaround or standard-anime skip-time lookup was added.
+- Preview version is prepared as **2**, retaining `MuhnPacePreview`, `com.muhnpacepreview`, **Muhn Pace v3 Preview** and the existing repository URL. No Fire TV visual or persisted-resume test of this build has occurred. `main` and `builds` remain unchanged.
 
 ## Phase 4A recovery checkpoint — revised scope (2026-11-15)
 

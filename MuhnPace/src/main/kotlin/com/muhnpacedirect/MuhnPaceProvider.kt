@@ -22,54 +22,25 @@ class MuhnPaceProvider : MainAPI() {
     override val supportedTypes = setOf(TvType.TvSeries)
     override val hasMainPage = true
 
-    private data class Arc(val title: String, val listId: String) {
-        // LoadResponse.name also supplies the player header and cached Continue Watching title.
-        // Keep the arc and edit brand there: the resume card does not carry Episode.name.
-        val displayTitle: String get() = "One Piece • ${title.replace(" • Episode ", " • Edit ")} (Muhn Pace)"
-    }
+    private val arcs = SeriesCatalogue.arcs
+    internal val seriesUrl: String get() = "$mainUrl/muhnpace/one-piece"
+    private fun isSeriesUrl(url: String) = url == seriesUrl || url == "https://pixeldrain.com/muhnpace/one-piece"
+    private fun arcDisplayTitle(arc: CatalogueArc) = "One Piece • ${arc.seasonTitle} (Muhn Pace)"
 
-    // 16 collection links, in the same order as the community dub watch guide.
-    // These IDs are links to collections, NOT to individual videos.
-    private val arcs = listOf(
-        Arc("Enies Lobby", "6VyLVkB2"),
-        Arc("Post Enies Lobby", "jVhFqouN"),
-        Arc("Thriller Bark", "NwJKTg21"),
-        Arc("Sabaody Archipelago", "KztkSCuY"),
-        Arc("Amazon Lily", "TuZJgwRL"),
-        Arc("Impel Down", "4AN9Xxht"),
-        Arc("Marineford", "oa8oZvZx"),
-        Arc("Post Marineford", "MH7AQkgr"),
-        Arc("Fishman Island", "ZQhstabS"),
-        Arc("Fishman Island • Episode 15", "kuoQYqfR"),
-        Arc("Punk Hazard", "A1jFtPvQ"),
-        Arc("Dressrosa", "f8HTXmAk"),
-        Arc("Zou", "totP9Xmm"),
-        Arc("Whole Cake Island", "AyvkmFFZ"),
-        Arc("Wano • Acts 1 & 2", "QZw3Ejpy"),
-        Arc("Wano • Act 3", "sF9stHJo"),
-    )
+    override val mainPage = mainPageOf("muhn" to "Muhn Pace • English dub")
 
-    override val mainPage = mainPageOf("muhn" to "Muhn Pace • English dub arcs")
-
-    private fun arcSearchResponse(arc: Arc): SearchResponse =
-        newTvSeriesSearchResponse(
-            arc.displayTitle,
-            "$mainUrl/l/${arc.listId}",
-            TvType.TvSeries,
-        ) {
-            posterUrl = ArcPresentations.byCollection[arc.listId]?.poster
+    private fun seriesSearchResponse(): SearchResponse =
+        newTvSeriesSearchResponse(SeriesCatalogue.TITLE, seriesUrl, TvType.TvSeries) {
+            posterUrl = SeriesCatalogue.poster
         }
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse =
-        newHomePageResponse(request.name, if (page == 1) arcs.map(::arcSearchResponse) else emptyList(), hasNext = false)
+        newHomePageResponse(request.name, if (page == 1) listOf(seriesSearchResponse()) else emptyList(), hasNext = false)
 
     override suspend fun search(query: String): List<SearchResponse> {
         val words = query.lowercase().trim().split(Regex("\\s+")).filter(String::isNotBlank)
-        if (words.isEmpty()) return emptyList()
-        return arcs.filter { arc ->
-            val searchable = "muhn pace one piece english dubbed ${arc.title}".lowercase()
-            words.all { it in searchable }
-        }.map(::arcSearchResponse)
+        val searchable = "muhn pace one piece english dubbed " + arcs.joinToString(" ") { it.seasonTitle.lowercase() }
+        return if (words.isNotEmpty() && words.all { it in searchable }) listOf(seriesSearchResponse()) else emptyList()
     }
 
     internal fun episodesFromFiles(
@@ -94,12 +65,24 @@ class MuhnPaceProvider : MainAPI() {
         }
     }
 
-    private fun arcForUrl(url: String): Arc? = arcs.firstOrNull {
+    private fun arcForUrl(url: String): CatalogueArc? = arcs.firstOrNull {
         url == "$mainUrl/l/${it.listId}" || url == "https://pixeldrain.com/l/${it.listId}"
     }
 
     override suspend fun load(url: String): LoadResponse? {
+        if (isSeriesUrl(url)) {
+            // All seasons must resolve; never silently publish an incomplete catalogue.
+            val files = arcs.chunked(4).flatMap { batch ->
+                batch.amap { arc -> arc.listId to fetchFiles(arc) }
+            }.toMap()
+            return seriesFromFiles(url, files)
+        }
+        // Legacy routes are retained for previously saved Continue Watching/history entries only.
         val arc = arcForUrl(url) ?: return null
+        return loadFromFiles(url, fetchFiles(arc))
+    }
+
+    private suspend fun fetchFiles(arc: CatalogueArc): JSONArray {
         val response = app.get("$mainUrl/api/list/${arc.listId}")
         val result = try {
             JSONObject(response.text)
@@ -112,7 +95,7 @@ class MuhnPaceProvider : MainAPI() {
         val files = result.optJSONArray("files")
             ?: throw ErrorLoadingException("Pixeldrain returned no file listing")
 
-        return loadFromFiles(url, files)
+        return files
     }
 
     /** The actual load-response builder, also exercised offline against the preserved catalogue. */
@@ -124,12 +107,37 @@ class MuhnPaceProvider : MainAPI() {
         if (episodes.isEmpty()) throw ErrorLoadingException("Pixeldrain has no matching English-dub episodes in this collection.")
 
         return newTvSeriesLoadResponse(
-            arc.displayTitle, url, TvType.TvSeries, episodes
+            arcDisplayTitle(arc), url, TvType.TvSeries, episodes
         ) {
             posterUrl = presentation.poster
             backgroundPosterUrl = presentation.background
             plot = presentation.description(episodes.size)
             tags = presentation.tags
+        }
+    }
+
+    /** Same builders and native Episode/SeasonData fields used by live loading and offline regressions. */
+    internal suspend fun seriesFromFiles(url: String, filesByCollection: Map<String, JSONArray>): TvSeriesLoadResponse? {
+        if (!isSeriesUrl(url)) return null
+        val episodes = arcs.flatMap { arc ->
+            val files = filesByCollection[arc.listId]
+                ?: throw ErrorLoadingException("Missing ${arc.seasonTitle} collection; please retry.")
+            val selected = EpisodeCatalog.select(arc.listId, arc.title, files)
+            if (selected.isEmpty()) throw ErrorLoadingException("No playable videos in ${arc.seasonTitle}; please retry.")
+            selected.map { metadata ->
+                episodeFromMetadata(metadata, ArcPresentations.byCollection.getValue(arc.listId).episodeFallback).apply {
+                    season = arc.season
+                    // Stable origin avoids renumbering later entries when a source file temporarily disappears.
+                    episode = arc.navigationIndex(metadata.editNumber)
+                }
+            }
+        }
+        return newTvSeriesLoadResponse(SeriesCatalogue.TITLE, url, TvType.TvSeries, episodes) {
+            posterUrl = SeriesCatalogue.poster
+            backgroundPosterUrl = SeriesCatalogue.background
+            plot = SeriesCatalogue.description(episodes.size)
+            tags = listOf("Anime", "Action", "Adventure", "Fantasy", "English dub")
+            addSeasonNames(arcs.map { SeasonData(it.season, it.seasonTitle, it.season) })
         }
     }
 

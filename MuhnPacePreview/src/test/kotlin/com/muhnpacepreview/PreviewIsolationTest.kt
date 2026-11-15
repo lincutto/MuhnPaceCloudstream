@@ -42,9 +42,9 @@ class PreviewIsolationTest {
         val provider = MuhnPacePreviewProvider()
         val collections = collections()
         val search = provider.search("one piece").associateBy { it.url }
-        assertEquals(16, search.size)
+        assertEquals(1, search.size)
         val page = provider.mainPage.first()
-        assertEquals(16, provider.getMainPage(1, MainPageRequest(page.name, page.data, page.horizontalImages)).items.single().list.size)
+        assertEquals(1, provider.getMainPage(1, MainPageRequest(page.name, page.data, page.horizontalImages)).items.single().list.size)
         val thumbnailProof = javaClass.getResourceAsStream("/thumbnail-verification-2026-11-14.json")!!
             .bufferedReader().use { JSONObject(it.readText()).getJSONArray("episodes") }
         val thumbnails = (0 until thumbnailProof.length()).associate {
@@ -76,18 +76,17 @@ class PreviewIsolationTest {
                 assertTrue(load.name.endsWith("(Muhn Pace Preview)"))
                 assertEquals(ArcPresentations.byCollection.getValue(id).poster, load.posterUrl)
                 assertEquals(ArcPresentations.byCollection.getValue(id).background, load.backgroundPosterUrl)
-                assertTrue(load.plot!!.contains("Player numbers identify Muhn Pace edits."))
-                assertEquals(search.getValue("https://pixeldrain.dev/muhnpace-v3-preview/l/$id").name, load.name)
+                assertTrue(load.plot!!.contains("English dub."))
                 assertEquals(expected.length(), load.episodes.size)
                 for ((index, episode) in load.episodes.withIndex()) {
                     assertEquals("https://pixeldrain.dev/api/file/${expected.getJSONObject(index).getString("file_id")}", episode.data)
                     assertEquals(numbers[index], episode.episode)
                     assertEquals(1, episode.season)
-                    assertTrue(episode.name!!.contains(" • Muhn Pace ${episode.episode}"))
-                    assertTrue(episode.description!!.contains("mapping is unverified"))
+                    assertFalse(episode.name!!.contains("Muhn Pace"))
+                    assertFalse(episode.description!!.contains("Muhn Pace edit"))
                     assertTrue(episode.posterUrl!!.startsWith("https://"))
                     val thumbnail = thumbnails.getValue(expected.getJSONObject(index).getString("file_id"))
-                    assertEquals(if (thumbnail.getBoolean("blank")) ArcPresentations.byCollection.getValue(id).episodeFallback
+                    assertEquals(EditResearchRegistry.entries.singleOrNull { it.fileId == expected.getJSONObject(index).getString("file_id") }?.thumbnailUrl ?: if (thumbnail.getBoolean("blank")) ArcPresentations.byCollection.getValue(id).episodeFallback
                         else thumbnail.getString("url"), episode.posterUrl)
                 }
                 // Exact inspected Cloudstream getId / TV episode-ID calculations, including
@@ -107,6 +106,46 @@ class PreviewIsolationTest {
         assertEquals(274, count)
         assertTrue("Preview must never write any baseline production series/episode key",
             originalIds.intersect(previewIds).isEmpty())
+    }
+
+    @Test
+    fun `new series has 274 unique keys isolated from both legacy preview and production`() = runBlocking {
+        val provider = MuhnPacePreviewProvider()
+        val rows = collections()
+        val files = (0 until rows.length()).associate {
+            val row = rows.getJSONObject(it); row.getString("id") to row.getJSONArray("files")
+        }
+        val load = provider.seriesFromFiles(provider.seriesUrl, files)!!
+        assertEquals("https://pixeldrain.dev/muhnpace-v3-preview/one-piece", load.url)
+        assertEquals("One Piece (Muhn Pace)", load.name)
+        assertEquals(274, load.episodes.size)
+        assertEquals((1..16).toList(), load.seasonNames!!.map { it.season })
+        assertNull(provider.seriesFromFiles("https://pixeldrain.dev/muhnpace/one-piece", files))
+        val legacyKeys = mutableSetOf<Int>()
+        val newPreviewKeys = mutableSetOf<Int>()
+        for (host in listOf("pixeldrain.dev", "pixeldrain.com")) {
+            for (main in listOf("https://pixeldrain.dev", "https://pixeldrain.com", "")) {
+                fun parent(url: String) = url.replace(main, "").replace("/", "").hashCode()
+                for (i in 0 until rows.length()) {
+                    val row = rows.getJSONObject(i)
+                    for (prefix in listOf("l", "muhnpace-v3-preview/l")) {
+                        val id = parent("https://$host/$prefix/${row.getString("id")}")
+                        legacyKeys += id
+                        val expected = row.getJSONArray("expected_episodes")
+                        for (j in 0 until expected.length()) legacyKeys += id + 100000 + expected.getJSONObject(j).getInt("number") + 1
+                    }
+                }
+                val newId = parent("https://$host/muhnpace-v3-preview/one-piece")
+                newPreviewKeys += newId
+                val keys = load.episodes.map { newId + it.season!! * 100000 + it.episode!! + 1 }
+                assertEquals(274, keys.toSet().size)
+                newPreviewKeys.addAll(keys)
+                val productionId = parent("https://$host/muhnpace/one-piece")
+                legacyKeys += productionId
+                legacyKeys.addAll(load.episodes.map { productionId + it.season!! * 100000 + it.episode!! + 1 })
+            }
+        }
+        assertTrue(newPreviewKeys.intersect(legacyKeys).isEmpty())
     }
 
     @Test

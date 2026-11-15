@@ -8,13 +8,16 @@ internal data class OriginalEpisodeMapping(
     val first: Int,
     val last: Int,
     val sourceUrl: String,
+    val includedEpisodes: List<Int> = (first..last).toList(),
 ) {
     init {
         require(first > 0 && last >= first)
         require(sourceUrl.startsWith("https://") && sourceUrl.length > 8)
+        require(includedEpisodes.isNotEmpty() && includedEpisodes == includedEpisodes.distinct().sorted())
+        require(includedEpisodes.first() == first && includedEpisodes.last() == last)
     }
 
-    val label: String get() = if (first == last) "$first" else "$first–$last"
+    val label: String get() = originalEpisodeLabel(includedEpisodes)
 }
 
 internal enum class EpisodeEdition(val label: String) {
@@ -34,28 +37,42 @@ internal data class EpisodeMetadata(
     val originalEpisodes: OriginalEpisodeMapping? = null,
     val thumbnailUrl: String? = null,
     val summary: String? = null,
+    val sourceSha256: String? = null,
+    val research: EditResearch? = null,
 ) {
-    /** Only verified mappings may label numbers as original One Piece episodes. */
+    private val matchedResearch: EditResearch? get() = research?.takeIf { it.matches(this) }
+    val evidenceStatus: MappingEvidence get() = if (originalEpisodes != null) MappingEvidence.DIRECTLY_VERIFIED
+        else matchedResearch?.mappingStatus ?: MappingEvidence.UNKNOWN
+    /** Accepted One Pace correspondence is labelled in the description; conflicts never supply numbers. */
     val title: String
         get() {
-            val arcName = arcTitle.substringBefore(" • Episode ")
-            val suffix = if (edition.label.isEmpty()) "" else " (${edition.label})"
-            return (originalEpisodes?.let { "One Piece ${it.label} • $arcName $editNumber" }
-                ?: "$arcName • Muhn Pace $editNumber") + suffix
+            val storyTitle = matchedResearch?.displayTitle ?: "Title unavailable"
+            val coverage = originalEpisodes?.label ?: matchedResearch?.let {
+                when (it.mappingStatus) {
+                    MappingEvidence.ONE_PACE_DERIVED -> originalEpisodeLabel(it.acceptedEpisodes)
+                    MappingEvidence.CONFLICTING -> "original range unresolved"
+                    else -> null
+                }
+            }
+            // The host supplies the navigation index. Never repeat internal edit numbers here.
+            return "$storyTitle - ${coverage ?: "original episodes unknown"}"
         }
 
     val description: String
-        get() = listOfNotNull(summary, originalEpisodes?.let {
+        get() = matchedResearch?.description(originalEpisodes) ?: listOfNotNull(summary, originalEpisodes?.let {
             "Original One Piece episodes: ${it.label}. Source: ${it.sourceUrl}"
-        } ?: "Original One Piece episode mapping is unverified.").joinToString("\n")
+        } ?: "Original One Piece episode coverage is unknown.").joinToString("\n")
 
     /** Describe only facts known about this edit; never borrow another episode's synopsis. */
     fun withPresentation(arcTitle: String, fallbackPosterUrl: String? = null): EpisodeMetadata {
         val arcName = arcTitle.substringBefore(" • Episode ")
         val editionNote = if (edition.label.isEmpty()) "" else " ${edition.label}."
         return copy(
-            summary = "$arcName • Muhn Pace edit $editNumber. English dub.$editionNote",
-            thumbnailUrl = thumbnailUrl?.takeUnless { fileId in knownBlankThumbnailIds } ?: fallbackPosterUrl,
+            summary = matchedResearch?.synopsis ?: "$arcName • English dub.$editionNote Individual story synopsis is not yet documented.",
+            thumbnailUrl = matchedResearch?.thumbnailUrl ?: thumbnailUrl?.takeUnless {
+                fileId in knownBlankThumbnailIds || EditResearchRegistry.rejectSourceThumbnail(fileId) ||
+                    it.startsWith(ResearchDataset.ARTWORK_BASE)
+            } ?: fallbackPosterUrl,
         )
     }
 
@@ -121,13 +138,14 @@ internal object EpisodeCatalog {
             "(fixed group shot)" -> EpisodeEdition.FIXED_GROUP_SHOT
             else -> return null // Do not turn comparisons or unknown extras into episodes.
         }
-        return EpisodeMetadata(
+        val metadata = EpisodeMetadata(
             collectionId = collectionId,
             fileId = fileId,
             sourceFileName = fileName,
             editNumber = number,
             arcTitle = arcTitle,
             edition = edition,
+            sourceSha256 = file.optString("hash_sha256").takeIf { it.isNotBlank() },
             originalEpisodes = originalMappings.find(collectionId, fileId, number, fileName),
             // Only use a thumbnail advertised for this exact file. Missing/foreign links
             // fall back to the arc artwork in the presentation layer.
@@ -135,6 +153,7 @@ internal object EpisodeCatalog {
                 .takeIf { it == "/file/$fileId/thumbnail" }
                 ?.let { "https://pixeldrain.dev/api$it?width=256&height=144" },
         )
+        return metadata.copy(research = EditResearchRegistry.find(metadata))
     }
 
     private fun isVideo(file: JSONObject, name: String): Boolean =

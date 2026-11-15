@@ -1,8 +1,8 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scope": "Phase 4A milestone A only: Dressrosa edits 30–37",
   "reviewed_on": "2026-11-15",
-  "artwork_commit": null,
+  "artwork_commit": "fbac35fa64a652f7be13e44485f9ba42b4e5a3fa",
   "verified_full_mappings_added": 0,
   "entries": [
     {
@@ -12,11 +12,11 @@
       "source_sha256": "b2dbc2063477fbc85bf9c927bb269ad30443de0bb0263b2da5d96958827b52f3",
       "edit_number": 30,
       "reviewed_on": "2026-11-15",
-      "display_title": "Usopp Takes Aim",
+      "display_title": "Secret Plan",
       "title_kind": "EDITORIAL",
       "synopsis": "With Sugar threatening Luffy and Law, Usopp prepares a difficult long-range shot with Viola’s help.",
       "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
-      "mapping_status": "PROBABLE",
+      "mapping_status": "CONFLICTING",
       "candidate_original_episodes": [
         694,
         696,
@@ -67,7 +67,7 @@
         "timestamp_seconds": 360,
         "transform": "scale=640:-2",
         "reviewed_on": "2026-11-15",
-        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "visual_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
         "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
         "width": 640,
         "height": 360,
@@ -77,7 +77,24 @@
         "mean_luma": 132.324,
         "stddev_luma": 67.73
       },
-      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5.",
+      "recovered_editorial_title": "Usopp Takes Aim",
+      "previous_evidence_status": "PROBABLE",
+      "accepted_original_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "correspondence_evidence": {
+        "method": "Exact Pixeldrain ID and filename; adjacent story sequence; multiple interior scene samples compared with One Pace story reference and official subtitle titles. This is not just matching edit numbers and not a complete frame audit.",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "title_source": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+        "coverage_source": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "reviewed_on": "2026-11-15",
+        "qualification": "One Pace-derived coverage; portions may be cut or rearranged in the English adaptation. No complete directly verified Muhn Pace range is claimed."
+      },
+      "conflict_review": {
+        "sources_agree": false,
+        "finding": "The Plex chapter and episode lookup tables both disagree with the One Pace guide-derived metadata. Its rename.py maps One Pace filenames without exact Muhn Pace file evidence. Official subtitle titles and sampled scenes support the story correspondence, but do not resolve full anime coverage. Both candidates retained; no range selected.",
+        "additional_source": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/chapters-reference.json"
+      }
     },
     {
       "collection_id": "f8HTXmAk",
@@ -86,11 +103,11 @@
       "source_sha256": "ad16a495aa2f407e8187f717c509908f2a3e024ffcee8c26785e04048f61158d",
       "edit_number": 31,
       "reviewed_on": "2026-11-15",
-      "display_title": "Law Faces Doflamingo",
+      "display_title": "The Operation Fruit",
       "title_kind": "EDITORIAL",
       "synopsis": "Luffy and Law confront Doflamingo inside the palace, where their opponent reveals his knowledge of the Op-Op Fruit.",
       "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
-      "mapping_status": "PROBABLE",
+      "mapping_status": "ONE_PACE_DERIVED",
       "candidate_original_episodes": [
         699,
         700
@@ -113,7 +130,7 @@
       "scene_evidence": [
         {
           "timestamp_seconds": 360,
-          "observation": "Usopp and King Riku appear together.",
+          "observation": "Usopp alongside an ally.",
           "source_url": "https://pixeldrain.dev/api/file/8GdJ6uQg"
         },
         {
@@ -134,7 +151,7 @@
         "timestamp_seconds": 900,
         "transform": "scale=640:-2",
         "reviewed_on": "2026-11-15",
-        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "visual_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
         "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
         "width": 640,
         "height": 360,
@@ -144,7 +161,27 @@
         "mean_luma": 155.118,
         "stddev_luma": 60.565
       },
-      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5.",
+      "recovered_editorial_title": "Law Faces Doflamingo",
+      "previous_evidence_status": "PROBABLE",
+      "accepted_original_episodes": [
+        699,
+        700
+      ],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "correspondence_evidence": {
+        "method": "Exact Pixeldrain ID and filename; adjacent story sequence; multiple interior scene samples compared with One Pace story reference and official subtitle titles. This is not just matching edit numbers and not a complete frame audit.",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "title_source": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+        "coverage_source": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "reviewed_on": "2026-11-15",
+        "qualification": "One Pace-derived coverage; portions may be cut or rearranged in the English adaptation. No complete directly verified Muhn Pace range is claimed."
+      },
+      "conflict_review": {
+        "sources_agree": true,
+        "finding": "One Pace metadata and the independent Plex reference give the same range. Exact-file scene observations and adjacent story sequence support correspondence.",
+        "additional_source": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/chapters-reference.json"
+      }
     },
     {
       "collection_id": "f8HTXmAk",
@@ -153,11 +190,11 @@
       "source_sha256": "4fd60eca75e9548b0ceba2050986b353cbd5e442d4d86eac060d5925be6d5b5a",
       "edit_number": 32,
       "reviewed_on": "2026-11-15",
-      "display_title": "Law’s White Town",
+      "display_title": "White Town",
       "title_kind": "EDITORIAL",
       "synopsis": "Law’s childhood in Flevance reveals the suffering caused by White Lead disease. His arrival among the Donquixote family brings him into conflict with Corazon.",
       "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
-      "mapping_status": "SCENE_CONFIRMED",
+      "mapping_status": "ONE_PACE_DERIVED",
       "candidate_original_episodes": [
         701,
         702
@@ -218,7 +255,7 @@
         "timestamp_seconds": 300,
         "transform": "scale=640:-2",
         "reviewed_on": "2026-11-15",
-        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "visual_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
         "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
         "width": 640,
         "height": 360,
@@ -242,7 +279,27 @@
           "source_url": "https://onepiece.fandom.com/wiki/Episode_701",
           "observation": "Indexed detailed guide places the White/Amber Lead Syndrome discussion in original episode 701; independent secondary corroboration."
         }
-      ]
+      ],
+      "recovered_editorial_title": "Law’s White Town",
+      "previous_evidence_status": "SCENE_CONFIRMED",
+      "accepted_original_episodes": [
+        701,
+        702
+      ],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "correspondence_evidence": {
+        "method": "Exact Pixeldrain ID and filename; adjacent story sequence; multiple interior scene samples compared with One Pace story reference and official subtitle titles. This is not just matching edit numbers and not a complete frame audit.",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "title_source": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+        "coverage_source": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "reviewed_on": "2026-11-15",
+        "qualification": "One Pace-derived coverage; portions may be cut or rearranged in the English adaptation. No complete directly verified Muhn Pace range is claimed."
+      },
+      "conflict_review": {
+        "sources_agree": true,
+        "finding": "One Pace metadata and the independent Plex reference give the same range. Exact-file scene observations and adjacent story sequence support correspondence.",
+        "additional_source": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/chapters-reference.json"
+      }
     },
     {
       "collection_id": "f8HTXmAk",
@@ -251,11 +308,11 @@
       "source_sha256": "24f30af377b81cf708273696defb41307a25d2c0e18522c6c16c28384e6b1e4b",
       "edit_number": 33,
       "reviewed_on": "2026-11-15",
-      "display_title": "Corazon’s Search",
+      "display_title": "The Island of Fate: Minion",
       "title_kind": "EDITORIAL",
       "synopsis": "Corazon takes the ailing Law on a journey in search of treatment, despite the hostility they encounter along the way.",
       "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
-      "mapping_status": "PROBABLE",
+      "mapping_status": "ONE_PACE_DERIVED",
       "candidate_original_episodes": [
         703,
         704
@@ -299,7 +356,7 @@
         "timestamp_seconds": 360,
         "transform": "scale=640:-2",
         "reviewed_on": "2026-11-15",
-        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "visual_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
         "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
         "width": 640,
         "height": 360,
@@ -309,7 +366,27 @@
         "mean_luma": 90.995,
         "stddev_luma": 51.676
       },
-      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5.",
+      "recovered_editorial_title": "Corazon’s Search",
+      "previous_evidence_status": "PROBABLE",
+      "accepted_original_episodes": [
+        703,
+        704
+      ],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "correspondence_evidence": {
+        "method": "Exact Pixeldrain ID and filename; adjacent story sequence; multiple interior scene samples compared with One Pace story reference and official subtitle titles. This is not just matching edit numbers and not a complete frame audit.",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "title_source": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+        "coverage_source": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "reviewed_on": "2026-11-15",
+        "qualification": "One Pace-derived coverage; portions may be cut or rearranged in the English adaptation. No complete directly verified Muhn Pace range is claimed."
+      },
+      "conflict_review": {
+        "sources_agree": true,
+        "finding": "One Pace metadata and the independent Plex reference give the same range. Exact-file scene observations and adjacent story sequence support correspondence.",
+        "additional_source": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/chapters-reference.json"
+      }
     },
     {
       "collection_id": "f8HTXmAk",
@@ -318,11 +395,11 @@
       "source_sha256": "e0b6db94b43556b5cb9470cb4b43c819a4ea0351b98ead7f4f8e59c42c0a60c0",
       "edit_number": 34,
       "reviewed_on": "2026-11-15",
-      "display_title": "Keeping Law Safe",
+      "display_title": "Cora-san",
       "title_kind": "EDITORIAL",
       "synopsis": "On snowy Minion Island, an injured Corazon tries to keep Law safe as Doflamingo’s family closes in.",
       "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
-      "mapping_status": "PROBABLE",
+      "mapping_status": "CONFLICTING",
       "candidate_original_episodes": [
         705,
         706
@@ -366,7 +443,7 @@
         "timestamp_seconds": 360,
         "transform": "scale=640:-2",
         "reviewed_on": "2026-11-15",
-        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "visual_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
         "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
         "width": 640,
         "height": 360,
@@ -376,7 +453,24 @@
         "mean_luma": 129.899,
         "stddev_luma": 38.497
       },
-      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5.",
+      "recovered_editorial_title": "Keeping Law Safe",
+      "previous_evidence_status": "PROBABLE",
+      "accepted_original_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "correspondence_evidence": {
+        "method": "Exact Pixeldrain ID and filename; adjacent story sequence; multiple interior scene samples compared with One Pace story reference and official subtitle titles. This is not just matching edit numbers and not a complete frame audit.",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "title_source": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+        "coverage_source": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "reviewed_on": "2026-11-15",
+        "qualification": "One Pace-derived coverage; portions may be cut or rearranged in the English adaptation. No complete directly verified Muhn Pace range is claimed."
+      },
+      "conflict_review": {
+        "sources_agree": false,
+        "finding": "The Plex chapter and episode lookup tables both disagree with the One Pace guide-derived metadata. Its rename.py maps One Pace filenames without exact Muhn Pace file evidence. Official subtitle titles and sampled scenes support the story correspondence, but do not resolve full anime coverage. Both candidates retained; no range selected.",
+        "additional_source": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/chapters-reference.json"
+      }
     },
     {
       "collection_id": "f8HTXmAk",
@@ -385,11 +479,11 @@
       "source_sha256": "72586ff79a2e59673989f6f5e14363007bd5ee21393c469343a5e1925161d6c6",
       "edit_number": 35,
       "reviewed_on": "2026-11-15",
-      "display_title": "Bellamy’s Choice",
+      "display_title": "Bellamy the Pirate",
       "title_kind": "EDITORIAL",
       "synopsis": "Luffy struggles to reach Bellamy while Law confronts Doflamingo. Bellamy’s loyalty puts him at odds with the person trying to help him.",
       "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
-      "mapping_status": "PROBABLE",
+      "mapping_status": "CONFLICTING",
       "candidate_original_episodes": [
         707,
         708,
@@ -436,7 +530,7 @@
         "timestamp_seconds": 1300,
         "transform": "scale=640:-2",
         "reviewed_on": "2026-11-15",
-        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "visual_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
         "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
         "width": 640,
         "height": 360,
@@ -446,7 +540,24 @@
         "mean_luma": 116.526,
         "stddev_luma": 61.509
       },
-      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5.",
+      "recovered_editorial_title": "Bellamy’s Choice",
+      "previous_evidence_status": "PROBABLE",
+      "accepted_original_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "correspondence_evidence": {
+        "method": "Exact Pixeldrain ID and filename; adjacent story sequence; multiple interior scene samples compared with One Pace story reference and official subtitle titles. This is not just matching edit numbers and not a complete frame audit.",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "title_source": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+        "coverage_source": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "reviewed_on": "2026-11-15",
+        "qualification": "One Pace-derived coverage; portions may be cut or rearranged in the English adaptation. No complete directly verified Muhn Pace range is claimed."
+      },
+      "conflict_review": {
+        "sources_agree": false,
+        "finding": "The Plex chapter and episode lookup tables both disagree with the One Pace guide-derived metadata. Its rename.py maps One Pace filenames without exact Muhn Pace file evidence. Official subtitle titles and sampled scenes support the story correspondence, but do not resolve full anime coverage. Both candidates retained; no range selected.",
+        "additional_source": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/chapters-reference.json"
+      }
     },
     {
       "collection_id": "f8HTXmAk",
@@ -455,11 +566,11 @@
       "source_sha256": "03439d66fc577f8d5ad23671789b5c8c8a2c50cb585eb38f87db970f91e02935",
       "edit_number": 36,
       "reviewed_on": "2026-11-15",
-      "display_title": "Hajrudin and Sai",
+      "display_title": "The Spear of Elbaf and Don Sai",
       "title_kind": "EDITORIAL",
       "synopsis": "Hajrudin and Sai confront Doflamingo’s officers as the battle spreads across the palace grounds.",
       "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
-      "mapping_status": "PROBABLE",
+      "mapping_status": "CONFLICTING",
       "candidate_original_episodes": [
         708,
         709,
@@ -505,7 +616,7 @@
         "timestamp_seconds": 1200,
         "transform": "scale=640:-2",
         "reviewed_on": "2026-11-15",
-        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "visual_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
         "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
         "width": 640,
         "height": 360,
@@ -515,7 +626,24 @@
         "mean_luma": 119.405,
         "stddev_luma": 57.468
       },
-      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5.",
+      "recovered_editorial_title": "Hajrudin and Sai",
+      "previous_evidence_status": "PROBABLE",
+      "accepted_original_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "correspondence_evidence": {
+        "method": "Exact Pixeldrain ID and filename; adjacent story sequence; multiple interior scene samples compared with One Pace story reference and official subtitle titles. This is not just matching edit numbers and not a complete frame audit.",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "title_source": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+        "coverage_source": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "reviewed_on": "2026-11-15",
+        "qualification": "One Pace-derived coverage; portions may be cut or rearranged in the English adaptation. No complete directly verified Muhn Pace range is claimed."
+      },
+      "conflict_review": {
+        "sources_agree": false,
+        "finding": "The Plex chapter and episode lookup tables both disagree with the One Pace guide-derived metadata. Its rename.py maps One Pace filenames without exact Muhn Pace file evidence. Official subtitle titles and sampled scenes support the story correspondence, but do not resolve full anime coverage. Both candidates retained; no range selected.",
+        "additional_source": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/chapters-reference.json"
+      }
     },
     {
       "collection_id": "f8HTXmAk",
@@ -524,11 +652,11 @@
       "source_sha256": "6bd70a4ba2c39e5c99e1c3090dcc555df2b99f3b006fddad5aa5c25e14a457f9",
       "edit_number": 37,
       "reviewed_on": "2026-11-15",
-      "display_title": "Bartolomeo’s Stand",
+      "display_title": "Cabbage and Lomeo",
       "title_kind": "EDITORIAL",
       "synopsis": "Bartolomeo and Cavendish face Gladius while trying to protect their allies near the palace. Robin is caught in the dangerous struggle.",
       "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
-      "mapping_status": "PROBABLE",
+      "mapping_status": "CONFLICTING",
       "candidate_original_episodes": [
         711,
         712,
@@ -578,7 +706,7 @@
         "timestamp_seconds": 1200,
         "transform": "scale=640:-2",
         "reviewed_on": "2026-11-15",
-        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "visual_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
         "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
         "width": 640,
         "height": 360,
@@ -588,7 +716,25 @@
         "mean_luma": 148.227,
         "stddev_luma": 40.502
       },
-      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5.",
+      "recovered_editorial_title": "Bartolomeo’s Stand",
+      "previous_evidence_status": "PROBABLE",
+      "accepted_original_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "correspondence_evidence": {
+        "method": "Exact Pixeldrain ID and filename; adjacent story sequence; multiple interior scene samples compared with One Pace story reference and official subtitle titles. This is not just matching edit numbers and not a complete frame audit.",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "title_source": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+        "coverage_source": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "reviewed_on": "2026-11-15",
+        "qualification": "One Pace-derived coverage; portions may be cut or rearranged in the English adaptation. No complete directly verified Muhn Pace range is claimed."
+      },
+      "conflict_review": {
+        "sources_agree": false,
+        "finding": "The Plex chapter and episode lookup tables both disagree with the One Pace guide-derived metadata. Its rename.py maps One Pace filenames without exact Muhn Pace file evidence. Official subtitle titles and sampled scenes support the story correspondence, but do not resolve full anime coverage. Both candidates retained; no range selected.",
+        "additional_source": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/chapters-reference.json"
+      }
     }
-  ]
+  ],
+  "policy": "Direct coverage and One Pace-derived correspondence are distinct. Unresolved conflicting ranges are never displayed as established coverage."
 }
