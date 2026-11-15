@@ -1,8 +1,49 @@
 # MuhnPaceCloudstream v3 — handover
 
-Updated: 2026-11-15 (UTC). Phase 1 is complete. Phase 2 is implemented with original thematic artwork as the deliberate fallback for every collection. Phases 3 and 4 have not begun. No extension or environment was published.
+Updated: 2026-11-15 (UTC). Phase 1 is complete. Phase 2 is implemented with original thematic artwork as the deliberate fallback for every collection. Phase 3 is implemented within the supported API, with zero verified original-episode mappings. Phases 4 and 5 have not begun. No extension or environment was published.
 
 Phase 1 is complete, with unsupported original-episode mappings explicitly left unknown as requested. No extension was published.
+
+## Phase 3 delivery (2026-11-15)
+
+Recovered a clean `codex/v3-overhaul` at `d79c41798f1814b4de7c7f659e8c406fbcbeb530`. Terminal, Git fetch and repository access were verified before edits. A mid-task environment restart preserved the uncommitted changes, research and passing test reports; actual terminal execution rechecked them before resuming.
+
+### Implemented and supported behaviour
+
+- Series/load and home/search labels now identify **One Piece**, the arc and **Muhn Pace**, for example `One Piece • Dressrosa (Muhn Pace)`. The special Fishman collection remains distinct as `One Piece • Fishman Island • Edit 15 (Muhn Pace)`. Catalogue identities and stored arc names are unchanged.
+- The existing episode-title formatter is unchanged. Unknown example: `Dressrosa • Muhn Pace 25`. Verified-range formatting remains available only for evidence-backed data. No real mappings or story titles were invented.
+- The arc plot puts the live available-edit count, dub language and **Player numbers identify Muhn Pace edits** before the unchanged synopsis. Cloudstream's delayed TV pause overlay reads this plot, not `Episode.description`.
+- Exact-edit mapping admission now requires collection/file/edit/filename, original range and source URL, verification date and qualification. Missing, changed or conflicting evidence remains unknown. The production registry is empty.
+- Real Cloudstream response builders are shared by live loading and offline tests. All 274 baseline URLs/numbers/seasons and the 16 series URLs, type, provider identity and artwork assignments are checked. `loadLinks` and its file-URL validator remain byte-for-byte unchanged from `d79c417`.
+
+The full [playback/API investigation](CLOUDSTREAM_METADATA.md) records the actual resolved library (`-SNAPSHOT:5d66bbeaf3-1`), AAR hash, source links, UI fields, history algorithm and Fire TV limits. The extension does not modify Cloudstream or its settings/storage.
+
+### Player and Continue Watching limitations
+
+- Player controls combine series name, host `S1:E25` label and episode title; all numeric season/episode labels still identify edits. Some arc/brand repetition is imposed by the shared host fields.
+- The separate delayed TV pause overlay can show series/arc/edit brand, tags, numeric edit position and the arc synopsis. It cannot show the current episode's original range, name or description separately. It is setting-dependent, delayed eight seconds, and constrained to a two-line title/five-line overview in the inspected TV layout.
+- Continue Watching can show the improved cached series name, existing arc poster, numeric season/edit and saved progress. It has no episode-title/description/range field. Its cached title refreshes when Cloudstream reloads the collection; existing cards are not forcibly rewritten.
+- The result-page resume label and episode-selection list can use the existing episode name. Progress storage, next/previous selection, resume thresholds and history are host-controlled. No history reset, ID migration or automatic jump to an original episode was introduced.
+
+### Mapping research and original episode 684
+
+**Zero verified mappings added.** All sixteen live Pixeldrain lists were rechecked: 290 source entries, empty descriptions, no original-anime mapping fields; all IDs/filenames match the preserved baseline. [Research findings](ORIGINAL_EPISODE_RESEARCH.md) and the [dated audit](research/phase3-mapping-audit.json) record source URLs, response hashes, rejected candidates and access limits.
+
+A third-party One Pace table gives Dressrosa 25 as 684–686; the official One Pace catalogue gives its own edit 25 as 683–686. Neither proves the coverage of Muhn Pace file `yUkgcapt` in collection `f8HTXmAk`. Another addon derives titles from One Pace subtitles, which also fails the exact-edit evidence requirement. No candidate title/range was imported.
+
+The Muhn Pace edit containing original **684**, any additional covered episodes, its edit-specific story title, an intra-edit timestamp and the best transition starting point remain **unknown**. Do not recommend Muhn Pace edit 25 as a verified match. The guide-linked Drive folder/sheet were inaccessible; no maintainer-authored exact-file mapping was established. New reliable evidence is needed, not an offset or a cross-project numbering assumption.
+
+### Validation and boundaries
+
+Implementation/test commit: `8af331037ba08840b3632c244c3291d603bff728`.
+
+- **32 Kotlin/JUnit tests**, zero failures/errors/skips: all 25 existing tests plus seven mapping-admission/real-response tests.
+- **12 Python checks** passed, including workflow publication guards and artwork consistency.
+- `gradle :MuhnPace:testDebugUnitTest :MuhnPace:make --no-daemon --console=plain` passed in 24s, including Android Kotlin/test compilation, DEX and `.cs3` generation.
+- Local package assembly at `/tmp/muhnpace-phase3-package` passed the exact assertions from `validate.yml`: ZIP integrity, DEX/provider/plugin classes, unchanged manifest version 2, index URLs, hash and size. SHA-256: `fcf0299a207d0946e094436bfaae2b499308dff4748bcb0cd981c211c57e3039` (not a reproducible-build guarantee).
+- Development CI results and final commits will be recorded after the development-branch push. No workflow change is required.
+
+No real Fire TV UI, media playback or persisted resume-position test occurred. API input compatibility is tested; device acceptance remains necessary. Existing SNAPSHOT dependencies can change upstream. No extension was published and no production URL changed. Stop after Phase 3; Phases 4 and 5 require separate authorization.
 
 ## Episode-title correction (2026-11-15)
 
@@ -121,9 +162,9 @@ Earlier incremental CI succeeded: [43591490583](https://github.com/lincutto/Muhn
 
 Real-device verification remains: confirm poster/background loading and legibility, episode thumbnail/description layout, remote navigation, cached artwork refresh, and retained resume position on Cloudstream Beta / Fire TV Stick 4K (2nd Generation). No updated device screenshot, playback session or visual acceptance test has been performed. The published installation will remain unchanged until a later explicitly approved release.
 
-### Later requirements preserved, not implemented
+### Later requirements recorded at the Phase 2 handover
 
-- **Phase 3:** improved paused-playback titles; verified original One Piece episode numbers/ranges; proper anime/arc metadata during playback; better Continue Watching presentation.
+- **Phase 3 (now addressed above within API/evidence limits):** improved paused-playback titles; verified original One Piece episode numbers/ranges; proper anime/arc metadata during playback; better Continue Watching presentation.
 - The user is currently at **original One Piece episode 684 (Dressrosa)**. The photographed history includes Muhn Pace edit 25. There is **no verified equivalence** between those positions; do not infer one. Continue showing the Muhn Pace edit number until evidence exists.
 - **Phase 4:** automatic/manual intro skipping using supported Cloudstream functionality and verified timestamps for the actual edit, without skipping story content.
 - Updated Fire TV layouts, artwork rendering, remote navigation, persisted history and playback-overlay behaviour require a later real-device test. No updated visual/device verification is claimed here.
@@ -188,7 +229,7 @@ The source snapshot has 290 list entries, including notes, variants and non-dub 
 
 There are currently **zero verified original anime mappings**. Every recovered selected file has an empty API description and no explicit original-episode field. Most filenames identify only the fan-edit number. The Fishman Island filename contains `[632-633]`, but that unlabelled range is not evidence of original anime episodes; it must not be displayed as such. The Whole Cake Island `Filler Content.txt` note only says edits 15 and 16 contain the Big Mom/Brook fight and supplies no original-episode range.
 
-`originalMappings` is deliberately empty. The UI description says `Original One Piece episode mapping is unverified.` Unknowns remain `null`, rather than zero, a fabricated offset, or a guessed range. Before populating a mapping, record evidence identifying the exact file/edit, original **anime** episode range, source URL, and verification date here; key it by file ID. Do not borrow a different edit's numbering or infer mappings from broad arc ranges. The range-rendering unit test uses explicitly synthetic evidence and contributes no catalogue mappings.
+`originalMappings` uses an empty exact-edit registry after Phase 3 research. The UI description says `Original One Piece episode mapping is unverified.` Unknowns remain `null`, rather than zero, a fabricated offset, or a guessed range. Before populating a mapping, record evidence identifying the exact file/edit, original **anime** episode range, source URL, and verification date here; key it by file ID. Do not borrow a different edit's numbering or infer mappings from broad arc ranges. The range-rendering unit test uses explicitly synthetic evidence and contributes no catalogue mappings.
 
 ## Validation and commands
 
@@ -233,4 +274,4 @@ Remote protected destinations were checked again after the final Phase 2 code pu
 - Existing Cloudstream Gradle/plugin library dependencies still use `-SNAPSHOT`; upstream changes can affect future builds. This recovery did not change dependency strategy.
 - GitHub REST/log access is blocked in this environment, although Git operations and public Actions run pages work.
 
-Production publication and changes to `main` or `builds` remain prohibited without explicit approval. Phase 2 development is complete with deliberate original artwork fallbacks and the documented device/source limitations. Stop before Phase 3.
+Production publication and changes to `main` or `builds` remain prohibited without explicit approval. Phase 3 development is complete within the documented API/source limits. Stop before Phases 4 and 5.

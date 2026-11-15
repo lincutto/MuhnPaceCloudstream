@@ -26,6 +26,14 @@ When several versions share an episode number within a collection, the provider 
 
 The video host controls availability and transfer limits. If the host blocks a request on your connection, the app may show a playback error. The plugin uses Pixeldrain directly and contains no video files. [Pixeldrain API documentation](https://pixeldrain.dev/api)
 
+## Playback labels and Continue Watching (development branch)
+
+Series cards and player headers identify the anime, arc and edit project, for example **One Piece • Dressrosa (Muhn Pace)**. Episode titles retain the explicit Muhn Pace edit number. Cloudstream's numeric `S1:E25` label means **edit 25**, not original One Piece episode 25.
+
+On supported TV builds, the delayed pause overlay uses the series title, numeric edit position, tags and arc plot. The plot explains edit numbering before the synopsis. The host does not read the episode description into that overlay. Continue Watching uses a cached series title/poster, numeric edit position and progress; it cannot show an independent original-episode range or episode description. Reopening a collection lets Cloudstream refresh its cached title. Existing URLs, numbers, seasons and history inputs are preserved.
+
+Phase 3 research added **zero verified original-episode mappings**. No reliable exact-file evidence establishes which Muhn Pace edit contains original episode **684**, so no transition edit is recommended. See the [mapping investigation](docs/ORIGINAL_EPISODE_RESEARCH.md) and [supported player/history fields](docs/CLOUDSTREAM_METADATA.md). Fire TV layout and persisted-resume behaviour still require device testing; this development work is not published.
+
 ## Build
 
 The development workflow validates pushes to `codex/**` and pull requests to `main`. It runs Kotlin unit tests, compiles the Android extension, and checks the package and indexes. It has read-only repository permissions, stores test reports and build artifacts, and has no publication step.
@@ -47,4 +55,4 @@ gradle :MuhnPace:testDebugUnitTest :MuhnPace:make --no-daemon
 python3 scripts/publish.py --build-dir MuhnPace/build --repo lincutto/MuhnPaceCloudstream --out published
 ```
 
-`scripts/publish.py` assembles local files only; it makes no network requests. Kotlin tests use saved catalogue fixtures and do not request media. See [the v3 handover](docs/V3_HANDOVER.md) for recovery details, Phase 2 delivery, validation evidence, and limitations.
+`scripts/publish.py` assembles local files only; it makes no network requests. Kotlin tests use saved catalogue fixtures and do not request media. See [the v3 handover](docs/V3_HANDOVER.md) for recovery details, Phase 2/3 delivery, validation evidence, and limitations.
