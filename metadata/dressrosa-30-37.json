@@ -1,0 +1,594 @@
+{
+  "schema_version": 1,
+  "scope": "Phase 4A milestone A only: Dressrosa edits 30–37",
+  "reviewed_on": "2026-11-15",
+  "artwork_commit": null,
+  "verified_full_mappings_added": 0,
+  "entries": [
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "edkjkrVg",
+      "source_filename": "[Muhn Pace] Dressrosa 30.mp4",
+      "source_sha256": "b2dbc2063477fbc85bf9c927bb269ad30443de0bb0263b2da5d96958827b52f3",
+      "edit_number": 30,
+      "reviewed_on": "2026-11-15",
+      "display_title": "Usopp Takes Aim",
+      "title_kind": "EDITORIAL",
+      "synopsis": "With Sugar threatening Luffy and Law, Usopp prepares a difficult long-range shot with Viola’s help.",
+      "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
+      "mapping_status": "PROBABLE",
+      "candidate_original_episodes": [
+        694,
+        696,
+        697,
+        698
+      ],
+      "scene_confirmed_episodes": [],
+      "coverage_qualification": "Scene confirmation does not establish the complete edit range. One Pace candidate coverage may be partial or reordered; exact Muhn Pace boundaries remain unverified.",
+      "one_pace_reference": {
+        "title": "Secret Plan",
+        "original_title": "",
+        "original_episode_label": "694, 696-698",
+        "crc32": "4F16C5DC",
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/descriptions.json"
+      },
+      "conflicting_or_secondary_reference": {
+        "candidate": "E697-E698",
+        "source_url": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/episodes-reference.json",
+        "qualification": "Not bound to this file; not used to assert full Muhn Pace coverage."
+      },
+      "scene_evidence": [
+        {
+          "timestamp_seconds": 360,
+          "observation": "Luffy and Law together in the palace courtyard.",
+          "source_url": "https://pixeldrain.dev/api/file/edkjkrVg"
+        },
+        {
+          "timestamp_seconds": 540,
+          "observation": "Usopp aiming through his goggles.",
+          "source_url": "https://pixeldrain.dev/api/file/edkjkrVg"
+        },
+        {
+          "timestamp_seconds": 900,
+          "observation": "Sabo facing Marines outside.",
+          "source_url": "https://pixeldrain.dev/api/file/edkjkrVg"
+        }
+      ],
+      "thumbnail": {
+        "file": "assets/phase4a/dressrosa/edit-30.jpg",
+        "role": "episode_thumbnail",
+        "collection_id": "f8HTXmAk",
+        "file_id": "edkjkrVg",
+        "edit_number": 30,
+        "source_filename": "[Muhn Pace] Dressrosa 30.mp4",
+        "media_sha256_reported": "b2dbc2063477fbc85bf9c927bb269ad30443de0bb0263b2da5d96958827b52f3",
+        "source_url": "https://pixeldrain.dev/api/file/edkjkrVg",
+        "timestamp_seconds": 360,
+        "transform": "scale=640:-2",
+        "reviewed_on": "2026-11-15",
+        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+        "width": 640,
+        "height": 360,
+        "format": "JPEG",
+        "sha256": "878eef390e905ecbd0bf191c3624b3fd59842ec86682ee4edaaea5a1d03812d7",
+        "dhash": "f3d171627236a686",
+        "mean_luma": 132.324,
+        "stddev_luma": 67.73
+      },
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "8GdJ6uQg",
+      "source_filename": "[Muhn Pace] Dressrosa 31.mp4",
+      "source_sha256": "ad16a495aa2f407e8187f717c509908f2a3e024ffcee8c26785e04048f61158d",
+      "edit_number": 31,
+      "reviewed_on": "2026-11-15",
+      "display_title": "Law Faces Doflamingo",
+      "title_kind": "EDITORIAL",
+      "synopsis": "Luffy and Law confront Doflamingo inside the palace, where their opponent reveals his knowledge of the Op-Op Fruit.",
+      "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
+      "mapping_status": "PROBABLE",
+      "candidate_original_episodes": [
+        699,
+        700
+      ],
+      "scene_confirmed_episodes": [],
+      "coverage_qualification": "Scene confirmation does not establish the complete edit range. One Pace candidate coverage may be partial or reordered; exact Muhn Pace boundaries remain unverified.",
+      "one_pace_reference": {
+        "title": "The Operation Fruit",
+        "original_title": "",
+        "original_episode_label": "699-700",
+        "crc32": "9C3360D6",
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/descriptions.json"
+      },
+      "conflicting_or_secondary_reference": {
+        "candidate": "E699-E700",
+        "source_url": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/episodes-reference.json",
+        "qualification": "Not bound to this file; not used to assert full Muhn Pace coverage."
+      },
+      "scene_evidence": [
+        {
+          "timestamp_seconds": 360,
+          "observation": "Usopp and King Riku appear together.",
+          "source_url": "https://pixeldrain.dev/api/file/8GdJ6uQg"
+        },
+        {
+          "timestamp_seconds": 900,
+          "observation": "Law inside the royal palace.",
+          "source_url": "https://pixeldrain.dev/api/file/8GdJ6uQg"
+        }
+      ],
+      "thumbnail": {
+        "file": "assets/phase4a/dressrosa/edit-31.jpg",
+        "role": "episode_thumbnail",
+        "collection_id": "f8HTXmAk",
+        "file_id": "8GdJ6uQg",
+        "edit_number": 31,
+        "source_filename": "[Muhn Pace] Dressrosa 31.mp4",
+        "media_sha256_reported": "ad16a495aa2f407e8187f717c509908f2a3e024ffcee8c26785e04048f61158d",
+        "source_url": "https://pixeldrain.dev/api/file/8GdJ6uQg",
+        "timestamp_seconds": 900,
+        "transform": "scale=640:-2",
+        "reviewed_on": "2026-11-15",
+        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+        "width": 640,
+        "height": 360,
+        "format": "JPEG",
+        "sha256": "06087d399be140376b72020e77163a873585e731600b272bf9e53fbfcfbf036c",
+        "dhash": "a373e3d9cdc8f266",
+        "mean_luma": 155.118,
+        "stddev_luma": 60.565
+      },
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "Q5RqeqED",
+      "source_filename": "[Muhn Pace] Dressrosa 32.mp4",
+      "source_sha256": "4fd60eca75e9548b0ceba2050986b353cbd5e442d4d86eac060d5925be6d5b5a",
+      "edit_number": 32,
+      "reviewed_on": "2026-11-15",
+      "display_title": "Law’s White Town",
+      "title_kind": "EDITORIAL",
+      "synopsis": "Law’s childhood in Flevance reveals the suffering caused by White Lead disease. His arrival among the Donquixote family brings him into conflict with Corazon.",
+      "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
+      "mapping_status": "SCENE_CONFIRMED",
+      "candidate_original_episodes": [
+        701,
+        702
+      ],
+      "scene_confirmed_episodes": [
+        701
+      ],
+      "coverage_qualification": "Scene confirmation does not establish the complete edit range. One Pace candidate coverage may be partial or reordered; exact Muhn Pace boundaries remain unverified.",
+      "one_pace_reference": {
+        "title": "White Town",
+        "original_title": "",
+        "original_episode_label": "701-702",
+        "crc32": "E98F852E",
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/descriptions.json"
+      },
+      "conflicting_or_secondary_reference": {
+        "candidate": "E701-E702",
+        "source_url": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/episodes-reference.json",
+        "qualification": "Not bound to this file; not used to assert full Muhn Pace coverage."
+      },
+      "scene_evidence": [
+        {
+          "timestamp_seconds": 160,
+          "observation": "Young Law at the Donquixote family table.",
+          "source_url": "https://pixeldrain.dev/api/file/Q5RqeqED"
+        },
+        {
+          "timestamp_seconds": 300,
+          "observation": "Young Law and Baby 5.",
+          "source_url": "https://pixeldrain.dev/api/file/Q5RqeqED"
+        },
+        {
+          "timestamp_seconds": 360,
+          "observation": "Flevance, the White Town.",
+          "source_url": "https://pixeldrain.dev/api/file/Q5RqeqED"
+        },
+        {
+          "timestamp_seconds": 690,
+          "observation": "Young Law during the childhood flashback.",
+          "source_url": "https://pixeldrain.dev/api/file/Q5RqeqED"
+        },
+        {
+          "timestamp_seconds": 900,
+          "observation": "Corazon beside the town ruins.",
+          "source_url": "https://pixeldrain.dev/api/file/Q5RqeqED"
+        }
+      ],
+      "thumbnail": {
+        "file": "assets/phase4a/dressrosa/edit-32.jpg",
+        "role": "episode_thumbnail",
+        "collection_id": "f8HTXmAk",
+        "file_id": "Q5RqeqED",
+        "edit_number": 32,
+        "source_filename": "[Muhn Pace] Dressrosa 32.mp4",
+        "media_sha256_reported": "4fd60eca75e9548b0ceba2050986b353cbd5e442d4d86eac060d5925be6d5b5a",
+        "source_url": "https://pixeldrain.dev/api/file/Q5RqeqED",
+        "timestamp_seconds": 300,
+        "transform": "scale=640:-2",
+        "reviewed_on": "2026-11-15",
+        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+        "width": 640,
+        "height": 360,
+        "format": "JPEG",
+        "sha256": "3e71dcdfb4d128ac576fdb962c92d46de8cbadade035b65ebd5b29f41481881b",
+        "dhash": "c898286caccccd98",
+        "mean_luma": 118.23,
+        "stddev_luma": 53.041
+      },
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5.",
+      "scene_mapping_evidence": [
+        {
+          "source": "User Fire TV observation in this task",
+          "observation": "Dressrosa S1:E32 showed young Law and discussion of White Lead disease."
+        },
+        {
+          "source_url": "https://www.crunchyroll.com/watch/G6ZX4ENXR/sad-memories-law-the-boy-from-the-white-town",
+          "observation": "Indexed official episode 701 guide identifies the Flevance / Law childhood story."
+        },
+        {
+          "source_url": "https://onepiece.fandom.com/wiki/Episode_701",
+          "observation": "Indexed detailed guide places the White/Amber Lead Syndrome discussion in original episode 701; independent secondary corroboration."
+        }
+      ]
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "h795H5E2",
+      "source_filename": "[Muhn Pace] Dressrosa 33.mp4",
+      "source_sha256": "24f30af377b81cf708273696defb41307a25d2c0e18522c6c16c28384e6b1e4b",
+      "edit_number": 33,
+      "reviewed_on": "2026-11-15",
+      "display_title": "Corazon’s Search",
+      "title_kind": "EDITORIAL",
+      "synopsis": "Corazon takes the ailing Law on a journey in search of treatment, despite the hostility they encounter along the way.",
+      "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
+      "mapping_status": "PROBABLE",
+      "candidate_original_episodes": [
+        703,
+        704
+      ],
+      "scene_confirmed_episodes": [],
+      "coverage_qualification": "Scene confirmation does not establish the complete edit range. One Pace candidate coverage may be partial or reordered; exact Muhn Pace boundaries remain unverified.",
+      "one_pace_reference": {
+        "title": "The Island of Fate: Minion",
+        "original_title": "",
+        "original_episode_label": "703-704",
+        "crc32": "53AEB13C",
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/descriptions.json"
+      },
+      "conflicting_or_secondary_reference": {
+        "candidate": "E703-E704",
+        "source_url": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/episodes-reference.json",
+        "qualification": "Not bound to this file; not used to assert full Muhn Pace coverage."
+      },
+      "scene_evidence": [
+        {
+          "timestamp_seconds": 360,
+          "observation": "Corazon sitting with young Law in a town alley.",
+          "source_url": "https://pixeldrain.dev/api/file/h795H5E2"
+        },
+        {
+          "timestamp_seconds": 900,
+          "observation": "Young Law travelling with Corazon at night.",
+          "source_url": "https://pixeldrain.dev/api/file/h795H5E2"
+        }
+      ],
+      "thumbnail": {
+        "file": "assets/phase4a/dressrosa/edit-33.jpg",
+        "role": "episode_thumbnail",
+        "collection_id": "f8HTXmAk",
+        "file_id": "h795H5E2",
+        "edit_number": 33,
+        "source_filename": "[Muhn Pace] Dressrosa 33.mp4",
+        "media_sha256_reported": "24f30af377b81cf708273696defb41307a25d2c0e18522c6c16c28384e6b1e4b",
+        "source_url": "https://pixeldrain.dev/api/file/h795H5E2",
+        "timestamp_seconds": 360,
+        "transform": "scale=640:-2",
+        "reviewed_on": "2026-11-15",
+        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+        "width": 640,
+        "height": 360,
+        "format": "JPEG",
+        "sha256": "9cec0116f90e1ebc11f54e67e9ded2657ba87b8bdde7506ea25fc0092df925ce",
+        "dhash": "7173733333333333",
+        "mean_luma": 90.995,
+        "stddev_luma": 51.676
+      },
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "xxL4CmKQ",
+      "source_filename": "[Muhn Pace] Dressrosa 34.mp4",
+      "source_sha256": "e0b6db94b43556b5cb9470cb4b43c819a4ea0351b98ead7f4f8e59c42c0a60c0",
+      "edit_number": 34,
+      "reviewed_on": "2026-11-15",
+      "display_title": "Keeping Law Safe",
+      "title_kind": "EDITORIAL",
+      "synopsis": "On snowy Minion Island, an injured Corazon tries to keep Law safe as Doflamingo’s family closes in.",
+      "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
+      "mapping_status": "PROBABLE",
+      "candidate_original_episodes": [
+        705,
+        706
+      ],
+      "scene_confirmed_episodes": [],
+      "coverage_qualification": "Scene confirmation does not establish the complete edit range. One Pace candidate coverage may be partial or reordered; exact Muhn Pace boundaries remain unverified.",
+      "one_pace_reference": {
+        "title": "Cora",
+        "original_title": "Cora-san",
+        "original_episode_label": "705-706",
+        "crc32": "0CA47011",
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/descriptions.json"
+      },
+      "conflicting_or_secondary_reference": {
+        "candidate": "E705-E707",
+        "source_url": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/episodes-reference.json",
+        "qualification": "Not bound to this file; not used to assert full Muhn Pace coverage."
+      },
+      "scene_evidence": [
+        {
+          "timestamp_seconds": 360,
+          "observation": "Injured Corazon on the snow with Law nearby.",
+          "source_url": "https://pixeldrain.dev/api/file/xxL4CmKQ"
+        },
+        {
+          "timestamp_seconds": 900,
+          "observation": "Corazon in the snowy confrontation.",
+          "source_url": "https://pixeldrain.dev/api/file/xxL4CmKQ"
+        }
+      ],
+      "thumbnail": {
+        "file": "assets/phase4a/dressrosa/edit-34.jpg",
+        "role": "episode_thumbnail",
+        "collection_id": "f8HTXmAk",
+        "file_id": "xxL4CmKQ",
+        "edit_number": 34,
+        "source_filename": "[Muhn Pace] Dressrosa 34.mp4",
+        "media_sha256_reported": "e0b6db94b43556b5cb9470cb4b43c819a4ea0351b98ead7f4f8e59c42c0a60c0",
+        "source_url": "https://pixeldrain.dev/api/file/xxL4CmKQ",
+        "timestamp_seconds": 360,
+        "transform": "scale=640:-2",
+        "reviewed_on": "2026-11-15",
+        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+        "width": 640,
+        "height": 360,
+        "format": "JPEG",
+        "sha256": "2753352d9d5965ba35097685d06be6da45b3d7988db96ad23fee10bcfeb41905",
+        "dhash": "d992c7e62638a49c",
+        "mean_luma": 129.899,
+        "stddev_luma": 38.497
+      },
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "vSkNFYho",
+      "source_filename": "[Muhn Pace] Dressrosa 35.mp4",
+      "source_sha256": "72586ff79a2e59673989f6f5e14363007bd5ee21393c469343a5e1925161d6c6",
+      "edit_number": 35,
+      "reviewed_on": "2026-11-15",
+      "display_title": "Bellamy’s Choice",
+      "title_kind": "EDITORIAL",
+      "synopsis": "Luffy struggles to reach Bellamy while Law confronts Doflamingo. Bellamy’s loyalty puts him at odds with the person trying to help him.",
+      "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
+      "mapping_status": "PROBABLE",
+      "candidate_original_episodes": [
+        707,
+        708,
+        709,
+        710,
+        711
+      ],
+      "scene_confirmed_episodes": [],
+      "coverage_qualification": "Scene confirmation does not establish the complete edit range. One Pace candidate coverage may be partial or reordered; exact Muhn Pace boundaries remain unverified.",
+      "one_pace_reference": {
+        "title": "Bellamy the Pirate",
+        "original_title": "",
+        "original_episode_label": "707-711",
+        "crc32": "1B5DC33C",
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/descriptions.json"
+      },
+      "conflicting_or_secondary_reference": {
+        "candidate": "E708-E710",
+        "source_url": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/episodes-reference.json",
+        "qualification": "Not bound to this file; not used to assert full Muhn Pace coverage."
+      },
+      "scene_evidence": [
+        {
+          "timestamp_seconds": 900,
+          "observation": "Doflamingo in the present-day palace confrontation.",
+          "source_url": "https://pixeldrain.dev/api/file/vSkNFYho"
+        },
+        {
+          "timestamp_seconds": 1300,
+          "observation": "Bellamy in a recalled encounter.",
+          "source_url": "https://pixeldrain.dev/api/file/vSkNFYho"
+        }
+      ],
+      "thumbnail": {
+        "file": "assets/phase4a/dressrosa/edit-35.jpg",
+        "role": "episode_thumbnail",
+        "collection_id": "f8HTXmAk",
+        "file_id": "vSkNFYho",
+        "edit_number": 35,
+        "source_filename": "[Muhn Pace] Dressrosa 35.mp4",
+        "media_sha256_reported": "72586ff79a2e59673989f6f5e14363007bd5ee21393c469343a5e1925161d6c6",
+        "source_url": "https://pixeldrain.dev/api/file/vSkNFYho",
+        "timestamp_seconds": 1300,
+        "transform": "scale=640:-2",
+        "reviewed_on": "2026-11-15",
+        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+        "width": 640,
+        "height": 360,
+        "format": "JPEG",
+        "sha256": "0b10e8b2aecce494b47f0a07b2e6c39a40e660ec677d428140d227440f194e43",
+        "dhash": "f2e2c1c929297139",
+        "mean_luma": 116.526,
+        "stddev_luma": 61.509
+      },
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "U642iqmh",
+      "source_filename": "[Muhn Pace] Dressrosa 36.mp4",
+      "source_sha256": "03439d66fc577f8d5ad23671789b5c8c8a2c50cb585eb38f87db970f91e02935",
+      "edit_number": 36,
+      "reviewed_on": "2026-11-15",
+      "display_title": "Hajrudin and Sai",
+      "title_kind": "EDITORIAL",
+      "synopsis": "Hajrudin and Sai confront Doflamingo’s officers as the battle spreads across the palace grounds.",
+      "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
+      "mapping_status": "PROBABLE",
+      "candidate_original_episodes": [
+        708,
+        709,
+        710,
+        711
+      ],
+      "scene_confirmed_episodes": [],
+      "coverage_qualification": "Scene confirmation does not establish the complete edit range. One Pace candidate coverage may be partial or reordered; exact Muhn Pace boundaries remain unverified.",
+      "one_pace_reference": {
+        "title": "The Spear of Elbaph and Don Sai",
+        "original_title": "The Spear of Elbaf and Don Sai",
+        "original_episode_label": "708-711",
+        "crc32": "F218F0E4",
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/descriptions.json"
+      },
+      "conflicting_or_secondary_reference": {
+        "candidate": "E711-E713",
+        "source_url": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/episodes-reference.json",
+        "qualification": "Not bound to this file; not used to assert full Muhn Pace coverage."
+      },
+      "scene_evidence": [
+        {
+          "timestamp_seconds": 900,
+          "observation": "Chinjao with the fighting groups behind him.",
+          "source_url": "https://pixeldrain.dev/api/file/U642iqmh"
+        },
+        {
+          "timestamp_seconds": 1200,
+          "observation": "Sai in combat.",
+          "source_url": "https://pixeldrain.dev/api/file/U642iqmh"
+        }
+      ],
+      "thumbnail": {
+        "file": "assets/phase4a/dressrosa/edit-36.jpg",
+        "role": "episode_thumbnail",
+        "collection_id": "f8HTXmAk",
+        "file_id": "U642iqmh",
+        "edit_number": 36,
+        "source_filename": "[Muhn Pace] Dressrosa 36.mp4",
+        "media_sha256_reported": "03439d66fc577f8d5ad23671789b5c8c8a2c50cb585eb38f87db970f91e02935",
+        "source_url": "https://pixeldrain.dev/api/file/U642iqmh",
+        "timestamp_seconds": 1200,
+        "transform": "scale=640:-2",
+        "reviewed_on": "2026-11-15",
+        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+        "width": 640,
+        "height": 360,
+        "format": "JPEG",
+        "sha256": "7a6e9138cc014fb0406cfcc332be62a0121b20598fec6f594830e38a9d191e44",
+        "dhash": "6e56363219093929",
+        "mean_luma": 119.405,
+        "stddev_luma": 57.468
+      },
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "TPncrp8t",
+      "source_filename": "[Muhn Pace] Dressrosa 37.mp4",
+      "source_sha256": "6bd70a4ba2c39e5c99e1c3090dcc555df2b99f3b006fddad5aa5c25e14a457f9",
+      "edit_number": 37,
+      "reviewed_on": "2026-11-15",
+      "display_title": "Bartolomeo’s Stand",
+      "title_kind": "EDITORIAL",
+      "synopsis": "Bartolomeo and Cavendish face Gladius while trying to protect their allies near the palace. Robin is caught in the dangerous struggle.",
+      "synopsis_basis": "Self-authored from exact-file scene inspection and corresponding One Pace story reference; sparse scene review, not a complete viewing or boundary audit.",
+      "mapping_status": "PROBABLE",
+      "candidate_original_episodes": [
+        711,
+        712,
+        713
+      ],
+      "scene_confirmed_episodes": [],
+      "coverage_qualification": "Scene confirmation does not establish the complete edit range. One Pace candidate coverage may be partial or reordered; exact Muhn Pace boundaries remain unverified.",
+      "one_pace_reference": {
+        "title": "Cabbage and Lomeo",
+        "original_title": "",
+        "original_episode_label": "711-713",
+        "crc32": "777A9A6A",
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/descriptions.json"
+      },
+      "conflicting_or_secondary_reference": {
+        "candidate": "E714-E716",
+        "source_url": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/7b91a41b3b718e300d9320e5d2c9b45b87ba2321/episodes-reference.json",
+        "qualification": "Not bound to this file; not used to assert full Muhn Pace coverage."
+      },
+      "scene_evidence": [
+        {
+          "timestamp_seconds": 360,
+          "observation": "Gladius during the palace battle.",
+          "source_url": "https://pixeldrain.dev/api/file/TPncrp8t"
+        },
+        {
+          "timestamp_seconds": 1200,
+          "observation": "Cavendish and Robin beside the cliff.",
+          "source_url": "https://pixeldrain.dev/api/file/TPncrp8t"
+        },
+        {
+          "timestamp_seconds": 1450,
+          "observation": "Bartolomeo enduring an attack.",
+          "source_url": "https://pixeldrain.dev/api/file/TPncrp8t"
+        }
+      ],
+      "thumbnail": {
+        "file": "assets/phase4a/dressrosa/edit-37.jpg",
+        "role": "episode_thumbnail",
+        "collection_id": "f8HTXmAk",
+        "file_id": "TPncrp8t",
+        "edit_number": 37,
+        "source_filename": "[Muhn Pace] Dressrosa 37.mp4",
+        "media_sha256_reported": "6bd70a4ba2c39e5c99e1c3090dcc555df2b99f3b006fddad5aa5c25e14a457f9",
+        "source_url": "https://pixeldrain.dev/api/file/TPncrp8t",
+        "timestamp_seconds": 1200,
+        "transform": "scale=640:-2",
+        "reviewed_on": "2026-11-15",
+        "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+        "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+        "width": 640,
+        "height": 360,
+        "format": "JPEG",
+        "sha256": "aaa255a6a294eb6fdf93082af5ae65b1822e3caf2d154be010412841661ba1f9",
+        "dhash": "c0d0e484a4a43010",
+        "mean_luma": 148.227,
+        "stddev_luma": 40.502
+      },
+      "rejected_thumbnail_reason": "Repeated opening landscape: all eight samples were near-identical at dHash distance <=5."
+    }
+  ]
+}

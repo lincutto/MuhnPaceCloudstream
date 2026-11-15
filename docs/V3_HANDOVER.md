@@ -4,6 +4,12 @@ Updated: 2026-11-15 (UTC). Phase 1 is complete. Phase 2 is implemented with orig
 
 Phase 1 is complete, with unsupported original-episode mappings explicitly left unknown as requested. No extension was published.
 
+## Phase 4A recovery checkpoint — revised scope (2026-11-15)
+
+Recovered development HEAD `10fbf54` and the interrupted, uncommitted Dressrosa 30–37 research. Preserved eight exact-file interior stills, two portrait/background experiments, source-file identities, scene observations, original title references and image audit. The audit passes: eight distinct thumbnails, zero near-duplicate pairs (dHash distance <=5), replacing eight opening images with 28 near-duplicate pairs. Source access is not a copyright licence; see `assets/phase4a/README.md`.
+
+The user's revised scope is A1 (one series / sixteen seasons), A2 (eight Dressrosa samples with One Pace titles and qualified mappings), A3 (existing isolated preview update), then STOP. No B/C expansion. Skip-segment API investigation is secondary. This is a recovery/data checkpoint, **not a completed or published implementation**. The Kotlin work remains in progress. Production branches are unchanged.
+
 ## Pre-Phase 4 preview — milestone 2 complete (2026-11-15)
 
 - Milestone 1 source `4526260c8e78a3c7dac973a6a9c20c14b14193fd` was committed and pushed before publication. Development [run 43747049494](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43747049494), job `132912564557`, passed every step: Python checks, both Kotlin suites/builds, both package checks and separate artifact uploads. All three artifacts identify this source SHA and development branch.

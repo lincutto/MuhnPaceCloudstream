@@ -1,0 +1,452 @@
+{
+  "verified_on": "2026-11-15",
+  "images": [
+    {
+      "file": "assets/phase4a/dressrosa/edit-30.jpg",
+      "role": "episode_thumbnail",
+      "collection_id": "f8HTXmAk",
+      "file_id": "edkjkrVg",
+      "edit_number": 30,
+      "source_filename": "[Muhn Pace] Dressrosa 30.mp4",
+      "media_sha256_reported": "b2dbc2063477fbc85bf9c927bb269ad30443de0bb0263b2da5d96958827b52f3",
+      "source_url": "https://pixeldrain.dev/api/file/edkjkrVg",
+      "timestamp_seconds": 360,
+      "transform": "scale=640:-2",
+      "reviewed_on": "2026-11-15",
+      "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+      "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+      "width": 640,
+      "height": 360,
+      "format": "JPEG",
+      "sha256": "878eef390e905ecbd0bf191c3624b3fd59842ec86682ee4edaaea5a1d03812d7",
+      "dhash": "f3d171627236a686",
+      "mean_luma": 132.324,
+      "stddev_luma": 67.73
+    },
+    {
+      "file": "assets/phase4a/dressrosa/edit-31.jpg",
+      "role": "episode_thumbnail",
+      "collection_id": "f8HTXmAk",
+      "file_id": "8GdJ6uQg",
+      "edit_number": 31,
+      "source_filename": "[Muhn Pace] Dressrosa 31.mp4",
+      "media_sha256_reported": "ad16a495aa2f407e8187f717c509908f2a3e024ffcee8c26785e04048f61158d",
+      "source_url": "https://pixeldrain.dev/api/file/8GdJ6uQg",
+      "timestamp_seconds": 900,
+      "transform": "scale=640:-2",
+      "reviewed_on": "2026-11-15",
+      "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+      "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+      "width": 640,
+      "height": 360,
+      "format": "JPEG",
+      "sha256": "06087d399be140376b72020e77163a873585e731600b272bf9e53fbfcfbf036c",
+      "dhash": "a373e3d9cdc8f266",
+      "mean_luma": 155.118,
+      "stddev_luma": 60.565
+    },
+    {
+      "file": "assets/phase4a/dressrosa/edit-32.jpg",
+      "role": "episode_thumbnail",
+      "collection_id": "f8HTXmAk",
+      "file_id": "Q5RqeqED",
+      "edit_number": 32,
+      "source_filename": "[Muhn Pace] Dressrosa 32.mp4",
+      "media_sha256_reported": "4fd60eca75e9548b0ceba2050986b353cbd5e442d4d86eac060d5925be6d5b5a",
+      "source_url": "https://pixeldrain.dev/api/file/Q5RqeqED",
+      "timestamp_seconds": 300,
+      "transform": "scale=640:-2",
+      "reviewed_on": "2026-11-15",
+      "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+      "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+      "width": 640,
+      "height": 360,
+      "format": "JPEG",
+      "sha256": "3e71dcdfb4d128ac576fdb962c92d46de8cbadade035b65ebd5b29f41481881b",
+      "dhash": "c898286caccccd98",
+      "mean_luma": 118.23,
+      "stddev_luma": 53.041
+    },
+    {
+      "file": "assets/phase4a/dressrosa/edit-33.jpg",
+      "role": "episode_thumbnail",
+      "collection_id": "f8HTXmAk",
+      "file_id": "h795H5E2",
+      "edit_number": 33,
+      "source_filename": "[Muhn Pace] Dressrosa 33.mp4",
+      "media_sha256_reported": "24f30af377b81cf708273696defb41307a25d2c0e18522c6c16c28384e6b1e4b",
+      "source_url": "https://pixeldrain.dev/api/file/h795H5E2",
+      "timestamp_seconds": 360,
+      "transform": "scale=640:-2",
+      "reviewed_on": "2026-11-15",
+      "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+      "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+      "width": 640,
+      "height": 360,
+      "format": "JPEG",
+      "sha256": "9cec0116f90e1ebc11f54e67e9ded2657ba87b8bdde7506ea25fc0092df925ce",
+      "dhash": "7173733333333333",
+      "mean_luma": 90.995,
+      "stddev_luma": 51.676
+    },
+    {
+      "file": "assets/phase4a/dressrosa/edit-34.jpg",
+      "role": "episode_thumbnail",
+      "collection_id": "f8HTXmAk",
+      "file_id": "xxL4CmKQ",
+      "edit_number": 34,
+      "source_filename": "[Muhn Pace] Dressrosa 34.mp4",
+      "media_sha256_reported": "e0b6db94b43556b5cb9470cb4b43c819a4ea0351b98ead7f4f8e59c42c0a60c0",
+      "source_url": "https://pixeldrain.dev/api/file/xxL4CmKQ",
+      "timestamp_seconds": 360,
+      "transform": "scale=640:-2",
+      "reviewed_on": "2026-11-15",
+      "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+      "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+      "width": 640,
+      "height": 360,
+      "format": "JPEG",
+      "sha256": "2753352d9d5965ba35097685d06be6da45b3d7988db96ad23fee10bcfeb41905",
+      "dhash": "d992c7e62638a49c",
+      "mean_luma": 129.899,
+      "stddev_luma": 38.497
+    },
+    {
+      "file": "assets/phase4a/dressrosa/edit-35.jpg",
+      "role": "episode_thumbnail",
+      "collection_id": "f8HTXmAk",
+      "file_id": "vSkNFYho",
+      "edit_number": 35,
+      "source_filename": "[Muhn Pace] Dressrosa 35.mp4",
+      "media_sha256_reported": "72586ff79a2e59673989f6f5e14363007bd5ee21393c469343a5e1925161d6c6",
+      "source_url": "https://pixeldrain.dev/api/file/vSkNFYho",
+      "timestamp_seconds": 1300,
+      "transform": "scale=640:-2",
+      "reviewed_on": "2026-11-15",
+      "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+      "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+      "width": 640,
+      "height": 360,
+      "format": "JPEG",
+      "sha256": "0b10e8b2aecce494b47f0a07b2e6c39a40e660ec677d428140d227440f194e43",
+      "dhash": "f2e2c1c929297139",
+      "mean_luma": 116.526,
+      "stddev_luma": 61.509
+    },
+    {
+      "file": "assets/phase4a/dressrosa/edit-36.jpg",
+      "role": "episode_thumbnail",
+      "collection_id": "f8HTXmAk",
+      "file_id": "U642iqmh",
+      "edit_number": 36,
+      "source_filename": "[Muhn Pace] Dressrosa 36.mp4",
+      "media_sha256_reported": "03439d66fc577f8d5ad23671789b5c8c8a2c50cb585eb38f87db970f91e02935",
+      "source_url": "https://pixeldrain.dev/api/file/U642iqmh",
+      "timestamp_seconds": 1200,
+      "transform": "scale=640:-2",
+      "reviewed_on": "2026-11-15",
+      "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+      "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+      "width": 640,
+      "height": 360,
+      "format": "JPEG",
+      "sha256": "7a6e9138cc014fb0406cfcc332be62a0121b20598fec6f594830e38a9d191e44",
+      "dhash": "6e56363219093929",
+      "mean_luma": 119.405,
+      "stddev_luma": 57.468
+    },
+    {
+      "file": "assets/phase4a/dressrosa/edit-37.jpg",
+      "role": "episode_thumbnail",
+      "collection_id": "f8HTXmAk",
+      "file_id": "TPncrp8t",
+      "edit_number": 37,
+      "source_filename": "[Muhn Pace] Dressrosa 37.mp4",
+      "media_sha256_reported": "6bd70a4ba2c39e5c99e1c3090dcc555df2b99f3b006fddad5aa5c25e14a457f9",
+      "source_url": "https://pixeldrain.dev/api/file/TPncrp8t",
+      "timestamp_seconds": 1200,
+      "transform": "scale=640:-2",
+      "reviewed_on": "2026-11-15",
+      "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+      "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+      "width": 640,
+      "height": 360,
+      "format": "JPEG",
+      "sha256": "aaa255a6a294eb6fdf93082af5ae65b1822e3caf2d154be010412841661ba1f9",
+      "dhash": "c0d0e484a4a43010",
+      "mean_luma": 148.227,
+      "stddev_luma": 40.502
+    },
+    {
+      "file": "assets/phase4a/dressrosa/poster.jpg",
+      "role": "arc_poster",
+      "collection_id": "f8HTXmAk",
+      "file_id": "8GdJ6uQg",
+      "edit_number": 31,
+      "source_filename": "[Muhn Pace] Dressrosa 31.mp4",
+      "media_sha256_reported": "ad16a495aa2f407e8187f717c509908f2a3e024ffcee8c26785e04048f61158d",
+      "source_url": "https://pixeldrain.dev/api/file/8GdJ6uQg",
+      "timestamp_seconds": 900,
+      "transform": "crop=720:1080:720:0,scale=600:900",
+      "reviewed_on": "2026-11-15",
+      "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+      "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+      "width": 600,
+      "height": 900,
+      "format": "JPEG",
+      "sha256": "78c4c0bb348559aaaffc6f39a8427fc357f361e39b9fcd4a695130c3e98218b2",
+      "dhash": "ccb4e4358767dc72",
+      "mean_luma": 184.478,
+      "stddev_luma": 52.614
+    },
+    {
+      "file": "assets/phase4a/dressrosa/background.jpg",
+      "role": "arc_background",
+      "collection_id": "f8HTXmAk",
+      "file_id": "edkjkrVg",
+      "edit_number": 30,
+      "source_filename": "[Muhn Pace] Dressrosa 30.mp4",
+      "media_sha256_reported": "b2dbc2063477fbc85bf9c927bb269ad30443de0bb0263b2da5d96958827b52f3",
+      "source_url": "https://pixeldrain.dev/api/file/edkjkrVg",
+      "timestamp_seconds": 360,
+      "transform": "scale=1280:720",
+      "reviewed_on": "2026-11-15",
+      "human_review": "Exact-file interior scene; no black frame, title/credit card or repeated opening landscape. Arc assets identify Dressrosa, not a separate episode.",
+      "usage_basis": "Limited noncommercial identification still; copyright retained; not a promotional-art licence. See assets/phase4a/README.md.",
+      "width": 1280,
+      "height": 720,
+      "format": "JPEG",
+      "sha256": "82410f15362f53fd1a2e65a3c67464a1c1c4bacca0a8afde31d147a75810700e",
+      "dhash": "f3d171627236a686",
+      "mean_luma": 132.142,
+      "stddev_luma": 68.076
+    }
+  ],
+  "original_thumbnail_audit": {
+    "source": "Pixeldrain exact-file thumbnail API, fetched 2026-11-15",
+    "records": [
+      {
+        "file": "Dressrosa 30",
+        "width": 256,
+        "height": 144,
+        "format": "PNG",
+        "sha256": "1c2678632af475ae253e6c4ab14fb8b0a70d8da1df0b490d9860d78f994fe104",
+        "dhash": "c8f8e8e8e871c630",
+        "mean_luma": 201.462,
+        "stddev_luma": 31.327
+      },
+      {
+        "file": "Dressrosa 31",
+        "width": 256,
+        "height": 144,
+        "format": "PNG",
+        "sha256": "1c2678632af475ae253e6c4ab14fb8b0a70d8da1df0b490d9860d78f994fe104",
+        "dhash": "c8f8e8e8e871c630",
+        "mean_luma": 201.462,
+        "stddev_luma": 31.327
+      },
+      {
+        "file": "Dressrosa 32",
+        "width": 256,
+        "height": 144,
+        "format": "PNG",
+        "sha256": "1c2678632af475ae253e6c4ab14fb8b0a70d8da1df0b490d9860d78f994fe104",
+        "dhash": "c8f8e8e8e871c630",
+        "mean_luma": 201.462,
+        "stddev_luma": 31.327
+      },
+      {
+        "file": "Dressrosa 33",
+        "width": 256,
+        "height": 144,
+        "format": "PNG",
+        "sha256": "c56d00b5f9f05c7d07b7823092ab783f75b5ccd7cb6174e8f128ca2d50272c59",
+        "dhash": "c8f8e8e8e8718630",
+        "mean_luma": 199.395,
+        "stddev_luma": 31.052
+      },
+      {
+        "file": "Dressrosa 34",
+        "width": 256,
+        "height": 144,
+        "format": "PNG",
+        "sha256": "c56d00b5f9f05c7d07b7823092ab783f75b5ccd7cb6174e8f128ca2d50272c59",
+        "dhash": "c8f8e8e8e8718630",
+        "mean_luma": 199.395,
+        "stddev_luma": 31.052
+      },
+      {
+        "file": "Dressrosa 35",
+        "width": 256,
+        "height": 144,
+        "format": "PNG",
+        "sha256": "c56d00b5f9f05c7d07b7823092ab783f75b5ccd7cb6174e8f128ca2d50272c59",
+        "dhash": "c8f8e8e8e8718630",
+        "mean_luma": 199.395,
+        "stddev_luma": 31.052
+      },
+      {
+        "file": "Dressrosa 36",
+        "width": 256,
+        "height": 144,
+        "format": "PNG",
+        "sha256": "c56d00b5f9f05c7d07b7823092ab783f75b5ccd7cb6174e8f128ca2d50272c59",
+        "dhash": "c8f8e8e8e8718630",
+        "mean_luma": 199.395,
+        "stddev_luma": 31.052
+      },
+      {
+        "file": "Dressrosa 37",
+        "width": 256,
+        "height": 144,
+        "format": "PNG",
+        "sha256": "c56d00b5f9f05c7d07b7823092ab783f75b5ccd7cb6174e8f128ca2d50272c59",
+        "dhash": "c8f8e8e8e8718630",
+        "mean_luma": 199.395,
+        "stddev_luma": 31.052
+      }
+    ],
+    "near_duplicate_pairs": [
+      {
+        "first": "Dressrosa 30",
+        "second": "Dressrosa 31",
+        "distance": 0
+      },
+      {
+        "first": "Dressrosa 30",
+        "second": "Dressrosa 32",
+        "distance": 0
+      },
+      {
+        "first": "Dressrosa 30",
+        "second": "Dressrosa 33",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 30",
+        "second": "Dressrosa 34",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 30",
+        "second": "Dressrosa 35",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 30",
+        "second": "Dressrosa 36",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 30",
+        "second": "Dressrosa 37",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 31",
+        "second": "Dressrosa 32",
+        "distance": 0
+      },
+      {
+        "first": "Dressrosa 31",
+        "second": "Dressrosa 33",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 31",
+        "second": "Dressrosa 34",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 31",
+        "second": "Dressrosa 35",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 31",
+        "second": "Dressrosa 36",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 31",
+        "second": "Dressrosa 37",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 32",
+        "second": "Dressrosa 33",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 32",
+        "second": "Dressrosa 34",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 32",
+        "second": "Dressrosa 35",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 32",
+        "second": "Dressrosa 36",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 32",
+        "second": "Dressrosa 37",
+        "distance": 1
+      },
+      {
+        "first": "Dressrosa 33",
+        "second": "Dressrosa 34",
+        "distance": 0
+      },
+      {
+        "first": "Dressrosa 33",
+        "second": "Dressrosa 35",
+        "distance": 0
+      },
+      {
+        "first": "Dressrosa 33",
+        "second": "Dressrosa 36",
+        "distance": 0
+      },
+      {
+        "first": "Dressrosa 33",
+        "second": "Dressrosa 37",
+        "distance": 0
+      },
+      {
+        "first": "Dressrosa 34",
+        "second": "Dressrosa 35",
+        "distance": 0
+      },
+      {
+        "first": "Dressrosa 34",
+        "second": "Dressrosa 36",
+        "distance": 0
+      },
+      {
+        "first": "Dressrosa 34",
+        "second": "Dressrosa 37",
+        "distance": 0
+      },
+      {
+        "first": "Dressrosa 35",
+        "second": "Dressrosa 36",
+        "distance": 0
+      },
+      {
+        "first": "Dressrosa 35",
+        "second": "Dressrosa 37",
+        "distance": 0
+      },
+      {
+        "first": "Dressrosa 36",
+        "second": "Dressrosa 37",
+        "distance": 0
+      }
+    ]
+  }
+}
