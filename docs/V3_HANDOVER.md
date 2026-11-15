@@ -20,7 +20,10 @@ Local validation passed:
 - **25 Kotlin/JUnit tests**, zero failures/errors/skips; **12 Python checks** passed.
 - `gradle :MuhnPace:testDebugUnitTest :MuhnPace:make --no-daemon --console=plain` succeeded, including Android Kotlin/test compilation and DEX/package generation (1m 48s).
 - Local assembly under `/tmp/muhnpace-title-package` passed the exact package assertions from `validate.yml`: ZIP/DEX, plugin identity, manifest version `2`, index size/hash and URLs. Package SHA-256: `66f880ea00d9506ffbf1157e5026b23644878d0afc471e879f379247a8864a25` (not a reproducible-build claim).
-- Development CI will run on the `codex/v3-overhaul` push; its result will be appended after verification. No workflow changes are needed. GitHub REST remains blocked by the proxy; public Actions pages are accessible.
+- Code/test commit: `73ed51ac3aadee0f7e58a80bccfc5cb03e0fefdc`, pushed only to `codex/v3-overhaul`.
+- Development-only [validation run 43663698313](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43663698313) **failed** in 49s. The [validate job](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43663698313/job/132658341449) reports exit code 1 in “Run Kotlin tests and build the Android Cloudstream extension”; no test reports or package artifacts were produced. The cause is **not established**, and remote validation must not be described as passing. Local validation above passed.
+- Detailed CI logs require sign-in on the public GitHub page; GitHub REST access is blocked by the proxy, and shared-browser inspection failed. No workflow or dependency changes were made without diagnostic evidence. This documentation push triggers another development validation run; check its result before release.
+- Remote `main` and `builds` were checked after the code push and remain at `8ade241e95405d91c0606bd3ea6080ac0709992a` and `cbe8d9dce96169da7ed12fefb8adc3787779bab3`, respectively.
 
 This correction does not publish the extension or change `main` or `builds`. Fire TV rendering, playback and persisted device history still require real-device verification; the compatibility claims here concern provider/API inputs.
 
