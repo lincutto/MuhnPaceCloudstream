@@ -2,6 +2,10 @@
 
 Updated: 2026-11-15 (UTC). Revised Phase 4A **A1 and A2 are implemented and locally validated**; A3 publication is pending the development CI result. One series, sixteen native seasons, 274 preserved file URLs, eight improved Dressrosa records. Stop after the isolated preview update for user feedback; do not start B/C, unrelated optimization or Phase 5.
 
+## Phase 4A validation follow-up
+
+Implementation `1b44ee34c98d966f4d0362e1ae81e045b5a56791` passed all local checks and both local repository/package validators. Development [run 43776844521](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43776844521) failed before Kotlin compilation: the new image audit imported Pillow, but `tests/requirements.txt` only installed PyYAML. Added the explicitly tested Pillow version as a **development test dependency**, with no extension/runtime dependency change. CI must succeed before preview publication.
+
 ## Phase 4A A1/A2 — locally validated
 
 - Recovered `10fbf54` and preserved unfinished work in checkpoint `fbac35fa64a652f7be13e44485f9ba42b4e5a3fa`, pushed to development. Full [architecture, mapping, artwork and source findings](PHASE4A_DRESSROSA.md).
