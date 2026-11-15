@@ -41,7 +41,9 @@ Implementation/test commit: `8af331037ba08840b3632c244c3291d603bff728`.
 - **12 Python checks** passed, including workflow publication guards and artwork consistency.
 - `gradle :MuhnPace:testDebugUnitTest :MuhnPace:make --no-daemon --console=plain` passed in 24s, including Android Kotlin/test compilation, DEX and `.cs3` generation.
 - Local package assembly at `/tmp/muhnpace-phase3-package` passed the exact assertions from `validate.yml`: ZIP integrity, DEX/provider/plugin classes, unchanged manifest version 2, index URLs, hash and size. SHA-256: `fcf0299a207d0946e094436bfaae2b499308dff4748bcb0cd981c211c57e3039` (not a reproducible-build guarantee).
-- Development CI results and final commits will be recorded after the development-branch push. No workflow change is required.
+- Research/API documentation commit: `d75fc577e95b9540e86efe5c67dcc91255d40d04`.
+- Development-only [validation run 43712404759](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43712404759) **succeeded** for that commit. The GitHub connector confirmed the successful `validate` job `132806631896`, every test/build/assembly/upload step, and the two artifacts `MuhnPace-tests-d75fc577e95b9540e86efe5c67dcc91255d40d04` and `MuhnPace-validation-d75fc577e95b9540e86efe5c67dcc91255d40d04`, with matching branch and commit. Job logs were accessible through the connector even though terminal REST access was blocked earlier. No Phase 3 test/build/CI failure or code workaround was needed.
+- `main` and `builds` were rechecked after the implementation/research push and remain at `8ade241e95405d91c0606bd3ea6080ac0709992a` and `cbe8d9dce96169da7ed12fefb8adc3787779bab3`. Workflows, dependencies, version 2 and the installation URL are unchanged. Only `codex/v3-overhaul` was pushed; CI artifacts are validation outputs, not a production release.
 
 No real Fire TV UI, media playback or persisted resume-position test occurred. API input compatibility is tested; device acceptance remains necessary. Existing SNAPSHOT dependencies can change upstream. No extension was published and no production URL changed. Stop after Phase 3; Phases 4 and 5 require separate authorization.
 
