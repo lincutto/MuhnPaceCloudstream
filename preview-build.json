@@ -1,6 +1,14 @@
 {
-  "source_commit": "4526260c8e78a3c7dac973a6a9c20c14b14193fd",
+  "source_commit": "578a7a0059bf44c874db3e01feb24f6ee7d128c7",
   "artifact_branch": "v3-preview",
-  "sha256": "437953f02bc059ab8f605a386876e94182a5b6d02473becbbd1f0bcca350be16",
-  "history": "Separate preview identities; no transfer promise."
+  "sha256": "196d3e5def1db58803a5bdf976bdc3169751fe4b06fc192417b69ac924bd84ce",
+  "history": "New unified-series progress is separate. Legacy preview arc routes and history inputs are retained. No history reset or migration.",
+  "validation_run": "https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43776953340",
+  "build_origin": "Locally validated Android package; development CI independently passed on this source commit",
+  "catalogue": {
+    "series": 1,
+    "seasons": 16,
+    "baseline_files": 274,
+    "researched_dressrosa_files": 8
+  }
 }
