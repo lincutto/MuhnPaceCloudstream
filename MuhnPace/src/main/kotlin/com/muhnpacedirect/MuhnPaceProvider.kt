@@ -22,7 +22,11 @@ class MuhnPaceProvider : MainAPI() {
     override val supportedTypes = setOf(TvType.TvSeries)
     override val hasMainPage = true
 
-    private data class Arc(val title: String, val listId: String)
+    private data class Arc(val title: String, val listId: String) {
+        // LoadResponse.name also supplies the player header and cached Continue Watching title.
+        // Keep the arc and edit brand there: the resume card does not carry Episode.name.
+        val displayTitle: String get() = "One Piece • ${title.replace(" • Episode ", " • Edit ")} (Muhn Pace)"
+    }
 
     // 16 collection links, in the same order as the community dub watch guide.
     // These IDs are links to collections, NOT to individual videos.
@@ -49,7 +53,7 @@ class MuhnPaceProvider : MainAPI() {
 
     private fun arcSearchResponse(arc: Arc): SearchResponse =
         newTvSeriesSearchResponse(
-            "Muhn Pace • ${arc.title} (Dub)",
+            arc.displayTitle,
             "$mainUrl/l/${arc.listId}",
             TvType.TvSeries,
         ) {
@@ -75,19 +79,27 @@ class MuhnPaceProvider : MainAPI() {
         fallbackPosterUrl: String? = null,
     ): List<Episode> =
         EpisodeCatalog.select(collectionId, arcTitle, files).map { metadata ->
-            val presented = metadata.withPresentation(arcTitle, fallbackPosterUrl)
-            val fileId = metadata.fileId
-            newEpisode("$mainUrl/api/file/$fileId") {
-                name = metadata.title
-                description = presented.description
-                posterUrl = presented.thumbnailUrl
-                episode = metadata.editNumber
-                season = 1
-            }
+            episodeFromMetadata(metadata, fallbackPosterUrl)
         }
 
+    internal fun episodeFromMetadata(metadata: EpisodeMetadata, fallbackPosterUrl: String? = null): Episode {
+        val presented = metadata.withPresentation(metadata.arcTitle, fallbackPosterUrl)
+        val fileId = metadata.fileId
+        return newEpisode("$mainUrl/api/file/$fileId") {
+            name = metadata.title
+            description = presented.description
+            posterUrl = presented.thumbnailUrl
+            episode = metadata.editNumber
+            season = 1
+        }
+    }
+
+    private fun arcForUrl(url: String): Arc? = arcs.firstOrNull {
+        url == "$mainUrl/l/${it.listId}" || url == "https://pixeldrain.com/l/${it.listId}"
+    }
+
     override suspend fun load(url: String): LoadResponse? {
-        val arc = arcs.firstOrNull { url == "$mainUrl/l/${it.listId}" || url == "https://pixeldrain.com/l/${it.listId}" } ?: return null
+        val arc = arcForUrl(url) ?: return null
         val response = app.get("$mainUrl/api/list/${arc.listId}")
         val result = try {
             JSONObject(response.text)
@@ -100,13 +112,19 @@ class MuhnPaceProvider : MainAPI() {
         val files = result.optJSONArray("files")
             ?: throw ErrorLoadingException("Pixeldrain returned no file listing")
 
+        return loadFromFiles(url, files)
+    }
+
+    /** The actual load-response builder, also exercised offline against the preserved catalogue. */
+    internal suspend fun loadFromFiles(url: String, files: JSONArray): TvSeriesLoadResponse? {
+        val arc = arcForUrl(url) ?: return null
         // Keep source edit numbers (including gaps) and sort numerically within this collection.
         val presentation = ArcPresentations.byCollection.getValue(arc.listId)
         val episodes = episodesFromFiles(arc.listId, arc.title, files, presentation.episodeFallback)
         if (episodes.isEmpty()) throw ErrorLoadingException("Pixeldrain has no matching English-dub episodes in this collection.")
 
         return newTvSeriesLoadResponse(
-            "Muhn Pace • ${arc.title} (English Dub)", url, TvType.TvSeries, episodes
+            arc.displayTitle, url, TvType.TvSeries, episodes
         ) {
             posterUrl = presentation.poster
             backgroundPosterUrl = presentation.background

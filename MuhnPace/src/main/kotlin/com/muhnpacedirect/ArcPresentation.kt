@@ -21,8 +21,10 @@ internal data class ArcPresentation(
             "Original One Piece arc: episodes ${it.label}. Individual edit mappings may be unverified."
         }
         return listOfNotNull(
+            // The TV pause overlay reads LoadResponse.plot, not Episode.description.
+            // Put numbering context first so it survives the host's five-line overview limit.
+            "$availability • English dub. Player numbers identify Muhn Pace edits.",
             synopsis,
-            "$availability • English dub. Numbers below identify Muhn Pace edits.",
             coverage,
         ).joinToString("\n\n")
     }

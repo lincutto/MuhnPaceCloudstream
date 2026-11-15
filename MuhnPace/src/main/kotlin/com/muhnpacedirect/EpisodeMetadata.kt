@@ -79,9 +79,9 @@ internal object EpisodeCatalog {
     private val whitespace = Regex("\\s+")
     private val videoExtensions = setOf("mp4", "mkv", "m4v", "webm", "mov", "avi")
 
-    // No verified file-to-anime mappings survived recovery. Keep unknowns null.
-    // Add entries only with evidence for the exact file/edit; see docs/V3_HANDOVER.md.
-    private val originalMappings: Map<String, OriginalEpisodeMapping> = emptyMap()
+    // Phase 3 research found no verified exact-file mappings. Keep unknowns null.
+    // Never import One Pace tables or trust arbitrary remote description/filename numbers.
+    private val originalMappings = EpisodeMappingRegistry(emptyList())
 
     fun select(collectionId: String, arcTitle: String, files: JSONArray): List<EpisodeMetadata> =
         (0 until files.length()).mapNotNull { index ->
@@ -128,7 +128,7 @@ internal object EpisodeCatalog {
             editNumber = number,
             arcTitle = arcTitle,
             edition = edition,
-            originalEpisodes = originalMappings[fileId],
+            originalEpisodes = originalMappings.find(collectionId, fileId, number, fileName),
             // Only use a thumbnail advertised for this exact file. Missing/foreign links
             // fall back to the arc artwork in the presentation layer.
             thumbnailUrl = file.optString("thumbnail_href")

@@ -56,7 +56,7 @@ class ArcArtworkTest {
             val collection = snapshot.getJSONObject(index)
             val id = collection.getString("id")
             assertEquals("https://pixeldrain.dev/l/$id", card.url)
-            assertEquals("Muhn Pace • ${collection.getString("arc_title")} (Dub)", card.name)
+            assertEquals("One Piece • ${collection.getString("arc_title").replace(" • Episode ", " • Edit ")} (Muhn Pace)", card.name)
             assertEquals("Muhn Pace Direct (English Dub)", card.apiName)
             assertEquals(ArcPresentations.byCollection.getValue(id).poster, card.posterUrl)
         }
