@@ -1,0 +1,21 @@
+[
+  {
+    "internalName": "MuhnPacePreview",
+    "name": "Muhn Pace v3 Preview",
+    "version": 1,
+    "apiVersion": 1,
+    "status": 3,
+    "description": "Isolated v3 visual preview; separate temporary watch history; no progress migration.",
+    "authors": [
+      "Independent prototype"
+    ],
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "language": "en",
+    "repositoryUrl": "https://github.com/lincutto/MuhnPaceCloudstream/tree/codex/v3-overhaul",
+    "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/MuhnPacePreview.cs3",
+    "fileSize": 27903,
+    "fileHash": "sha256-437953f02bc059ab8f605a386876e94182a5b6d02473becbbd1f0bcca350be16"
+  }
+]

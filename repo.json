@@ -1,0 +1,8 @@
+{
+  "name": "Muhn Pace v3 Preview",
+  "description": "Temporary Fire TV preview; production installation is separate.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/plugins.json"
+  ]
+}
