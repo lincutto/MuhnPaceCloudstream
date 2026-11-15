@@ -3,6 +3,7 @@
 **/build/
 local.properties
 published/
+published-preview/
 upstream/
 __pycache__/
 *.pyc

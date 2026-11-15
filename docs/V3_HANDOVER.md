@@ -4,6 +4,19 @@ Updated: 2026-11-15 (UTC). Phase 1 is complete. Phase 2 is implemented with orig
 
 Phase 1 is complete, with unsupported original-episode mappings explicitly left unknown as requested. No extension was published.
 
+## Pre-Phase 4 preview — milestone 1 (2026-11-15)
+
+Recovered and fetched a clean `codex/v3-overhaul` at `91a9bf94748c0642ad1fb785dfd5e2f947a65f2f`. The user authorized a separately installed visual preview, followed by isolated publication only after the build milestone is validated and pushed. Phase 4 remains blocked on their Fire TV feedback.
+
+- Inspected actual Cloudstream plugin paths, class loading, update matching, provider registration, uninstall and URL-derived history IDs. Both plugin identity **and catalogue/history routes** must differ. Details: [V3_PREVIEW.md](V3_PREVIEW.md).
+- Added opt-in `MuhnPacePreview` module (`-Ppreview=true`), namespace `com.muhnpacepreview`, plugin `MuhnPacePreviewPlugin`, provider **Muhn Pace v3 Preview**, file `MuhnPacePreview.cs3`, version 1. Preview catalogue routes use `/muhnpace-v3-preview/l/<id>`; cards/player/history carry `(Muhn Pace Preview)`. Production routes are rejected by the preview.
+- Preview sources are generated from current v3 source with checked identity substitutions; production Kotlin files, production workflow and packaging script are untouched. Pixeldrain playback URLs/callback, 16 collections, 274 selected edits, seasons/numbers, titles, descriptions, artwork and thumbnail fallback logic are preserved.
+- **35 Kotlin/JUnit tests passed** (32 existing plus 3 preview tests); **15 Python checks passed**. Tests register both real plugins, exercise actual Cloudstream builders and compare all baseline production/preview series and episode history keys, including legacy host cases. Android logging alone uses the test default stub; device storage/plugin loading is not simulated.
+- Android compilation, DEX and both `.cs3` builds passed. Preview package validation passed for manifest/version, relocated classes, absence of production classes, catalogue routes, index URLs, size and SHA-256. The first preview test compile used `MainPageData` where `MainPageRequest` was required; corrected. Registration initially hit the JVM Android Log stub; enabled the preview module's logging-compatible unit-test defaults, then all tests passed.
+- Live checks: all 16 lists expose all 274 baseline selected files and exact-file thumbnail references; all 32 artwork URLs returned HTTP 200 with matching PNG dimensions and SHA-256.
+- Development CI remains read-only and now validates/uploads preview files separately. Publication is pending milestone 1 CI success; no installation URL is advertised yet. Intended isolated artifact branch: `v3-preview`.
+- Preview history is separate and is not promised to transfer to the final release. No Fire TV visual, playback or persisted-resume testing occurred. No production history/settings are edited by the extension. `main` and `builds` remain at the previously recorded SHAs.
+
 ## Phase 3 delivery (2026-11-15)
 
 Recovered a clean `codex/v3-overhaul` at `d79c41798f1814b4de7c7f659e8c406fbcbeb530`. Terminal, Git fetch and repository access were verified before edits. A mid-task environment restart preserved the uncommitted changes, research and passing test reports; actual terminal execution rechecked them before resuming.

@@ -57,7 +57,7 @@ jobs:
           python3 -m unittest discover -s tests -v
 
       - name: Run Kotlin tests and build the Android Cloudstream extension
-        run: ./gradlew :MuhnPace:testDebugUnitTest :MuhnPace:make --no-daemon --stacktrace
+        run: ./gradlew -Ppreview=true :MuhnPace:testDebugUnitTest :MuhnPace:make :MuhnPacePreview:testDebugUnitTest :MuhnPacePreview:make --no-daemon --stacktrace
 
       - name: Upload Kotlin test reports
         if: always()
@@ -67,6 +67,8 @@ jobs:
           path: |
             MuhnPace/build/test-results/testDebugUnitTest/
             MuhnPace/build/reports/tests/testDebugUnitTest/
+            MuhnPacePreview/build/test-results/testDebugUnitTest/
+            MuhnPacePreview/build/reports/tests/testDebugUnitTest/
           if-no-files-found: warn
 
       - name: Assemble and validate the repository
@@ -101,5 +103,15 @@ jobs:
         with:
           name: MuhnPace-validation-${{ github.sha }}
           path: published/
+          if-no-files-found: error
+
+      - name: Assemble and validate the isolated preview
+        run: python3 scripts/assemble_preview.py --out published-preview --source-sha "$GITHUB_SHA"
+
+      - name: Upload isolated preview for review
+        uses: actions/upload-artifact@v7
+        with:
+          name: MuhnPacePreview-validation-${{ github.sha }}
+          path: published-preview/
           if-no-files-found: error
 
