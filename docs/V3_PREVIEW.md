@@ -1,6 +1,8 @@
 # v3 Fire TV preview
 
-Revised Phase 4A A1–A3 preview: **one series / sixteen native collection seasons**, with improved Dressrosa samples. Version **2** is locally validated; publication/CI status is recorded at the top of [V3_HANDOVER.md](V3_HANDOVER.md). No production release. An Actions artifact ZIP is not a Cloudstream repository.
+Revised Phase 4A A1–A3 preview: **one series / sixteen native collection seasons**, with improved Dressrosa samples. Version **2** is published and its exact repository/index/package URLs were verified anonymously on 2026-11-15. [Development CI passed](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43776953340); full [publication evidence](research/phase4a-preview-publication.json) and [handover](V3_HANDOVER.md) identify the build. No production release. An Actions artifact ZIP is not a Cloudstream repository.
+
+Published source: `578a7a0059bf44c874db3e01feb24f6ee7d128c7`; preview commit: `b3829bcc1eaecda75808e65fda7b7c360439e0b3`. Package SHA-256: `196d3e5def1db58803a5bdf976bdc3169751fe4b06fc192417b69ac924bd84ce` (45,376 bytes).
 
 ## Update the existing preview
 

@@ -1,0 +1,60 @@
+{
+  "verified_at": "2026-11-15T23:53:29.717161+00:00",
+  "source_commit": "578a7a0059bf44c874db3e01feb24f6ee7d128c7",
+  "preview_commit": "b3829bcc1eaecda75808e65fda7b7c360439e0b3",
+  "ci_url": "https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43776953340",
+  "checks": [
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/repo.json",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 262,
+      "sha256": "1ef7279adc2a309aa9904e0b10590af9e63a1b6fb6457c610156d6ef6d7c4da6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/plugins.json",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 683,
+      "sha256": "79677a219e827b1e947710aef95206f43c9f5dd07b5e3b4dc919daae6e67e0a9"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/MuhnPacePreview.cs3",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 45376,
+      "sha256": "196d3e5def1db58803a5bdf976bdc3169751fe4b06fc192417b69ac924bd84ce"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/preview-build.json",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 659,
+      "sha256": "53a9533a55aac78d0ff5c8f269b61810bd2b4f9b7ad7bbcf1e1514be9ef1342d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/repo.json",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 255,
+      "sha256": "a509f24cef7a758a73d36877c0df98089fe5aa0f777d0d42470b56b78d55f190"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/plugins.json",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 627,
+      "sha256": "2ade15e0d421ae1c8c3e1c41cb6583585953d943efea626a181bd95d3f33cfc0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/MuhnPace.cs3",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 13779,
+      "sha256": "ff5d2d8b6f42be88fef50fb041a6fbbcd1ad7a9763d94c88d4bd748c90e04f8c"
+    }
+  ],
+  "package_check": "ZIP, DEX, identities, version 2, URL chain, SHA-256 and size pass; bytes match validated local package",
+  "production": "All three production repository files match unchanged builds commit cbe8d9d",
+  "device_testing": "Not performed for this build"
+}
