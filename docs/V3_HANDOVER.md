@@ -1,8 +1,17 @@
 # MuhnPaceCloudstream v3 — handover
 
-Updated: 2026-11-15 (UTC). Phase 1 is complete. Phase 2 is implemented with original thematic artwork as the deliberate fallback for every collection. Phase 3 is implemented within the supported API, with zero verified original-episode mappings. Phases 4 and 5 have not begun. No extension or environment was published.
+Updated: 2026-11-15 (UTC). Phase 1 is complete. Phase 2 is implemented with original thematic artwork as the deliberate fallback for every collection. Phase 3 is implemented within the supported API, with zero verified original-episode mappings. Phases 4 and 5 have not begun. Only the isolated v3 visual preview is published; production remains unchanged.
 
 Phase 1 is complete, with unsupported original-episode mappings explicitly left unknown as requested. No extension was published.
+
+## Pre-Phase 4 preview — milestone 2 complete (2026-11-15)
+
+- Milestone 1 source `4526260c8e78a3c7dac973a6a9c20c14b14193fd` was committed and pushed before publication. Development [run 43747049494](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43747049494), job `132912564557`, passed every step: Python checks, both Kotlin suites/builds, both package checks and separate artifact uploads. All three artifacts identify this source SHA and development branch.
+- Published exactly four preview-only files to the new orphan branch **`v3-preview`**, commit **`6d28eb858bed6933ccfd6677f94d6c6395c5f7c6`**: `repo.json`, `plugins.json`, `MuhnPacePreview.cs3`, `preview-build.json`. No production artifact or workflow is present there.
+- Verified normal anonymous installation chain: `https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/repo.json` → preview `plugins.json` → preview `.cs3`, all HTTP 200. Downloaded bytes exactly match the locally validated build; manifest, DEX, isolated classes/routes, index hash and size passed again. Package SHA-256 **`437953f02bc059ab8f605a386876e94182a5b6d02473becbbd1f0bcca350be16`**, 27,903 bytes. Provenance identifies source `4526260`. CI independently passed on that source; its artifact ZIP download was blocked by HTTP 403, so publication uses the validated local package.
+- [Fire TV installation, testing and safe removal instructions](V3_PREVIEW.md) require no computer. Install **Muhn Pace v3 Preview** alongside **MuhnPace** and select the preview provider/cards. Preview progress is separate; no transfer promise, history reset or production uninstall.
+- The 35 Kotlin tests, 15 Python checks, Android/package checks and live 16-list/274-file/32-artwork checks passed as recorded below. No real Fire TV installation, playback, visual or persisted-resume test occurred. Await the user's visual feedback before Phase 4.
+- Production `main` (`8ade241e95405d91c0606bd3ea6080ac0709992a`), `builds` (`cbe8d9dce96169da7ed12fefb8adc3787779bab3`), `MuhnPace.cs3` and the production installation URL remain unchanged.
 
 ## Pre-Phase 4 preview — milestone 1 (2026-11-15)
 

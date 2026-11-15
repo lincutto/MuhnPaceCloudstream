@@ -1,7 +1,25 @@
 # v3 Fire TV preview
 
 This is a separate temporary installation for visual acceptance of Phases 1–3. Phase 4 has not begun.
-Milestone 1 prepares and validates the build; publication is a separate milestone. An Actions artifact ZIP is **not** an installable Cloudstream repository.
+Both milestones are complete: the source/build milestone was committed, pushed and passed development CI before the separate preview-only publication. An Actions artifact ZIP is **not** an installable Cloudstream repository.
+
+## Install on Fire TV
+
+Verified anonymously on 2026-11-15: this manifest, its plugin index and `.cs3` download all returned HTTP 200, and the downloaded package passed manifest/DEX/identity/hash/size checks.
+
+```text
+https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/repo.json
+```
+
+1. Leave the existing **MuhnPace** extension installed. Open **Cloudstream Beta → Settings → Extensions → Add repository**.
+2. Enter the URL above, with optional repository name **Muhn Pace v3 Preview**. You can use the iPhone Amazon Fire TV app's keyboard when the URL field is focused, if available, or enter it with the Fire TV remote. No computer or sideloaded APK is required.
+3. Open the **Muhn Pace v3 Preview** repository and install **Muhn Pace v3 Preview**. The production extension is still **MuhnPace**, with provider **Muhn Pace Direct (English Dub)**.
+4. Return to Home and select provider **Muhn Pace v3 Preview**. Its arc cards and loaded titles end in **(Muhn Pace Preview)**. Start testing from these cards, not an existing production Continue Watching card.
+5. Open arcs to inspect posters, backgrounds and descriptions. Focus episode rows and open the player's episode-selection list to inspect thumbnails, titles and descriptions where your Beta layout exposes them. Test remote focus, scrolling, Back and episode selection.
+6. Play a preview edit briefly, pause, and inspect the controls. If **Show Player Metadata Overlay** is enabled, wait about eight seconds without input for the separate paused overlay. Exit with Back, inspect the preview Continue Watching card, and reopen it to test resume. Confirm your original provider's saved progress still exists. No preview progress migration is promised.
+7. To remove it, open **Settings → Extensions**, uninstall **only Muhn Pace v3 Preview**, then remove **only its preview repository**. Keep **MuhnPace** and the production repository. Do not clear app data or reset history. Separate preview history cards may remain cached after uninstall.
+
+Published build: source `4526260c8e78a3c7dac973a6a9c20c14b14193fd`; [successful development CI](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43747049494); artifact branch commit `6d28eb858bed6933ccfd6677f94d6c6395c5f7c6`. Package SHA-256: `437953f02bc059ab8f605a386876e94182a5b6d02473becbbd1f0bcca350be16` (27,903 bytes). The published file is the validated local build of that source commit; CI independently validated the same source. Connector artifact download returned HTTP 403, so the CI ZIP was not used for publication.
 
 ## Isolation established from Cloudstream source
 
@@ -18,7 +36,7 @@ Inspected Cloudstream [5d66bbeaf3](https://github.com/recloudstream/cloudstream/
 | Kotlin/Android namespace | `com.muhnpacedirect` | `com.muhnpacepreview` |
 | Plugin class | `MuhnPacePlugin` | `MuhnPacePreviewPlugin` |
 | Provider class | `MuhnPaceProvider` | `MuhnPacePreviewProvider` |
-| Repository artifact branch | `builds` | `v3-preview` (separate publication milestone) |
+| Repository artifact branch | `builds` | `v3-preview` |
 | Version | 2 | 1, independent version track |
 | Collection URL / unique URL path | `/l/<collection>` | `/muhnpace-v3-preview/l/<collection>` |
 | Series/player/history display suffix | `(Muhn Pace)` in v3 development | `(Muhn Pace Preview)` |
