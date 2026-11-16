@@ -27,7 +27,7 @@ class MuhnPaceProvider : MainAPI() {
     private fun isSeriesUrl(url: String) = url == seriesUrl || url == "https://pixeldrain.com/muhnpace/one-piece"
     private fun arcDisplayTitle(arc: CatalogueArc) = "One Piece • ${arc.seasonTitle} (Muhn Pace)"
 
-    override val mainPage = mainPageOf("muhn" to "Muhn Pace • English dub")
+    override val mainPage = mainPageOf("muhn" to "One Piece • Muhn Pace (English dub)")
 
     private fun seriesSearchResponse(): SearchResponse =
         newTvSeriesSearchResponse(SeriesCatalogue.TITLE, seriesUrl, TvType.TvSeries) {

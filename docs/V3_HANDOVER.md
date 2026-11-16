@@ -1,5 +1,15 @@
 # MuhnPaceCloudstream v3 — handover
 
+## Additional visual refinements — development checkpoint (2026-11-16)
+
+The user has tested preview v3 and requested a modern crew portrait, a different widescreen crew background with space for text on the left, and the exact home row heading **One Piece • Muhn Pace (English dub)**. Include these refinements in the next validated preview release; **do not publish a separate intermediate preview for this request**.
+
+- The home row heading is implemented in the shared provider and isolated preview generator. Category keys (`muhn` / `muhn-preview`), provider/plugin/package identities, routes, installation URL, all 16 seasons and all 274 episode records remain unchanged.
+- Local validation: **24 Python checks and 48 Kotlin tests passed**, with both Android/DEX/`.cs3` packages built successfully. No new Fire TV test was performed.
+- **Artwork replacements remain pending source access and visual review.** Both current series images and their immutable commit pin remain unchanged. The active environment's enforced network allowlist still excludes `one-piece.com`, `www.themoviedb.org`, `image.tmdb.org` and `developer.themoviedb.org`; official-site/TMDB fetches returned HTTP 403. The user has been asked to apply the network-setting update. Do not treat the earlier offer to change settings as proof that it was applied, or claim image quality/rights/URLs have been verified.
+- A research lead is the [official Egghead key visual announcement](https://one-piece.com/news/64180/index.html). It is only a candidate: download and inspect the actual source before choosing it, verify dimensions and composition, and record attribution and rights limitations. Do not substitute another copy of the rejected older crew poster or red background.
+- Resume by selecting two suitable distinct images, using the existing artwork manifest/audit and immutable asset-commit pipeline, and verifying their exact published URLs. Preserve all episode thumbnails/metadata. No preview version bump or publication has been performed for this checkpoint; published v3 remains `1dcb77c446a763adcad74e01ac71403192243975`.
+
 ## Phase 4B — preview version 3 published and verified (2026-11-16)
 
 - Validated source **`ffc1f51d98916c1ac4fa60f6a67e27c2df0da738`**, isolated preview commit **`1dcb77c446a763adcad74e01ac71403192243975`**. All incremental source/artwork checkpoints are preserved in development history.
