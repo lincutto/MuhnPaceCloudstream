@@ -26,7 +26,7 @@ def validate(out):
     assert repo["pluginLists"] == [f"{BASE}/plugins.json"]
     assert entry["name"] == DISPLAY and entry["internalName"] == INTERNAL
     assert entry["url"] == f"{BASE}/{PACKAGE}"
-    assert entry["version"] == 2 and entry["apiVersion"] == 1 and entry["status"] == 3
+    assert entry["version"] == 3 and entry["apiVersion"] == 1 and entry["status"] == 3
     assert entry["fileHash"] == "sha256-" + digest
     assert entry["fileSize"] == package.stat().st_size
     assert proof["sha256"] == digest and proof["artifact_branch"] == BRANCH
@@ -63,7 +63,7 @@ def main():
         source = args.build_dir / PACKAGE
         shutil.copy2(source, args.out / PACKAGE)
         digest = hashlib.sha256(source.read_bytes()).hexdigest()
-        entry = dict(internalName=INTERNAL, name=DISPLAY, version=2, apiVersion=1, status=3,
+        entry = dict(internalName=INTERNAL, name=DISPLAY, version=3, apiVersion=1, status=3,
                      description="Isolated v3 visual preview; separate temporary watch history; no progress migration.",
                      authors=["Independent prototype"], tvTypes=["TvSeries"], language="en",
                      repositoryUrl=f"https://github.com/{REPO}/tree/codex/v3-overhaul",

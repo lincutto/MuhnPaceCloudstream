@@ -8,6 +8,30 @@ import org.junit.Assert.*
 import org.junit.Test
 
 class SeriesCatalogueTest {
+    @Test
+    fun `every preserved file has a story and exact image while late Wano retains unknown coverage`() = runBlocking {
+        val provider = MuhnPaceProvider()
+        val load = provider.seriesFromFiles(provider.seriesUrl, files())!!
+        assertEquals(274, EditResearchRegistry.entries.size)
+        assertEquals(249, EditResearchRegistry.entries.count { it.mappingStatus == MappingEvidence.ONE_PACE_DERIVED })
+        assertEquals(25, EditResearchRegistry.entries.count { it.mappingStatus == MappingEvidence.UNKNOWN })
+        assertEquals(274, load.episodes.map { it.posterUrl }.toSet().size)
+        for (ep in load.episodes) {
+            assertFalse(ep.name.isNullOrBlank())
+            assertTrue(ep.description!!.length in 35..500)
+            assertTrue(ep.posterUrl!!.endsWith("/${ep.data.substringAfterLast('/')}.jpg"))
+            assertFalse(ep.name!!.contains("unavailable"))
+            assertFalse(ep.description!!.contains("unverified"))
+            assertFalse(ep.description!!.contains("Muhn Pace"))
+        }
+        assertTrue(load.episodes.filter { it.season == 16 }.none { it.name!!.contains(" - ") })
+        assertEquals("The Astonishing Thousand Sunny and Usopp's Tearful Apology! - 323-324",
+            load.episodes.first { it.season == 2 }.name)
+        assertEquals("The Circling Bounties and The Duel on Banaro Island! - 324-325",
+            load.episodes.last { it.season == 2 }.name)
+        assertEquals("Gear Five", load.episodes.single { it.data.endsWith("/4TJqNjYd") }.name)
+    }
+
     private fun snapshot() = javaClass.getResourceAsStream("/catalogue-2026-11-14.json")!!
         .bufferedReader().use { JSONObject(it.readText()).getJSONArray("collections") }
     private fun files() = snapshot().let { rows -> (0 until rows.length()).associate {

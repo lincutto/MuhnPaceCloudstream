@@ -1,0 +1,857 @@
+{
+  "schema_version": 3,
+  "season": 16,
+  "reviewed_on": "2026-11-16",
+  "entries": [
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "8ZxdEP7k",
+      "source_filename": "[Muhn Pace] Wano 71.mp4",
+      "source_sha256": "48c7bee5473f4a91075ea82a6a444f7382499fa6328ec209a658eae723d02006",
+      "edit_number": 71,
+      "season": 16,
+      "display_title": "Robin and Her Friends",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Robin's memories turn to the companions who gave her a place to belong. Their bonds remain important as the raid on Onigashima continues.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/8ZxdEP7k",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/8ZxdEP7k",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "The sampled interior image shows Robin in tears; the earlier sequence revisits the crew and Sunny. Avoid asserting the complete boundaries of her battle.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/8ZxdEP7k.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "MabM9jgS",
+      "source_filename": "[Muhn Pace] Wano 72.mp4",
+      "source_sha256": "ac80ce413fe9c7ee2efa974a1e4e866322b3590be9529f7d979cbfb594f9490d",
+      "edit_number": 72,
+      "season": 16,
+      "display_title": "Nami and Zeus",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Zeus appears within Nami's Clima-Tact as the alliance continues fighting on Onigashima.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/MabM9jgS",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/MabM9jgS",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Kaido at 180s; Zeus visibly inhabits the Clima-Tact at 360s; festival scene at 900s. The title describes the confirmed Nami/Zeus story thread, not every intercut scene.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/MabM9jgS.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "wDin5KAc",
+      "source_filename": "[Muhn Pace] Wano 73.mp4",
+      "source_sha256": "a74490ac1b8bf5410bdff22ea79f3cb0ce8c15ed864c6b2d2b1c37d334d583da",
+      "edit_number": 73,
+      "season": 16,
+      "display_title": "Raizo vs. Fukurokuju",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Raizo and Fukurokuju confront each other inside Onigashima. Their ninja rivalry becomes another front in the crowded battle.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/wDin5KAc",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/wDin5KAc",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Raizo and Fukurokuju are visible fighting in the exact-file-associated 180s capture; Queen appears in the separate 360s sample.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/wDin5KAc.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "ueUct7rV",
+      "source_filename": "[Muhn Pace] Wano 74.mp4",
+      "source_sha256": "cf8182c971b43640cd1e417d1b6f9d2d875f8b79f3abb6f612de03e0c9a5af6a",
+      "edit_number": 74,
+      "season": 16,
+      "display_title": "Zoro's Recovery",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Still heavily bandaged, Zoro waits for a chance to rejoin the fighting. His allies are under pressure as the battles continue around him.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/ueUct7rV",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/ueUct7rV",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Zoro is visibly wrapped in bandages at 180s. No claim that an entire One Pace release is equivalent.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/ueUct7rV.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "5XDkcz5p",
+      "source_filename": "[Muhn Pace] Wano 75.mp4",
+      "source_sha256": "30acb0052192bf851a2bba3ca27f13fa559821ffbaa2a20a4c2af7c64326eb34",
+      "edit_number": 75,
+      "season": 16,
+      "display_title": "Killer and the Mink Warriors",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Killer presses his battle while Carrot and Wanda remain caught up in the struggle elsewhere on Onigashima.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/5XDkcz5p",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/5XDkcz5p",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "180s shows Killer's distinctive mask, hair and blades; 360s shows Carrot with Wanda. These are separate sampled threads, not a claim they fight together.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/5XDkcz5p.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "3URLnqLu",
+      "source_filename": "[Muhn Pace] Wano 76.mp4",
+      "source_sha256": "a14d79b3dcefe1fb236f5c94ad36a86b37abb3f05f273c565489a18cca168caf",
+      "edit_number": 76,
+      "season": 16,
+      "display_title": "Sanji vs. Queen",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Sanji faces Queen as the fighting continues inside the castle. Neither opponent is ready to give up ground.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/3URLnqLu",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/3URLnqLu",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Sanji at 180s and Queen at 900s; no numbered anime coverage inferred from their opponents alone.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/3URLnqLu.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "E1qpBnXC",
+      "source_filename": "[Muhn Pace] Wano 77.mp4",
+      "source_sha256": "69c05bd57d061e8333f51b68b6cf2e094ebfea11466c74862d7af32592354d12",
+      "edit_number": 77,
+      "season": 16,
+      "display_title": "CP0's Watch",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "The masked agents of CP0 watch events unfold on Onigashima. Their presence adds another concern to the pirates' ongoing battles.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/E1qpBnXC",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/E1qpBnXC",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "CP0 agents shown together at 180s; later samples show the raid elsewhere. Does not assert their intervention has already occurred.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/E1qpBnXC.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "V4AHLxpp",
+      "source_filename": "[Muhn Pace] Wano 78.mp4",
+      "source_sha256": "50d6cb5530c2a237b2e11e463d70e279f9a395c0b5b651ae5f98b376f69c688b",
+      "edit_number": 78,
+      "season": 16,
+      "display_title": "Momonosuke and Kaido",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Momonosuke's pink dragon form meets Kaido's blue dragon above Onigashima.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/V4AHLxpp",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/V4AHLxpp",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Two distinct dragons visible together in exact-file capture at 540s; no offset to Onigashima Paced numbering is accepted.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/V4AHLxpp.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "BNUodwSU",
+      "source_filename": "[Muhn Pace] Wano 79.mp4",
+      "source_sha256": "cad2f66f86e30fdf30cd3a17348cbcf1df5d53fb70c9c45c311980ad53728834",
+      "edit_number": 79,
+      "season": 16,
+      "display_title": "Sanji's Struggle",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Sanji continues fighting despite his injuries. Tama and the other allies remain caught up in the battles inside the castle.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/BNUodwSU",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/BNUodwSU",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Injured Sanji at 180s, Tama at 540s, Killer at 900s; deliberately limited to directly visible threads.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/BNUodwSU.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "MkdiUcBG",
+      "source_filename": "[Muhn Pace] Wano 80.mp4",
+      "source_sha256": "dff6a50db0f56db28e9e395f710a916249fe17b3bceae7793f5fe426980e2d64",
+      "edit_number": 80,
+      "season": 16,
+      "display_title": "Big Mom's Fury",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Big Mom towers over the battlefield as the fighting inside Onigashima intensifies.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/MkdiUcBG",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/MkdiUcBG",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Exact selected regular file, not its alternate: Big Mom in 360s capture. No opponent-specific or full-range claim.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/MkdiUcBG.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "ewQEeJLF",
+      "source_filename": "[Muhn Pace] Wano 81.mp4",
+      "source_sha256": "17cb44a9e3c493e19192f335951b4b7f7506f16e9e1777913595b7eb6124c966",
+      "edit_number": 81,
+      "season": 16,
+      "display_title": "Zoro Faces King",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Zoro confronts the armored King amid the fires of Onigashima.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/ewQEeJLF",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/ewQEeJLF",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Exact-file 540s capture shows Zoro and King facing each other.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/ewQEeJLF.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "4QK6mpqK",
+      "source_filename": "[Muhn Pace] Wano 82.mp4",
+      "source_sha256": "6a1a017baaaca51b01d7ea26704abc536a5afe62646b12b69c2301e20b1074b5",
+      "edit_number": 82,
+      "season": 16,
+      "display_title": "Sanji's Resolve",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Sanji and Queen exchange powerful attacks as their fight continues through the castle.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/4QK6mpqK",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/4QK6mpqK",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Sanji in 360s scene, attack at 180s and the ongoing castle duel; no invented name for the attack or claim about full source coverage.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/4QK6mpqK.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "CeDwmA3X",
+      "source_filename": "[Muhn Pace] Wano 83.mp4",
+      "source_sha256": "ba1ac2ba69b4a66a951a4cbed5f3fa4c192d5db88ce40c5ad4433f2f0e8bb2c1",
+      "edit_number": 83,
+      "season": 16,
+      "display_title": "Luffy Meets Kaido's Challenge",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Luffy continues his confrontation with Kaido while fire spreads through Onigashima.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/CeDwmA3X",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/CeDwmA3X",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Luffy at 180s; castle fighters amid fire at 360s; sparse inspection, not a complete edit synopsis.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/CeDwmA3X.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "yhNgGNb2",
+      "source_filename": "[Muhn Pace] Wano 84.mp4",
+      "source_sha256": "0ed5b104a8b8971a9fadd81abdfed69289b69ee46b76cf538e183f0e418cf83f",
+      "edit_number": 84,
+      "season": 16,
+      "display_title": "CP0 Enters the Fray",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "A masked CP0 agent moves into the conflict, adding another danger to the fighting inside Onigashima.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/yhNgGNb2",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/yhNgGNb2",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Exact selected regular file shows the masked agent at 360s and combat imagery at 900s. No claim about which numbered anime episode contains the full sequence.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/yhNgGNb2.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "63Zouu8b",
+      "source_filename": "[Muhn Pace] Wano 85.mp4",
+      "source_sha256": "bf3dac717638cd0a121e5c845098ce6ea571c775ceaed58ddcdfa004500723c9",
+      "edit_number": 85,
+      "season": 16,
+      "display_title": "Momonosuke Above Onigashima",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Momonosuke remains aloft in dragon form as the battle threatens Wano below.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/63Zouu8b",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/63Zouu8b",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Momonosuke's pink dragon form at 180s; other raid threads in later samples. Full original coverage unknown.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/63Zouu8b.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "fQSATYeB",
+      "source_filename": "[Muhn Pace] Wano 86.mp4",
+      "source_sha256": "5d526b74c75c76eb4e63aca52e8efa0b26727ccac5b1027ad829c1db7257c436",
+      "edit_number": 86,
+      "season": 16,
+      "display_title": "Kaido's Rooftop Battle",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Kaido presses his attack above Onigashima. The clash continues to shape the fate of the island below.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/fQSATYeB",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/fQSATYeB",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Kaido in combat in exact-file samples at 360s and 900s; earlier Roger/Whitebeard memory remains supplementary, not a complete episode mapping.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/fQSATYeB.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "MGnqnhGi",
+      "source_filename": "[Muhn Pace] Wano 87.mp4",
+      "source_sha256": "9c90f6f3fa64383825f519078f27076779fc537b4a38d530f24ca1906a8e4178",
+      "edit_number": 87,
+      "season": 16,
+      "display_title": "Hiyori Confronts Orochi",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Hiyori confronts Orochi among the ruins while Kaido's battle continues above.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/MGnqnhGi",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/MGnqnhGi",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Exact selected regular file: Hiyori facing Orochi at 360s, dragon combat at 900s. Original addon image could belong to an alternate and is not used.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/MGnqnhGi.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "4TJqNjYd",
+      "source_filename": "[Muhn Pace] Wano 88.mp4",
+      "source_sha256": "c10a229107b3c4066c8a66d286d8ebb87c6f941693a9757b52745ae1f7610972",
+      "edit_number": 88,
+      "season": 16,
+      "display_title": "Gear Five",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Luffy takes on a startling new form as his fight with Kaido continues. Hiyori also faces the consequences of Orochi's rule.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/4TJqNjYd",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/4TJqNjYd",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Distinctive Gear Five Luffy in the uniquely indexed 180s capture; Hiyori at 360s. Naming the visible transformation does not establish every episode in the edit.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/4TJqNjYd.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "eVK8TkEP",
+      "source_filename": "[Muhn Pace] Wano 89.mp4",
+      "source_sha256": "16a991ac3f348a1bdb7e5317d470c32fd30c5e96d8105782841ab90991314597",
+      "edit_number": 89,
+      "season": 16,
+      "display_title": "Kaido's Flaming Dragon",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Kaido surrounds himself with flame as his confrontation with Luffy reaches a dangerous stage.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/eVK8TkEP",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/eVK8TkEP",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Flaming dragon form at 180s and transformed Luffy at 360s; full range not independently established.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/eVK8TkEP.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "PzEGt8uD",
+      "source_filename": "[Muhn Pace] Wano 90.mp4",
+      "source_sha256": "1439aaa385e663cfdfe6dba4a29c2c1d4774c444a85d633863e5858379f83716",
+      "edit_number": 90,
+      "season": 16,
+      "display_title": "Chopper and the Survivors",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Chopper and Nekomamushi face the consequences of the raid. The struggle has left Onigashima's allies battered.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/PzEGt8uD",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/PzEGt8uD",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Nekomamushi, not Orochi, in the 180s frame; injured Chopper at 360s. No unsupported exact outcome or original range added.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/PzEGt8uD.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "SGdkPUxo",
+      "source_filename": "[Muhn Pace] Wano 91.mp4",
+      "source_sha256": "66a69718ca65e3177531331caa6c0cd42088059ce1c679728beddc0c0b31d365",
+      "edit_number": 91,
+      "season": 16,
+      "display_title": "Reunions in Wano",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "The Straw Hats gather with their allies in Wano. Reunions and shared meals bring a welcome pause after the fighting.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/SGdkPUxo",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/SGdkPUxo",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Exact 360s group scene and 900s bathing/reunion scene; no full original coverage claim.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/SGdkPUxo.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "oWi7oUdE",
+      "source_filename": "[Muhn Pace] Wano 92.mp4",
+      "source_sha256": "7841220c36d84ae70bd227f1ad1bfc243b88db023bd76b8d0ede2990a8cfd67c",
+      "edit_number": 92,
+      "season": 16,
+      "display_title": "The Capital Celebrates",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Festival lights and celebrations fill the Flower Capital as the pirates look toward their next voyage.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/oWi7oUdE",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/oWi7oUdE",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Exact selected regular file: illuminated festival at 360s. No use of an ambiguous alternate-release thumbnail to assign the range.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/oWi7oUdE.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "BUkadAqi",
+      "source_filename": "[Muhn Pace] Wano 93.mp4",
+      "source_sha256": "a868330badbe2f839d1504daa3371df56664e6ed3c8f05db5c2faef4d3e2f67e",
+      "edit_number": 93,
+      "season": 16,
+      "display_title": "Ryokugyu in Wano",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Admiral Ryokugyu appears in Wano, bringing another threat while the samurai and pirates remain on the island.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/BUkadAqi",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/BUkadAqi",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Recognizable Ryokugyu at 180s, samurai/crew scenes later. A scene match cannot establish all original episodes used.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/BUkadAqi.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "6bRjHz7j",
+      "source_filename": "[Muhn Pace] Wano 94 - Filler.mp4",
+      "source_sha256": "222fb401b491c83e1470437dbbe4ca9cc99043c0e0c659da8c1a6f8ded7b0215",
+      "edit_number": 94,
+      "season": 16,
+      "display_title": "Friends Before Departure",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "Luffy and the crew spend time with their friends in Wano before setting sail.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/6bRjHz7j",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/6bRjHz7j",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "The selected file is the Filler edition. Shinobu appears at 180s, the crew gathers at 360s and Luffy appears at 900s. No fabricated One Pace counterpart.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/6bRjHz7j.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    },
+    {
+      "collection_id": "sF9stHJo",
+      "file_id": "wcWWHbGJ",
+      "source_filename": "[Muhn Pace] Wano 95.mp4",
+      "source_sha256": "792a28a0358b3b74caf2c68641b6f1f071d57245c715610cf64596873530eaf9",
+      "edit_number": 95,
+      "season": 16,
+      "display_title": "Farewell to Wano",
+      "title_kind": "EDITORIAL_SCENE_LABEL",
+      "synopsis": "The Straw Hats prepare to leave Wano as their friends react to the approaching farewell.",
+      "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
+      "mapping_status": "UNKNOWN",
+      "candidate_original_episodes": [],
+      "accepted_original_episodes": [],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://pixeldrain.dev/api/file/wcWWHbGJ",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://pixeldrain.dev/api/file/wcWWHbGJ",
+        "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
+        "qualification": "Editorial scene label, not an official One Pace title. No original episode range established. Synopsis describes sampled story threads only.",
+        "observations": "Hiyori's performance at 180s, Momonosuke's reaction at 360s, Nami and Shinobu at 900s. Preserved final source position; no calculated original episode range.",
+        "research_sources": [
+          "https://github.com/one-pace/one-pace-public-subtitles/tree/76eb3421d97f25fa57a7b2db893b4cf36b417607",
+          "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
+          "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
+        ]
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/wcWWHbGJ.jpg",
+        "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      }
+    }
+  ]
+}

@@ -39,7 +39,8 @@
       "thumbnail": {
         "file": "assets/phase4b/episodes/X3HeCSvg.jpg",
         "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
-      }
+      },
+      "title_kind": "ONE_PACE"
     },
     {
       "collection_id": "jVhFqouN",
@@ -77,7 +78,8 @@
       "thumbnail": {
         "file": "assets/phase4b/episodes/jfwYnXNy.jpg",
         "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
-      }
+      },
+      "title_kind": "ONE_PACE"
     }
   ]
 }

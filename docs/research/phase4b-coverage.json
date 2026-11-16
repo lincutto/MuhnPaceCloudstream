@@ -1,0 +1,98 @@
+{
+  "total_files": 274,
+  "mapping_counts": {
+    "ONE_PACE_DERIVED": 249,
+    "UNKNOWN": 25
+  },
+  "title_kinds": {
+    "ONE_PACE": 249,
+    "EDITORIAL_SCENE_LABEL": 25
+  },
+  "synopses": 274,
+  "distinct_synopsis_texts": 273,
+  "individual_thumbnail_paths": 274,
+  "near_duplicate_pairs": 0,
+  "episode_artwork_fallbacks": 0,
+  "seasons": [
+    {
+      "season": 1,
+      "files": 12,
+      "one_pace_derived": 12
+    },
+    {
+      "season": 2,
+      "files": 2,
+      "one_pace_derived": 2
+    },
+    {
+      "season": 3,
+      "files": 22,
+      "one_pace_derived": 22
+    },
+    {
+      "season": 4,
+      "files": 11,
+      "one_pace_derived": 11
+    },
+    {
+      "season": 5,
+      "files": 5,
+      "one_pace_derived": 5
+    },
+    {
+      "season": 6,
+      "files": 10,
+      "one_pace_derived": 10
+    },
+    {
+      "season": 7,
+      "files": 17,
+      "one_pace_derived": 17
+    },
+    {
+      "season": 8,
+      "files": 2,
+      "one_pace_derived": 2
+    },
+    {
+      "season": 9,
+      "files": 22,
+      "one_pace_derived": 22
+    },
+    {
+      "season": 10,
+      "files": 1,
+      "one_pace_derived": 1
+    },
+    {
+      "season": 11,
+      "files": 22,
+      "one_pace_derived": 22
+    },
+    {
+      "season": 12,
+      "files": 48,
+      "one_pace_derived": 48
+    },
+    {
+      "season": 13,
+      "files": 10,
+      "one_pace_derived": 10
+    },
+    {
+      "season": 14,
+      "files": 39,
+      "one_pace_derived": 39
+    },
+    {
+      "season": 15,
+      "files": 26,
+      "one_pace_derived": 26
+    },
+    {
+      "season": 16,
+      "files": 25,
+      "one_pace_derived": 0
+    }
+  ]
+}

@@ -1,3 +1,9 @@
+# Phase 4B presentation update
+
+Rechecked the same resolved library and inspected `GeneratorPlayer.getPlayerVideoTitle()` and the `ResultViewModel2` episode conversion. `Episode.name` supplies the player subtitle; the host prepends the series and localized season/episode position. The v3 preview now supplies real story titles and admitted original ranges, e.g. `To Russian, with Love - 714-716`. Twenty-five late-Wano labels are editorial scene labels without invented ranges. Titles/descriptions contain no mapping/development explanations. All episode numbers, seasons and parent URLs remain at the v2 values.
+
+The separate delayed TV information overlay continues to read the series-level plot, now two concise sentences. Legacy arc routes retain their useful arc plot. Neither the overlay nor Continue Watching gains an unsupported episode-synopsis field. Already loaded player/results and cached cards can retain old metadata until the host reloads them; reopening the series after updating is the supported refresh, not a history reset. Long published titles may still be truncated by host layout/settings. Actual installed-Beta rendering and persisted resume need the user's new Fire TV test. The prior detailed API/source record below remains historical context.
+
 # Phase 3: Cloudstream playback and history API
 
 Inspected 2026-11-15. This is source/API analysis, not a Fire TV test.

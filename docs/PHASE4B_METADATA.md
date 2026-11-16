@@ -1,5 +1,21 @@
 # Phase 4B: catalogue presentation
 
+## Final dataset and local validation
+
+The Phase 4B dataset covers all **274 preserved files** in the same unified series and sixteen named seasons. It contains **249 published One Pace titles with ONE_PACE_DERIVED coverage**, **25 editorial scene labels with UNKNOWN original coverage**, and **274 story descriptions**. There are 273 distinct description texts because the two preserved Fishman corrected-shot IDs report the same media hash and represent the same story. Both file IDs and their separate native season positions remain intact; their thumbnails use different frames. There are **zero directly verified full ranges**, zero remaining admitted mapping conflicts, and no fabricated numeric ranges. [Machine-readable coverage](research/phase4b-coverage.json).
+
+All 274 thumbnails are individually associated with their files, visually reviewed and optimized. The full 276-image manifest (including series poster/background) passes hash/dimension/format, luminance and dHash comparison: no near-duplicate thumbnail pairs at distance ≤5 and no generic episode-image fallbacks in the baseline. Several legitimate scene compositions show ships, groups or action rather than close-up faces; this is not a claim that every crop is ideal on television. The original illustrations remain fallback assets for unexpected/missing optional metadata, not the normal baseline episode imagery.
+
+Post-Enies Lobby illustrates why matching equal numbers is insufficient: the Muhn reference's files 4 and 5 explicitly match One Pace story entries 5 and 6. Their titles and descriptions are matched by the published release story, retaining Muhn's stable internal positions. Other title spelling differences use the corresponding official subtitle title. Every admitted range retains the published individual numbers, including gaps and overlaps. No original range changes sorting or history IDs.
+
+Local final checks: **48 Kotlin/JUnit tests** (44 shared provider + 4 preview), **24 Python checks**, Android compilation/DEX and both `.cs3` builds passed. The first attempts exposed two obsolete description assertions, a synthetic UNKNOWN record retaining incompatible supplementary titles, and an overly broad test treating the story phrase “into the unknown” as development text; those tests were corrected, preserving their evidence/identity checks. The initial Gradle daemon also needed the environment's normal network permission for its local socket. No runtime dependency or production workflow changes were needed. Final CI and public delivery are recorded in the handover after verification; this paragraph alone does not assert publication.
+
+## Bounded late-Wano investigation
+
+The inspected official subtitle and guide datasets do not provide corresponding One Pace entries for Muhn Pace 71–95. The same metadata project has a separate **Onigashima Paced** catalogue of 53 releases, but its indices and boundaries are different. The community dub watch guide explicitly combines completed Muhn releases with the still-progressing One Pace Wano edit. A [community metadata discussion](https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/) also reports the missing shared records; its author's private Plex renumbering is not original-anime evidence. These sources support a separate late-Muhn arrangement, not a trustworthy offset or proof of a one-to-one One Pace counterpart.
+
+Following the user's clarification, the investigation was bounded. `season-16.json` contains **editorial scene labels**, not invented official One Pace titles, and short summaries restricted to inspected interior story threads. Examples include `Raizo vs. Fukurokuju`, `Nami and Zeus`, `Hiyori Confronts Orochi`, and `Gear Five`. Each has exact file identity, observations, source links, and an explicit internal qualification that sparse frame inspection is not a complete viewing/boundary audit. Full original ranges remain UNKNOWN for all 25. No arithmetic conversion, broad arc interpolation or unchecked Onigashima Paced range is displayed. Better release evidence can replace these labels later without touching playback/history identities.
+
 ## Recovery and baseline
 
 Recovered clean development `5a37acf7ce0ee6b9837fc40e1aa761495fbe6385` and published preview v2 `b3829bcc1eaecda75808e65fda7b7c360439e0b3`. The user reports that v2's unified series, sixteen named seasons and playback work on Fire TV. This is user feedback, not an assistant device test. The eight prior research records, images, scene evidence and original conflict assessments remain in their Phase 4A paths.
@@ -22,6 +38,6 @@ Reinspected actual Cloudstream source `5d66bbeaf3b35c0c18ad2e0b9ce6b0aea4f5241c`
 
 The separate delayed paused/idle information panel still uses the load-response plot, now the concise series introduction. It cannot dynamically show the current episode synopsis through this provider API. Legacy arc routes keep their arc synopsis. Continue Watching keeps the same series URL, provider and saved season/position inputs; its model has no episode-name or range field. A cached card may keep old art until the host refreshes it. The sixteen season origins, all 274 file URLs, both module identities and playback callback are preserved. Full prior API findings: [Cloudstream metadata](CLOUDSTREAM_METADATA.md).
 
-## Remaining work after checkpoint 1
+## Historical remaining work after checkpoint 1
 
 Populate the remaining seasons in batches, validate the complete dataset and publish only after final build/CI success. The inspected public One Pace titles stop before Muhn Pace Wano 71–95; those 25 files do not acquire offset-derived ranges. A user source request is pending, and public reports confirm that the shared dataset lacks these records. No Phase 5 or unrelated feature work is authorized.

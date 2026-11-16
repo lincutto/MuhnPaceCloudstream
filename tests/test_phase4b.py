@@ -25,6 +25,7 @@ class Phase4bChecks(unittest.TestCase):
             for e in collection['expected_episodes']:
                 selected[(collection['id'], e['file_id'])] = (season, e['number'], files[e['file_id']])
         records = rows()
+        self.assertEqual(274, len(records))
         self.assertEqual(len(records), len({(r['collection_id'], r['file_id']) for r in records}))
         for r in records:
             self.assertEqual(selected[r['collection_id'], r['file_id']],
@@ -47,6 +48,10 @@ class Phase4bChecks(unittest.TestCase):
                 self.assertEqual(ref['title'], r['display_title'])
             else:
                 self.assertEqual([], r['accepted_original_episodes'])
+                self.assertEqual('UNKNOWN', r['mapping_status'])
+                self.assertEqual('EDITORIAL_SCENE_LABEL', r['title_kind'])
+                self.assertTrue(r['correspondence_evidence']['observations'])
+                self.assertEqual('https://pixeldrain.dev/api/file/'+r['file_id'], r['title_source_url'])
 
     def test_synopses_are_individual_stories_without_internal_labels(self):
         records = rows()

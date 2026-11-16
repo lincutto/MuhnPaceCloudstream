@@ -1,6 +1,6 @@
 # Original-episode mapping research
 
-Current revised Phase 4A policy and results: [Dressrosa sample](PHASE4A_DRESSROSA.md). Three One Pace-derived ranges are admitted, five conflicts remain unresolved, and zero full Muhn Pace mappings are directly verified. The records below are the **historical Phase 3 investigation** and retain its stricter admission rule; they are not the current display policy.
+Current Phase 4B findings: [complete metadata record](PHASE4B_METADATA.md). **249 One Pace-derived ranges** are admitted through published release correspondence, **25 late-Wano ranges remain UNKNOWN**, and **zero full Muhn Pace ranges are directly verified**. The five earlier Dressrosa conflicts were resolved with newly inspected Muhn-specific source records; both earlier alternatives remain archived. Post-Enies Lobby's numbering mismatch is explicitly handled. Dressrosa file `yUkgcapt` now has derived coverage **683–686**, including 684, but its exact transition timestamp and complete Muhn boundaries are not directly verified. Do not describe it as a fully audited resume point. The sections below are **historical Phase 3 research**, not the current display policy.
 
 ## Historical Phase 3 investigation
 

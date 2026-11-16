@@ -1,5 +1,11 @@
 # MuhnPaceCloudstream v3 — handover
 
+## Phase 4B — final source ready for CI/publication (2026-11-16)
+
+All 274 records are populated without changing the unified series, sixteen seasons, source IDs/URLs or v2 preview history inputs. Coverage: 249 published One Pace titles/ranges; 25 late-Wano editorial scene labels and internally UNKNOWN ranges; 274 summaries (273 distinct texts, two identical-media Fishman IDs); 274 distinct thumbnails, zero baseline generic fallbacks or dHash near-duplicate pairs. No full range is DIRECTLY_VERIFIED. [Findings, source/rights limitations and coverage](PHASE4B_METADATA.md).
+
+Validated checkpoints pushed: Dressrosa `a028ae8`, first eight seasons `a4ab3d8`, Fishman/Punk/Zou `929d0bc`, Whole Cake/early Wano `18eb697`. Late-Wano image checkpoint `876d409`; new metadata preserves sparse scene evidence without fabricating One Pace counterparts or ranges. All 48 Kotlin tests, 24 Python checks and both Android/.cs3 builds pass locally. Preview-only version is 3; production module/version and publication workflow are unchanged. Final CI, anonymous image/source checks and isolated publication remain to be recorded after they actually pass. No Fire TV test has been performed by the assistant. Stop after preview publication for user feedback; no Phase 5.
+
 ## Active Phase 4B — checkpoints 1 and 2 (2026-11-16)
 
 The user's new Phase 4B request supersedes the Phase 4A stop below. Recovered clean `5a37acf`; preserve published v2 and its identities. Crew-art/Dressrosa image checkpoint: `17df462` (50 reviewed images, 48 distinct episode stills). All 48 Dressrosa titles/ranges/synopses now use structured exact-file records; the additional Muhn Pace-specific source resolves the five earlier sample disagreements as ONE_PACE_DERIVED, not directly verified. The main series plot is concise; player descriptions no longer contain research/development notes. See [Phase 4B findings and remaining work](PHASE4B_METADATA.md).
