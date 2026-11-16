@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-16T08:37:55.877122+00:00",
+  "source_commit": "ffc1f51d98916c1ac4fa60f6a67e27c2df0da738",
+  "preview_commit": "1dcb77c446a763adcad74e01ac71403192243975",
+  "version": 3,
+  "ci_run_id": 43832261690,
+  "ci_job_id": 133180161782,
+  "ci_conclusion": "success",
+  "preview_files": [
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/repo.json",
+      "status": 200,
+      "content_type": "text/plain",
+      "sha256": "1ef7279adc2a309aa9904e0b10590af9e63a1b6fb6457c610156d6ef6d7c4da6",
+      "size": 262
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/plugins.json",
+      "status": 200,
+      "content_type": "text/plain",
+      "sha256": "107dbeb0427348326b93147358e3c9302d54a60f196a81d54c6849cf0c8ac4e0",
+      "size": 683
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/MuhnPacePreview.cs3",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "sha256": "43c3704007b0ffab045109c2c1f08d1adfe73ff343c44cd97b63d1edbd9a090c",
+      "size": 92180
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/preview-build.json",
+      "status": 200,
+      "content_type": "text/plain",
+      "sha256": "7eeaa9511873e22a0afda07767f785fca7b875820e36372c7b1d6c006e20df5c",
+      "size": 247
+    }
+  ],
+  "production_files": [
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/repo.json",
+      "status": 200,
+      "sha256": "a509f24cef7a758a73d36877c0df98089fe5aa0f777d0d42470b56b78d55f190",
+      "unchanged": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/plugins.json",
+      "status": 200,
+      "sha256": "2ade15e0d421ae1c8c3e1c41cb6583585953d943efea626a181bd95d3f33cfc0",
+      "unchanged": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/MuhnPace.cs3",
+      "status": 200,
+      "sha256": "ff5d2d8b6f42be88fef50fb041a6fbbcd1ad7a9763d94c88d4bd748c90e04f8c",
+      "unchanged": true
+    }
+  ],
+  "remote_heads": {
+    "builds": "cbe8d9dce96169da7ed12fefb8adc3787779bab3",
+    "codex/v3-overhaul": "ffc1f51d98916c1ac4fa60f6a67e27c2df0da738",
+    "main": "8ade241e95405d91c0606bd3ea6080ac0709992a",
+    "v3-preview": "1dcb77c446a763adcad74e01ac71403192243975"
+  },
+  "local_package_matches_public": true,
+  "limitations": "Published locally validated artifact; CI independently validated the same source. No claim of byte-identical local/CI builds. No Fire TV visual/playback/resume test performed."
+}
