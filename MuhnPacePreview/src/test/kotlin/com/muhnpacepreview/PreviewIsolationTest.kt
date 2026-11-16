@@ -16,6 +16,35 @@ class PreviewIsolationTest {
         .bufferedReader().use { JSONObject(it.readText()).getJSONArray("collections") }
 
     @Test
+    fun `series artwork uses the correct home search and detail fields with the requested heading`() = runBlocking {
+        val provider = MuhnPacePreviewProvider()
+        val page = provider.mainPage.single()
+        assertEquals("muhn-preview", page.data)
+        assertEquals("One Piece • Muhn Pace (English dub)", page.name)
+        val home = provider.getMainPage(1, MainPageRequest(page.name, page.data, page.horizontalImages))
+            .items.single()
+        assertEquals(page.name, home.name)
+        val card = home.list.single()
+        val search = provider.search("one piece").single()
+        val rows = collections()
+        val files = (0 until rows.length()).associate {
+            val row = rows.getJSONObject(it)
+            row.getString("id") to row.getJSONArray("files")
+        }
+        val load = provider.seriesFromFiles(card.url, files)!!
+        assertEquals(provider.seriesUrl, card.url)
+        assertEquals(card.url, search.url)
+        assertEquals(card.url, load.uniqueUrl)
+        assertTrue(SeriesCatalogue.poster.startsWith("https://"))
+        assertTrue(SeriesCatalogue.background.startsWith("https://"))
+        assertNotEquals(SeriesCatalogue.poster, SeriesCatalogue.background)
+        assertEquals(SeriesCatalogue.poster, card.posterUrl)
+        assertEquals(SeriesCatalogue.poster, search.posterUrl)
+        assertEquals(SeriesCatalogue.poster, load.posterUrl)
+        assertEquals(SeriesCatalogue.background, load.backgroundPosterUrl)
+    }
+
+    @Test
     fun `both real plugins register distinct providers without replacing production`() {
         val production = MuhnPacePlugin()
         val preview = MuhnPacePreviewPlugin()
