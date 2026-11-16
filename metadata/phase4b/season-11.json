@@ -1,0 +1,859 @@
+{
+  "schema_version": 3,
+  "season": 11,
+  "reviewed_on": "2026-11-16",
+  "entries": [
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "wrXHTD5U",
+      "source_filename": "[Muhn Pace] Punk Hazard 01.mp4",
+      "source_sha256": "2df182d7531d43cd90a1dd8dd9aaa93538c6025f7014a63c86765582cd04b11b",
+      "edit_number": 1,
+      "season": 11,
+      "display_title": "Punk Hazard",
+      "synopsis": "A distress call draws the Sunny toward Punk Hazard. Luffy's landing party finds an island of fire and an unexpected dragon.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        574,
+        579
+      ],
+      "accepted_original_episodes": [
+        574,
+        579
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6fdae84e9f5053c7.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6fdae84e9f5053c7.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 1,
+        "one_pace_crc": "90015E67",
+        "muhn_reference_key": "6fdae84e9f5053c7",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/wrXHTD5U.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "dN8xogDR",
+      "source_filename": "[Muhn Pace] Punk Hazard 02.mp4",
+      "source_sha256": "7cdf5dd59a0176130752a458fb61742847ca8aadf08a388991121941fd513626",
+      "edit_number": 2,
+      "season": 11,
+      "display_title": "Adventure on the Burning Island",
+      "synopsis": "Luffy's group battles the dragon and meets a disembodied pair of legs. The captured crew members encounter an equally strange face inside a laboratory.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        580,
+        581,
+        582,
+        583
+      ],
+      "accepted_original_episodes": [
+        580,
+        581,
+        582,
+        583
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/d3e3ba4fdf34d269.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/d3e3ba4fdf34d269.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 2,
+        "one_pace_crc": "5A3CE523",
+        "muhn_reference_key": "d3e3ba4fdf34d269",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/dN8xogDR.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "E378WN6s",
+      "source_filename": "[Muhn Pace] Punk Hazard 03.mp4",
+      "source_sha256": "8b20035c321833406bce9542183b8699c6058db05600cb4f23f775ae07b6cade",
+      "edit_number": 3,
+      "season": 11,
+      "display_title": "About My Torso",
+      "synopsis": "The Straw Hats' separate groups encounter centaurs, a wandering torso and imprisoned children. Smoker's arrival brings him face to face with Trafalgar Law.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        583,
+        584,
+        585
+      ],
+      "accepted_original_episodes": [
+        583,
+        584,
+        585
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/64cce14bc6a2ddd6.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/64cce14bc6a2ddd6.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 3,
+        "one_pace_crc": "FE661F6E",
+        "muhn_reference_key": "64cce14bc6a2ddd6",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/E378WN6s.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "bNRURSFv",
+      "source_filename": "[Muhn Pace] Punk Hazard 04.mp4",
+      "source_sha256": "3804bd46b9e7b2932805616e279c977ce7d8c79401cbe07b56100ebfd13f305f",
+      "edit_number": 4,
+      "season": 11,
+      "display_title": "The Lake of Bandits",
+      "synopsis": "Law's powers leave the crew in unfamiliar bodies as the groups struggle across the frozen island. The G-5 Marines confront him outside the laboratory.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        585,
+        586,
+        587
+      ],
+      "accepted_original_episodes": [
+        585,
+        586,
+        587
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5a5ea2eaf6a15f2f.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5a5ea2eaf6a15f2f.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 4,
+        "one_pace_crc": "666061E3",
+        "muhn_reference_key": "5a5ea2eaf6a15f2f",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/bNRURSFv.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "yBeQWq3i",
+      "source_filename": "[Muhn Pace] Punk Hazard 05.mp4",
+      "source_sha256": "b393d8f1de2dfefd09596647e5ebf3f8dc5b94516739d96727e9130158a3de38",
+      "edit_number": 5,
+      "season": 11,
+      "display_title": "CC",
+      "synopsis": "Luffy meets Law again while Smoker weighs his next move. Brownbeard explains how Punk Hazard became a land divided between fire and ice.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        588,
+        589
+      ],
+      "accepted_original_episodes": [
+        588,
+        589
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6f4866db6a8c1cd4.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6f4866db6a8c1cd4.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 5,
+        "one_pace_crc": "ACF1C889",
+        "muhn_reference_key": "6f4866db6a8c1cd4",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/yBeQWq3i.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "MGfviKAP",
+      "source_filename": "[Muhn Pace] Punk Hazard 06.mp4",
+      "source_sha256": "b606cb3ebd70d912ccae617ef5056db1c8c461a9a528baf89d174edee02b3fd9",
+      "edit_number": 6,
+      "season": 11,
+      "display_title": "Yeti Cool Brothers",
+      "synopsis": "Chopper discovers a disturbing cause for the children's behavior. The Yeti Cool Brothers attack the crew as Law's involvement with the island becomes clearer.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        591,
+        592
+      ],
+      "accepted_original_episodes": [
+        591,
+        592
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/70fca5e85aa14d7e.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/70fca5e85aa14d7e.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 6,
+        "one_pace_crc": "CC88315A",
+        "muhn_reference_key": "70fca5e85aa14d7e",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/MGfviKAP.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "JvvY89f3",
+      "source_filename": "[Muhn Pace] Punk Hazard 07.mp4",
+      "source_sha256": "76ceaeac108c82001705b2386f66d3e77ee4fb0c97d1807359352c76671feecd",
+      "edit_number": 7,
+      "season": 11,
+      "display_title": "Pirate Alliance",
+      "synopsis": "Law proposes an alliance to Luffy. The crew also insists on rescuing the children while Caesar prepares to release a dangerous experiment.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        593,
+        594
+      ],
+      "accepted_original_episodes": [
+        593,
+        594
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/7ebb072ae735e0d6.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/7ebb072ae735e0d6.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 7,
+        "one_pace_crc": "F0B1F815",
+        "muhn_reference_key": "7ebb072ae735e0d6",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/JvvY89f3.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "gt7TMTpx",
+      "source_filename": "[Muhn Pace] Punk Hazard 08.mp4",
+      "source_sha256": "e89116181c81684ffc04d371459de18820d3282cd2007a628dfface3511b6611",
+      "edit_number": 8,
+      "season": 11,
+      "display_title": "Blizzard with a Chance of Slime",
+      "synopsis": "The search for the samurai's missing body continues across the snow. Law attempts to get Chopper inside the lab as a poisonous creature approaches.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        595,
+        596
+      ],
+      "accepted_original_episodes": [
+        595,
+        596
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/eb4a427fa7917d7f.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/eb4a427fa7917d7f.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 8,
+        "one_pace_crc": "658D36CE",
+        "muhn_reference_key": "eb4a427fa7917d7f",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/gt7TMTpx.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "wwvCRJ5d",
+      "source_filename": "[Muhn Pace] Punk Hazard 09.mp4",
+      "source_sha256": "19b7b63996e8d84780dd105a4fc0ba9b62bd404585ad573a47116ef99bc3a8d3",
+      "edit_number": 9,
+      "season": 11,
+      "display_title": "My Name Is Kin'emon!!",
+      "synopsis": "An unexpected visitor disrupts Law's plan inside Caesar's facility. Chopper searches for answers while the reunited Kin'emon demonstrates his abilities.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        597,
+        598
+      ],
+      "accepted_original_episodes": [
+        597,
+        598
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/469fcd1ee7ba28d0.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/469fcd1ee7ba28d0.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 9,
+        "one_pace_crc": "AD550761",
+        "muhn_reference_key": "469fcd1ee7ba28d0",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/wwvCRJ5d.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "atXsszaV",
+      "source_filename": "[Muhn Pace] Punk Hazard 10.mp4",
+      "source_sha256": "744138a361eb027a75e6aaec505998b32aee76aa6958ac70b2863074db799cf6",
+      "edit_number": 10,
+      "season": 11,
+      "display_title": "Vergo and Joker! The Beginning of Caesar's Masterplan!",
+      "synopsis": "Caesar brings the children back under his control while the identities of his allies come to light. Nami and Usopp receive help in their attempt to save the children.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        599,
+        600
+      ],
+      "accepted_original_episodes": [
+        599,
+        600
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/87f0ed1e7433f284.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/87f0ed1e7433f284.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 10,
+        "one_pace_crc": "72E3E794",
+        "muhn_reference_key": "87f0ed1e7433f284",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/atXsszaV.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "j5BBud9A",
+      "source_filename": "[Muhn Pace] Punk Hazard 11.mp4",
+      "source_sha256": "476d3a104edbf61f70944b974695cae93e8af92966526092880e2906fc9dfc8a",
+      "edit_number": 11,
+      "season": 11,
+      "display_title": "The Experiment Begins! Shinokuni Unleashed!",
+      "synopsis": "Caesar turns his experiment into a demonstration for the underworld. A spreading gas cloud forces everyone outside to seek shelter immediately.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        601,
+        602
+      ],
+      "accepted_original_episodes": [
+        601,
+        602
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a395624073945f12.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a395624073945f12.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 11,
+        "one_pace_crc": "398915C6",
+        "muhn_reference_key": "a395624073945f12",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/j5BBud9A.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "ZRVofPZR",
+      "source_filename": "[Muhn Pace] Punk Hazard 12.mp4",
+      "source_sha256": "bea326116e8d9c7e95e8ec13fa557bcfed460daf7ec898c1c757822956a3a318",
+      "edit_number": 12,
+      "season": 11,
+      "display_title": "The Counterattack Begins!",
+      "synopsis": "Law gives the captives a chance to escape and strike back. Pirates and Marines must cooperate as the gas approaches the laboratory.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        603,
+        604
+      ],
+      "accepted_original_episodes": [
+        603,
+        604
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/1883c41a4b36ecfd.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/1883c41a4b36ecfd.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 12,
+        "one_pace_crc": "CD83F1E9",
+        "muhn_reference_key": "1883c41a4b36ecfd",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/ZRVofPZR.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "etgWrbNr",
+      "source_filename": "[Muhn Pace] Punk Hazard 13.mp4",
+      "source_sha256": "7802ea835490a91dd9b76d9e31e2ef05f0cb2de03b25c4361c23c042ad653087",
+      "edit_number": 13,
+      "season": 11,
+      "display_title": "G-5's Sacrifice and the Betrayal of the Vice Admiral!",
+      "synopsis": "G-5's soldiers try to protect Tashigi from the spreading danger. Luffy pursues Caesar while Chopper works to keep the children away from the drugged candy.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        604,
+        605,
+        606
+      ],
+      "accepted_original_episodes": [
+        604,
+        605,
+        606
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6129f02328aa136d.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6129f02328aa136d.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 13,
+        "one_pace_crc": "964FB36B",
+        "muhn_reference_key": "6129f02328aa136d",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/etgWrbNr.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "pzDeSXHw",
+      "source_filename": "[Muhn Pace] Punk Hazard 14.mp4",
+      "source_sha256": "9bcbb09454203d85c687f228c5e7a1c8ae15b31397067da6424cbf563d161620",
+      "edit_number": 14,
+      "season": 11,
+      "display_title": "The Mastermind in the Shadows and the Battle Between Gas and Rubber!",
+      "synopsis": "Law reaches the facility central to Caesar's business. Luffy challenges Caesar again as Doflamingo moves to protect his underworld operation.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        607,
+        608
+      ],
+      "accepted_original_episodes": [
+        607,
+        608
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e53814dfd810bdb9.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e53814dfd810bdb9.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 14,
+        "one_pace_crc": "75CC1F6E",
+        "muhn_reference_key": "e53814dfd810bdb9",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/pzDeSXHw.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "5QWYbp97",
+      "source_filename": "[Muhn Pace] Punk Hazard 15.mp4",
+      "source_sha256": "7491902ba0dbf9a8bd6d8cbbdba5fc9f176a007a12a335ea1dfdd84172ba22ca",
+      "edit_number": 15,
+      "season": 11,
+      "display_title": "Vice Admiral vs. Vice Admiral and the Truth Behind Punk Hazard's Destruction!",
+      "synopsis": "Smoker confronts Vergo for betraying the Marines. Below the laboratory, Luffy encounters a small dragon while Caesar conceals the truth from his followers.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        609,
+        610
+      ],
+      "accepted_original_episodes": [
+        609,
+        610
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/901caab51ba8de70.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/901caab51ba8de70.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 15,
+        "one_pace_crc": "9CE5B9DD",
+        "muhn_reference_key": "901caab51ba8de70",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/5QWYbp97.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "uKC7BKga",
+      "source_filename": "[Muhn Pace] Punk Hazard 16.mp4",
+      "source_sha256": "79f73f5549abf2877056efbe52b91b35594f54774cbde082b489daf17d62467d",
+      "edit_number": 16,
+      "season": 11,
+      "display_title": "The Dragon Named Momonosuke and the Menacing Snow Fruit User!",
+      "synopsis": "Luffy learns about the boy behind the dragon's form. Zoro faces Monet as Mocha tries to prevent the children from taking more candy.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        611,
+        612
+      ],
+      "accepted_original_episodes": [
+        611,
+        612
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ec04c7aa8d3124f2.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ec04c7aa8d3124f2.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 16,
+        "one_pace_crc": "4CD92CFC",
+        "muhn_reference_key": "ec04c7aa8d3124f2",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/uKC7BKga.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "L3n2vi5D",
+      "source_filename": "[Muhn Pace] Punk Hazard 17.mp4",
+      "source_sha256": "5c7a8bde0640520d5d23e72d0622373cb0e0ce27e1b0dcac1d3e172e588f4815",
+      "edit_number": 17,
+      "season": 11,
+      "display_title": "Zoro's Strongest One-Sword Style and Mocha's Plight!",
+      "synopsis": "Tashigi enters Zoro's confrontation with Monet. Mocha makes a desperate effort to keep the dangerous candy away from her friends.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        613,
+        614
+      ],
+      "accepted_original_episodes": [
+        613,
+        614
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6ff30e4ec0f30ebd.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6ff30e4ec0f30ebd.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 17,
+        "one_pace_crc": "0A2624D5",
+        "muhn_reference_key": "6ff30e4ec0f30ebd",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/L3n2vi5D.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "dqodcHNi",
+      "source_filename": "[Muhn Pace] Punk Hazard 18.mp4",
+      "source_sha256": "a4f52966f766097a64f23d769e354f01c2adb8e852c8ebdc47b5487e41eaa3e1",
+      "edit_number": 18,
+      "season": 11,
+      "display_title": "Luffy and Law's All-out Attack! The Takeover of the New Era!",
+      "synopsis": "Brownbeard challenges Caesar's lies in front of his men. Luffy and Law press their battles while Smoker looks for a way to break Vergo's advantage.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        615,
+        616
+      ],
+      "accepted_original_episodes": [
+        615,
+        616
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/4bd38f1b0deded7b.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/4bd38f1b0deded7b.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 18,
+        "one_pace_crc": "D56597BC",
+        "muhn_reference_key": "4bd38f1b0deded7b",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/dqodcHNi.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "CezTY55H",
+      "source_filename": "[Muhn Pace] Punk Hazard 19.mp4",
+      "source_sha256": "f2de4c9d17a90585cf14ce34672520a7a2e062a57d83ea9d437c051f093a70fc",
+      "edit_number": 19,
+      "season": 11,
+      "display_title": "The Strongest Grizzly Magnum and the Assassins from Dressrosa!",
+      "synopsis": "Luffy prepares a decisive blow against Caesar as Law concludes his confrontation with Vergo. Doflamingo sends agents to recover his valuable scientist.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        617,
+        618
+      ],
+      "accepted_original_episodes": [
+        617,
+        618
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/bf3fee54c558df87.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/bf3fee54c558df87.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 19,
+        "one_pace_crc": "54AC1705",
+        "muhn_reference_key": "bf3fee54c558df87",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/CezTY55H.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "Coemf6Hw",
+      "source_filename": "[Muhn Pace] Punk Hazard 20.mp4",
+      "source_sha256": "f96e3396d853557e8e0520c0112c3c852582c91d552fffcaf1ba3a5b420ef46e",
+      "edit_number": 20,
+      "season": 11,
+      "display_title": "Die for Me! The Dangerous Man Makes His Move!",
+      "synopsis": "The survivors race out of the collapsing laboratory. Franky holds off Baby 5 and Buffalo while Caesar's final schemes threaten the escape.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        619,
+        620,
+        621
+      ],
+      "accepted_original_episodes": [
+        619,
+        620,
+        621
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/02903c77e92e80b9.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/02903c77e92e80b9.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 20,
+        "one_pace_crc": "5012E091",
+        "muhn_reference_key": "02903c77e92e80b9",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/Coemf6Hw.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "HtYnZvJb",
+      "source_filename": "[Muhn Pace] Punk Hazard 21.mp4",
+      "source_sha256": "3abb1875e89bc77f5baadb185856bfe9258248f15d9c6c669282c310f62895eb",
+      "edit_number": 21,
+      "season": 11,
+      "display_title": "The Alliance's Target and the Departure!",
+      "synopsis": "The children and Marines prepare to leave with their rescuers' help. Law sets the next stage of the alliance in motion through a dangerous call to Doflamingo.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        622,
+        623
+      ],
+      "accepted_original_episodes": [
+        622,
+        623
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/389690b1898d53b3.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/389690b1898d53b3.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 21,
+        "one_pace_crc": "0CBF5258",
+        "muhn_reference_key": "389690b1898d53b3",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/HtYnZvJb.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "A1jFtPvQ",
+      "file_id": "iS7pMkzg",
+      "source_filename": "[Muhn Pace] Punk Hazard 22.mp4",
+      "source_sha256": "c42719a40727680c3280c13c59ecaa7399597aaab1fc763d872967a03b7ed219",
+      "edit_number": 22,
+      "season": 11,
+      "display_title": "The Arrival of the Mysterious Man and the News Coo!",
+      "synopsis": "Doflamingo arrives on Punk Hazard and turns his anger on Smoker. An old acquaintance intervenes while news of the alliance spreads across the New World.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        624,
+        625,
+        626,
+        628
+      ],
+      "accepted_original_episodes": [
+        624,
+        625,
+        626,
+        628
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/234c11bd2515d4c4.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/234c11bd2515d4c4.yml",
+        "one_pace_arc": 30,
+        "one_pace_episode": 22,
+        "one_pace_crc": "021A8886",
+        "muhn_reference_key": "234c11bd2515d4c4",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/iS7pMkzg.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    }
+  ]
+}

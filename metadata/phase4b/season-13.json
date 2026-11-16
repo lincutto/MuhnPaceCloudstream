@@ -1,0 +1,417 @@
+{
+  "schema_version": 3,
+  "season": 13,
+  "reviewed_on": "2026-11-16",
+  "entries": [
+    {
+      "collection_id": "totP9Xmm",
+      "file_id": "ikEGBun8",
+      "source_filename": "[Muhn Pace] Zou 01.mp4",
+      "source_sha256": "884655f3a94a8ed3259b07cfe2bd23648a72ed26cf707e1d5df156900bcb28c0",
+      "edit_number": 1,
+      "season": 13,
+      "display_title": "Zou",
+      "synopsis": "Luffy's group reaches Zou and discovers what makes the island unlike any other. The Sunny is already there, but its passengers have left the ship.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        746,
+        747,
+        751,
+        752,
+        753
+      ],
+      "accepted_original_episodes": [
+        746,
+        747,
+        751,
+        752,
+        753
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/30d1c5f9316977ae.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/30d1c5f9316977ae.yml",
+        "one_pace_arc": 32,
+        "one_pace_episode": 1,
+        "one_pace_crc": "E70913D9",
+        "muhn_reference_key": "30d1c5f9316977ae",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/ikEGBun8.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "totP9Xmm",
+      "file_id": "BjMqLamq",
+      "source_filename": "[Muhn Pace] Zou 02.mp4",
+      "source_sha256": "f691f3a1810de93edee25162ac88947dbffe316987a65f9cebbec11af527acde",
+      "edit_number": 2,
+      "season": 13,
+      "display_title": "The Mink Tribe",
+      "synopsis": "The forest of Zou brings the pirates into contact with the Mink Tribe. Luffy pushes ahead while his companions try to understand the island's inhabitants.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        753,
+        754
+      ],
+      "accepted_original_episodes": [
+        753,
+        754
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b9aa367e053a5f59.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b9aa367e053a5f59.yml",
+        "one_pace_arc": 32,
+        "one_pace_episode": 2,
+        "one_pace_crc": "32150FF4",
+        "muhn_reference_key": "b9aa367e053a5f59",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/BjMqLamq.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "totP9Xmm",
+      "file_id": "zWr1sjzD",
+      "source_filename": "[Muhn Pace] Zou 03.mp4",
+      "source_sha256": "1c23b7809c757c8da5d3666be0edabbadbf3d2815cc79ab653edb925eb145672",
+      "edit_number": 3,
+      "season": 13,
+      "display_title": "At Rightflank Fortress",
+      "synopsis": "The crew learns how Zou receives its water and travels toward the fortress. A reunion with their friends begins to explain what happened before they arrived.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        755,
+        756,
+        757
+      ],
+      "accepted_original_episodes": [
+        755,
+        756,
+        757
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/9627ecc35d58977e.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/9627ecc35d58977e.yml",
+        "one_pace_arc": 32,
+        "one_pace_episode": 3,
+        "one_pace_crc": "E4B077F8",
+        "muhn_reference_key": "9627ecc35d58977e",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/zWr1sjzD.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "totP9Xmm",
+      "file_id": "7Lg3rjTE",
+      "source_filename": "[Muhn Pace] Zou 04.mp4",
+      "source_sha256": "96c693bca64ba7c165bbc2ea0bc3143b4e1e4dd97ad17a51557da6b31f4a1aaa",
+      "edit_number": 4,
+      "season": 13,
+      "display_title": "Duke Inuarashi and Master Nekomamushi",
+      "synopsis": "Inuarashi describes the attack that devastated the Mink Tribe. The crew learns how Zou's two rulers divide their responsibilities between day and night.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        757,
+        758,
+        759,
+        760
+      ],
+      "accepted_original_episodes": [
+        757,
+        758,
+        759,
+        760
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/4d5654aa7019c5be.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/4d5654aa7019c5be.yml",
+        "one_pace_arc": 32,
+        "one_pace_episode": 4,
+        "one_pace_crc": "A4F76B13",
+        "muhn_reference_key": "4d5654aa7019c5be",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/7Lg3rjTE.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "totP9Xmm",
+      "file_id": "3QjDgQb8",
+      "source_filename": "[Muhn Pace] Zou 05.mp4",
+      "source_sha256": "1b874da6e50dacabca517ff52f2bbaddadf10ce3df3e75794f3f2ac72d3e1f13",
+      "edit_number": 5,
+      "season": 13,
+      "display_title": "The Curly Hat Pirates Arrive",
+      "synopsis": "The story of Jack's invasion reveals how poison overcame the minks' resistance. Sanji and Chopper's group worked to treat the survivors after reaching the island.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        759,
+        760,
+        761,
+        762
+      ],
+      "accepted_original_episodes": [
+        759,
+        760,
+        761,
+        762
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b52d925773bc0973.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b52d925773bc0973.yml",
+        "one_pace_arc": 32,
+        "one_pace_episode": 5,
+        "one_pace_crc": "7149D13F",
+        "muhn_reference_key": "b52d925773bc0973",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/3QjDgQb8.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "totP9Xmm",
+      "file_id": "tV3DLRhk",
+      "source_filename": "[Muhn Pace] Zou 06.mp4",
+      "source_sha256": "4ecb142f9281f2f2510f4d39b00d3a0dacbd79199439835c9401497074154341",
+      "edit_number": 6,
+      "season": 13,
+      "display_title": "Tea Party Invitation",
+      "synopsis": "Big Mom's messengers brought an invitation Sanji could not easily refuse. His companions explain the encounter that led him away from Zou.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        762,
+        763,
+        764
+      ],
+      "accepted_original_episodes": [
+        762,
+        763,
+        764
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/f1f9e8413e634901.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/f1f9e8413e634901.yml",
+        "one_pace_arc": 32,
+        "one_pace_episode": 6,
+        "one_pace_crc": "7F73DB45",
+        "muhn_reference_key": "f1f9e8413e634901",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/tV3DLRhk.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "totP9Xmm",
+      "file_id": "P8xvv2Md",
+      "source_filename": "[Muhn Pace] Zou 07.mp4",
+      "source_sha256": "cabfc6e7e9b87a8deac9d1642ab1df356000c2bf778f1f1751d17bd942b8cb70",
+      "edit_number": 7,
+      "season": 13,
+      "display_title": "Let's Go See Master Nekomamushi",
+      "synopsis": "Luffy refuses to accept Sanji's absence as permanent. The crew visits Nekomamushi to learn more and consider how to bring their cook back.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        764,
+        765,
+        766
+      ],
+      "accepted_original_episodes": [
+        764,
+        765,
+        766
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ede5c5d120d28cb6.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ede5c5d120d28cb6.yml",
+        "one_pace_arc": 32,
+        "one_pace_episode": 7,
+        "one_pace_crc": "55837445",
+        "muhn_reference_key": "ede5c5d120d28cb6",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/P8xvv2Md.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "totP9Xmm",
+      "file_id": "oDmN2fuu",
+      "source_filename": "[Muhn Pace] Zou 08.mp4",
+      "source_sha256": "9f76f6b9e1e9340fd028f0cdaeb810e28f1782049058f01b83afd9eda0522382",
+      "edit_number": 8,
+      "season": 13,
+      "display_title": "Raizo of the Mist",
+      "synopsis": "The arrival of the samurai reveals the depth of the minks' loyalty. The search for Raizo leads to surprising discoveries within Zou.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        767,
+        768,
+        769
+      ],
+      "accepted_original_episodes": [
+        767,
+        768,
+        769
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/430c13b9b617acfc.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/430c13b9b617acfc.yml",
+        "one_pace_arc": 32,
+        "one_pace_episode": 8,
+        "one_pace_crc": "5B2AAFBF",
+        "muhn_reference_key": "430c13b9b617acfc",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/oDmN2fuu.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "totP9Xmm",
+      "file_id": "pqitGDt8",
+      "source_filename": "[Muhn Pace] Zou 09.mp4",
+      "source_sha256": "c41cda1f7bdaf1ba2a20669c39e387f518d0276c9c31638158f48790db20d473",
+      "edit_number": 9,
+      "season": 13,
+      "display_title": "Momonosuke, Heir of the Kozuki Family",
+      "synopsis": "The Kozuki retainers explain Momonosuke's position and ask for help against Kaido. Luffy must balance their proposal with his determination to recover Sanji.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        769,
+        770,
+        771,
+        772
+      ],
+      "accepted_original_episodes": [
+        769,
+        770,
+        771,
+        772
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ff23a6af3ec03de6.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ff23a6af3ec03de6.yml",
+        "one_pace_arc": 32,
+        "one_pace_episode": 9,
+        "one_pace_crc": "0880B38F",
+        "muhn_reference_key": "ff23a6af3ec03de6",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/pqitGDt8.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "totP9Xmm",
+      "file_id": "iYqcEgot",
+      "source_filename": "[Muhn Pace] Zou 10.mp4",
+      "source_sha256": "d4dc55ff3da95e259a1130ddbb18c0e33dd393e43a3cc40acafbe71c1adbc6db",
+      "edit_number": 10,
+      "season": 13,
+      "display_title": "Understood",
+      "synopsis": "The alliance divides its forces between Sanji's rescue and preparations in Wano. Jack's attack on Zunesha threatens their departure.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        772,
+        773,
+        774,
+        776
+      ],
+      "accepted_original_episodes": [
+        772,
+        773,
+        774,
+        776
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8c5bc2f4c2506f0e.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8c5bc2f4c2506f0e.yml",
+        "one_pace_arc": 32,
+        "one_pace_episode": 10,
+        "one_pace_crc": "4A52B138",
+        "muhn_reference_key": "8c5bc2f4c2506f0e",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/iYqcEgot.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    }
+  ]
+}

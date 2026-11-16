@@ -1,0 +1,873 @@
+{
+  "schema_version": 3,
+  "season": 9,
+  "reviewed_on": "2026-11-16",
+  "entries": [
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "A7NRZuaf",
+      "source_filename": "[Muhn Pace] Fishman Island 3.mp4",
+      "source_sha256": "07f8e682cc27b03ca5f4696d03c588b148fc85d35def86723edfe9a93ab9968d",
+      "edit_number": 3,
+      "season": 9,
+      "display_title": "10,000 Meters Under the Sea",
+      "synopsis": "Fishman Island comes into sight after the crew's dangerous descent. Hostile riders block the approach and force the Straw Hats to attempt a risky landing.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        526,
+        527
+      ],
+      "accepted_original_episodes": [
+        526,
+        527
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b4a350a023198215.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b4a350a023198215.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 3,
+        "one_pace_crc": "5636E014",
+        "muhn_reference_key": "b4a350a023198215",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/A7NRZuaf.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "xcyScRL2",
+      "source_filename": "[Muhn Pace] Fishman Island 4.mp4",
+      "source_sha256": "c28375c3d3ea9d1b789690a61d1e7615f62c8961d8a2336a01b6820d3941cd93",
+      "edit_number": 4,
+      "season": 9,
+      "display_title": "Arrival at Coral Hill! The Nosebleed and the Devastating Prediction!",
+      "synopsis": "Sanji's excitement creates a medical emergency among the mermaids. At the Mermaid Cafe, Luffy meets a fortune-teller with a troubling prediction.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        528,
+        529
+      ],
+      "accepted_original_episodes": [
+        528,
+        529
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e6ca71588f88abfa.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e6ca71588f88abfa.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 4,
+        "one_pace_crc": "9E0A91E9",
+        "muhn_reference_key": "e6ca71588f88abfa",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/xcyScRL2.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "Wjq4mpVH",
+      "source_filename": "[Muhn Pace] Fishman Island 5.mp4",
+      "source_sha256": "ad69d09b7b4e668737e811ba1a8e10a4432e920e9a71a9ae9f99c8d6e7bc7f79",
+      "edit_number": 5,
+      "season": 9,
+      "display_title": "The King of Fishman Island Invited to Ryugu Palace!",
+      "synopsis": "King Neptune invites the pirates to Ryugu Palace. While exploring in search of food, Luffy discovers a heavily guarded tower.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        530,
+        531
+      ],
+      "accepted_original_episodes": [
+        530,
+        531
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ba1fe2d7c794b1f3.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ba1fe2d7c794b1f3.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 5,
+        "one_pace_crc": "DA5B5D04",
+        "muhn_reference_key": "ba1fe2d7c794b1f3",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/Wjq4mpVH.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "GKxL9g7C",
+      "source_filename": "[Muhn Pace] Fishman Island 6.mp4",
+      "source_sha256": "edf5243557ac2cc5f2d40f26c8823dd22ec04330a02d823c34662d9cc969d71e",
+      "edit_number": 6,
+      "season": 9,
+      "display_title": "The Mermaid Princess in Hard-Shell Tower! Shirahoshi of the Neptune Family!",
+      "synopsis": "Luffy meets Shirahoshi and learns why she has spent years confined to her room. Elsewhere in the palace, suspicion turns the Straw Hats' welcome into a confrontation.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        532,
+        533
+      ],
+      "accepted_original_episodes": [
+        532,
+        533
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/63c9dd25ff7cadc9.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/63c9dd25ff7cadc9.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 6,
+        "one_pace_crc": "64FB3990",
+        "muhn_reference_key": "63c9dd25ff7cadc9",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/GKxL9g7C.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "pcW8oH2b",
+      "source_filename": "[Muhn Pace] Fishman Island 7.mp4",
+      "source_sha256": "273ed32879924b5336b116117a3da8de56cb7d59d94face9a81196cff84098a9",
+      "edit_number": 7,
+      "season": 9,
+      "display_title": "The Shirahoshi Kidnapping Incident and the Curse of the Mato Mato!",
+      "synopsis": "Luffy takes Shirahoshi outside the tower while attacks throw the palace into confusion. Sanji and Chopper encounter an injured friend with alarming news.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        533,
+        534
+      ],
+      "accepted_original_episodes": [
+        533,
+        534
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/28d322f9c9d6caa7.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/28d322f9c9d6caa7.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 7,
+        "one_pace_crc": "29A10280",
+        "muhn_reference_key": "28d322f9c9d6caa7",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/pcW8oH2b.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "po5BSgXi",
+      "source_filename": "[Muhn Pace] Fishman Island 8.mp4",
+      "source_sha256": "41e9c8ba9c4726d7043e0859f2667a5b67bda13a3e6b408c3a05ee37693cc6f9",
+      "edit_number": 8,
+      "season": 9,
+      "display_title": "The Beginning of the Vengeful Plan! Zoro vs. Hody!",
+      "synopsis": "Hody's forces move against Ryugu Palace and Zoro confronts their leader underwater. Luffy's outing with Shirahoshi attracts unwelcome attention.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        535,
+        536,
+        537
+      ],
+      "accepted_original_episodes": [
+        535,
+        536,
+        537
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/d7413c6ade79b4bc.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/d7413c6ade79b4bc.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 8,
+        "one_pace_crc": "DBA50B89",
+        "muhn_reference_key": "d7413c6ade79b4bc",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/po5BSgXi.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "jmda4ZHb",
+      "source_filename": "[Muhn Pace] Fishman Island 9.mp4",
+      "source_sha256": "bbb2475ea5bbea3bc792a5830976b17bbdad54e54f7ff7a6363871c9298ef147",
+      "edit_number": 9,
+      "season": 9,
+      "display_title": "At the Sea Forest! Arlong and Hody",
+      "synopsis": "Luffy reunites with Jinbe in the Sea Forest. Jinbe begins explaining his connection to Arlong and the history that divides humans and fishmen.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        538,
+        539,
+        541
+      ],
+      "accepted_original_episodes": [
+        538,
+        539,
+        541
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/d20fc077a4b2d0d3.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/d20fc077a4b2d0d3.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 9,
+        "one_pace_crc": "FCF7F7E4",
+        "muhn_reference_key": "d20fc077a4b2d0d3",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/jmda4ZHb.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "R2nzGYGC",
+      "source_filename": "[Muhn Pace] Fishman Island 10.mp4",
+      "source_sha256": "848ba70bbd9f23d403a9a168d8a432d38ba698db4d457cbaf360b3a1531d142c",
+      "edit_number": 10,
+      "season": 9,
+      "display_title": "Otohime, Fisher Tiger, and the Sun Pirates! The Fateful Encounter!",
+      "synopsis": "Jinbe recalls Queen Otohime's efforts to build ties with the surface. Fisher Tiger chooses a different path, freeing slaves and forming the Sun Pirates.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        540,
+        541
+      ],
+      "accepted_original_episodes": [
+        540,
+        541
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2612baa3e80b4aa8.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2612baa3e80b4aa8.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 10,
+        "one_pace_crc": "F4BB17EB",
+        "muhn_reference_key": "2612baa3e80b4aa8",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/R2nzGYGC.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "VQmvEm8J",
+      "source_filename": "[Muhn Pace] Fishman Island 11.mp4",
+      "source_sha256": "1bf1dc9fa4009a5267878e962f62b63bdaf948c92fa73b4b20b1f0689223ae20",
+      "edit_number": 11,
+      "season": 9,
+      "display_title": "The Shocking Truth of Tiger! The End of the Sun Pirates",
+      "synopsis": "The Sun Pirates confront the consequences of Fisher Tiger's hidden past. Jinbe and Arlong take increasingly different views of the future.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        543,
+        544,
+        545
+      ],
+      "accepted_original_episodes": [
+        543,
+        544,
+        545
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/cc33ebfa878cc69d.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/cc33ebfa878cc69d.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 11,
+        "one_pace_crc": "7926F9B5",
+        "muhn_reference_key": "cc33ebfa878cc69d",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/VQmvEm8J.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "LsFTNynr",
+      "source_filename": "[Muhn Pace] Fishman Island 12.mp4",
+      "source_sha256": "094cd9dab24a248f8553c6d70654dfe7363c42632c3f321b1462365cdd60e0ba",
+      "edit_number": 12,
+      "season": 9,
+      "display_title": "The Shipwrecked Celestial Dragon! A Bullet That Seals the Future",
+      "synopsis": "Otohime intervenes when a Celestial Dragon reaches Fishman Island. Her efforts bring the kingdom closer to change before violence strikes the plaza.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        545,
+        546
+      ],
+      "accepted_original_episodes": [
+        545,
+        546
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6755631caed284f2.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6755631caed284f2.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 12,
+        "one_pace_crc": "F134C10A",
+        "muhn_reference_key": "6755631caed284f2",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/LsFTNynr.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "wkakb8Lj",
+      "source_filename": "[Muhn Pace] Fishman Island 13.mp4",
+      "source_sha256": "c208308cd549f90aa4b05f6a7c691b537cdd686457104b93140a57f29e44d24b",
+      "edit_number": 13,
+      "season": 9,
+      "display_title": "Shaking of the Kingdom! Luffy vs. Jinbe!",
+      "synopsis": "Jinbe finishes his account as Hody announces his takeover of the kingdom. Luffy wants to intervene, but Jinbe fears how the island will interpret a human attack.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        547,
+        548,
+        549,
+        550
+      ],
+      "accepted_original_episodes": [
+        547,
+        548,
+        549,
+        550
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/99123aabbf95d922.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/99123aabbf95d922.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 13,
+        "one_pace_crc": "04C7B716",
+        "muhn_reference_key": "99123aabbf95d922",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/wkakb8Lj.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "hiXFpktE",
+      "source_filename": "[Muhn Pace] Fishman Island 14.mp4",
+      "source_sha256": "35566acec45cdcc86c6fa92697d2e826cfc3cc01db5276a0fbf84e388d54b634",
+      "edit_number": 14,
+      "season": 9,
+      "display_title": "Gyoncorde Plaza Gathering! The Evil Drug's True Power",
+      "synopsis": "Hody's use of energy steroids transforms the balance of power. Neptune's sons confront the rebels at Gyoncorde Plaza.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        550,
+        551
+      ],
+      "accepted_original_episodes": [
+        550,
+        551
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/49dd72dd805ac987.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/49dd72dd805ac987.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 14,
+        "one_pace_crc": "35A189E2",
+        "muhn_reference_key": "49dd72dd805ac987",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/hiXFpktE.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "G3sZ216k",
+      "source_filename": "[V3][DUB][632-633] Fishman Island 15 (FIXED GROUP SHOT) [1080p].mp4",
+      "source_sha256": "d4acdaa54310f88fa0646337d93a44a2534192968bfddb345a50a0e16db012ad",
+      "edit_number": 15,
+      "season": 9,
+      "display_title": "Hody's Dark Secret! The Straw Hats' Arrival",
+      "synopsis": "Shirahoshi and Jinbe try to reach the captive Neptune. Hody reveals his role in the island's tragedy as the Straw Hats prepare their response.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        552,
+        553
+      ],
+      "accepted_original_episodes": [
+        552,
+        553
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/530cb688e4a14037.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/530cb688e4a14037.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 15,
+        "one_pace_crc": "8014A332",
+        "muhn_reference_key": "530cb688e4a14037",
+        "exact_file_index": "https://pixeldrain.dev/api/list/ZQhstabS",
+        "method": "The exact live source filename identifies a V3 English-dubbed Fishman Island 15 release with manga chapters 632–633 and a corrected group shot. Those chapter tags agree with the published release record; inspected interior frames show the matching Hody/Straw Hat confrontation. These are two preserved file IDs for the same named variant, not two separate story edits.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/G3sZ216k.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "vttEzm2N",
+      "source_filename": "[Muhn Pace] Fishman Island 16.mp4",
+      "source_sha256": "292f21c2b259782b9915281789f80f440ed2f2ed5ebc9700bb65a1d1c585d3b8",
+      "edit_number": 16,
+      "season": 9,
+      "display_title": "100,000 vs. 10! The Straw Hats' Explosive Moves",
+      "synopsis": "The reunited crew faces Hody's enormous army. Their two years of training are put to use in a series of new attacks.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        554,
+        555,
+        556
+      ],
+      "accepted_original_episodes": [
+        554,
+        555,
+        556
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/fa1dccc720950436.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/fa1dccc720950436.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 16,
+        "one_pace_crc": "DF3A7006",
+        "muhn_reference_key": "fa1dccc720950436",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/vttEzm2N.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "ZCMq4z4P",
+      "source_filename": "[Muhn Pace] Fishman Island 17.mp4",
+      "source_sha256": "20143b1cd9976217d0468a02e7e24bf01483a856684524949ce94f49895584c4",
+      "edit_number": 17,
+      "season": 9,
+      "display_title": "The General from the Future Land and the Crisis of Fishman Island's Destruction",
+      "synopsis": "Franky unveils the Sunny's combat machines against the rebels. The arrival of Noah casts a much larger threat over the island.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        556,
+        557,
+        558
+      ],
+      "accepted_original_episodes": [
+        556,
+        557,
+        558
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ecd7e6b11f6b9d7c.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ecd7e6b11f6b9d7c.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 17,
+        "one_pace_crc": "EB0BC95C",
+        "muhn_reference_key": "ecd7e6b11f6b9d7c",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/ZCMq4z4P.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "QixuDSta",
+      "source_filename": "[Muhn Pace] Fishman Island 18.mp4",
+      "source_sha256": "325976c79da53101f680701ed1a65866c543cc67e5a27356f8aaf9202c9d26ae",
+      "edit_number": 18,
+      "season": 9,
+      "display_title": "I'll Protect Everything",
+      "synopsis": "Shirahoshi tries to draw Noah away from Fishman Island. Luffy follows to protect her, but Hody pursues them into the open sea.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        559,
+        560
+      ],
+      "accepted_original_episodes": [
+        559,
+        560
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5893f8b32c25271d.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5893f8b32c25271d.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 18,
+        "one_pace_crc": "B6BD1A60",
+        "muhn_reference_key": "5893f8b32c25271d",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/QixuDSta.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "sS5UMR3U",
+      "source_filename": "[Muhn Pace] Fishman Island 19.mp4",
+      "source_sha256": "0df92bb70bcf6aa8788c1ddbfe51a88c1ff9323e1794d8ba2655087ec65bef57",
+      "edit_number": 19,
+      "season": 9,
+      "display_title": "What Are You?",
+      "synopsis": "The crew battles Hody's officers while Luffy fights above the island. Noah's continued descent leaves little time to overcome Hody's growing strength.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        561,
+        562
+      ],
+      "accepted_original_episodes": [
+        561,
+        562
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8c041201b00c66f0.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8c041201b00c66f0.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 19,
+        "one_pace_crc": "C19D5680",
+        "muhn_reference_key": "8c041201b00c66f0",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/sS5UMR3U.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "dP3DaScp",
+      "source_filename": "[Muhn Pace] Fishman Island 20.mp4",
+      "source_sha256": "0bb53a596e9f440c0ad1a3d84acffa9bcc0ebee92dba0bdbcd423ab537ce3f97",
+      "edit_number": 20,
+      "season": 9,
+      "display_title": "Phantom",
+      "synopsis": "Neptune's soldiers join the Straw Hats in defending the plaza. Fukaboshi confronts the hatred behind Hody's campaign while Noah continues to fall.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        563,
+        564,
+        565,
+        566,
+        567
+      ],
+      "accepted_original_episodes": [
+        563,
+        564,
+        565,
+        566,
+        567
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/cbc83cee5738dec3.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/cbc83cee5738dec3.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 20,
+        "one_pace_crc": "94E2099D",
+        "muhn_reference_key": "cbc83cee5738dec3",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/dP3DaScp.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "YuY3j6Mz",
+      "source_filename": "[Muhn Pace] Fishman Island 21.mp4",
+      "source_sha256": "f3847c389eecc90fcb355ab09f634119209de3af51fe7af81fc14327cc5227e0",
+      "edit_number": 21,
+      "season": 9,
+      "display_title": "Death Is Also Revenge",
+      "synopsis": "Luffy presses his attack despite his injuries, and the Straw Hats take on the remaining officers. Hody's reliance on energy steroids makes him increasingly dangerous.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        562,
+        563,
+        564,
+        565,
+        566,
+        567
+      ],
+      "accepted_original_episodes": [
+        562,
+        563,
+        564,
+        565,
+        566,
+        567
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ea3a07e6311e61c3.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ea3a07e6311e61c3.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 21,
+        "one_pace_crc": "85AD9C81",
+        "muhn_reference_key": "ea3a07e6311e61c3",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/YuY3j6Mz.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "PdSS3JWQ",
+      "source_filename": "[Muhn Pace] Fishman Island 22.mp4",
+      "source_sha256": "c3e74cdc89cda750e46a8f40d621d16143e66fd3c87c775c4756cdf5ee1e2949",
+      "edit_number": 22,
+      "season": 9,
+      "display_title": "The Path Towards the Sun",
+      "synopsis": "The struggle to stop Noah reaches its conclusion. With Luffy badly injured, Jinbe challenges a barrier that has long divided fishmen and humans.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        567,
+        568,
+        569
+      ],
+      "accepted_original_episodes": [
+        567,
+        568,
+        569
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/15b1f73f683bbf6b.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/15b1f73f683bbf6b.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 22,
+        "one_pace_crc": "7DBBFA18",
+        "muhn_reference_key": "15b1f73f683bbf6b",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/PdSS3JWQ.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "ZaLRrv1y",
+      "source_filename": "[Muhn Pace] Fishman Island 23.mp4",
+      "source_sha256": "aeb84abfaf262dfcbfce9d1ee8bdbe6dfdf4c2fbd346b537382eb8a8114ec708",
+      "edit_number": 23,
+      "season": 9,
+      "display_title": "The Voice from the New World",
+      "synopsis": "Big Mom's representatives arrive to collect the island's promised sweets. Luffy's response brings him into a confrontation with an Emperor of the Sea.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        570,
+        571
+      ],
+      "accepted_original_episodes": [
+        570,
+        571
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b6104ec37de6cdf2.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b6104ec37de6cdf2.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 23,
+        "one_pace_crc": "65BD682D",
+        "muhn_reference_key": "b6104ec37de6cdf2",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/ZaLRrv1y.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    },
+    {
+      "collection_id": "ZQhstabS",
+      "file_id": "wKhUDZq7",
+      "source_filename": "[Muhn Pace] Fishman Island 24.mp4",
+      "source_sha256": "83cd40ff83d4559a7a4f2ee48a74425fd3db4ea63adf6b794fb060b384eb8afb",
+      "edit_number": 24,
+      "season": 9,
+      "display_title": "The Hero's Hat",
+      "synopsis": "The Straw Hats prepare to leave with a new Log Pose and hopes for their next voyage. Their friends gather to see them off toward the New World.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        572,
+        573
+      ],
+      "accepted_original_episodes": [
+        572,
+        573
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/3696759a288c6e72.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/3696759a288c6e72.yml",
+        "one_pace_arc": 29,
+        "one_pace_episode": 24,
+        "one_pace_crc": "99A61805",
+        "muhn_reference_key": "3696759a288c6e72",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/wKhUDZq7.jpg",
+        "artwork_commit": "7aa218937f5cc9f96bc33496103390f0ea40af21"
+      }
+    }
+  ]
+}

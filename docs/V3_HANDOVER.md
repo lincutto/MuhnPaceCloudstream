@@ -6,6 +6,8 @@ The user's new Phase 4B request supersedes the Phase 4A stop below. Recovered cl
 
 Checkpoint 1 implementation `a028ae8` is pushed. The first eight additional seasons add 81 records and stills (art checkpoint `0ebd79a`), bringing completed story records to 129. Post-Enies Lobby files 4/5 correspond to One Pace 5/6 by their specific Muhn release titles and story references, not by equal edit numbers. All native positions remain unchanged.
 
+Next batch: Fishman Island (including the separately preserved corrected-shot file), Punk Hazard and Zou add 55 records, bringing coverage to 184. All are individually summarized with derived ranges and distinct exact-file-associated stills. Both Fishman corrected-shot filenames explicitly match the published manga-chapter tags; those tags are never mistaken for anime episode numbers.
+
 Existing Android builds and Kotlin regression suite passed after updating two obsolete description expectations; Python has 24 passing checks. All 47 Kotlin tests (43 main + 4 preview), both Android packages and the additional formatter/real-response checks passed locally. No v3 package has been published yet. Remaining seasons and final validation/publication follow; do not modify main/builds or start Phase 5. Preserve the late-Wano evidence gap rather than guessing coverage.
 
 Updated: 2026-11-15 (UTC). Revised Phase 4A **A1, A2 and A3 are complete and the isolated preview v2 is published**; development CI and anonymous installation-chain checks passed. One series, sixteen native seasons, 274 preserved file URLs, eight improved Dressrosa records. Stop after the isolated preview update for user feedback; do not start B/C, unrelated optimization or Phase 5.
