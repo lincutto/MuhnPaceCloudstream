@@ -1,0 +1,1587 @@
+{
+  "schema_version": 3,
+  "season": 14,
+  "reviewed_on": "2026-11-16",
+  "entries": [
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "7E7CCJg7",
+      "source_filename": "[Muhn Pace] Whole Cake Island 01.mp4",
+      "source_sha256": "27ad23656fb19e1140cfd2c0debc6d5cb7cb131685b99465b8b32220338b406b",
+      "edit_number": 1,
+      "season": 14,
+      "display_title": "A World Abuzz",
+      "synopsis": "Luffy's rescue party sets sail for Sanji with an unexpected passenger aboard. Around the world, royal families prepare to gather at Mary Geoise.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        777,
+        778,
+        779,
+        783
+      ],
+      "accepted_original_episodes": [
+        777,
+        778,
+        779,
+        783
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b46e5a0cc07a2863.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b46e5a0cc07a2863.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 1,
+        "one_pace_crc": "3F24A1D8",
+        "muhn_reference_key": "b46e5a0cc07a2863",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/7E7CCJg7.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "QtoMg5vu",
+      "source_filename": "[Muhn Pace] Whole Cake Island 02.mp4",
+      "source_sha256": "b212841d88ddd7a44fb89096b832c25cffd22799eb980267a38e74007feb4e80",
+      "edit_number": 2,
+      "season": 14,
+      "display_title": "0 and 4",
+      "synopsis": "Luffy's attempt to feed himself leaves him dangerously poisoned. The crew encounters two travelers whose connection to Sanji offers a chance of help.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        783,
+        784,
+        785
+      ],
+      "accepted_original_episodes": [
+        783,
+        784,
+        785
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/18dc37c736e5e8b3.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/18dc37c736e5e8b3.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 2,
+        "one_pace_crc": "6FFCB482",
+        "muhn_reference_key": "18dc37c736e5e8b3",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/QtoMg5vu.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "XLRb1kNA",
+      "source_filename": "[Muhn Pace] Whole Cake Island 03.mp4",
+      "source_sha256": "03c5d76f0e2b2da28565ffeecf1098049e8b3932564b70748c29d19bc73f84db",
+      "edit_number": 3,
+      "season": 14,
+      "display_title": "Totto Land",
+      "synopsis": "The crew explores the edible streets of Cacao Island. Meeting Pudding gives them a surprising account of the woman Sanji is supposed to marry.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        785,
+        786,
+        787,
+        788
+      ],
+      "accepted_original_episodes": [
+        785,
+        786,
+        787,
+        788
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/17ba7589040104a9.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/17ba7589040104a9.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 3,
+        "one_pace_crc": "3F6633B5",
+        "muhn_reference_key": "17ba7589040104a9",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/XLRb1kNA.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "UaEAvqjm",
+      "source_filename": "[Muhn Pace] Whole Cake Island 04.mp4",
+      "source_sha256": "f13df876c8e7943af5bf55833a325e5b79584bf7627149a2b88b2fc2855afc4f",
+      "edit_number": 4,
+      "season": 14,
+      "display_title": "Emperor of the Sea, Charlotte Linlin",
+      "synopsis": "Big Mom's hunger throws her territory into turmoil. Jinbe approaches her with an important request while Pedro explains his own history in Totto Land.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        788,
+        789,
+        790
+      ],
+      "accepted_original_episodes": [
+        788,
+        789,
+        790
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/bff856b3d7aa4161.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/bff856b3d7aa4161.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 4,
+        "one_pace_crc": "02C6FC2B",
+        "muhn_reference_key": "bff856b3d7aa4161",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/UaEAvqjm.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "rEQFJXnk",
+      "source_filename": "[Muhn Pace] Whole Cake Island 05.mp4",
+      "source_sha256": "015e4619815a9d9c40be27347e87cfb7a199ab75cfdb29e194d029f493560973",
+      "edit_number": 5,
+      "season": 14,
+      "display_title": "Adventure in the Mysterious Forest",
+      "synopsis": "The search for Sanji leads Luffy's group into a forest that refuses to let them leave. Sanji's reunion with his brother brings old family tensions back.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        791,
+        792,
+        793
+      ],
+      "accepted_original_episodes": [
+        791,
+        792,
+        793
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/38c03fa5b18a6e21.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/38c03fa5b18a6e21.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 5,
+        "one_pace_crc": "4CF30353",
+        "muhn_reference_key": "38c03fa5b18a6e21",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/rEQFJXnk.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "A81Df2HY",
+      "source_filename": "[Muhn Pace] Whole Cake Island 06.mp4",
+      "source_sha256": "27c0ab31d2e43d55cd84cbb3af27fa8ba135b80c7e349611b45449934104babb",
+      "edit_number": 6,
+      "season": 14,
+      "display_title": "Vinsmoke Judge",
+      "synopsis": "Sanji challenges his father, Judge, as memories of his childhood return. Luffy remains trapped in the woods while Caesar answers to Big Mom.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        793,
+        794,
+        795
+      ],
+      "accepted_original_episodes": [
+        793,
+        794,
+        795
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/cd90dcd3090cfa5c.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/cd90dcd3090cfa5c.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 6,
+        "one_pace_crc": "410C8F0C",
+        "muhn_reference_key": "cd90dcd3090cfa5c",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/A81Df2HY.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "weHXYFT3",
+      "source_filename": "[Muhn Pace] Whole Cake Island 07.mp4",
+      "source_sha256": "0e530830e4a8100de4e08a1083647a10128d53b945db651daf2d9c0922a64805",
+      "edit_number": 7,
+      "season": 14,
+      "display_title": "Lola's Vivre Card",
+      "synopsis": "The man buried in the forest explains his connection to Big Mom's family. Nami discovers that Lola's Vivre Card can help them face the forest's inhabitants.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        796,
+        797,
+        798
+      ],
+      "accepted_original_episodes": [
+        796,
+        797,
+        798
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/caa3bba93f2830b5.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/caa3bba93f2830b5.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 7,
+        "one_pace_crc": "FC2376A1",
+        "muhn_reference_key": "caa3bba93f2830b5",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/weHXYFT3.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "BZYT6qfg",
+      "source_filename": "[Muhn Pace] Whole Cake Island 08.mp4",
+      "source_sha256": "9e9a3b2f2cab48a06d33433c28b51635b881cd418bb06cb7145c40a04cc508ed",
+      "edit_number": 8,
+      "season": 14,
+      "display_title": "Luffy vs. Commander Cracker",
+      "synopsis": "Luffy confronts Cracker and his formidable biscuit soldiers. Brook and Pedro begin their attempt to enter Big Mom's castle unnoticed.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        798,
+        799,
+        800
+      ],
+      "accepted_original_episodes": [
+        798,
+        799,
+        800
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/7aed3f0ad1e51f9b.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/7aed3f0ad1e51f9b.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 8,
+        "one_pace_crc": "31018FCB",
+        "muhn_reference_key": "7aed3f0ad1e51f9b",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/BZYT6qfg.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "26bBWNGx",
+      "source_filename": "[Muhn Pace] Whole Cake Island 09.mp4",
+      "source_sha256": "35677e94c867870b28a25d351722ab971672fe5197c24ea242131e042a809365",
+      "edit_number": 9,
+      "season": 14,
+      "display_title": "The Iron Mask",
+      "synopsis": "Sanji resists the role his family has planned for him, but Judge has prepared ways to force his cooperation. The workings of Germa's army expose another side of the Vinsmokes.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        800,
+        801,
+        802,
+        803,
+        807
+      ],
+      "accepted_original_episodes": [
+        800,
+        801,
+        802,
+        803,
+        807
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a982f3df3703671e.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a982f3df3703671e.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 9,
+        "one_pace_crc": "94E3481F",
+        "muhn_reference_key": "a982f3df3703671e",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/26bBWNGx.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "1LAaumQE",
+      "source_filename": "[Muhn Pace] Whole Cake Island 10.mp4",
+      "source_sha256": "2153d7001c7f43834c09c7cdf81c52fda76fedb6ccda3f937718c5e0316be03a",
+      "edit_number": 10,
+      "season": 14,
+      "display_title": "To the East Blue",
+      "synopsis": "Sanji remembers the chance that allowed him to escape his childhood imprisonment. Reiju helps him prepare for the wedding as the family's pressure continues.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        804,
+        805,
+        806
+      ],
+      "accepted_original_episodes": [
+        804,
+        805,
+        806
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ceb17103edfb6c58.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ceb17103edfb6c58.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 10,
+        "one_pace_crc": "E123D314",
+        "muhn_reference_key": "ceb17103edfb6c58",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/1LAaumQE.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "dmXp1FES",
+      "source_filename": "[Muhn Pace] Whole Cake Island 11.mp4",
+      "source_sha256": "e30251ee378889df71b18bbf7e2ff07098be69e03f8b1e9cee55a5b0385bedb9",
+      "edit_number": 11,
+      "season": 14,
+      "display_title": "Luffy vs. Sanji",
+      "synopsis": "Luffy overcomes Cracker and finally reaches Sanji. Their reunion becomes a painful confrontation when Sanji tries to drive his friends away.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        806,
+        807,
+        808
+      ],
+      "accepted_original_episodes": [
+        806,
+        807,
+        808
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6e174fd3e0ae8aff.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6e174fd3e0ae8aff.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 11,
+        "one_pace_crc": "8B5E1006",
+        "muhn_reference_key": "6e174fd3e0ae8aff",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/dmXp1FES.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "1acCoFmh",
+      "source_filename": "[Muhn Pace] Whole Cake Island 12.mp4",
+      "source_sha256": "c6616f62aa7e74e1949163c9a547277ed4d73979e14b7b14b3efef66820cd0f5",
+      "edit_number": 12,
+      "season": 14,
+      "display_title": "Forces of Rage",
+      "synopsis": "Luffy waits where he promised while Big Mom's forces gather around him. Inside the castle, Sanji and Pudding discuss the future arranged for them.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        809,
+        810,
+        811,
+        812
+      ],
+      "accepted_original_episodes": [
+        809,
+        810,
+        811,
+        812
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5b242db603b0677e.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5b242db603b0677e.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 12,
+        "one_pace_crc": "36D0F622",
+        "muhn_reference_key": "5b242db603b0677e",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/1acCoFmh.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "6JcKRifc",
+      "source_filename": "[Muhn Pace] Whole Cake Island 13.mp4",
+      "source_sha256": "b5772c65a6cc8fc01ef3ac503550233e3a37c8e0a74fb5aa760d0f57e9bfd628",
+      "edit_number": 13,
+      "season": 14,
+      "display_title": "Luffy and Big Mom",
+      "synopsis": "Pedro distracts the guards so Brook can pursue their objective. Luffy confronts Big Mom from captivity while Pudding considers her next move.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        812,
+        813,
+        814,
+        815
+      ],
+      "accepted_original_episodes": [
+        812,
+        813,
+        814,
+        815
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/aa6afd9c8c4f1be4.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/aa6afd9c8c4f1be4.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 13,
+        "one_pace_crc": "D9EEB564",
+        "muhn_reference_key": "aa6afd9c8c4f1be4",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/6JcKRifc.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "wYENFE2p",
+      "source_filename": "[Muhn Pace] Whole Cake Island 14.mp4",
+      "source_sha256": "9b9b73114bcc1cc7681578fed145afd8099fcb757e7c4921a23e0c46e5e7ef64",
+      "edit_number": 14,
+      "season": 14,
+      "display_title": "A Ray of Light",
+      "synopsis": "Pudding's visit changes the prisoners' understanding of the wedding. Brook faces Big Mom directly, and Luffy struggles to break free.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        814,
+        815,
+        816,
+        817
+      ],
+      "accepted_original_episodes": [
+        814,
+        815,
+        816,
+        817
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/3347aa4670f9ce2d.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/3347aa4670f9ce2d.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 14,
+        "one_pace_crc": "CCCBEFC0",
+        "muhn_reference_key": "3347aa4670f9ce2d",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/wYENFE2p.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "8L2aGHpJ",
+      "source_filename": "[Muhn Pace] Whole Cake Island 15.mp4",
+      "source_sha256": "1851869740b8753cf392c651e2da5adacb015c90eae834d26dfbddeb15ea7097",
+      "edit_number": 15,
+      "season": 14,
+      "display_title": "Germa's Failure",
+      "synopsis": "An ally intervenes to help Luffy and Nami escape. Sanji speaks with Reiju about Pudding and learns why their mother resisted Judge's plans.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        817,
+        818,
+        819,
+        820
+      ],
+      "accepted_original_episodes": [
+        817,
+        818,
+        819,
+        820
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e4fb188fd83486dd.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e4fb188fd83486dd.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 15,
+        "one_pace_crc": "0E2022E4",
+        "muhn_reference_key": "e4fb188fd83486dd",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/8L2aGHpJ.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "6KVTrDkA",
+      "source_filename": "[Muhn Pace] Whole Cake Island 16.mp4",
+      "source_sha256": "2985e272d9a5e9bcd9b15ea9e92d6d8c49d41f39ec3da657db4c46ea7bd72659",
+      "edit_number": 16,
+      "season": 14,
+      "display_title": "Not Here",
+      "synopsis": "Luffy searches the castle for Sanji. Brook overhears Big Mom's intentions while her children try to account for the intruders.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        820,
+        821,
+        822
+      ],
+      "accepted_original_episodes": [
+        820,
+        821,
+        822
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e9efeff3af0ecba6.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e9efeff3af0ecba6.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 16,
+        "one_pace_crc": "A8E42FE1",
+        "muhn_reference_key": "e9efeff3af0ecba6",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/6KVTrDkA.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "ufPfc2UC",
+      "source_filename": "[Muhn Pace] Whole Cake Island 17.mp4",
+      "source_sha256": "23e4595eb46418f6f5b03e9748132d14bb9b5c40c9c2109128a9f5895409f8d0",
+      "edit_number": 17,
+      "season": 14,
+      "display_title": "Liar",
+      "synopsis": "The group uses the Mirror World to find Brook in a difficult situation. Luffy attempts to return to his promised meeting place as Jinbe explains the wedding trap.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        823,
+        824,
+        825
+      ],
+      "accepted_original_episodes": [
+        823,
+        824,
+        825
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0b7a8284786647c2.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0b7a8284786647c2.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 17,
+        "one_pace_crc": "0CF96D5A",
+        "muhn_reference_key": "0b7a8284786647c2",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/ufPfc2UC.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "7MpTj17r",
+      "source_filename": "[Muhn Pace] Whole Cake Island 18.mp4",
+      "source_sha256": "8b92b238d6b6082735f31d1f0133072bf6f52e69f84aa93d4b3bd388d0872858",
+      "edit_number": 18,
+      "season": 14,
+      "display_title": "Rook",
+      "synopsis": "Jinbe proposes working with Bege against Big Mom. Before the two groups can negotiate, the Straw Hats must enter the gangster's unusual headquarters.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        826,
+        827,
+        828
+      ],
+      "accepted_original_episodes": [
+        826,
+        827,
+        828
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/c19b374e0237f0d5.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/c19b374e0237f0d5.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 18,
+        "one_pace_crc": "3F5E7FD3",
+        "muhn_reference_key": "c19b374e0237f0d5",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/7MpTj17r.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "tf8DGyh6",
+      "source_filename": "[Muhn Pace] Whole Cake Island 19.mp4",
+      "source_sha256": "91961b10d3d9d9442de0a1d18129ab84f164208f904cb76c37cacde2a1ff8375",
+      "edit_number": 19,
+      "season": 14,
+      "display_title": "Emperor Assassination Plan",
+      "synopsis": "The allies agree on the steps of their attack during the wedding. Sanji returns to avoid suspicion as guests from the criminal underworld arrive.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        828,
+        829,
+        830
+      ],
+      "accepted_original_episodes": [
+        828,
+        829,
+        830
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e6bc8a046d08550f.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e6bc8a046d08550f.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 19,
+        "one_pace_crc": "0F125E00",
+        "muhn_reference_key": "e6bc8a046d08550f",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/tf8DGyh6.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "jr5zCKc8",
+      "source_filename": "[Muhn Pace] Whole Cake Island 20.mp4",
+      "source_sha256": "18b4ec4c416c13d28bfa33f87c34fa43250342d2ccc322f60167fbd2f8cb701c",
+      "edit_number": 20,
+      "season": 14,
+      "display_title": "Veteran Actor",
+      "synopsis": "The ceremony begins and Sanji faces Pudding at the altar. Carefully prepared plans meet unexpected emotions as Luffy makes his entrance.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        831,
+        832
+      ],
+      "accepted_original_episodes": [
+        831,
+        832
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/f07f68e3927e128e.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/f07f68e3927e128e.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 20,
+        "one_pace_crc": "4F38961B",
+        "muhn_reference_key": "f07f68e3927e128e",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/jr5zCKc8.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "8pXAPAzv",
+      "source_filename": "[Muhn Pace] Whole Cake Island 21.mp4",
+      "source_sha256": "e2f230a0c2a1de24689be5d0299d8fb67e063204305a914948d04b67389ab0bf",
+      "edit_number": 21,
+      "season": 14,
+      "display_title": "The Honorable",
+      "synopsis": "The ruined wedding throws Big Mom's family into action. Jinbe makes his position clear while Sanji tries to protect the people caught in the chaos.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        831,
+        833,
+        834
+      ],
+      "accepted_original_episodes": [
+        831,
+        833,
+        834
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/229f13cdc5a2d1a0.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/229f13cdc5a2d1a0.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 21,
+        "one_pace_crc": "5FDB702D",
+        "muhn_reference_key": "229f13cdc5a2d1a0",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/8pXAPAzv.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "Xu8BrULz",
+      "source_filename": "[Muhn Pace] Whole Cake Island 22.mp4",
+      "source_sha256": "1b74af220273bd3642a96ced34673fcfa0834b895c7257e4da03818fbf34ecae",
+      "edit_number": 22,
+      "season": 14,
+      "display_title": "Hey, Mother",
+      "synopsis": "Luffy races to place the broken portrait before Big Mom again. Her reaction opens a window onto her childhood and attachment to Mother Carmel.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        835,
+        836
+      ],
+      "accepted_original_episodes": [
+        835,
+        836
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a4f8447714fa5701.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a4f8447714fa5701.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 22,
+        "one_pace_crc": "39D94718",
+        "muhn_reference_key": "a4f8447714fa5701",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/Xu8BrULz.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "wUUqDN5R",
+      "source_filename": "[Muhn Pace] Whole Cake Island 23.mp4",
+      "source_sha256": "07d5d8fd2270590a9273bd386a6804c868ef58c7223e3e7414a56efd97e01751",
+      "edit_number": 23,
+      "season": 14,
+      "display_title": "HAPPY BIRTHDAY",
+      "synopsis": "Linlin's childhood on Elbaph reveals the destructive force of her hunger. The disappearance of Mother Carmel changes the course of her life.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        837,
+        838,
+        839
+      ],
+      "accepted_original_episodes": [
+        837,
+        838,
+        839
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5f4173f39d77a454.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5f4173f39d77a454.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 23,
+        "one_pace_crc": "437F9E8D",
+        "muhn_reference_key": "5f4173f39d77a454",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/wUUqDN5R.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "sGFoZQXV",
+      "source_filename": "[Muhn Pace] Whole Cake Island 24.mp4",
+      "source_sha256": "9fe6eef48afaddaff183c437b51a4a52c4b6531c6c7dd4a3fd3d05467fa7903e",
+      "edit_number": 24,
+      "season": 14,
+      "display_title": "Under Siege",
+      "synopsis": "The alliance takes shelter inside Bege's fortress under attack from Big Mom's family. With their defenses failing, they must plan a dangerous exit.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        839,
+        840,
+        841
+      ],
+      "accepted_original_episodes": [
+        839,
+        840,
+        841
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a6f4deb232661f8d.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a6f4deb232661f8d.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 24,
+        "one_pace_crc": "6E422CFB",
+        "muhn_reference_key": "a6f4deb232661f8d",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/sGFoZQXV.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "eiSKkmuK",
+      "source_filename": "[Muhn Pace] Whole Cake Island 25.mp4",
+      "source_sha256": "19339f29bb2a6696dfe587e9af7e6a9b957ef236cf153460f7b55666519bb129",
+      "edit_number": 25,
+      "season": 14,
+      "display_title": "You Can Do It, Caesar!!",
+      "synopsis": "Caesar attempts to carry the allies away from the wedding venue. Big Mom's commanders close in as the escape plan reaches its limit.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        841,
+        842,
+        843
+      ],
+      "accepted_original_episodes": [
+        841,
+        842,
+        843
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8cf6918f7404650c.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8cf6918f7404650c.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 25,
+        "one_pace_crc": "32CC4AB9",
+        "muhn_reference_key": "8cf6918f7404650c",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/eiSKkmuK.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "nk8KtBvo",
+      "source_filename": "[Muhn Pace] Whole Cake Island 26.mp4",
+      "source_sha256": "a46470cbe9cab9ec1c1b6219eaab7bf7d8c7ca73e17dc34491a7a3d757a27f0d",
+      "edit_number": 26,
+      "season": 14,
+      "display_title": "Become My Servant",
+      "synopsis": "The Straw Hats race toward the Sunny with Big Mom pursuing them. Nami tries to turn Zeus' appetite to their advantage while a new cake is planned.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        843,
+        844,
+        845,
+        846
+      ],
+      "accepted_original_episodes": [
+        843,
+        844,
+        845,
+        846
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6c21e436b76eb08a.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6c21e436b76eb08a.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 26,
+        "one_pace_crc": "71827EF0",
+        "muhn_reference_key": "6c21e436b76eb08a",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/nk8KtBvo.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "GtBf8qNH",
+      "source_filename": "[Muhn Pace] Whole Cake Island 27.mp4",
+      "source_sha256": "32cb4676e38e8e20d8bdee422566708b45ad2d25d6140c9dc3d1f040b79a90e2",
+      "edit_number": 27,
+      "season": 14,
+      "display_title": "A Woman's Honor",
+      "synopsis": "Pudding joins the effort to make a cake capable of stopping Big Mom. The pursuing Emperor leaves the crew little time to reach safety.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        846,
+        847,
+        848
+      ],
+      "accepted_original_episodes": [
+        846,
+        847,
+        848
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0f0c62e0f4dc70c8.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0f0c62e0f4dc70c8.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 27,
+        "one_pace_crc": "2CDA8E9D",
+        "muhn_reference_key": "0f0c62e0f4dc70c8",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/GtBf8qNH.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "gseANDSr",
+      "source_filename": "[Muhn Pace] Whole Cake Island 28.mp4",
+      "source_sha256": "81c98bd6cde04e0077179ed8b05067d5c06bd01769cb013a4185044b105d6c06",
+      "edit_number": 28,
+      "season": 14,
+      "display_title": "Mink Tribe, Guardians Captain Pedro",
+      "synopsis": "The Sunny is trapped between Big Mom and her fleet. Pedro confronts Perospero to create an opening for his friends.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        848,
+        849,
+        850
+      ],
+      "accepted_original_episodes": [
+        848,
+        849,
+        850
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/800808c25f137966.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/800808c25f137966.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 28,
+        "one_pace_crc": "22B16322",
+        "muhn_reference_key": "800808c25f137966",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/gseANDSr.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "2tjsUSiG",
+      "source_filename": "[Muhn Pace] Whole Cake Island 29.mp4",
+      "source_sha256": "feb27f6f822dd69e114252c4e48a2f4165a183c408948cfb2175e2072e14934e",
+      "edit_number": 29,
+      "season": 14,
+      "display_title": "Zero Escape",
+      "synopsis": "Luffy faces Katakuri inside the Mirror World. Sanji and Pudding reach Cacao Island to begin the work needed to halt Big Mom's rampage.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        851,
+        852,
+        853
+      ],
+      "accepted_original_episodes": [
+        851,
+        852,
+        853
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0edab118b46e87a6.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0edab118b46e87a6.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 29,
+        "one_pace_crc": "270A4ABD",
+        "muhn_reference_key": "0edab118b46e87a6",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/2tjsUSiG.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "iUiKz18s",
+      "source_filename": "[Muhn Pace] Whole Cake Island 30.mp4",
+      "source_sha256": "fab2a722f095174194652f41aefc13539c55cb448695e7d8f03de6156fddca39",
+      "edit_number": 30,
+      "season": 14,
+      "display_title": "Wave Room",
+      "synopsis": "Luffy and Nami coordinate where the crew will meet again. Breaking the Sunny's mirrors isolates his battle with Katakuri from the chase outside.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        853,
+        854,
+        855,
+        858
+      ],
+      "accepted_original_episodes": [
+        853,
+        854,
+        855,
+        858
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ca59364f51138489.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ca59364f51138489.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 30,
+        "one_pace_crc": "ABB0AC56",
+        "muhn_reference_key": "ca59364f51138489",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/iUiKz18s.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "U76VZmvK",
+      "source_filename": "[Muhn Pace] Whole Cake Island 31.mp4",
+      "source_sha256": "5da80ef10515e2ca415f3078860ced0657b790d2f257881c44becc3f276b2258",
+      "edit_number": 31,
+      "season": 14,
+      "display_title": "Merienda",
+      "synopsis": "Katakuri pauses for his private snack while Luffy struggles beneath a mass of mochi. Returning to the fight gives Luffy a new insight into his opponent.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        856,
+        857,
+        858
+      ],
+      "accepted_original_episodes": [
+        856,
+        857,
+        858
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e0a83b1009a6defc.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e0a83b1009a6defc.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 31,
+        "one_pace_crc": "529AE554",
+        "muhn_reference_key": "e0a83b1009a6defc",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/U76VZmvK.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "yJmjasnG",
+      "source_filename": "[Muhn Pace] Whole Cake Island 32.mp4",
+      "source_sha256": "f5873bfc66dad2f1ea29242466851f9e496c85f194ec6112d46ae1e3aaf28f74",
+      "edit_number": 32,
+      "season": 14,
+      "display_title": "Way of Life",
+      "synopsis": "Oven's attack threatens Chiffon and the cake-making effort. Luffy temporarily leaves the Mirror World with Brulee as he looks for a way to recover.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        858,
+        859,
+        860
+      ],
+      "accepted_original_episodes": [
+        858,
+        859,
+        860
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/c00d7e66a58605f5.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/c00d7e66a58605f5.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 32,
+        "one_pace_crc": "8313ECE3",
+        "muhn_reference_key": "c00d7e66a58605f5",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/yJmjasnG.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "8GizGFvS",
+      "source_filename": "[Muhn Pace] Whole Cake Island 33.mp4",
+      "source_sha256": "0b984a18f3a9e335a0e34daffdf1909f32dc4570a62748927a21b2cb57d8e94e",
+      "edit_number": 33,
+      "season": 14,
+      "display_title": "Lion",
+      "synopsis": "Oven endangers the escape by heating the sea around Cacao Island. Under the full moon, Carrot reveals a form that may open a path for the Sunny.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        860,
+        861,
+        862
+      ],
+      "accepted_original_episodes": [
+        860,
+        861,
+        862
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/59478a2207511a2d.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/59478a2207511a2d.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 33,
+        "one_pace_crc": "6FBBD350",
+        "muhn_reference_key": "59478a2207511a2d",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/8GizGFvS.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "b1DZ945r",
+      "source_filename": "[Muhn Pace] Whole Cake Island 34.mp4",
+      "source_sha256": "b383b5d6612d5c0cb442c911e5ff2c279caedbae3a8f59663dcc7b7cc3ea6128",
+      "edit_number": 34,
+      "season": 14,
+      "display_title": "Unknown Mama",
+      "synopsis": "Big Mom boards the Sunny with her powerful companions. Jinbe and the crew fight to protect their ship from her relentless attacks.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        862,
+        863,
+        864,
+        865
+      ],
+      "accepted_original_episodes": [
+        862,
+        863,
+        864,
+        865
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a7ee3e5aed80b9cb.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a7ee3e5aed80b9cb.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 34,
+        "one_pace_crc": "A3939979",
+        "muhn_reference_key": "a7ee3e5aed80b9cb",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/b1DZ945r.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "1jiQFxFC",
+      "source_filename": "[Muhn Pace] Whole Cake Island 35.mp4",
+      "source_sha256": "ed4019011bb8806ca4f7b084681cb748b448a36038f817674865906c8952dddc",
+      "edit_number": 35,
+      "season": 14,
+      "display_title": "They Believe in Me",
+      "synopsis": "The completed cake offers a chance to draw Big Mom away. In the Mirror World, Luffy works to improve his observation Haki against Katakuri.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        865,
+        866,
+        867,
+        868
+      ],
+      "accepted_original_episodes": [
+        865,
+        866,
+        867,
+        868
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8bef28a4a26b26de.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8bef28a4a26b26de.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 35,
+        "one_pace_crc": "1753F7D1",
+        "muhn_reference_key": "8bef28a4a26b26de",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/1jiQFxFC.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "SZeiwo5t",
+      "source_filename": "[Muhn Pace] Whole Cake Island 36.mp4",
+      "source_sha256": "4b352fae9f4300407d18194e60404a8a5d9ff74cf5c1b91eee8e1a5d85ebece7",
+      "edit_number": 36,
+      "season": 14,
+      "display_title": "Pirate Luffy vs. Commander Katakuri",
+      "synopsis": "Luffy and Katakuri continue their exhausting duel as interference tests the fight's fairness. Outside, Big Mom's children prepare to stop the Straw Hats' escape.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        865,
+        867,
+        868,
+        869,
+        870
+      ],
+      "accepted_original_episodes": [
+        865,
+        867,
+        868,
+        869,
+        870
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/999cdaa1cfb5355b.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/999cdaa1cfb5355b.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 36,
+        "one_pace_crc": "3AF37912",
+        "muhn_reference_key": "999cdaa1cfb5355b",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/SZeiwo5t.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "jKWpQ1gT",
+      "source_filename": "[Muhn Pace] Whole Cake Island 37.mp4",
+      "source_sha256": "53c5c9de43bdb7156a192cd2f929dda424f54cb94cafdd6745a3b0231b1cfced",
+      "edit_number": 37,
+      "season": 14,
+      "display_title": "One Last Thing",
+      "synopsis": "The Mirror World battle approaches its conclusion. Sanji waits near the last mirror while enemy forces gather around the expected exit.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        871,
+        872
+      ],
+      "accepted_original_episodes": [
+        871,
+        872
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/509034f1919d9ee6.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/509034f1919d9ee6.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 37,
+        "one_pace_crc": "3C58DD41",
+        "muhn_reference_key": "509034f1919d9ee6",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/jKWpQ1gT.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "3dUemPPs",
+      "source_filename": "[Muhn Pace] Whole Cake Island 38.mp4",
+      "source_sha256": "ffd9f9a5cfbe122afb2f3f077599d79af5c024edeb2d8fd2b3a20f74d95dec16",
+      "edit_number": 38,
+      "season": 14,
+      "display_title": "BAD END MUSICAL",
+      "synopsis": "Sanji carries Luffy toward safety with help from unexpected allies. Germa and the Sun Pirates fight to clear the crew's route as Big Mom reaches the cake.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        873,
+        874,
+        875
+      ],
+      "accepted_original_episodes": [
+        873,
+        874,
+        875
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2f03cd99e447a252.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2f03cd99e447a252.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 38,
+        "one_pace_crc": "E9317CBD",
+        "muhn_reference_key": "2f03cd99e447a252",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/3dUemPPs.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    },
+    {
+      "collection_id": "AyvkmFFZ",
+      "file_id": "QkSQW23p",
+      "source_filename": "[Muhn Pace] Whole Cake Island 39.mp4",
+      "source_sha256": "fd6025d97f82817da479b68d5d9745467845486e7381192307a12e5d6d70e58e",
+      "edit_number": 39,
+      "season": 14,
+      "display_title": "END ROLL",
+      "synopsis": "The Straw Hats make their final push out of Totto Land. Jinbe must decide how to protect the allies holding back Big Mom's pursuing fleet.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        876,
+        877
+      ],
+      "accepted_original_episodes": [
+        876,
+        877
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/c2a8bdbb83f07ab4.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/c2a8bdbb83f07ab4.yml",
+        "one_pace_arc": 33,
+        "one_pace_episode": 39,
+        "one_pace_crc": "172F5F20",
+        "muhn_reference_key": "c2a8bdbb83f07ab4",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/QkSQW23p.jpg",
+        "artwork_commit": "df730ce8ace0be6206e6fbc9713a232dfc7c5547"
+      }
+    }
+  ]
+}
