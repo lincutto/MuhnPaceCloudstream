@@ -1,5 +1,17 @@
 # MuhnPaceCloudstream v3 — handover
 
+## Supplied artwork integration — preview version 4 prepared (2026-11-16)
+
+The user's new instruction supplies exact images and authorizes their integration/public preview publication without repeating the earlier broad licensing research. This supersedes the unresolved sourcing approach below. Picture 1 is now the main poster with proportional scaling and dark blurred portrait padding; Picture 2 is the unchanged 1280×721 background. No specific publication restriction was supplied with these attachments. User supply is recorded as provenance, not as a rightsholder licence.
+
+- Artwork checkpoint: `9d8ea67c8d98c1aba6dade4d1e633b753201dde3`. Both series URLs use that immutable development commit through the existing `series.json` / `ResearchDataset.SERIES_ARTWORK_BASE` mechanism.
+- Picture 1 arrived as a 1200×675 JPEG despite its user-facing name `IMG_9122.webp`. The complete frame is reduced to 768×432, centered on a 768×1152 canvas, and padded above/below with a dark blurred aspect-fill copy. No foreground crop, stretch, generated characters or face changes. Picture 2 (`IMG_9123.jpeg`) is copied byte-for-byte; Pictures 3/4 were not processed. Exact received and exported hashes/transformations are in `assets/phase4b/manifest.json`.
+- Preview version is **4**. The exact heading **One Piece • Muhn Pace (English dub)** is included. Home/search/detail poster and detail background field assignments are covered by the existing real-preview test; package validation additionally checks the heading in DEX.
+- Provider/plugin identities, virtual URLs, all 16 seasons/274 entries, episode metadata/thumbnails, playback logic and history inputs are unchanged. Byte comparisons against `89f3c9b` confirm this, including the entire bundled episode JSON. Only the series artwork base changes in runtime Kotlin. No episode-numbering work is included.
+- Local visual review confirms successful decoding and retained source framing. Fire TV crop, small-thumbnail readability, overlay legibility and saved resume still require the user's device screenshots. No device test is claimed.
+
+Validation passed once after implementation: **25 Python checks, 50 Kotlin/JUnit tests (44 base + 6 preview), and both Android/DEX/CS3 builds**. Publication results will be recorded after verification. Publish only to the existing isolated `v3-preview` repository, then stop for Fire TV screenshots; no production release or Phase 6.
+
 ## Final artwork refinement — blocked on reuse permission (2026-11-16)
 
 The latest request requires authentic crew artwork with a verified licence or other permission for this use. The user has no supplied artwork/permission and suggested finding images through Google Images. No replacement pair satisfying that permission requirement was established. **Artwork is unchanged; no next preview version was published.** Do not treat the existing manifest's noncommercial identification rationale as a licence, or treat the new tests as visual acceptance.

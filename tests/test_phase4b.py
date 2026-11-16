@@ -83,7 +83,11 @@ class Phase4bChecks(unittest.TestCase):
             self.assertLess((ROOT/image['file']).stat().st_size, 600_000)
         poster, background = [i for i in images if i['role'].startswith('series_')]
         self.assertEqual((768, 1152), (poster['width'], poster['height']))
-        self.assertEqual((1920, 1080), (background['width'], background['height']))
+        self.assertEqual((1280, 721), (background['width'], background['height']))
+        self.assertEqual('IMG_9122.webp', poster['source_filename'])
+        self.assertEqual('IMG_9123.jpeg', background['source_filename'])
+        self.assertEqual(background['source_sha256'], background['sha256'],
+                         'Picture 2 must remain the unchanged supplied JPEG')
         self.assertNotEqual(poster['source_sha256'], background['source_sha256'])
 
 

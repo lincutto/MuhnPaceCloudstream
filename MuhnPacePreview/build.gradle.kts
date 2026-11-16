@@ -1,6 +1,6 @@
 import com.android.build.gradle.BaseExtension
 
-version = 3
+version = 4
 
 val previewSources = layout.buildDirectory.dir("generated/preview/kotlin")
 val generatePreviewSources by tasks.registering(Exec::class) {
