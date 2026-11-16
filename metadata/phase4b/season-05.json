@@ -1,0 +1,207 @@
+{
+  "schema_version": 3,
+  "season": 5,
+  "reviewed_on": "2026-11-16",
+  "entries": [
+    {
+      "collection_id": "TuZJgwRL",
+      "file_id": "jhd85A5B",
+      "source_filename": "[Muhn Pace] Amazon Lily 1.mp4",
+      "source_sha256": "3cb4c8243e385fd6870339db75730e447952b8522981222cb2ce2a236fe75440",
+      "edit_number": 1,
+      "season": 5,
+      "display_title": "Adventure on the Island of Women",
+      "synopsis": "Stranded without his crew, Luffy searches an unfamiliar island for food. His encounter with its women warriors brings both danger and unexpected help.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        408,
+        409
+      ],
+      "accepted_original_episodes": [
+        408,
+        409
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0c981c3871d1953a.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0c981c3871d1953a.yml",
+        "one_pace_arc": 23,
+        "one_pace_episode": 1,
+        "one_pace_crc": "06BF070D",
+        "muhn_reference_key": "0c981c3871d1953a",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/jhd85A5B.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "TuZJgwRL",
+      "file_id": "aNSGgsZ7",
+      "source_filename": "[Muhn Pace] Amazon Lily 2.mp4",
+      "source_sha256": "b47bd6af35f2d47370484286ddee442138f1d06a47769de5733cce3314403473",
+      "edit_number": 2,
+      "season": 5,
+      "display_title": "Pirate Empress Boa Hancock",
+      "synopsis": "Luffy enters the village in search of a way off the island. An accidental intrusion into Boa Hancock's bath exposes a secret she fiercely protects.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        410,
+        411
+      ],
+      "accepted_original_episodes": [
+        410,
+        411
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/7516d209928dfcc8.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/7516d209928dfcc8.yml",
+        "one_pace_arc": 23,
+        "one_pace_episode": 2,
+        "one_pace_crc": "E817809A",
+        "muhn_reference_key": "7516d209928dfcc8",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/aNSGgsZ7.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "TuZJgwRL",
+      "file_id": "3JETjMqZ",
+      "source_filename": "[Muhn Pace] Amazon Lily 3.mp4",
+      "source_sha256": "c6ca8be862d3c527a4a0daadbf62e6b7f56ed46e6ec0ec2fa7ca719559e9a3d1",
+      "edit_number": 3,
+      "season": 5,
+      "display_title": "The Arena",
+      "synopsis": "Hancock sentences Luffy to fight her sisters in the arena. Their unusual abilities make his familiar attacks difficult to land.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        412,
+        413
+      ],
+      "accepted_original_episodes": [
+        412,
+        413
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/9127ece0690a0ede.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/9127ece0690a0ede.yml",
+        "one_pace_arc": 23,
+        "one_pace_episode": 3,
+        "one_pace_crc": "C2835057",
+        "muhn_reference_key": "9127ece0690a0ede",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/3JETjMqZ.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "TuZJgwRL",
+      "file_id": "kZUXG47Q",
+      "source_filename": "[Muhn Pace] Amazon Lily 4.mp4",
+      "source_sha256": "81e51af5ce90471da42ed07985b4068888909e41456ed8c9023acc2853e83849",
+      "edit_number": 4,
+      "season": 5,
+      "display_title": "Hancock's Confession",
+      "synopsis": "Luffy's actions change Hancock's view of him. She explains the painful history behind the mark carried by the three sisters.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        414,
+        415,
+        416,
+        417
+      ],
+      "accepted_original_episodes": [
+        414,
+        415,
+        416,
+        417
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/deb428b998deccb3.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/deb428b998deccb3.yml",
+        "one_pace_arc": 23,
+        "one_pace_episode": 4,
+        "one_pace_crc": "A5F0A507",
+        "muhn_reference_key": "deb428b998deccb3",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/kZUXG47Q.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "TuZJgwRL",
+      "file_id": "vfB7G6rg",
+      "source_filename": "[Muhn Pace] Amazon Lily 5.mp4",
+      "source_sha256": "4ab90ccab3c43c9b7f139ce83fc4a78cfa8dba691592b3422e929618e883b6e0",
+      "edit_number": 5,
+      "season": 5,
+      "display_title": "No One Can Stop This Now",
+      "synopsis": "News about Ace changes Luffy's plans for rejoining his crew. With Elder Nyon's advice and Hancock's help, he seeks a route to Impel Down.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        417,
+        418,
+        419,
+        420,
+        421
+      ],
+      "accepted_original_episodes": [
+        417,
+        418,
+        419,
+        420,
+        421
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2a3897df952a5b0c.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2a3897df952a5b0c.yml",
+        "one_pace_arc": 23,
+        "one_pace_episode": 5,
+        "one_pace_crc": "0F8517DC",
+        "muhn_reference_key": "2a3897df952a5b0c",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/vfB7G6rg.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    }
+  ]
+}

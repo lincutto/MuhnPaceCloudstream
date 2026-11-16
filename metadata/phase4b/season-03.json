@@ -1,0 +1,865 @@
+{
+  "schema_version": 3,
+  "season": 3,
+  "reviewed_on": "2026-11-16",
+  "entries": [
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "wAaMyL89",
+      "source_filename": "[Muhn Pace] Thrillerbark 01.mp4",
+      "source_sha256": "588c999895af31407f6bb856f43353dfbee910151388f59d95b0cf181e403271",
+      "edit_number": 1,
+      "season": 3,
+      "display_title": "The Mysterious Sea and The Skeleton Brook!",
+      "synopsis": "The Sunny drifts into the fog of the Florian Triangle. A ruined ship and a living skeleton turn the crew's fears of ghosts into an unusual encounter.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        326,
+        337,
+        338,
+        339
+      ],
+      "accepted_original_episodes": [
+        326,
+        337,
+        338,
+        339
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2f83df2c495f0e30.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2f83df2c495f0e30.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 1,
+        "one_pace_crc": "30D0916C",
+        "muhn_reference_key": "2f83df2c495f0e30",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/wAaMyL89.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "SMvCHvCQ",
+      "source_filename": "[Muhn Pace] Thrillerbark 02.mp4",
+      "source_sha256": "8c7cec1c053d06902cc0fbc9a472919874d28353d402607052ddfff1f9235bcd",
+      "edit_number": 2,
+      "season": 3,
+      "display_title": "Adventure on the Ghost Island and the Famous Doctor Hogback!",
+      "synopsis": "Nami, Usopp and Chopper explore the eerie island of Thriller Bark. Strange creatures and a celebrated doctor's mansion await them beyond the shore.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        339,
+        340
+      ],
+      "accepted_original_episodes": [
+        339,
+        340
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2c296c8caeaab4cf.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2c296c8caeaab4cf.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 2,
+        "one_pace_crc": "EA100F0C",
+        "muhn_reference_key": "2c296c8caeaab4cf",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/SMvCHvCQ.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "4UuruBWx",
+      "source_filename": "[Muhn Pace] Thrillerbark 03.mp4",
+      "source_sha256": "cdf85b7775b66522ed3b3616a4b018bf3bf2eabc558a60f6834b6793ea8fa7a3",
+      "edit_number": 3,
+      "season": 3,
+      "display_title": "The Invisible Man and the Secret of the Mansion!",
+      "synopsis": "An invisible intruder threatens Nami inside Hogback's mansion. Usopp encounters its hostile paintings while the other Straw Hats reach the island.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        340,
+        341,
+        342
+      ],
+      "accepted_original_episodes": [
+        340,
+        341,
+        342
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/880b15bdc4390790.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/880b15bdc4390790.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 3,
+        "one_pace_crc": "C2AAAAF7",
+        "muhn_reference_key": "880b15bdc4390790",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/4UuruBWx.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "2dZVC5Uh",
+      "source_filename": "[Muhn Pace] Thrillerbark 04.mp4",
+      "source_sha256": "5777b4b5b6ddd76ad6b4d2b7c810d2dbe3694c062cd931e3ec91809f38714a34",
+      "edit_number": 4,
+      "season": 3,
+      "display_title": "General Zombie Night! Thriller Bark's Mysterious Four",
+      "synopsis": "Thriller Bark's zombies gather for their master's plans. The crew discovers that a Warlord of the Sea stands behind the island's strange events.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        342,
+        343,
+        344
+      ],
+      "accepted_original_episodes": [
+        342,
+        343,
+        344
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/bfbc50ab80b8f388.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/bfbc50ab80b8f388.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 4,
+        "one_pace_crc": "EB4DA5F4",
+        "muhn_reference_key": "bfbc50ab80b8f388",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/2dZVC5Uh.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "3sSCc3HL",
+      "source_filename": "[Muhn Pace] Thrillerbark 05.mp4",
+      "source_sha256": "a2ae955ba99f20482218356c38ec8b8ad9d22cfec3f4abb585b5a8080f9b55a6",
+      "edit_number": 5,
+      "season": 3,
+      "display_title": "Perona's Wonder Garden and the Charge of the General Zombies!",
+      "synopsis": "Nami's group escapes into a garden of animal zombies, including one with familiar mannerisms. Elsewhere, members of the crew begin disappearing.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        345,
+        346
+      ],
+      "accepted_original_episodes": [
+        345,
+        346
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b1b64da5f8be87d4.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b1b64da5f8be87d4.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 5,
+        "one_pace_crc": "5B4DF29D",
+        "muhn_reference_key": "b1b64da5f8be87d4",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/3sSCc3HL.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "Wpa9zZT4",
+      "source_filename": "[Muhn Pace] Thrillerbark 06.mp4",
+      "source_sha256": "d20ac410b57d9c62e3e6778ae12b4e5c2391304c02b6a1fe26650ea32651f402",
+      "edit_number": 6,
+      "season": 3,
+      "display_title": "Number 900?! Lola's Pursuit and the Humming Swordsman",
+      "synopsis": "Lola pursues Nami while another zombie unexpectedly intervenes. Franky and Robin face a huge spider monkey as Brook returns to the action.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        347,
+        348
+      ],
+      "accepted_original_episodes": [
+        347,
+        348
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5c7857e4a01b64cf.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5c7857e4a01b64cf.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 6,
+        "one_pace_crc": "60E33665",
+        "muhn_reference_key": "5c7857e4a01b64cf",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/Wpa9zZT4.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "y6t5kdi8",
+      "source_filename": "[Muhn Pace] Thrillerbark 07.mp4",
+      "source_sha256": "e17f59e12a8db2d7db19ba8914df9cb017fcc2e0324fba48ed719cb3ccd0f149",
+      "edit_number": 7,
+      "season": 3,
+      "display_title": "The Fearsome Ability of the Shadow Fruit! The Ultimate Number 900!",
+      "synopsis": "Moria prepares to put Luffy's stolen shadow into his most ambitious creation. The ancient giant known as Oars becomes the center of his plans.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        349,
+        350
+      ],
+      "accepted_original_episodes": [
+        349,
+        350
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/9f56a4cd090d29fd.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/9f56a4cd090d29fd.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 7,
+        "one_pace_crc": "1E847368",
+        "muhn_reference_key": "9f56a4cd090d29fd",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/y6t5kdi8.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "UG8tVaU9",
+      "source_filename": "[Muhn Pace] Thrillerbark 08.mp4",
+      "source_sha256": "2f62e68d29bdd6970cd9faa49e666f6370afa78441966d0e32cbca8ee68f5689",
+      "edit_number": 8,
+      "season": 3,
+      "display_title": "Oars' Awakening and Brook vs. Ryuma!",
+      "synopsis": "Oars awakens with Luffy's personality and an enormous appetite. Brook confronts Ryuma while Absalom carries Nami away for a forced wedding.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        351,
+        352,
+        353
+      ],
+      "accepted_original_episodes": [
+        351,
+        352,
+        353
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/f603f8441d6ce1a0.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/f603f8441d6ce1a0.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 8,
+        "one_pace_crc": "694AD702",
+        "muhn_reference_key": "f603f8441d6ce1a0",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/UG8tVaU9.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "huQzm93c",
+      "source_filename": "[Muhn Pace] Thrillerbark 09.mp4",
+      "source_sha256": "d912fa560c4f6a723a575d58b89288cab6a3799da57cbb1cff6bbd2d9b920314",
+      "edit_number": 9,
+      "season": 3,
+      "display_title": "The Hope and Despair of the Skeleton and the Straw Hats' Counterattack!",
+      "synopsis": "The crew regroups to plan the recovery of their shadows. Brook's long-standing promise reveals a connection to someone they met earlier in their voyage.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        353,
+        354,
+        355
+      ],
+      "accepted_original_episodes": [
+        353,
+        354,
+        355
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5e441abe5647757a.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5e441abe5647757a.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 9,
+        "one_pace_crc": "19D3B6A3",
+        "muhn_reference_key": "5e441abe5647757a",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/huQzm93c.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "TCY4fQaD",
+      "source_filename": "[Muhn Pace] Thrillerbark 10.mp4",
+      "source_sha256": "6036a958c5644e4f0ae6de259926195fdc70d9ead4d8a99af908813ff705279a",
+      "edit_number": 10,
+      "season": 3,
+      "display_title": "Already Negative! Usopp's Courageous Stand!",
+      "synopsis": "Perona's ghosts leave most of the crew unable to fight. Usopp discovers that his own pessimism gives him an unexpected chance against her.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        356,
+        357
+      ],
+      "accepted_original_episodes": [
+        356,
+        357
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0d64d73238955f63.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0d64d73238955f63.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 10,
+        "one_pace_crc": "38BBF05C",
+        "muhn_reference_key": "0d64d73238955f63",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/TCY4fQaD.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "1vGbrCYQ",
+      "source_filename": "[Muhn Pace] Thrillerbark 11.mp4",
+      "source_sha256": "078e627afc7416c08b429a200eacbf4afcf6e39f35c12f6e057440b307011048",
+      "edit_number": 11,
+      "season": 3,
+      "display_title": "A Stolen Dream! Sanji vs. Absalom",
+      "synopsis": "Sanji interrupts Absalom's wedding to rescue Nami. His opponent's invisibility also touches on a dream Sanji has cherished for years.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        357,
+        358,
+        359
+      ],
+      "accepted_original_episodes": [
+        357,
+        358,
+        359
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/4aa0804daf47ad71.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/4aa0804daf47ad71.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 11,
+        "one_pace_crc": "D538CFD7",
+        "muhn_reference_key": "4aa0804daf47ad71",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/1vGbrCYQ.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "foaX4T6G",
+      "source_filename": "[Muhn Pace] Thrillerbark 12.mp4",
+      "source_sha256": "59914a54fc573c54a85b02fc182b691e3889439e9c566989abadb04569b8163a",
+      "edit_number": 12,
+      "season": 3,
+      "display_title": "Perona's Terror! Usopp vs. the Ghost Princess!",
+      "synopsis": "Usopp uses misdirection and his sniper's skills to uncover Perona's weakness. Her ghosts and zombie bear force him to improvise under pressure.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        360,
+        361,
+        362
+      ],
+      "accepted_original_episodes": [
+        360,
+        361,
+        362
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a83d060f140d1139.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a83d060f140d1139.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 12,
+        "one_pace_crc": "8B836836",
+        "muhn_reference_key": "a83d060f140d1139",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/foaX4T6G.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "TNzCjrDe",
+      "source_filename": "[Muhn Pace] Thrillerbark 13.mp4",
+      "source_sha256": "76fe019967c446facc93d401f6811978d2f33d2026917d522d6ed8df05665f21",
+      "edit_number": 13,
+      "season": 3,
+      "display_title": "Zoro vs. Ryuuma and Chopper's Rage!",
+      "synopsis": "Zoro takes Brook's place in a duel with the legendary swordsman Ryuma. Chopper confronts Hogback over his treatment of the people he revives.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        362,
+        363
+      ],
+      "accepted_original_episodes": [
+        362,
+        363
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6fd82d31e85e49e4.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6fd82d31e85e49e4.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 13,
+        "one_pace_crc": "3AEE90B8",
+        "muhn_reference_key": "6fd82d31e85e49e4",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/TNzCjrDe.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "HByoGnc8",
+      "source_filename": "[Muhn Pace] Thrillerbark 14.mp4",
+      "source_sha256": "515546db6e0dcf1d63ff3a663f5ad43e7b26843951ad7675d55f71a0a62fcf4e",
+      "edit_number": 14,
+      "season": 3,
+      "display_title": "Show Yourselves, Straw Hat Pirates! The Crew's Hopeless Counterattack!",
+      "synopsis": "Oars begins hunting the Straw Hats on Moria's orders. His arrival disrupts their separate battles and forces the crew to regroup.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        364,
+        365
+      ],
+      "accepted_original_episodes": [
+        364,
+        365
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e8a2b1b806298b02.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e8a2b1b806298b02.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 14,
+        "one_pace_crc": "7CAE5640",
+        "muhn_reference_key": "e8a2b1b806298b02",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/HByoGnc8.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "CCC9bfu1",
+      "source_filename": "[Muhn Pace] Thrillerbark 15.mp4",
+      "source_sha256": "67e63664762dcc67ee4b5be2fa6b4923f17378f1a2383af65c7aa066404d9d55",
+      "edit_number": 15,
+      "season": 3,
+      "display_title": "Clash! The Titanic Battle Against Zombie 900!",
+      "synopsis": "The Straw Hats combine their abilities against Oars' overwhelming size. Franky proposes an unusual team formation to give them an advantage.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        365,
+        366,
+        367
+      ],
+      "accepted_original_episodes": [
+        365,
+        366,
+        367
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2ed4ed16ebe104ed.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2ed4ed16ebe104ed.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 15,
+        "one_pace_crc": "A9784E2B",
+        "muhn_reference_key": "2ed4ed16ebe104ed",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/CCC9bfu1.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "qxGWfC4A",
+      "source_filename": "[Muhn Pace] Thrillerbark 16.mp4",
+      "source_sha256": "a8a3644cb0458173c0977710e5494aeb2e329294084513da931e1ed64900c960",
+      "edit_number": 16,
+      "season": 3,
+      "display_title": "The Mysterious Visitor! The Two Warlords Meet!",
+      "synopsis": "Nami finds Perona preparing to steal the Sunny. An unexpected visitor changes the situation while the rest of the crew continues fighting Oars.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        368,
+        369
+      ],
+      "accepted_original_episodes": [
+        368,
+        369
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/eb91e70c64c7f00b.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/eb91e70c64c7f00b.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 16,
+        "one_pace_crc": "EF1D7B5F",
+        "muhn_reference_key": "eb91e70c64c7f00b",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/qxGWfC4A.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "tEzM8qi7",
+      "source_filename": "[Muhn Pace] Thrillerbark 17.mp4",
+      "source_sha256": "39dfdabf7c596b2284d535b3996455a59f81955dd1703e6f63f4cde384f3f859",
+      "edit_number": 17,
+      "season": 3,
+      "display_title": "Combination of Brains and Brawn! Oars and Moriah vs. the Straw Hats!",
+      "synopsis": "Lola's group offers Luffy a risky way to fight Moria's shadow powers. Moria joins Oars directly, making the giant an even more dangerous opponent.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        370,
+        371
+      ],
+      "accepted_original_episodes": [
+        370,
+        371
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2d9f00261c3c29d5.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2d9f00261c3c29d5.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 17,
+        "one_pace_crc": "6AAC9B33",
+        "muhn_reference_key": "2d9f00261c3c29d5",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/tEzM8qi7.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "bAqkpkbw",
+      "source_filename": "[Muhn Pace] Thrillerbark 18.mp4",
+      "source_sha256": "cd502eb924504aad66b7a4713c976c7be9961208b4c90375e44c90573061350e",
+      "edit_number": 18,
+      "season": 3,
+      "display_title": "The Crew's Annihilation! Oars vs. Nightmare Luffy",
+      "synopsis": "Oars and Moria push the exhausted crew to the brink. Luffy returns transformed by borrowed shadows to take over the battle.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        371,
+        372
+      ],
+      "accepted_original_episodes": [
+        371,
+        372
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/179eca9d84446fbb.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/179eca9d84446fbb.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 18,
+        "one_pace_crc": "2295F0A1",
+        "muhn_reference_key": "179eca9d84446fbb",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/bAqkpkbw.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "fV28x2KU",
+      "source_filename": "[Muhn Pace] Thrillerbark 19.mp4",
+      "source_sha256": "422e6ddbb19373c4d710aeea95a200cd7dd1244169ae40d542bb281b73ba4b06",
+      "edit_number": 19,
+      "season": 3,
+      "display_title": "Morning Comes! The Straw Hats' Ultimate Attack!",
+      "synopsis": "With dawn approaching, the Straw Hats launch a coordinated attack on Oars. Moria responds by drawing on the shadows gathered throughout Thriller Bark.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        373,
+        374
+      ],
+      "accepted_original_episodes": [
+        373,
+        374
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/1f0ed0e17c66226b.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/1f0ed0e17c66226b.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 19,
+        "one_pace_crc": "099FB95D",
+        "muhn_reference_key": "1f0ed0e17c66226b",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/fV28x2KU.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "3n1y62r1",
+      "source_filename": "[Muhn Pace] Thrillerbark 20.mp4",
+      "source_sha256": "e2470bd51dea17e65997095455cfb835fbc2367582160d426565600497d3d5b2",
+      "edit_number": 20,
+      "season": 3,
+      "display_title": "The Power That Can Deflect Anything?! Zoro Fights Prepared to Die!",
+      "synopsis": "The return of the stolen shadows brings little time for relief. Kuma's orders place the survivors in danger, and Zoro confronts an impossible choice.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        375,
+        376,
+        377
+      ],
+      "accepted_original_episodes": [
+        375,
+        376,
+        377
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/baff48a39cb82144.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/baff48a39cb82144.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 20,
+        "one_pace_crc": "AD2D4BCD",
+        "muhn_reference_key": "baff48a39cb82144",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/3n1y62r1.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "aqaTpHbd",
+      "source_filename": "[Muhn Pace] Thrillerbark 21.mp4",
+      "source_sha256": "167f6fb23765df3cbedee348a517496a2b25550c6c3bf1913919399b2d80dc10",
+      "edit_number": 21,
+      "season": 3,
+      "display_title": "Brook's Past! The Rumbar Pirates and Laboon!",
+      "synopsis": "Brook remembers his years with the Rumbar Pirates and the young whale who followed them. Their voyage explains the promise he still hopes to fulfill.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        378,
+        379,
+        380
+      ],
+      "accepted_original_episodes": [
+        378,
+        379,
+        380
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/27ff10f6e36fbad5.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/27ff10f6e36fbad5.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 21,
+        "one_pace_crc": "22E58F96",
+        "muhn_reference_key": "27ff10f6e36fbad5",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/aqaTpHbd.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "NwJKTg21",
+      "file_id": "6f7YfaTd",
+      "source_filename": "[Muhn Pace] Thrillerbark 22.mp4",
+      "source_sha256": "4a2e81f1b2842ef55ec8de468b881d9ad60a80fcf6eb25e2653503a588fce6f0",
+      "edit_number": 22,
+      "season": 3,
+      "display_title": "Brook's Promise! The Eighth Member",
+      "synopsis": "The Rumbar Pirates leave a final song for Laboon. Brook considers a future with the Straw Hats as they prepare to sail from Thriller Bark.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        380,
+        381
+      ],
+      "accepted_original_episodes": [
+        380,
+        381
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/45b3b24da28a3656.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/45b3b24da28a3656.yml",
+        "one_pace_arc": 21,
+        "one_pace_episode": 22,
+        "one_pace_crc": "F23079ED",
+        "muhn_reference_key": "45b3b24da28a3656",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/6f7YfaTd.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    }
+  ]
+}

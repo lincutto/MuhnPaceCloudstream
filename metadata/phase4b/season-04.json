@@ -1,0 +1,429 @@
+{
+  "schema_version": 3,
+  "season": 4,
+  "reviewed_on": "2026-11-16",
+  "entries": [
+    {
+      "collection_id": "KztkSCuY",
+      "file_id": "NetaMVKH",
+      "source_filename": "[Muhn Pace] Sabaody Archipelago 1.mp4",
+      "source_sha256": "11368903983c4015c897eea9bd46c988d8a30d5af9b256df0ea9b2416bc2746e",
+      "edit_number": 1,
+      "season": 4,
+      "display_title": "Flying Fish Riders",
+      "synopsis": "The Straw Hats reach the Red Line and encounter a mermaid named Camie. Her missing friend draws them into a conflict with the Flying Fish Riders.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        385,
+        386
+      ],
+      "accepted_original_episodes": [
+        385,
+        386
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/f67401a8ad833d64.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/f67401a8ad833d64.yml",
+        "one_pace_arc": 22,
+        "one_pace_episode": 1,
+        "one_pace_crc": "066FD68B",
+        "muhn_reference_key": "f67401a8ad833d64",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/NetaMVKH.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "KztkSCuY",
+      "file_id": "tMJgeqQD",
+      "source_filename": "[Muhn Pace] Sabaody Archipelago 2.mp4",
+      "source_sha256": "a3789abd2667e22b3e55296aebb5e5697cbdc386b1e5d8c848332178415cf66e",
+      "edit_number": 2,
+      "season": 4,
+      "display_title": "Iron Mask Duval",
+      "synopsis": "The crew searches Duval's base for Camie's captured friend. Discovering who the prisoner is makes the rescue more complicated than expected.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        387,
+        388
+      ],
+      "accepted_original_episodes": [
+        387,
+        388
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/56cbfa1973de2c93.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/56cbfa1973de2c93.yml",
+        "one_pace_arc": 22,
+        "one_pace_episode": 2,
+        "one_pace_crc": "F0334710",
+        "muhn_reference_key": "56cbfa1973de2c93",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/tMJgeqQD.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "KztkSCuY",
+      "file_id": "3ctv55ix",
+      "source_filename": "[Muhn Pace] Sabaody Archipelago 3.mp4",
+      "source_sha256": "914eddda7e5a0ae16e4d9a9aaf0fe1db26d75b85162238b8e17791bd57fcf434",
+      "edit_number": 3,
+      "season": 4,
+      "display_title": "Duval's Tragedy",
+      "synopsis": "Duval blames Sanji for the trouble in his life. While the Flying Fish Riders attack the Sunny, Sanji faces the man behind the iron mask.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        388,
+        389
+      ],
+      "accepted_original_episodes": [
+        388,
+        389
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/759018d0ce8fc7dc.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/759018d0ce8fc7dc.yml",
+        "one_pace_arc": 22,
+        "one_pace_episode": 3,
+        "one_pace_crc": "C19CADF5",
+        "muhn_reference_key": "759018d0ce8fc7dc",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/3ctv55ix.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "KztkSCuY",
+      "file_id": "29kiKeh7",
+      "source_filename": "[Muhn Pace] Sabaody Archipelago 4.mp4",
+      "source_sha256": "1bf1a8fc2324ba546fb06327df32a0b58bcaefdfc48082d18cc82816524364fc",
+      "edit_number": 4,
+      "season": 4,
+      "display_title": "Adventure on the Archipelago of Dancing Soap Bubbles",
+      "synopsis": "The crew explores Sabaody while looking for someone to coat the Sunny. Their journey introduces the privileges and cruelty of the Celestial Dragons.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        390,
+        391
+      ],
+      "accepted_original_episodes": [
+        390,
+        391
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6fc714eae9e6fe36.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6fc714eae9e6fe36.yml",
+        "one_pace_arc": 22,
+        "one_pace_episode": 4,
+        "one_pace_crc": "76D21468",
+        "muhn_reference_key": "6fc714eae9e6fe36",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/29kiKeh7.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "KztkSCuY",
+      "file_id": "RX2hgBnT",
+      "source_filename": "[Muhn Pace] Sabaody Archipelago 5.mp4",
+      "source_sha256": "d4adc2652ae24b89d8ef774b852fdfdf2c8905aeb686f96b0c6832980ba12412",
+      "edit_number": 5,
+      "season": 4,
+      "display_title": "The Embers of History",
+      "synopsis": "Shakky explains the arrival of other notorious rookie pirates. A dangerous encounter with a Celestial Dragon shows how fragile the island's peace is.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        392,
+        393,
+        394
+      ],
+      "accepted_original_episodes": [
+        392,
+        393,
+        394
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/3fa9a93373afa0e2.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/3fa9a93373afa0e2.yml",
+        "one_pace_arc": 22,
+        "one_pace_episode": 5,
+        "one_pace_crc": "7D6E8499",
+        "muhn_reference_key": "3fa9a93373afa0e2",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/RX2hgBnT.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "KztkSCuY",
+      "file_id": "N3b5NPut",
+      "source_filename": "[Muhn Pace] Sabaody Archipelago 6.mp4",
+      "source_sha256": "898b27fddc30eadd70ff5f1822117a41a3b7a6f0c74699f536c47dc641438474",
+      "edit_number": 6,
+      "season": 4,
+      "display_title": "The Auction House Incident",
+      "synopsis": "Camie is put up for sale at the human auction house. Nami tries to secure her freedom while Luffy and the others hurry to reach her.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        395,
+        396
+      ],
+      "accepted_original_episodes": [
+        395,
+        396
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/cc6f812a2004c5d1.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/cc6f812a2004c5d1.yml",
+        "one_pace_arc": 22,
+        "one_pace_episode": 6,
+        "one_pace_crc": "234CBFDC",
+        "muhn_reference_key": "cc6f812a2004c5d1",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/N3b5NPut.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "KztkSCuY",
+      "file_id": "ADsSg3mK",
+      "source_filename": "[Muhn Pace] Sabaody Archipelago 7.mp4",
+      "source_sha256": "9b2e646ee6d9b9b3769bd98225109db383f09090f70748248b66039d8cd23e1f",
+      "edit_number": 7,
+      "season": 4,
+      "display_title": "An Island in Chaos",
+      "synopsis": "The auction collapses into chaos after Luffy's intervention. A mysterious older prisoner lends a hand as the Navy prepares its response.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        397,
+        398
+      ],
+      "accepted_original_episodes": [
+        397,
+        398
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/294122219fc52196.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/294122219fc52196.yml",
+        "one_pace_arc": 22,
+        "one_pace_episode": 7,
+        "one_pace_crc": "63A829E4",
+        "muhn_reference_key": "294122219fc52196",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/ADsSg3mK.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "KztkSCuY",
+      "file_id": "LPxkYff2",
+      "source_filename": "[Muhn Pace] Sabaody Archipelago 8.mp4",
+      "source_sha256": "95ae7494e2e21b571d99cc20945a40b434e36b6edad5dbf519089f584d420600",
+      "edit_number": 8,
+      "season": 4,
+      "display_title": "Roger and Rayleigh",
+      "synopsis": "Luffy, Kid and Law confront the Marines outside the auction house. Later, Rayleigh speaks to the Straw Hats about his connection to the Pirate King.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        399,
+        400
+      ],
+      "accepted_original_episodes": [
+        399,
+        400
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ce36361037a14608.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ce36361037a14608.yml",
+        "one_pace_arc": 22,
+        "one_pace_episode": 8,
+        "one_pace_crc": "873CB57E",
+        "muhn_reference_key": "ce36361037a14608",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/LPxkYff2.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "KztkSCuY",
+      "file_id": "Y3bQMz5H",
+      "source_filename": "[Muhn Pace] Sabaody Archipelago 9.mp4",
+      "source_sha256": "78653ab3bd1ceb39d7c3def4f01ebc38025c1389520a8b5ed2fa4320db8a292d",
+      "edit_number": 9,
+      "season": 4,
+      "display_title": "Kizaru Arrives",
+      "synopsis": "Rayleigh begins work on the Sunny while the crew waits in town. Admiral Kizaru arrives to find the pirates responsible for attacking a Celestial Dragon.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        400,
+        401
+      ],
+      "accepted_original_episodes": [
+        400,
+        401
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/974c682f19d14542.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/974c682f19d14542.yml",
+        "one_pace_arc": 22,
+        "one_pace_episode": 9,
+        "one_pace_crc": "0E0C5A82",
+        "muhn_reference_key": "974c682f19d14542",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/Y3bQMz5H.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "KztkSCuY",
+      "file_id": "hgNff1sk",
+      "source_filename": "[Muhn Pace] Sabaody Archipelago 10.mp4",
+      "source_sha256": "b20b18ce4f03a5b8a66773ff50c40886927d913e8ec41431e4f7cb5dddb6b4d1",
+      "edit_number": 10,
+      "season": 4,
+      "display_title": "Kizaru vs. the Four Captains",
+      "synopsis": "Several rookie captains challenge Kizaru as the Straw Hats struggle against a Pacifista. Overcoming one enemy brings no guarantee of escape.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        402,
+        403,
+        404
+      ],
+      "accepted_original_episodes": [
+        402,
+        403,
+        404
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ecb29f092aef4c43.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ecb29f092aef4c43.yml",
+        "one_pace_arc": 22,
+        "one_pace_episode": 10,
+        "one_pace_crc": "20ADEE90",
+        "muhn_reference_key": "ecb29f092aef4c43",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/hgNff1sk.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "KztkSCuY",
+      "file_id": "kreNYv7j",
+      "source_filename": "[Muhn Pace] Sabaody Archipelago 11.mp4",
+      "source_sha256": "187064f47516ce499e2037c124e9ecfd73c77a8a97e6aae5f0fe1722d3dbcd66",
+      "edit_number": 11,
+      "season": 4,
+      "display_title": "I Couldn't Save Them!!!",
+      "synopsis": "Luffy orders his crew to flee from opponents they cannot defeat. Kuma appears in their path, separating the Straw Hats one by one.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        404,
+        405
+      ],
+      "accepted_original_episodes": [
+        404,
+        405
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e3bc3ce1496ce3a2.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e3bc3ce1496ce3a2.yml",
+        "one_pace_arc": 22,
+        "one_pace_episode": 11,
+        "one_pace_crc": "1306F53D",
+        "muhn_reference_key": "e3bc3ce1496ce3a2",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/kreNYv7j.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    }
+  ]
+}

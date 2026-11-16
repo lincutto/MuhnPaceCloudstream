@@ -1,0 +1,657 @@
+{
+  "schema_version": 3,
+  "season": 7,
+  "reviewed_on": "2026-11-16",
+  "entries": [
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "eAbnBBcG",
+      "source_filename": "[Muhn Pace] Marineford 01.mp4",
+      "source_sha256": "376dbff6c184bbce35639e38424ffdb9b31a9627a8db7b1450f192b9cb44fbe2",
+      "edit_number": 1,
+      "season": 7,
+      "display_title": "Navy Headquarters",
+      "synopsis": "The Navy assembles its strongest forces for Ace's execution. Sengoku addresses the gathered Marines as they await Whitebeard's arrival.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        452,
+        459
+      ],
+      "accepted_original_episodes": [
+        452,
+        459
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b7bb7ea9653fde49.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b7bb7ea9653fde49.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 1,
+        "one_pace_crc": "92956F40",
+        "muhn_reference_key": "b7bb7ea9653fde49",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/eAbnBBcG.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "A7uRRUhh",
+      "source_filename": "[Muhn Pace] Marineford 02.mp4",
+      "source_sha256": "2c78a3365f4474e094448bcb7c68299942193ab5e4df4f150031ad4472d52bc8",
+      "edit_number": 2,
+      "season": 7,
+      "display_title": "Ace and Whitebeard",
+      "synopsis": "Whitebeard's fleet appears at Marineford to rescue Ace. Memories of their first encounters explain why Ace came to regard this pirate crew as his family.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        459,
+        460,
+        461,
+        462
+      ],
+      "accepted_original_episodes": [
+        459,
+        460,
+        461,
+        462
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/4b768b8cc29971e3.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/4b768b8cc29971e3.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 2,
+        "one_pace_crc": "4F5151F2",
+        "muhn_reference_key": "4b768b8cc29971e3",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/A7uRRUhh.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "hzuX19Gv",
+      "source_filename": "[Muhn Pace] Marineford 03.mp4",
+      "source_sha256": "e0b5d864be04246d03571ea9e6204e3069f68465762136e9da1de743cfc60d47",
+      "edit_number": 3,
+      "season": 7,
+      "display_title": "Conflict at the Summit",
+      "synopsis": "Whitebeard opens the battle with a threat to the entire bay. Admirals and pirate commanders clash as both sides reveal the scale of their powers.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        462,
+        463
+      ],
+      "accepted_original_episodes": [
+        462,
+        463
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b024b8de03f3a747.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b024b8de03f3a747.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 3,
+        "one_pace_crc": "D16C3A7A",
+        "muhn_reference_key": "b024b8de03f3a747",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/hzuX19Gv.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "CvzpmVSj",
+      "source_filename": "[Muhn Pace] Marineford 04.mp4",
+      "source_sha256": "fb882c2f461ac608bf1bab6ffa98de2b6d0a344e72cbef1dc89b75f8ac2c3462",
+      "edit_number": 4,
+      "season": 7,
+      "display_title": "Justice Will Prevail!!",
+      "synopsis": "Little Oars Jr. risks himself to open a route toward Ace. The Navy counters the pirates' advance with a change in strategy.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        464,
+        465
+      ],
+      "accepted_original_episodes": [
+        464,
+        465
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ea66cd07de5f0148.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ea66cd07de5f0148.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 4,
+        "one_pace_crc": "738B1A3B",
+        "muhn_reference_key": "ea66cd07de5f0148",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/CvzpmVSj.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "Eu1UFDKd",
+      "source_filename": "[Muhn Pace] Marineford 05.mp4",
+      "source_sha256": "cb03b8abaa89aede5e4cff6df08d628760b88bb24ce4e0821db916418ced2dea",
+      "edit_number": 5,
+      "season": 7,
+      "display_title": "Luffy and Whitebeard",
+      "synopsis": "Luffy reaches Marineford and charges into the fighting. Neither familiar enemies nor Ace's warnings persuade him to abandon the rescue.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        466,
+        467,
+        468
+      ],
+      "accepted_original_episodes": [
+        466,
+        467,
+        468
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ad4e0f278070f969.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ad4e0f278070f969.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 5,
+        "one_pace_crc": "66006702",
+        "muhn_reference_key": "ad4e0f278070f969",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/Eu1UFDKd.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "wggKDz19",
+      "source_filename": "[Muhn Pace] Marineford 06.mp4",
+      "source_sha256": "d6a5db35c5a4bd6741a9941313846cb75406cf0e4a0384a78ee700b84109c75c",
+      "edit_number": 6,
+      "season": 7,
+      "display_title": "The Prisoners of Impel Down",
+      "synopsis": "Ivankov tries to reach the Kuma he once knew, but receives only attacks in return. The escapees from Impel Down face their own battles across Marineford.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        468,
+        469
+      ],
+      "accepted_original_episodes": [
+        468,
+        469
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/f1fe84fdb8550479.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/f1fe84fdb8550479.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 6,
+        "one_pace_crc": "E46F5F07",
+        "muhn_reference_key": "f1fe84fdb8550479",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/wggKDz19.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "opqftspw",
+      "source_filename": "[Muhn Pace] Marineford 07.mp4",
+      "source_sha256": "a7aa6d8c40740e3f5aea2ae878906776345660b713e90ec95aec17a31baa123b",
+      "edit_number": 7,
+      "season": 7,
+      "display_title": "The Whirl Spider",
+      "synopsis": "Mihawk blocks Luffy's path while Whitebeard's allies try to help him advance. Pacifistas surround the battlefield and increase the pressure on the pirates.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        470,
+        471
+      ],
+      "accepted_original_episodes": [
+        470,
+        471
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/c19325ddeb283c88.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/c19325ddeb283c88.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 7,
+        "one_pace_crc": "511BA151",
+        "muhn_reference_key": "c19325ddeb283c88",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/opqftspw.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "H732QahT",
+      "source_filename": "[Muhn Pace] Marineford 08.mp4",
+      "source_sha256": "fa7563bd9675960c60460b4cc40a665eb9f230501aa1ef1abaf587f09c3fce70",
+      "edit_number": 8,
+      "season": 7,
+      "display_title": "The Man Who Shook the World",
+      "synopsis": "Squard's attack shakes the pirate alliance. Whitebeard responds to the mistrust while the Navy's plan for the trapped fleet becomes clearer.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        472,
+        473
+      ],
+      "accepted_original_episodes": [
+        472,
+        473
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b5c2725d9c6af20c.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b5c2725d9c6af20c.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 8,
+        "one_pace_crc": "2A3B3264",
+        "muhn_reference_key": "b5c2725d9c6af20c",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/H732QahT.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "REe1sxFC",
+      "source_filename": "[Muhn Pace] Marineford 09.mp4",
+      "source_sha256": "9a90409f770416dd5b51518f09a43e62605f3f2557a5e66384276a005ee67821",
+      "edit_number": 9,
+      "season": 7,
+      "display_title": "Assault",
+      "synopsis": "Akainu's attack leaves the pirates with dwindling space to maneuver. With Ace's execution imminent, Luffy takes a dangerous route toward the platform.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        474,
+        475
+      ],
+      "accepted_original_episodes": [
+        474,
+        475
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e94ff913f09a1c02.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e94ff913f09a1c02.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 9,
+        "one_pace_crc": "1638FE88",
+        "muhn_reference_key": "e94ff913f09a1c02",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/REe1sxFC.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "SKpbZ2f1",
+      "source_filename": "[Muhn Pace] Marineford 10.mp4",
+      "source_sha256": "da0c094ffe17beab401b513e3ad6a171e3f2e2e20b073da48de608ca0f8997df",
+      "edit_number": 10,
+      "season": 7,
+      "display_title": "Oris Plaza",
+      "synopsis": "Whitebeard presses into the plaza despite the admirals' resistance. Marco attempts to reach Ace while the battle shifts around the execution platform.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        476
+      ],
+      "accepted_original_episodes": [
+        476
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8400abc47432041c.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8400abc47432041c.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 10,
+        "one_pace_crc": "C65F13AA",
+        "muhn_reference_key": "8400abc47432041c",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/SKpbZ2f1.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "tLcnKHJA",
+      "source_filename": "[Muhn Pace] Marineford 11.mp4",
+      "source_sha256": "ba46678fec873e0cee6a6cd596e6fec1cb96c0a07a02ea2ffefccbc66293bfde",
+      "edit_number": 11,
+      "season": 7,
+      "display_title": "Monster",
+      "synopsis": "The commanders struggle against the Navy's strongest fighters. Exhausted but unwilling to stop, Luffy asks Ivankov for another chance to continue.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        477,
+        478
+      ],
+      "accepted_original_episodes": [
+        477,
+        478
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/30df36af3a9803d8.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/30df36af3a9803d8.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 11,
+        "one_pace_crc": "A84B5499",
+        "muhn_reference_key": "30df36af3a9803d8",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/tLcnKHJA.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "aFAi7qwf",
+      "source_filename": "[Muhn Pace] Marineford 12.mp4",
+      "source_sha256": "80c46ca72bd913706536df4e728b5c079f2a7ab721245300d8a4eeed500f58e1",
+      "edit_number": 12,
+      "season": 7,
+      "display_title": "The Execution Platform",
+      "synopsis": "Luffy's sudden display of power changes how the battlefield sees him. His route to Ace brings him face to face with Garp.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        479,
+        480
+      ],
+      "accepted_original_episodes": [
+        479,
+        480
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5f3a943aeb212038.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5f3a943aeb212038.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 12,
+        "one_pace_crc": "6BD41435",
+        "muhn_reference_key": "5f3a943aeb212038",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/aFAi7qwf.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "t9LCtw7s",
+      "source_filename": "[Muhn Pace] Marineford 13.mp4",
+      "source_sha256": "f9a95c96cc432a9176db2ac1d1316f9582e3ea63bdb7e6392062b4b04572b804",
+      "edit_number": 13,
+      "season": 7,
+      "display_title": "The Times They Are A-Changin'",
+      "synopsis": "Luffy and Ace fight together to escape the plaza. Whitebeard makes a difficult decision to give his crew a path out of Marineford.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        481,
+        482
+      ],
+      "accepted_original_episodes": [
+        481,
+        482
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/4704004053989382.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/4704004053989382.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 13,
+        "one_pace_crc": "66E68054",
+        "muhn_reference_key": "4704004053989382",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/t9LCtw7s.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "rsy3RPew",
+      "source_filename": "[Muhn Pace] Marineford 14.mp4",
+      "source_sha256": "1c8640d60a4db5aeb282bca4b684200407b6c090e703e08ceed40dbfdca0ec91",
+      "edit_number": 14,
+      "season": 7,
+      "display_title": "Thank You for Loving Me",
+      "synopsis": "Akainu's pursuit places Luffy and Ace in immediate danger. Their allies rush toward the brothers as the battle takes a devastating turn.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        483,
+        484
+      ],
+      "accepted_original_episodes": [
+        483,
+        484
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8c1796b1c939dd3b.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8c1796b1c939dd3b.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 14,
+        "one_pace_crc": "29DBF233",
+        "muhn_reference_key": "8c1796b1c939dd3b",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/rsy3RPew.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "dSYpCg8y",
+      "source_filename": "[Muhn Pace] Marineford 15.mp4",
+      "source_sha256": "e8f1b540811262626075f7244da0cee800dc80f7a4feec37495896ec232b555a",
+      "edit_number": 15,
+      "season": 7,
+      "display_title": "Edward Newgate",
+      "synopsis": "Blackbeard arrives at Marineford with the prisoners he recruited. Whitebeard confronts the man whose betrayal helped bring about the war.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        484,
+        485
+      ],
+      "accepted_original_episodes": [
+        484,
+        485
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8e42b7b0dd697d05.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8e42b7b0dd697d05.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 15,
+        "one_pace_crc": "00768DB7",
+        "muhn_reference_key": "8e42b7b0dd697d05",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/dSYpCg8y.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "ikueypEZ",
+      "source_filename": "[Muhn Pace] Marineford 16.mp4",
+      "source_sha256": "7b28c7e4b3dfd5ee4c125c0685805c1b79a1a0b7d4c62d0d163637197a4846c9",
+      "edit_number": 16,
+      "season": 7,
+      "display_title": "A Gift to a New Era",
+      "synopsis": "The fighting continues despite the retreat of Whitebeard's forces. Jinbe protects the unconscious Luffy while Blackbeard reveals a new threat.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        486,
+        487
+      ],
+      "accepted_original_episodes": [
+        486,
+        487
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/3d1aefcf432a983b.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/3d1aefcf432a983b.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 16,
+        "one_pace_crc": "91EEA92E",
+        "muhn_reference_key": "3d1aefcf432a983b",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/ikueypEZ.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "oa8oZvZx",
+      "file_id": "K2o8Ktpa",
+      "source_filename": "[Muhn Pace] Marineford 17.mp4",
+      "source_sha256": "e6eefc3be4240d391fdf9e31390c6604f0b88086b32588b306540e0c06ef473a",
+      "edit_number": 17,
+      "season": 7,
+      "display_title": "The War's Conclusion",
+      "synopsis": "The remaining pirates struggle to escape the admirals' pursuit. Shanks and the Red Hair Pirates arrive with a demand to end the bloodshed.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        488,
+        489
+      ],
+      "accepted_original_episodes": [
+        488,
+        489
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/26345ad57bdd5e9a.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/26345ad57bdd5e9a.yml",
+        "one_pace_arc": 26,
+        "one_pace_episode": 17,
+        "one_pace_crc": "2DC3ECF7",
+        "muhn_reference_key": "26345ad57bdd5e9a",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/K2o8Ktpa.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    }
+  ]
+}

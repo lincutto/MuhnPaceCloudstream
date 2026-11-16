@@ -1,8 +1,10 @@
 # MuhnPaceCloudstream v3 — handover
 
-## Active Phase 4B — checkpoint 1 (2026-11-16)
+## Active Phase 4B — checkpoints 1 and 2 (2026-11-16)
 
 The user's new Phase 4B request supersedes the Phase 4A stop below. Recovered clean `5a37acf`; preserve published v2 and its identities. Crew-art/Dressrosa image checkpoint: `17df462` (50 reviewed images, 48 distinct episode stills). All 48 Dressrosa titles/ranges/synopses now use structured exact-file records; the additional Muhn Pace-specific source resolves the five earlier sample disagreements as ONE_PACE_DERIVED, not directly verified. The main series plot is concise; player descriptions no longer contain research/development notes. See [Phase 4B findings and remaining work](PHASE4B_METADATA.md).
+
+Checkpoint 1 implementation `a028ae8` is pushed. The first eight additional seasons add 81 records and stills (art checkpoint `0ebd79a`), bringing completed story records to 129. Post-Enies Lobby files 4/5 correspond to One Pace 5/6 by their specific Muhn release titles and story references, not by equal edit numbers. All native positions remain unchanged.
 
 Existing Android builds and Kotlin regression suite passed after updating two obsolete description expectations; Python has 24 passing checks. All 47 Kotlin tests (43 main + 4 preview), both Android packages and the additional formatter/real-response checks passed locally. No v3 package has been published yet. Remaining seasons and final validation/publication follow; do not modify main/builds or start Phase 5. Preserve the late-Wano evidence gap rather than guessing coverage.
 

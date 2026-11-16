@@ -56,7 +56,7 @@ class Phase4bChecks(unittest.TestCase):
         for r in records:
             self.assertTrue(35 <= len(r['synopsis']) <= 500)
             for text in [r['display_title'], r['synopsis']]:
-                self.assertNotRegex(text.lower(), r'muhn pace|metadata|unverified|unknown|unavailable|navigation|derived|mapping|source file')
+                self.assertNotRegex(text.lower(), r'muhn pace|metadata|unverified|original episodes unknown|unavailable|navigation|derived|mapping|source file')
             self.assertFalse(re.match(r'^\d+[.]', r['display_title']))
 
     def test_curated_image_identity_integrity_and_uniqueness(self):

@@ -1,0 +1,89 @@
+{
+  "schema_version": 3,
+  "season": 8,
+  "reviewed_on": "2026-11-16",
+  "entries": [
+    {
+      "collection_id": "MH7AQkgr",
+      "file_id": "qogFLkFu",
+      "source_filename": "[Muhn Pace] Post War 7.mp4",
+      "source_sha256": "2fd3188f1a8495673e8f8ed476b7d4550805b60c8abef7fbc056170bb25900ed",
+      "edit_number": 7,
+      "season": 8,
+      "display_title": "NEWS",
+      "synopsis": "Luffy returns to Marineford with Jinbe and Rayleigh to carry out a plan. Reports of his actions reach the scattered Straw Hats, each searching for their captain's meaning.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        510,
+        511,
+        512
+      ],
+      "accepted_original_episodes": [
+        510,
+        511,
+        512
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/descriptions.json",
+        "one_pace_arc": 27,
+        "one_pace_episode": 7,
+        "one_pace_crc": "D85BC22C",
+        "muhn_reference_key": null,
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence to the published One Pace guide; no complete exact-file range audit.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/qogFLkFu.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    },
+    {
+      "collection_id": "MH7AQkgr",
+      "file_id": "r8HSo1Gp",
+      "source_filename": "[Muhn Pace] Post War 8.mp4",
+      "source_sha256": "0b398c4c58250eb8f07ccdd7d655915d9320c007fcdab371856354bbe4df9c63",
+      "edit_number": 8,
+      "season": 8,
+      "display_title": "3D2Y",
+      "synopsis": "The crew commits to preparing for its reunion and the dangers of the New World. Luffy begins training with Rayleigh on an island filled with powerful beasts.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        513,
+        514,
+        515,
+        516
+      ],
+      "accepted_original_episodes": [
+        513,
+        514,
+        515,
+        516
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/episodes.json",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/metadata/descriptions.json",
+        "one_pace_arc": 27,
+        "one_pace_episode": 8,
+        "one_pace_crc": "178190BC",
+        "muhn_reference_key": null,
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence to the published One Pace guide; no complete exact-file range audit.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/r8HSo1Gp.jpg",
+        "artwork_commit": "0ebd79a37a06c591c0ebaac5a6ca2ee4860119d5"
+      }
+    }
+  ]
+}
