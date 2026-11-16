@@ -60,23 +60,6 @@ internal data class EditResearch(
         fileId == metadata.fileId && editNumber == metadata.editNumber && sourceFileName == metadata.sourceFileName &&
         (metadata.sourceSha256 == null || sourceSha256 == metadata.sourceSha256)
 
-    fun description(verified: OriginalEpisodeMapping?): String {
-        val coverage = if (verified != null) {
-            "Verified original coverage: OP ${verified.label}. Fan edits may use only portions of those episodes."
-        } else {
-            val scene = if (sceneConfirmedEpisodes.isEmpty()) "" else
-                "Scene confirmed: OP ${originalEpisodeLabel(sceneConfirmedEpisodes)} (partial). "
-            scene + when (mappingStatus) {
-                MappingEvidence.ONE_PACE_DERIVED -> "Original anime coverage: ${originalEpisodeLabel(acceptedEpisodes)} (One Pace-derived; the English adaptation may cut or rearrange portions)."
-                MappingEvidence.CONFLICTING -> "Original episode range unresolved: published references disagree."
-                else -> "Original episode coverage is unknown."
-            }
-        }
-        val includeTitles = verified?.includedEpisodes ?: acceptedEpisodes
-        val titles = originalTitles.filter { it.number in includeTitles }
-            .joinToString("\n") { "OP ${it.number}: ${it.title}" }.takeIf { it.isNotBlank() }
-        return listOfNotNull(synopsis, coverage, titles).joinToString("\n\n")
-    }
 }
 
 internal object EditResearchRegistry {
@@ -100,8 +83,9 @@ internal object EditResearchRegistry {
             runCatching {
                 val row = rows.getJSONObject(index)
                 val candidates = row.getJSONArray("candidate_original_episodes").numbers()
+                val fileId = row.getString("file_id")
                 val thumb = row.optString("thumbnail_url").takeIf {
-                    it == ResearchDataset.ARTWORK_BASE + "/dressrosa/edit-${row.getInt("edit_number")}.jpg"
+                    Regex("https://raw\\.githubusercontent\\.com/lincutto/MuhnPaceCloudstream/[a-f0-9]{40}/assets/phase4b/episodes/${Regex.escape(fileId)}\\.jpg").matches(it)
                 }
                 EditResearch(row.getString("collection_id"), row.getString("file_id"),
                     row.getString("source_filename"), row.getString("source_sha256"), row.getInt("edit_number"),

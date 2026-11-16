@@ -6,8 +6,8 @@ import org.junit.Assert.*
 import org.junit.Test
 
 class EpisodePresentationTest {
-    private fun file(thumbnail: String? = "/file/yUkgcapt/thumbnail"): JSONObject = JSONObject()
-        .put("id", "yUkgcapt")
+    private fun file(thumbnail: String? = "/file/syntheticFile/thumbnail"): JSONObject = JSONObject()
+        .put("id", "syntheticFile")
         .put("name", "[Muhn Pace] Dressrosa 25.mp4")
         .put("mime_type", "video/mp4")
         .apply { thumbnail?.let { put("thumbnail_href", it) } }
@@ -20,13 +20,13 @@ class EpisodePresentationTest {
         val episode = MuhnPaceProvider().episodesFromFiles(
             "f8HTXmAk", "Dressrosa", JSONArray().put(file()), "https://example.org/arc-poster.jpg",
         ).single()
-        assertEquals("https://pixeldrain.dev/api/file/yUkgcapt/thumbnail?width=256&height=144", episode.posterUrl)
-        assertEquals("https://pixeldrain.dev/api/file/yUkgcapt", episode.data)
-        assertEquals("Title unavailable - original episodes unknown", episode.name)
+        assertEquals("https://pixeldrain.dev/api/file/syntheticFile/thumbnail?width=256&height=144", episode.posterUrl)
+        assertEquals("https://pixeldrain.dev/api/file/syntheticFile", episode.data)
+        assertEquals("One Piece", episode.name)
         assertEquals(25, episode.episode)
         assertEquals(1, episode.season)
         assertEquals(
-            "Dressrosa • English dub. Individual story synopsis is not yet documented.\nOriginal One Piece episode coverage is unknown.",
+            "",
             episode.description,
         )
     }
@@ -54,8 +54,8 @@ class EpisodePresentationTest {
         assertEquals(original.editNumber, presented.editNumber)
         assertEquals(original.title, presented.title)
         assertEquals(original.originalEpisodes, presented.originalEpisodes)
-        assertTrue(presented.description.contains("Filler edit."))
-        assertTrue(presented.description.contains("Original One Piece episodes: 1-3."))
+        assertEquals(EpisodeEdition.FILLER, presented.edition)
+        assertEquals("One Piece - 1-3", presented.title)
         assertFalse(presented.description.contains("unverified"))
     }
 
@@ -63,7 +63,7 @@ class EpisodePresentationTest {
     fun `special collection description does not repeat the episode label`() {
         val presented = metadata(file()).copy(editNumber = 15, edition = EpisodeEdition.FIXED_GROUP_SHOT)
             .withPresentation("Fishman Island • Episode 15")
-        assertEquals("Fishman Island • English dub. Fixed group shot. Individual story synopsis is not yet documented.", presented.summary)
+        assertNull(presented.summary)
     }
 
     @Test
@@ -101,7 +101,7 @@ class EpisodePresentationTest {
                 if (record.getBoolean("blank")) {
                     assertTrue(record.getInt("max_rgb_channel") <= 1)
                     assertNotNull(fallback)
-                    assertEquals(fallback, episode.posterUrl)
+                    assertEquals(EditResearchRegistry.entries.singleOrNull { it.fileId == fileId }?.thumbnailUrl ?: fallback, episode.posterUrl)
                     blankFrames++
                 } else {
                     assertEquals(EditResearchRegistry.entries.singleOrNull { it.fileId == fileId }?.thumbnailUrl ?: record.getString("url"), episode.posterUrl)

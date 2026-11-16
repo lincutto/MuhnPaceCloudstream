@@ -38,7 +38,7 @@ class SeriesCatalogueTest {
                 val fileId = expected.getJSONObject(index).getString("file_id")
                 expectedStreams += "https://pixeldrain.dev/api/file/$fileId"
                 assertEquals(expectedStreams.last(), ep.data)
-                assertEquals(expectedEpisodeName(fileId), ep.name)
+                expectedEpisodeName(fileId)?.let { assertEquals(it, ep.name) }
                 assertFalse(ep.description!!.contains("Muhn Pace edit"))
                 assertTrue(ep.posterUrl!!.startsWith("https://"))
             }
@@ -49,7 +49,10 @@ class SeriesCatalogueTest {
         val parent = load.uniqueUrl.replace(provider.mainUrl, "").replace("/", "").hashCode()
         assertEquals(274, hostSorted.map { parent + it.season!! * 100000 + it.episode!! + 1 }.toSet().size)
         assertEquals(274, load.getTotalEpisodeIndex(25, 16))
-        assertTrue(load.plot!!.contains(ArcPresentations.byCollection.getValue("f8HTXmAk").synopsis))
+        assertEquals(SeriesCatalogue.DESCRIPTION, load.plot)
+        assertTrue(load.plot!!.length < 300)
+        assertEquals(SeriesCatalogue.poster, load.posterUrl)
+        assertEquals(SeriesCatalogue.background, load.backgroundPosterUrl)
     }
 
     @Test

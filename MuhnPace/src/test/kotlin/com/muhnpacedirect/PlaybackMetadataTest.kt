@@ -48,7 +48,7 @@ class PlaybackMetadataTest {
                     assertEquals("https://pixeldrain.dev/api/file/${baseline.getString("file_id")}", episode.data)
                     assertEquals(baseline.getInt("number"), episode.episode)
                     assertEquals(1, episode.season)
-                    assertEquals(expectedEpisodeName(baseline.getString("file_id")), episode.name)
+                    expectedEpisodeName(baseline.getString("file_id"))?.let { assertEquals(it, episode.name) }
                     assertFalse(episode.description!!.contains("Muhn Pace edit"))
                     assertEquals(EditResearchRegistry.entries.singleOrNull { it.fileId == baseline.getString("file_id") }?.thumbnailUrl ?: presentation.episodeFallback, episode.posterUrl)
                 }
@@ -68,8 +68,8 @@ class PlaybackMetadataTest {
         val provider = MuhnPaceProvider()
         val baseline = provider.episodeFromMetadata(unknown)
         val episode = provider.episodeFromMetadata(mapped)
-        assertEquals("Title unavailable - 1-3", episode.name)
-        assertTrue(episode.description!!.contains("Original One Piece episodes: 1-3."))
+        assertEquals("One Piece - 1-3", episode.name)
+        assertEquals("", episode.description)
         assertFalse(episode.description!!.contains("Muhn Pace edit"))
         assertFalse(episode.description!!.contains("unverified"))
         assertEquals(baseline.data, episode.data)
@@ -85,8 +85,8 @@ class PlaybackMetadataTest {
             .put("mime_type", "video/mp4").put("description", "One Piece episodes 683-686")
             .put("original_episodes", "683-686").put("title", "Invented story title"))
         val episode = MuhnPaceProvider().episodesFromFiles("f8HTXmAk", "Dressrosa", files).single()
-        assertEquals("Title unavailable - original episodes unknown", episode.name)
-        assertTrue(episode.description!!.contains("coverage is unknown"))
+        assertEquals("One Piece", episode.name)
+        assertEquals("", episode.description)
         assertFalse(episode.description!!.contains("683"))
         assertFalse(episode.description!!.contains("Invented"))
     }

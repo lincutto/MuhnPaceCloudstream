@@ -6,6 +6,43 @@ import org.junit.Assert.*
 import org.junit.Test
 
 class EditResearchTest {
+    @Test
+    fun `all Dressrosa records populate supported episode fields without changing navigation`() {
+        val rows = javaClass.getResourceAsStream("/catalogue-2026-11-14.json")!!
+            .bufferedReader().use { JSONObject(it.readText()).getJSONArray("collections") }
+        val collection = (0 until rows.length()).map { rows.getJSONObject(it) }
+            .single { it.getString("id") == "f8HTXmAk" }
+        val episodes = MuhnPaceProvider().episodesFromFiles("f8HTXmAk", "Dressrosa", collection.getJSONArray("files"))
+        assertEquals(48, episodes.size)
+        assertEquals(48, episodes.map { it.description }.toSet().size)
+        assertEquals(48, episodes.map { it.posterUrl }.toSet().size)
+        assertEquals("To Russian, with Love - 714-716", episodes[37].name)
+        assertEquals("Zoro vs. Pica - 716-719", episodes[38].name)
+        assertEquals("The Curse of Heart - 714-715, 720-723", episodes[39].name)
+        for ((index, ep) in episodes.withIndex()) {
+            assertEquals(index + 1, ep.episode)
+            assertEquals(1, ep.season) // Legacy route remains season 1.
+            assertTrue(ep.name!!.contains(" - "))
+            assertTrue(ep.description!!.length in 35..500)
+            assertTrue(ep.posterUrl!!.endsWith("/${ep.data.substringAfterLast('/')}.jpg"))
+        }
+    }
+
+    @Test
+    fun `a disputed or unknown range keeps the story title without exposing research notes`() {
+        val base = entries()[1]
+        for (status in listOf(MappingEvidence.CONFLICTING, MappingEvidence.UNKNOWN)) {
+            val research = base.research!!.copy(mappingStatus = status, acceptedEpisodes = emptyList(),
+                candidateEpisodes = if (status == MappingEvidence.UNKNOWN) emptyList() else listOf(699, 700),
+                originalTitles = emptyList())
+            val changed = base.copy(research = research)
+            assertEquals("The Operation Fruit", changed.title)
+            assertEquals(research.synopsis, changed.description)
+            assertEquals(base.fileId, changed.fileId)
+            assertEquals(base.editNumber, changed.editNumber)
+        }
+    }
+
     private fun entries(): List<EpisodeMetadata> {
         val rows = javaClass.getResourceAsStream("/catalogue-2026-11-14.json")!!
             .bufferedReader().use { JSONObject(it.readText()).getJSONArray("collections") }
@@ -15,23 +52,21 @@ class EditResearchTest {
     }
 
     @Test
-    fun `eight exact-file stories use official One Pace names with three derived and five unresolved ranges`() {
+    fun `eight recovered stories retain scenes while project-specific evidence resolves derived ranges`() {
         val entries = entries()
         assertEquals(8, entries.size)
-        assertEquals(3, entries.count { it.evidenceStatus == MappingEvidence.ONE_PACE_DERIVED })
-        assertEquals(5, entries.count { it.evidenceStatus == MappingEvidence.CONFLICTING })
+        assertEquals(8, entries.count { it.evidenceStatus == MappingEvidence.ONE_PACE_DERIVED })
+        assertEquals(0, entries.count { it.evidenceStatus == MappingEvidence.CONFLICTING })
         assertTrue(entries.none { it.originalEpisodes != null })
         assertEquals(8, entries.map { it.research!!.synopsis }.toSet().size)
         assertEquals(8, entries.map { it.withPresentation("Dressrosa").thumbnailUrl }.toSet().size)
         for (entry in entries) {
-            assertEquals(expectedEpisodeName(entry.fileId), entry.title)
+            expectedEpisodeName(entry.fileId)?.let { assertEquals(it, entry.title) }
             assertFalse(entry.title.contains("Muhn Pace"))
             assertFalse(entry.description.contains("Muhn Pace edit"))
             assertTrue(entry.description.startsWith(entry.research!!.synopsis))
-            if (entry.evidenceStatus == MappingEvidence.CONFLICTING) {
-                assertFalse(entry.title.any { it.isDigit() })
-                assertTrue(entry.description.contains("references disagree"))
-            } else assertTrue(entry.description.contains("One Pace-derived"))
+            assertEquals(entry.research!!.synopsis, entry.description)
+            assertFalse(entry.description.contains("One Pace-derived"))
         }
     }
 
@@ -41,9 +76,8 @@ class EditResearchTest {
         assertEquals(listOf(701), law.research!!.sceneConfirmedEpisodes)
         assertEquals(listOf(701, 702), law.research!!.acceptedEpisodes)
         assertEquals(MappingEvidence.ONE_PACE_DERIVED, law.evidenceStatus)
-        assertTrue(law.description.contains("Scene confirmed: OP 701 (partial)"))
-        assertTrue(law.description.contains("Law, the Boy from the White Town"))
-        assertTrue(law.description.contains("OP 702:"))
+        assertTrue(law.research!!.originalTitles.any { it.number == 702 })
+        assertFalse(law.description.contains("Scene confirmed"))
     }
 
     @Test
@@ -53,7 +87,7 @@ class EditResearchTest {
             entry.copy(editNumber = 99), entry.copy(sourceFileName = "different.mp4"), entry.copy(sourceSha256 = "0".repeat(64)))
         for (other in altered) {
             assertEquals(MappingEvidence.UNKNOWN, other.evidenceStatus)
-            assertEquals("Title unavailable - original episodes unknown", other.title)
+            assertEquals("One Piece", other.title)
             assertEquals("https://example.org/fallback.jpg", other.withPresentation("Dressrosa", "https://example.org/fallback.jpg").thumbnailUrl)
         }
         val presentedThenReused = entry.withPresentation("Dressrosa").copy(fileId = "wrong")
@@ -66,11 +100,11 @@ class EditResearchTest {
         val data = JSONObject(ResearchDataset.JSON)
         val row = data.getJSONArray("entries").getJSONObject(0)
         row.put("mapping_status", "DIRECTLY_VERIFIED")
-        assertEquals(7, EditResearchRegistry.parse(data.toString()).size)
-        row.put("mapping_status", "CONFLICTING").put("thumbnail_url", "https://untrusted.example/other.jpg")
+        assertEquals(EditResearchRegistry.entries.size - 1, EditResearchRegistry.parse(data.toString()).size)
+        row.put("mapping_status", "CONFLICTING").put("accepted_original_episodes", JSONArray()).put("thumbnail_url", "https://untrusted.example/other.jpg")
         assertNull(EditResearchRegistry.parse(data.toString()).first().thumbnailUrl)
         row.put("accepted_original_episodes", JSONArray(listOf(999)))
-        assertEquals(7, EditResearchRegistry.parse(data.toString()).size)
+        assertEquals(EditResearchRegistry.entries.size - 1, EditResearchRegistry.parse(data.toString()).size)
     }
 
     @Test

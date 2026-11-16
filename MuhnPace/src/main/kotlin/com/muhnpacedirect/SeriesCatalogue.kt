@@ -34,16 +34,10 @@ internal object SeriesCatalogue {
         CatalogueArc("Wano • Acts 1 & 2", "QZw3Ejpy", 15, 5),
         CatalogueArc("Wano • Act 3", "sF9stHJo", 16, 71),
     )
-    val poster: String get() = ResearchDataset.ARTWORK_BASE + "/dressrosa/poster.jpg"
-    val background: String get() = ResearchDataset.ARTWORK_BASE + "/dressrosa/background.jpg"
+    val poster: String get() = ResearchDataset.SERIES_ARTWORK_BASE + "/poster.jpg"
+    val background: String get() = ResearchDataset.SERIES_ARTWORK_BASE + "/background.jpg"
     const val ARTWORK_CREDIT = "Anime identification stills: © Eiichiro Oda/Shueisha, Toei Animation. Muhn Pace edit by Muhny. Limited preview excerpts; no promotional-art licence is claimed."
 
-    fun description(available: Int): String = listOf(
-        "Monkey D. Luffy and the Straw Hat crew sail in search of the One Piece, facing new islands, rivals and allies. " +
-            "English-dubbed fan adaptation; $available playable videos across 16 collection seasons. This is a partial catalogue, beginning at Enies Lobby.",
-        "Season labels follow the available collections. Player episode indices are navigation positions; original anime coverage appears in researched titles. " +
-            "The alternate Fishman Island season supplements the preceding arc.",
-        arcs.joinToString("\n\n") { "Season ${it.season} • ${it.seasonTitle}\n${ArcPresentations.byCollection.getValue(it.listId).synopsis}" },
-        ARTWORK_CREDIT,
-    ).joinToString("\n\n")
+    const val DESCRIPTION = "Monkey D. Luffy and the Straw Hat Pirates explore extraordinary islands in search of the legendary One Piece. " +
+        "Follow their adventures in an English-dubbed fan edit that streamlines the anime's pacing."
 }

@@ -1,0 +1,1989 @@
+{
+  "schema_version": 3,
+  "season": 12,
+  "reviewed_on": "2026-11-16",
+  "entries": [
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "72Ex1PkQ",
+      "source_filename": "[Muhn Pace] Dressrosa 01.mp4",
+      "source_sha256": "87e092284b7d6f75b9247e611e5bc59702b1e42a11e6372efd1202e2bd00c7dd",
+      "edit_number": 1,
+      "season": 12,
+      "display_title": "Arriving at Dressrosa! The Country of Passion, Love, and Toys!",
+      "synopsis": "Luffy and his friends arrive in Dressrosa and divide up their mission against Doflamingo. A gambling house introduces them to a powerful blind stranger.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        628,
+        629,
+        630,
+        631
+      ],
+      "accepted_original_episodes": [
+        628,
+        629,
+        630,
+        631
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/dbd237fb1f10f8eb.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/dbd237fb1f10f8eb.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 1,
+        "one_pace_crc": "2A35B710",
+        "muhn_reference_key": "dbd237fb1f10f8eb",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/72Ex1PkQ.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "6muLmisz",
+      "source_filename": "[Muhn Pace] Dressrosa 02.mp4",
+      "source_sha256": "acb730d819b39701fe41ef9e81fde51dd59ab6fe8a47a6f0bae5bbc0e1d4c7a3",
+      "edit_number": 2,
+      "season": 12,
+      "display_title": "Corrida Colosseum! The Great Tournament",
+      "synopsis": "Zoro pursues the thief who stole his sword while Sanji follows a dancer into trouble. The prize at the colosseum gives Luffy a personal reason to enter its tournament.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        631,
+        632,
+        633
+      ],
+      "accepted_original_episodes": [
+        631,
+        632,
+        633
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5257339f9a34bce0.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5257339f9a34bce0.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 2,
+        "one_pace_crc": "E058DEF9",
+        "muhn_reference_key": "5257339f9a34bce0",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/6muLmisz.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "6BAjzj8B",
+      "source_filename": "[Muhn Pace] Dressrosa 03.mp4",
+      "source_sha256": "dac0f9f2ca1985ea2d2bee480dece762a1908b7a56e9b99ca6f2e58df0e39975",
+      "edit_number": 3,
+      "season": 12,
+      "display_title": "The Colosseum of Many New Faces and Maynard's Pursuit!",
+      "synopsis": "Disguised as Lucy, Luffy meets the fighters gathering for the Flame-Flame Fruit. Rivalries and unexpected encounters complicate his efforts to keep his identity secret.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        633,
+        634,
+        635
+      ],
+      "accepted_original_episodes": [
+        633,
+        634,
+        635
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e76279289f760b1a.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e76279289f760b1a.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 3,
+        "one_pace_crc": "90034ECC",
+        "muhn_reference_key": "e76279289f760b1a",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/6BAjzj8B.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "ytcyVuDN",
+      "source_filename": "[Muhn Pace] Dressrosa 04.mp4",
+      "source_sha256": "3fde9cf4d245ddf205363600c19c8565740defa0e128e8d4a2c8d163d6e1ca65",
+      "edit_number": 4,
+      "season": 12,
+      "display_title": "Bellamy's Changed Motivations and B Block's Start!",
+      "synopsis": "Bellamy explains why he has returned to the arena. The next round brings together an unruly crowd of fighters, including the widely disliked Bartolomeo.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        634,
+        635,
+        636,
+        637
+      ],
+      "accepted_original_episodes": [
+        634,
+        635,
+        636,
+        637
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/9229beae09e92fd7.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/9229beae09e92fd7.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 4,
+        "one_pace_crc": "E98FA912",
+        "muhn_reference_key": "9229beae09e92fd7",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/ytcyVuDN.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "XZbcP3jZ",
+      "source_filename": "[Muhn Pace] Dressrosa 05.mp4",
+      "source_sha256": "75e5ce619d53d5daab84cc26289d91ab89c8d8164a6afcb00c7d231a191a265c",
+      "edit_number": 5,
+      "season": 12,
+      "display_title": "B Block on Fire! Outlandish Competitors and King Punch!",
+      "synopsis": "The competitors in Block B struggle to survive as Elizabello prepares his King Punch. Alliances unravel under the pressure of the arena battle.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        637,
+        638
+      ],
+      "accepted_original_episodes": [
+        637,
+        638
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/9bbd11777b87be38.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/9bbd11777b87be38.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 5,
+        "one_pace_crc": "A95DE47B",
+        "muhn_reference_key": "9bbd11777b87be38",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/XZbcP3jZ.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "Q2yiDsig",
+      "source_filename": "[Muhn Pace] Dressrosa 06.mp4",
+      "source_sha256": "9564ddc24d55ef2c53edebfbbd7653e2c06b2bd285442e922bfb525eefcd1b59",
+      "edit_number": 6,
+      "season": 12,
+      "display_title": "To Green Bit! The Adventure in the Land of Dwarves!",
+      "synopsis": "Law's group must cross dangerous waters to deliver Caesar on Green Bit. Robin and Usopp discover that the apparently deserted island has hidden inhabitants.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        639,
+        640,
+        641,
+        642
+      ],
+      "accepted_original_episodes": [
+        639,
+        640,
+        641,
+        642
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e4ba2c594f82f3e4.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e4ba2c594f82f3e4.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 6,
+        "one_pace_crc": "F7CB97CD",
+        "muhn_reference_key": "e4ba2c594f82f3e4",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/Q2yiDsig.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "BWHshmLC",
+      "source_filename": "[Muhn Pace] Dressrosa 07.mp4",
+      "source_sha256": "0337f8b66bc03e152d3420ca8cbf5f3dfe497a65fa38426f0ae3cbdb1f4cf080",
+      "edit_number": 7,
+      "season": 12,
+      "display_title": "Doflamingo Arrives! The Ultimate Schemer!",
+      "synopsis": "Violet's encounter with Sanji reveals a problem with the alliance's plan. Law receives a warning as Doflamingo closes in on the exchange.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        640,
+        641,
+        642,
+        643
+      ],
+      "accepted_original_episodes": [
+        640,
+        641,
+        642,
+        643
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/fdf52d9ae0ef026e.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/fdf52d9ae0ef026e.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 7,
+        "one_pace_crc": "EACE397D",
+        "muhn_reference_key": "fdf52d9ae0ef026e",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/BWHshmLC.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "yu9WdYzG",
+      "source_filename": "[Muhn Pace] Dressrosa 08.mp4",
+      "source_sha256": "48621a0251109863e01a4b9c462f8d51c01e42ca151a98d42152f74aa8d5e36a",
+      "edit_number": 8,
+      "season": 12,
+      "display_title": "Closely Contested Block C! Lucy and Ucy!",
+      "synopsis": "Giolla's power transforms the Sunny and threatens the crew aboard it. In the arena, Luffy finds an unusual partner before facing the strongest opponents in Block C.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        643,
+        644,
+        645
+      ],
+      "accepted_original_episodes": [
+        643,
+        644,
+        645
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0b8da2046c0d22b2.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0b8da2046c0d22b2.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 8,
+        "one_pace_crc": "777DE97C",
+        "muhn_reference_key": "0b8da2046c0d22b2",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/yu9WdYzG.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "Dhzdvx3q",
+      "source_filename": "[Muhn Pace] Dressrosa 09.mp4",
+      "source_sha256": "23d0366b439478ffd2dd08ed1b249121c16cdbc4346cd88686ed4f88b34d3f07",
+      "edit_number": 9,
+      "season": 12,
+      "display_title": "C Block's Blazing Battle and the Forgotten of Dressrosa!",
+      "synopsis": "Chinjao confronts Luffy over his grudge against Garp. Away from the arena, Franky learns why Dressrosa's toys cannot simply return to their families.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        646,
+        647
+      ],
+      "accepted_original_episodes": [
+        646,
+        647
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/cde6993446f1d974.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/cde6993446f1d974.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 9,
+        "one_pace_crc": "C2C37921",
+        "muhn_reference_key": "cde6993446f1d974",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/Dhzdvx3q.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "m4szt1jM",
+      "source_filename": "[Muhn Pace] Dressrosa 10.mp4",
+      "source_sha256": "031861512bff0108cc409bf56fdf3e45378e02725b2fd8cc45db8b34ac2b490a",
+      "edit_number": 10,
+      "season": 12,
+      "display_title": "The Tontatta Rebellion and the C Block Finale!",
+      "synopsis": "The Tontattas prepare to strike at Doflamingo's forces, drawing Usopp and Robin into their plans. Luffy and Chinjao bring their colosseum battle to its climax.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        648,
+        649
+      ],
+      "accepted_original_episodes": [
+        648,
+        649
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/d3943b901c555166.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/d3943b901c555166.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 10,
+        "one_pace_crc": "50143351",
+        "muhn_reference_key": "d3943b901c555166",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/m4szt1jM.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "8Y2UAJMz",
+      "source_filename": "[Muhn Pace] Dressrosa 11.mp4",
+      "source_sha256": "deed1b17fd3ca236ee7a918e5e757af66946d5ab668807a6127a0d3c3ffe8eb1",
+      "edit_number": 11,
+      "season": 12,
+      "display_title": "A Sad Past! Rebecca and Soldier-san",
+      "synopsis": "Rebecca's bond with the toy soldier offers a glimpse of life under Doflamingo. An unwelcome voice from Luffy's past interrupts his time at the colosseum.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        650,
+        651
+      ],
+      "accepted_original_episodes": [
+        650,
+        651
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/99e2880d2b84cecf.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/99e2880d2b84cecf.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 11,
+        "one_pace_crc": "D8E8370A",
+        "muhn_reference_key": "99e2880d2b84cecf",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/8Y2UAJMz.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "TDeUEjcd",
+      "source_filename": "[Muhn Pace] Dressrosa 12.mp4",
+      "source_sha256": "c4bd10010742f7f80e1815b95dfaa1435c80021dba17f8ce32a792c5249f7c80",
+      "edit_number": 12,
+      "season": 12,
+      "display_title": "D Block's Fiery Start and the Heavenly Demon's Revelation!",
+      "synopsis": "Rebecca faces hostile spectators and dangerous opponents as Block D begins. At Green Bit, Law struggles against the combined pressure of Doflamingo and Fujitora.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        652,
+        653,
+        654
+      ],
+      "accepted_original_episodes": [
+        652,
+        653,
+        654
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/784a46a1b88a0fe4.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/784a46a1b88a0fe4.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 12,
+        "one_pace_crc": "F20B5423",
+        "muhn_reference_key": "784a46a1b88a0fe4",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/TDeUEjcd.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "qsKjvibV",
+      "source_filename": "[Muhn Pace] Dressrosa 13.mp4",
+      "source_sha256": "10ea9312811b9f6b6ffa92cecbc310c27d3a973fff5240db8e4ff273de5b3194",
+      "edit_number": 13,
+      "season": 12,
+      "display_title": "Law's New Strategy and the Colosseum's Underground Nightmare!",
+      "synopsis": "Law changes his plan to protect the Straw Hats aboard the Sunny. Bartolomeo's search for Luffy leads toward the colosseum's unsettling treatment of defeated fighters.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        655,
+        656,
+        657
+      ],
+      "accepted_original_episodes": [
+        655,
+        656,
+        657
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/72193d5cda6f9ad2.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/72193d5cda6f9ad2.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 13,
+        "one_pace_crc": "C29E5C35",
+        "muhn_reference_key": "72193d5cda6f9ad2",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/qsKjvibV.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "qNkCx6wg",
+      "source_filename": "[Muhn Pace] Dressrosa 14.mp4",
+      "source_sha256": "257429c8cea06fc2032c35edff9d0795ac754e39b46da1d0d85da6387836e894",
+      "edit_number": 14,
+      "season": 12,
+      "display_title": "The Plight of the Riku Clan! The Lurking Hero Awaits in the Shadows!",
+      "synopsis": "The prisoners beneath the colosseum discover connections to Dressrosa's former royal family. The Tontattas explain their struggle and the toy soldier's role in it.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        648,
+        657,
+        658,
+        659
+      ],
+      "accepted_original_episodes": [
+        648,
+        657,
+        658,
+        659
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/1a622dc8b348606b.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/1a622dc8b348606b.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 14,
+        "one_pace_crc": "E3C90B8B",
+        "muhn_reference_key": "1a622dc8b348606b",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/qNkCx6wg.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "qKU777aB",
+      "source_filename": "[Muhn Pace] Dressrosa 15.mp4",
+      "source_sha256": "e4e75f14ac6e7155907b91a79b4c9b2e7a365e2a08e0a4c670e61d247e85ad26",
+      "edit_number": 15,
+      "season": 12,
+      "display_title": "Doflamingo's Relentless Pursuit",
+      "synopsis": "The events that destroyed King Riku's reputation come into focus. Doflamingo's takeover left both the royal family and Dressrosa's forgotten citizens trapped.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        660,
+        661
+      ],
+      "accepted_original_episodes": [
+        660,
+        661
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/730d46e73e730569.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/730d46e73e730569.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 15,
+        "one_pace_crc": "6A3CE0EA",
+        "muhn_reference_key": "730d46e73e730569",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/qKU777aB.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "wn9Q3Lzb",
+      "source_filename": "[Muhn Pace] Dressrosa 16.mp4",
+      "source_sha256": "ab9e8ebd1e36fca5e4643e2b8aefc252a898ef66620e0597a572284ef1a48850",
+      "edit_number": 16,
+      "season": 12,
+      "display_title": "SOP Strategy",
+      "synopsis": "Zoro and Kin'emon try to reach Law despite Fujitora's intervention. The toy soldier explains Operation SOP and the importance of defeating Sugar.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        657,
+        662,
+        663
+      ],
+      "accepted_original_episodes": [
+        657,
+        662,
+        663
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/d415dd798660f8fa.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/d415dd798660f8fa.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 16,
+        "one_pace_crc": "7073A62F",
+        "muhn_reference_key": "d415dd798660f8fa",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/wn9Q3Lzb.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "agqztUGg",
+      "source_filename": "[Muhn Pace] Dressrosa 17.mp4",
+      "source_sha256": "fc327d12c754204fb4a0c994da6cc1c72f3b253543db8c3f12592982facbb9d0",
+      "edit_number": 17,
+      "season": 12,
+      "display_title": "The Underground World",
+      "synopsis": "Usopp and Robin follow the Tontattas through the underground passages. Franky attacks the Toys House to draw attention away from their mission.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        664,
+        665
+      ],
+      "accepted_original_episodes": [
+        664,
+        665
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/63feec39eb20d896.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/63feec39eb20d896.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 17,
+        "one_pace_crc": "174F92DD",
+        "muhn_reference_key": "63feec39eb20d896",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/agqztUGg.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "J5RJZWay",
+      "source_filename": "[Muhn Pace] Dressrosa 18.mp4",
+      "source_sha256": "05bd6a6bf6f26380ae61f2abd97efad1dcde902d60f9317329b54ba5149685e1",
+      "edit_number": 18,
+      "season": 12,
+      "display_title": "Fujitora's Outlook",
+      "synopsis": "Viola guides Luffy's group toward a hidden route into the palace. Fujitora challenges Doflamingo over the future of the Warlord system.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        666,
+        667
+      ],
+      "accepted_original_episodes": [
+        666,
+        667
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0f9242f0446bd9f6.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0f9242f0446bd9f6.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 18,
+        "one_pace_crc": "C9362978",
+        "muhn_reference_key": "0f9242f0446bd9f6",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/J5RJZWay.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "NbSVv5j5",
+      "source_filename": "[Muhn Pace] Dressrosa 19.mp4",
+      "source_sha256": "21b5df412817c0ee06640ae25be30d7f50037d1a65d68e9810923945ddb37e57",
+      "edit_number": 19,
+      "season": 12,
+      "display_title": "Diamante and Pica",
+      "synopsis": "The tournament finalists face Diamante in the battle for the Flame-Flame Fruit. Luffy's advance through the palace meets the formidable stone powers of Pica.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        668,
+        669,
+        670
+      ],
+      "accepted_original_episodes": [
+        668,
+        669,
+        670
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/f1a8aaefe9421fbf.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/f1a8aaefe9421fbf.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 19,
+        "one_pace_crc": "77081AEE",
+        "muhn_reference_key": "f1a8aaefe9421fbf",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/NbSVv5j5.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "THV7k43Z",
+      "source_filename": "[Muhn Pace] Dressrosa 20.mp4",
+      "source_sha256": "0b041e8ba7cea4df255250fbd1946ae5162213a23092fa5fb4d1af0c048f66a8",
+      "edit_number": 20,
+      "season": 12,
+      "display_title": "Captain",
+      "synopsis": "Trebol's attacks threaten to crush the Tontattas before they can complete their mission. Leo tells Usopp why their commander is central to Dressrosa's hopes.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        670,
+        671,
+        672
+      ],
+      "accepted_original_episodes": [
+        670,
+        671,
+        672
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a1842fcb532e8813.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/a1842fcb532e8813.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 20,
+        "one_pace_crc": "BE72EB0E",
+        "muhn_reference_key": "a1842fcb532e8813",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/THV7k43Z.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "KHohmnc1",
+      "source_filename": "[Muhn Pace] Dressrosa 21.mp4",
+      "source_sha256": "666631d0205a5b68ca5432922d33e012bf145dedf0badf2841fb6acafbb29227",
+      "edit_number": 21,
+      "season": 12,
+      "display_title": "Usoland the Liar",
+      "synopsis": "Sugar and Trebol leave the Tontattas in desperate trouble. With the others unable to help, Usopp must decide whether to return and face them.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        672,
+        673,
+        674,
+        675
+      ],
+      "accepted_original_episodes": [
+        672,
+        673,
+        674,
+        675
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e2112919f41a3b98.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e2112919f41a3b98.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 21,
+        "one_pace_crc": "C21EC74A",
+        "muhn_reference_key": "e2112919f41a3b98",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/KHohmnc1.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "yPhnSgUg",
+      "source_filename": "[Muhn Pace] Dressrosa 22.mp4",
+      "source_sha256": "48720007d063ce7cbadee65ec07b4416920f28eaa0d9e58380e5c8087f1da627",
+      "edit_number": 22,
+      "season": 12,
+      "display_title": "Dressrosa in Turmoil",
+      "synopsis": "Sugar's defeat brings forgotten people and memories back into Dressrosa. The palace and colosseum erupt as the consequences spread across the island.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        675,
+        676,
+        677,
+        678
+      ],
+      "accepted_original_episodes": [
+        675,
+        676,
+        677,
+        678
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0d03668f3ae69049.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/0d03668f3ae69049.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 22,
+        "one_pace_crc": "5FC46535",
+        "muhn_reference_key": "0d03668f3ae69049",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/yPhnSgUg.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "dfA8WjgH",
+      "source_filename": "[Muhn Pace] Dressrosa 23.mp4",
+      "source_sha256": "384f2cfb57d8ad97d933199b678d4598ce1c73b27b259f4343bb44d91e2bb497",
+      "edit_number": 23,
+      "season": 12,
+      "display_title": "Bird Cage",
+      "synopsis": "The colosseum final reaches its turning point as Luffy moves to free Law. Doflamingo responds to the collapse of his plans with a trap that encloses the country.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        678,
+        679,
+        680
+      ],
+      "accepted_original_episodes": [
+        678,
+        679,
+        680
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2d15efe76715a15f.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/2d15efe76715a15f.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 23,
+        "one_pace_crc": "5A38EC3B",
+        "muhn_reference_key": "2d15efe76715a15f",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/dfA8WjgH.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "qLqK9fTW",
+      "source_filename": "[Muhn Pace] Dressrosa 24.mp4",
+      "source_sha256": "7dc96f6f0073e5df92e9052400e04caaea17975ff511cfb1a138d014777d86ce",
+      "edit_number": 24,
+      "season": 12,
+      "display_title": "Executive Officer Pica",
+      "synopsis": "Doflamingo places bounties on his enemies and turns the citizens against them. Pica's enormous stone form blocks the route toward the palace.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        681,
+        682,
+        683
+      ],
+      "accepted_original_episodes": [
+        681,
+        682,
+        683
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/48dcf9a9f70851b4.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/48dcf9a9f70851b4.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 24,
+        "one_pace_crc": "11DA7BCB",
+        "muhn_reference_key": "48dcf9a9f70851b4",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/qLqK9fTW.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "yUkgcapt",
+      "source_filename": "[Muhn Pace] Dressrosa 25.mp4",
+      "source_sha256": "3dd98cd7b06ae4d53fe3d99b3613c4c071690e796fef28220bc68123bcf45f93",
+      "edit_number": 25,
+      "season": 12,
+      "display_title": "Onward!! Army of Rogues",
+      "synopsis": "Former colosseum rivals rally around Luffy as he advances toward Doflamingo. Their competing ambitions make cooperation difficult even with a common enemy.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        683,
+        684,
+        685,
+        686
+      ],
+      "accepted_original_episodes": [
+        683,
+        684,
+        685,
+        686
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ffbfa12ff3375d56.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/ffbfa12ff3375d56.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 25,
+        "one_pace_crc": "1CADC5DC",
+        "muhn_reference_key": "ffbfa12ff3375d56",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/yUkgcapt.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "gJZzCsKS",
+      "source_filename": "[Muhn Pace] Dressrosa 26.mp4",
+      "source_sha256": "a54554e08a2507feac80e81fa4abd7ce4f49ff0491d220823bea139248be9e9c",
+      "edit_number": 26,
+      "season": 12,
+      "display_title": "The State of the War",
+      "synopsis": "Law explains the personal reason behind his campaign against Doflamingo. While Luffy pushes through the palace defenses, Sabo faces Fujitora below.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        685,
+        686,
+        687,
+        688
+      ],
+      "accepted_original_episodes": [
+        685,
+        686,
+        687,
+        688
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/14a4652e07c9eb60.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/14a4652e07c9eb60.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 26,
+        "one_pace_crc": "71CA89FC",
+        "muhn_reference_key": "14a4652e07c9eb60",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/gJZzCsKS.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "VofLq7o4",
+      "source_filename": "[Muhn Pace] Dressrosa 27.mp4",
+      "source_sha256": "ed2219071c6131cac7c60d53359526c9075aaf39876a2cf3fbb96d2550cce23f",
+      "edit_number": 27,
+      "season": 12,
+      "display_title": "Battle",
+      "synopsis": "The colosseum fighters take on Doflamingo's officers to clear a path for Luffy. Their scattered clashes become a coordinated effort to reach the palace.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        688,
+        689,
+        690,
+        691
+      ],
+      "accepted_original_episodes": [
+        688,
+        689,
+        690,
+        691
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6eed1b03f8c9aef7.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6eed1b03f8c9aef7.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 27,
+        "one_pace_crc": "DC6C3C54",
+        "muhn_reference_key": "6eed1b03f8c9aef7",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/VofLq7o4.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "ZCc8yqtJ",
+      "source_filename": "[Muhn Pace] Dressrosa 28.mp4",
+      "source_sha256": "30b4d878d9049e6f325b17439666f4bd0d7941ec3d0cf110efc08db6406ee370",
+      "edit_number": 28,
+      "season": 12,
+      "display_title": "A Man's World",
+      "synopsis": "Cavendish questions whether anyone can win Doflamingo's game. Zoro, Franky and the Tontattas each press their own battles against the Donquixote Family.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        691,
+        692,
+        693
+      ],
+      "accepted_original_episodes": [
+        691,
+        692,
+        693
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/04c3bb29b70336fb.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/04c3bb29b70336fb.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 28,
+        "one_pace_crc": "04186119",
+        "muhn_reference_key": "04c3bb29b70336fb",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/ZCc8yqtJ.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "kqp8BsBT",
+      "source_filename": "[Muhn Pace] Dressrosa 29.mp4",
+      "source_sha256": "984df01d5ac65037bc106873a29d0e98b0460ab78c6dc8b1f5dd1c65d714cc0b",
+      "edit_number": 29,
+      "season": 12,
+      "display_title": "Trump Card",
+      "synopsis": "Gladius' attacks throw Robin and Bartolomeo into a dangerous encounter. Rebecca reaches the Flower Field while Sabo continues his confrontation with Fujitora.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        693,
+        694,
+        695,
+        696
+      ],
+      "accepted_original_episodes": [
+        693,
+        694,
+        695,
+        696
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/79931f1ce2c039c4.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/79931f1ce2c039c4.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 29,
+        "one_pace_crc": "ACC7852E",
+        "muhn_reference_key": "79931f1ce2c039c4",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/kqp8BsBT.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "edkjkrVg",
+      "source_filename": "[Muhn Pace] Dressrosa 30.mp4",
+      "source_sha256": "b2dbc2063477fbc85bf9c927bb269ad30443de0bb0263b2da5d96958827b52f3",
+      "edit_number": 30,
+      "season": 12,
+      "display_title": "Secret Plan",
+      "synopsis": "With Sugar threatening Luffy and Law, Usopp prepares a difficult long-range shot with Viola’s help.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        694,
+        696,
+        697,
+        698
+      ],
+      "accepted_original_episodes": [
+        694,
+        696,
+        697,
+        698
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/d93e49a1f3202de1.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/d93e49a1f3202de1.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 30,
+        "one_pace_crc": "4F16C5DC",
+        "muhn_reference_key": "d93e49a1f3202de1",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/edkjkrVg.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      },
+      "prior_research": "metadata/dressrosa-30-37.json",
+      "conflict_review": {
+        "prior_status": "CONFLICTING",
+        "resolution": "The newly inspected Muhn Pace-specific metadata entry supports the published One Pace guide. The competing Plex conversion table is a generic One Pace lookup, without exact Muhn file correspondence. Prefer the project-specific consistent source as ONE_PACE_DERIVED, not directly verified; preserve both earlier candidates in the archived Phase 4A record."
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "8GdJ6uQg",
+      "source_filename": "[Muhn Pace] Dressrosa 31.mp4",
+      "source_sha256": "ad16a495aa2f407e8187f717c509908f2a3e024ffcee8c26785e04048f61158d",
+      "edit_number": 31,
+      "season": 12,
+      "display_title": "The Operation Fruit",
+      "synopsis": "Luffy and Law confront Doflamingo inside the palace, where their opponent reveals his knowledge of the Op-Op Fruit.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        699,
+        700
+      ],
+      "accepted_original_episodes": [
+        699,
+        700
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8a75fab713dab7ab.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8a75fab713dab7ab.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 31,
+        "one_pace_crc": "9C3360D6",
+        "muhn_reference_key": "8a75fab713dab7ab",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/8GdJ6uQg.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      },
+      "prior_research": "metadata/dressrosa-30-37.json",
+      "conflict_review": {
+        "prior_status": "ONE_PACE_DERIVED",
+        "resolution": "The newly inspected Muhn Pace-specific metadata entry supports the published One Pace guide. The competing Plex conversion table is a generic One Pace lookup, without exact Muhn file correspondence. Prefer the project-specific consistent source as ONE_PACE_DERIVED, not directly verified; preserve both earlier candidates in the archived Phase 4A record."
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "Q5RqeqED",
+      "source_filename": "[Muhn Pace] Dressrosa 32.mp4",
+      "source_sha256": "4fd60eca75e9548b0ceba2050986b353cbd5e442d4d86eac060d5925be6d5b5a",
+      "edit_number": 32,
+      "season": 12,
+      "display_title": "White Town",
+      "synopsis": "Law’s childhood in Flevance reveals the suffering caused by White Lead disease. His arrival among the Donquixote family brings him into conflict with Corazon.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        701,
+        702
+      ],
+      "accepted_original_episodes": [
+        701,
+        702
+      ],
+      "scene_confirmed_episodes": [
+        701
+      ],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/fca39226f05905d4.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/fca39226f05905d4.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 32,
+        "one_pace_crc": "E98F852E",
+        "muhn_reference_key": "fca39226f05905d4",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/Q5RqeqED.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      },
+      "prior_research": "metadata/dressrosa-30-37.json",
+      "conflict_review": {
+        "prior_status": "ONE_PACE_DERIVED",
+        "resolution": "The newly inspected Muhn Pace-specific metadata entry supports the published One Pace guide. The competing Plex conversion table is a generic One Pace lookup, without exact Muhn file correspondence. Prefer the project-specific consistent source as ONE_PACE_DERIVED, not directly verified; preserve both earlier candidates in the archived Phase 4A record."
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "h795H5E2",
+      "source_filename": "[Muhn Pace] Dressrosa 33.mp4",
+      "source_sha256": "24f30af377b81cf708273696defb41307a25d2c0e18522c6c16c28384e6b1e4b",
+      "edit_number": 33,
+      "season": 12,
+      "display_title": "The Island of Fate: Minion",
+      "synopsis": "Corazon takes the ailing Law on a journey in search of treatment, despite the hostility they encounter along the way.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        703,
+        704
+      ],
+      "accepted_original_episodes": [
+        703,
+        704
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/557e6c9fbb8b868c.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/557e6c9fbb8b868c.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 33,
+        "one_pace_crc": "53AEB13C",
+        "muhn_reference_key": "557e6c9fbb8b868c",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/h795H5E2.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      },
+      "prior_research": "metadata/dressrosa-30-37.json",
+      "conflict_review": {
+        "prior_status": "ONE_PACE_DERIVED",
+        "resolution": "The newly inspected Muhn Pace-specific metadata entry supports the published One Pace guide. The competing Plex conversion table is a generic One Pace lookup, without exact Muhn file correspondence. Prefer the project-specific consistent source as ONE_PACE_DERIVED, not directly verified; preserve both earlier candidates in the archived Phase 4A record."
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "xxL4CmKQ",
+      "source_filename": "[Muhn Pace] Dressrosa 34.mp4",
+      "source_sha256": "e0b6db94b43556b5cb9470cb4b43c819a4ea0351b98ead7f4f8e59c42c0a60c0",
+      "edit_number": 34,
+      "season": 12,
+      "display_title": "Cora-san",
+      "synopsis": "On snowy Minion Island, an injured Corazon tries to keep Law safe as Doflamingo’s family closes in.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        705,
+        706
+      ],
+      "accepted_original_episodes": [
+        705,
+        706
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8bac355778a9b643.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8bac355778a9b643.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 34,
+        "one_pace_crc": "0CA47011",
+        "muhn_reference_key": "8bac355778a9b643",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/xxL4CmKQ.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      },
+      "prior_research": "metadata/dressrosa-30-37.json",
+      "conflict_review": {
+        "prior_status": "CONFLICTING",
+        "resolution": "The newly inspected Muhn Pace-specific metadata entry supports the published One Pace guide. The competing Plex conversion table is a generic One Pace lookup, without exact Muhn file correspondence. Prefer the project-specific consistent source as ONE_PACE_DERIVED, not directly verified; preserve both earlier candidates in the archived Phase 4A record."
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "vSkNFYho",
+      "source_filename": "[Muhn Pace] Dressrosa 35.mp4",
+      "source_sha256": "72586ff79a2e59673989f6f5e14363007bd5ee21393c469343a5e1925161d6c6",
+      "edit_number": 35,
+      "season": 12,
+      "display_title": "Bellamy the Pirate",
+      "synopsis": "Luffy struggles to reach Bellamy while Law confronts Doflamingo. Bellamy’s loyalty puts him at odds with the person trying to help him.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        707,
+        708,
+        709,
+        710,
+        711
+      ],
+      "accepted_original_episodes": [
+        707,
+        708,
+        709,
+        710,
+        711
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/4b235b2a6b2cd15c.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/4b235b2a6b2cd15c.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 35,
+        "one_pace_crc": "1B5DC33C",
+        "muhn_reference_key": "4b235b2a6b2cd15c",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/vSkNFYho.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      },
+      "prior_research": "metadata/dressrosa-30-37.json",
+      "conflict_review": {
+        "prior_status": "CONFLICTING",
+        "resolution": "The newly inspected Muhn Pace-specific metadata entry supports the published One Pace guide. The competing Plex conversion table is a generic One Pace lookup, without exact Muhn file correspondence. Prefer the project-specific consistent source as ONE_PACE_DERIVED, not directly verified; preserve both earlier candidates in the archived Phase 4A record."
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "U642iqmh",
+      "source_filename": "[Muhn Pace] Dressrosa 36.mp4",
+      "source_sha256": "03439d66fc577f8d5ad23671789b5c8c8a2c50cb585eb38f87db970f91e02935",
+      "edit_number": 36,
+      "season": 12,
+      "display_title": "The Spear of Elbaf and Don Sai",
+      "synopsis": "Hajrudin and Sai confront Doflamingo’s officers as the battle spreads across the palace grounds.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        708,
+        709,
+        710,
+        711
+      ],
+      "accepted_original_episodes": [
+        708,
+        709,
+        710,
+        711
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e1571b84a886e4e9.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/e1571b84a886e4e9.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 36,
+        "one_pace_crc": "F218F0E4",
+        "muhn_reference_key": "e1571b84a886e4e9",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/U642iqmh.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      },
+      "prior_research": "metadata/dressrosa-30-37.json",
+      "conflict_review": {
+        "prior_status": "CONFLICTING",
+        "resolution": "The newly inspected Muhn Pace-specific metadata entry supports the published One Pace guide. The competing Plex conversion table is a generic One Pace lookup, without exact Muhn file correspondence. Prefer the project-specific consistent source as ONE_PACE_DERIVED, not directly verified; preserve both earlier candidates in the archived Phase 4A record."
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "TPncrp8t",
+      "source_filename": "[Muhn Pace] Dressrosa 37.mp4",
+      "source_sha256": "6bd70a4ba2c39e5c99e1c3090dcc555df2b99f3b006fddad5aa5c25e14a457f9",
+      "edit_number": 37,
+      "season": 12,
+      "display_title": "Cabbage and Lomeo",
+      "synopsis": "Bartolomeo and Cavendish face Gladius while trying to protect their allies near the palace. Robin is caught in the dangerous struggle.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        711,
+        712,
+        713
+      ],
+      "accepted_original_episodes": [
+        711,
+        712,
+        713
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/76bfe1d56b9eca77.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/76bfe1d56b9eca77.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 37,
+        "one_pace_crc": "777A9A6A",
+        "muhn_reference_key": "76bfe1d56b9eca77",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/TPncrp8t.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      },
+      "prior_research": "metadata/dressrosa-30-37.json",
+      "conflict_review": {
+        "prior_status": "CONFLICTING",
+        "resolution": "The newly inspected Muhn Pace-specific metadata entry supports the published One Pace guide. The competing Plex conversion table is a generic One Pace lookup, without exact Muhn file correspondence. Prefer the project-specific consistent source as ONE_PACE_DERIVED, not directly verified; preserve both earlier candidates in the archived Phase 4A record."
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "cV9DxLS2",
+      "source_filename": "[Muhn Pace] Dressrosa 38.mp4",
+      "source_sha256": "497997eea9ce51bace7da7e68022dd9b69b3f0d79ab7494c867467c31bbc5745",
+      "edit_number": 38,
+      "season": 12,
+      "display_title": "To Russian, with Love",
+      "synopsis": "Franky and Senor Pink push their endurance to the limit as Pink's memories reveal the meaning of his unusual appearance. The Tontattas struggle to bring Mansherry to safety.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        714,
+        715,
+        716
+      ],
+      "accepted_original_episodes": [
+        714,
+        715,
+        716
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5f61de18ddc4ebe3.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/5f61de18ddc4ebe3.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 38,
+        "one_pace_crc": "0429451F",
+        "muhn_reference_key": "5f61de18ddc4ebe3",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/cV9DxLS2.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "gqa7RRnJ",
+      "source_filename": "[Muhn Pace] Dressrosa 39.mp4",
+      "source_sha256": "9a87108d2a8d77656fb289947bad75f0e734a74b60e5cf21a857269fdcf392ae",
+      "edit_number": 39,
+      "season": 12,
+      "display_title": "Zoro vs. Pica",
+      "synopsis": "Pica turns his immense stone body toward King Riku and the people sheltering with him. Zoro must find a way to intercept the attack before it reaches them.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        716,
+        717,
+        718,
+        719
+      ],
+      "accepted_original_episodes": [
+        716,
+        717,
+        718,
+        719
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b64b8cdb90369e94.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/b64b8cdb90369e94.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 39,
+        "one_pace_crc": "7391ECD4",
+        "muhn_reference_key": "b64b8cdb90369e94",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/gqa7RRnJ.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "kcegXDhY",
+      "source_filename": "[Muhn Pace] Dressrosa 40.mp4",
+      "source_sha256": "7a36ef8fb7bb236d581f72ac2ce934e2c195552daad36fe0504822d9d5ad6597",
+      "edit_number": 40,
+      "season": 12,
+      "display_title": "The Curse of Heart",
+      "synopsis": "The Tontattas finish their attack on the factory while Luffy confronts Bellamy's determination. Law's battle with Doflamingo reaches a critical point as the Birdcage contracts.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        714,
+        715,
+        720,
+        721,
+        722,
+        723
+      ],
+      "accepted_original_episodes": [
+        714,
+        715,
+        720,
+        721,
+        722,
+        723
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8c5a85864fd2d80c.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8c5a85864fd2d80c.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 40,
+        "one_pace_crc": "ECD80B22",
+        "muhn_reference_key": "8c5a85864fd2d80c",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/kcegXDhY.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "mmioXrxh",
+      "source_filename": "[Muhn Pace] Dressrosa 41.mp4",
+      "source_sha256": "143de69fe0aa8ea7350ccc78d60e1d64f98e868a15594876f98127c5386ebeb6",
+      "edit_number": 41,
+      "season": 12,
+      "display_title": "In My Way",
+      "synopsis": "Law challenges Doflamingo's treatment of his own allies. Finding his usual attacks insufficient, Luffy prepares a different approach to their fight.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        723,
+        724,
+        725
+      ],
+      "accepted_original_episodes": [
+        723,
+        724,
+        725
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8b5e2b5f4ca2a42a.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/8b5e2b5f4ca2a42a.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 41,
+        "one_pace_crc": "3E9F11F9",
+        "muhn_reference_key": "8b5e2b5f4ca2a42a",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/mmioXrxh.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "Gv5GjPeH",
+      "source_filename": "[Muhn Pace] Dressrosa 42.mp4",
+      "source_sha256": "2a6de47b059042f7e329d491fbf216f20183f7181f11a184c850ee482cfcf5a2",
+      "edit_number": 42,
+      "season": 12,
+      "display_title": "Gear Fourth",
+      "synopsis": "Luffy unleashes Gear Fourth against Doflamingo. Across Dressrosa, Zoro and the others search for a way to slow the tightening Birdcage.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        726,
+        727,
+        728
+      ],
+      "accepted_original_episodes": [
+        726,
+        727,
+        728
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/43f35a8d2344e4bd.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/43f35a8d2344e4bd.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 42,
+        "one_pace_crc": "55292D1C",
+        "muhn_reference_key": "43f35a8d2344e4bd",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/Gv5GjPeH.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "63XLrtkx",
+      "source_filename": "[Muhn Pace] Dressrosa 43.mp4",
+      "source_sha256": "8c98b897415a580e167f567deca18e4aace5cb04e4b4b0fd6694af4eaac23b73",
+      "edit_number": 43,
+      "season": 12,
+      "display_title": "Gatz",
+      "synopsis": "Luffy needs time to recover after using Gear Fourth. Gatz and the colosseum fighters try to keep him out of Doflamingo's reach.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        728,
+        729,
+        730
+      ],
+      "accepted_original_episodes": [
+        728,
+        729,
+        730
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6273d38d479b4e36.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/6273d38d479b4e36.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 43,
+        "one_pace_crc": "CAA32C42",
+        "muhn_reference_key": "6273d38d479b4e36",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/63XLrtkx.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "fWFz41rt",
+      "source_filename": "[Muhn Pace] Dressrosa 44.mp4",
+      "source_sha256": "9c37d1c63fdad1ea0e3eb1be99dab3572d4efffdfd1d3d850f3c9b54f15703e2",
+      "edit_number": 44,
+      "season": 12,
+      "display_title": "Heaven and Earth",
+      "synopsis": "Dressrosa's fighters and citizens unite against the closing Birdcage. Viola and Rebecca are caught in Doflamingo's path while Luffy races to return.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        730,
+        731,
+        732,
+        733
+      ],
+      "accepted_original_episodes": [
+        730,
+        731,
+        732,
+        733
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/1004ecad22ae81d8.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/1004ecad22ae81d8.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 44,
+        "one_pace_crc": "4DDF4C07",
+        "muhn_reference_key": "1004ecad22ae81d8",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/fWFz41rt.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "Yx3Dxw7P",
+      "source_filename": "[Muhn Pace] Dressrosa 45.mp4",
+      "source_sha256": "b81de447e9ccbd5f84fdd2c6c4a7d83a6b46f9ea6558885ed878dca0fff28299",
+      "edit_number": 45,
+      "season": 12,
+      "display_title": "Prostration",
+      "synopsis": "Doflamingo's defeat leaves Dressrosa confronting the truth of its long ordeal. King Riku faces the people's hopes, and Fujitora chooses how the Navy should respond.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        734,
+        735,
+        736
+      ],
+      "accepted_original_episodes": [
+        734,
+        735,
+        736
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/fb5b27ae364dd9b4.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/fb5b27ae364dd9b4.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 45,
+        "one_pace_crc": "15344804",
+        "muhn_reference_key": "fb5b27ae364dd9b4",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/Yx3Dxw7P.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "6SgB2V2z",
+      "source_filename": "[Muhn Pace] Dressrosa 46.mp4",
+      "source_sha256": "2f18c440080901ae9767e459cf134346dae8c65a80c674a23be5df08499d31e9",
+      "edit_number": 46,
+      "season": 12,
+      "display_title": "Sabo's Adventure",
+      "synopsis": "While the fighters recover, Sabo recounts the path that brought him into the Revolutionary Army. His story leads back to his reunion with Luffy at the colosseum.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        737,
+        738,
+        739
+      ],
+      "accepted_original_episodes": [
+        737,
+        738,
+        739
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/33f0b6a8f74419cb.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/33f0b6a8f74419cb.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 46,
+        "one_pace_crc": "81C4666C",
+        "muhn_reference_key": "33f0b6a8f74419cb",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/6SgB2V2z.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "3iAvttGg",
+      "source_filename": "[Muhn Pace] Dressrosa 47.mp4",
+      "source_sha256": "2acc75281a495ba4c8a3a9ca87bde2022abe00c577bd84909f0632e9870ebb4a",
+      "edit_number": 47,
+      "season": 12,
+      "display_title": "Soldier-san's Conviction",
+      "synopsis": "The Marines prepare to pursue the Straw Hats as they plan their departure. Luffy has unfinished business involving Rebecca and the soldier who protected her.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        740,
+        741,
+        742
+      ],
+      "accepted_original_episodes": [
+        740,
+        741,
+        742
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/9ce33ceff6c25801.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/9ce33ceff6c25801.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 47,
+        "one_pace_crc": "01C40FA1",
+        "muhn_reference_key": "9ce33ceff6c25801",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/3iAvttGg.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    },
+    {
+      "collection_id": "f8HTXmAk",
+      "file_id": "y7EctnPN",
+      "source_filename": "[Muhn Pace] Dressrosa 48.mp4",
+      "source_sha256": "872d45cc52387830ef511ffb274892a0a971465bac20fa1ef9c867d440551e6f",
+      "edit_number": 48,
+      "season": 12,
+      "display_title": "Father and Sons",
+      "synopsis": "Law and Sengoku speak about Corazon before the pirates leave Dressrosa. The voyage takes an unexpected turn when Luffy's new allies make their intentions known.",
+      "synopsis_basis": "Self-authored concise story summary using the corresponding published Muhn Pace/One Pace story reference; no verbatim guide description imported.",
+      "mapping_status": "ONE_PACE_DERIVED",
+      "candidate_original_episodes": [
+        742,
+        743,
+        744,
+        745
+      ],
+      "accepted_original_episodes": [
+        742,
+        743,
+        744,
+        745
+      ],
+      "scene_confirmed_episodes": [],
+      "title_source_url": "https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties",
+      "reviewed_on": "2026-11-16",
+      "correspondence_evidence": {
+        "source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/88ec0c36abaed81b.yml",
+        "story_source_url": "https://github.com/ladyisatis/one-pace-metadata/blob/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits/muhn_pace/88ec0c36abaed81b.yml",
+        "one_pace_arc": 31,
+        "one_pace_episode": 48,
+        "one_pace_crc": "5F035A13",
+        "muhn_reference_key": "88ec0c36abaed81b",
+        "exact_file_index": "https://github.com/Denperidge/stremio-muhn-pace-addon/blob/b47f29574326ce5a05168ddfba5b210f579527ac/data/links.json",
+        "method": "Exact collection/file/filename and ordered release correspondence; project-specific Muhn Pace guide entry corroborates One Pace title and coverage.",
+        "qualification": "Derived coverage can include partial or rearranged original episodes. The reference release hashes are not asserted to equal this Pixeldrain file; filename/sequence/project correspondence is the basis, not a cryptographic identity claim."
+      },
+      "thumbnail": {
+        "file": "assets/phase4b/episodes/y7EctnPN.jpg",
+        "artwork_commit": "17df462ab021c2fcb37918bfa23a434e6680e962"
+      }
+    }
+  ]
+}

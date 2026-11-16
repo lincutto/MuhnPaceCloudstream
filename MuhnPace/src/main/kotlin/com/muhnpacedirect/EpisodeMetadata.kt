@@ -43,35 +43,31 @@ internal data class EpisodeMetadata(
     private val matchedResearch: EditResearch? get() = research?.takeIf { it.matches(this) }
     val evidenceStatus: MappingEvidence get() = if (originalEpisodes != null) MappingEvidence.DIRECTLY_VERIFIED
         else matchedResearch?.mappingStatus ?: MappingEvidence.UNKNOWN
-    /** Accepted One Pace correspondence is labelled in the description; conflicts never supply numbers. */
+    /** Provenance stays internal; only accepted coverage supplies viewer-facing numbers. */
     val title: String
         get() {
-            val storyTitle = matchedResearch?.displayTitle ?: "Title unavailable"
+            val storyTitle = matchedResearch?.displayTitle ?: "One Piece"
             val coverage = originalEpisodes?.label ?: matchedResearch?.let {
                 when (it.mappingStatus) {
                     MappingEvidence.ONE_PACE_DERIVED -> originalEpisodeLabel(it.acceptedEpisodes)
-                    MappingEvidence.CONFLICTING -> "original range unresolved"
                     else -> null
                 }
             }
             // The host supplies the navigation index. Never repeat internal edit numbers here.
-            return "$storyTitle - ${coverage ?: "original episodes unknown"}"
+            return coverage?.let { "$storyTitle - $it" } ?: storyTitle
         }
 
     val description: String
-        get() = matchedResearch?.description(originalEpisodes) ?: listOfNotNull(summary, originalEpisodes?.let {
-            "Original One Piece episodes: ${it.label}. Source: ${it.sourceUrl}"
-        } ?: "Original One Piece episode coverage is unknown.").joinToString("\n")
+        get() = matchedResearch?.synopsis.orEmpty()
 
     /** Describe only facts known about this edit; never borrow another episode's synopsis. */
     fun withPresentation(arcTitle: String, fallbackPosterUrl: String? = null): EpisodeMetadata {
-        val arcName = arcTitle.substringBefore(" • Episode ")
-        val editionNote = if (edition.label.isEmpty()) "" else " ${edition.label}."
         return copy(
-            summary = matchedResearch?.synopsis ?: "$arcName • English dub.$editionNote Individual story synopsis is not yet documented.",
+            summary = matchedResearch?.synopsis,
             thumbnailUrl = matchedResearch?.thumbnailUrl ?: thumbnailUrl?.takeUnless {
                 fileId in knownBlankThumbnailIds || EditResearchRegistry.rejectSourceThumbnail(fileId) ||
-                    it.startsWith(ResearchDataset.ARTWORK_BASE)
+                    it.startsWith(ResearchDataset.ARTWORK_BASE) ||
+                    it.contains("/assets/phase4b/episodes/")
             } ?: fallbackPosterUrl,
         )
     }

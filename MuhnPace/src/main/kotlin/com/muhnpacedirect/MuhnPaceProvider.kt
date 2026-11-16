@@ -135,7 +135,7 @@ class MuhnPaceProvider : MainAPI() {
         return newTvSeriesLoadResponse(SeriesCatalogue.TITLE, url, TvType.TvSeries, episodes) {
             posterUrl = SeriesCatalogue.poster
             backgroundPosterUrl = SeriesCatalogue.background
-            plot = SeriesCatalogue.description(episodes.size)
+            plot = SeriesCatalogue.DESCRIPTION
             tags = listOf("Anime", "Action", "Adventure", "Fantasy", "English dub")
             addSeasonNames(arcs.map { SeasonData(it.season, it.seasonTitle, it.season) })
         }
