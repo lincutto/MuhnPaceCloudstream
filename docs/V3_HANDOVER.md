@@ -1,5 +1,15 @@
 # MuhnPaceCloudstream v3 — handover
 
+## Preview v5 — final visual refinements prepared (2026-11-17)
+
+The user tested v4 on Fire TV and requested removal of technical playback text plus a filled portrait poster. [Focused findings, supported player setting and crop trade-offs](V3_VISUAL_REFINEMENTS.md).
+
+- Complete playback-line suppression is a client display setting, not an independent provider field. Use **Settings → Player → Show player information**, deselect **Source Name** and **Resolution**. Keep **Media Info** off. The provider's link name also labels the source selector; blanking it would leave an unnamed row and would not remove the decoded resolution. Playback code and quality metadata are unchanged.
+- User explicitly chose the central portrait crop. Replacement IMG_9122.jpeg arrived as 1280×718; crop `[399,0,877,717]` then proportional LANCZOS resize gives **768×1152**, without padding/distortion/generation. Luffy, Zoro and Sanji remain prominent; most outer crew members are excluded. Original source and exact transformation are preserved. Artwork commit: `52051fde43afbf13f21231dd38b712f49a8b94a6`.
+- Independent immutable poster pin preserves the background's exact v4 URL and bytes. All 274 episode metadata records, sixteen seasons, thumbnails, stream URLs, provider identities and watch-history inputs are unchanged.
+- Preview-only version **5** is prepared for the existing CI validation/build workflow. Publication is conditional on success. Preserve v4 fallback `3317cfccfbf5d81f43ae6c0182f4b75ade96474d`; production `main`/`builds` remain prohibited. No Phase 6.
+
+
 ## Artwork preview v4 — published and verified (2026-11-17)
 
 - **Known-good fallback:** preview commit `3317cfccfbf5d81f43ae6c0182f4b75ade96474d`, version **4**, from exact source `8f3e2f8de65a4b6c2385b0487113ecb7954af859`.

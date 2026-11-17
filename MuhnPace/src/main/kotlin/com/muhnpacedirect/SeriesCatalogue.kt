@@ -34,7 +34,7 @@ internal object SeriesCatalogue {
         CatalogueArc("Wano • Acts 1 & 2", "QZw3Ejpy", 15, 5),
         CatalogueArc("Wano • Act 3", "sF9stHJo", 16, 71),
     )
-    val poster: String get() = ResearchDataset.SERIES_ARTWORK_BASE + "/poster.jpg"
+    val poster: String get() = ResearchDataset.SERIES_POSTER_URL
     val background: String get() = ResearchDataset.SERIES_ARTWORK_BASE + "/background.jpg"
     const val ARTWORK_CREDIT = "Anime identification stills: © Eiichiro Oda/Shueisha, Toei Animation. Muhn Pace edit by Muhny. Limited preview excerpts; no promotional-art licence is claimed."
 

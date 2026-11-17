@@ -27,7 +27,9 @@ def generate():
             rows.append(dict({k:row[k] for k in fields},thumbnail_url=url))
     series=json.loads((ROOT/'metadata/phase4b/series.json').read_text())
     assert re.fullmatch('[0-9a-f]{40}',series['artwork_commit'])
+    assert re.fullmatch('[0-9a-f]{40}',series['poster_artwork_commit'])
     series_base=f"https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/{series['artwork_commit']}/assets/phase4b/series"
+    poster_url=f"https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/{series['poster_artwork_commit']}/{series['poster']}"
     serialized=json.dumps(dict(entries=rows,original_titles=titles),ensure_ascii=False,separators=(',',':'))
     # Keep every JVM string constant below 64 KiB and avoid compile-time concatenation.
     chunks=[json.dumps(serialized[i:i+4000],ensure_ascii=False).replace('$','\\$') for i in range(0,len(serialized),4000)]
@@ -36,6 +38,7 @@ def generate():
             'internal object ResearchDataset {\n'
             f'    const val ARTWORK_BASE = "{base}"\n'
             f'    const val SERIES_ARTWORK_BASE = "{series_base}"\n'
+            f'    const val SERIES_POSTER_URL = "{poster_url}"\n'
             f'    val JSON: String by lazy {{ listOf(\n{encoded}\n        ).joinToString("") }}\n'+'}\n')
 
 
