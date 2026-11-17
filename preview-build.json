@@ -1,6 +1,6 @@
 {
-  "source_commit": "8ffd8958f7e939dc8e1a6985a523c9a0e64a9f75",
+  "source_commit": "56e30461354d280a7275ec75908e936b119db1c0",
   "artifact_branch": "v3-preview",
-  "sha256": "c55172447f41cb6a4f0390b59edb0317abe702a5d287d3543a818957cfe3ebf4",
+  "sha256": "220157b1b7c654d397dcd7524b1d95a9de7bd105a0e3ec3c4043f722e94c1858",
   "history": "Separate preview identities; no transfer promise."
 }
