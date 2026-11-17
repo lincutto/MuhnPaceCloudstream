@@ -1,0 +1,178 @@
+{
+  "baseline_preview_commit": "091fc774199b2af7572f8e63b3f59bd97543b040",
+  "baseline_source_commit": "8ffd8958f7e939dc8e1a6985a523c9a0e64a9f75",
+  "baseline_package_sha256": "c55172447f41cb6a4f0390b59edb0317abe702a5d287d3543a818957cfe3ebf4",
+  "baseline_public_files_match_commit": true,
+  "baseline_dex_contains_exact_source_dataset": true,
+  "episodes": 274,
+  "seasons": 16,
+  "season_16_titles_updated": 25,
+  "only_bundled_episode_field_changed": "display_title (Season 16 only)",
+  "preserved": [
+    "episode IDs",
+    "internal edit numbers",
+    "navigation indices",
+    "watch-history inputs",
+    "playback URLs and implementation",
+    "episode ordering",
+    "descriptions",
+    "thumbnails",
+    "series artwork",
+    "season assignments",
+    "provider names and identities",
+    "Seasons 1-15 metadata"
+  ],
+  "mapping_qualification": "Approximate Onigashima Paced references, user-accepted for display only; exact Muhn Pace correspondence is not established. No direct or independent verification claimed.",
+  "titles": [
+    {
+      "muhn_edit": 71,
+      "file_id": "8ZxdEP7k",
+      "before": "Robin and Her Friends",
+      "after": "Robin and Her Friends - 1034-1036"
+    },
+    {
+      "muhn_edit": 72,
+      "file_id": "MabM9jgS",
+      "before": "Nami and Zeus",
+      "after": "Nami and Zeus - 1037-1038"
+    },
+    {
+      "muhn_edit": 73,
+      "file_id": "wDin5KAc",
+      "before": "Raizo vs. Fukurokuju",
+      "after": "Raizo vs. Fukurokuju - 1039-1040"
+    },
+    {
+      "muhn_edit": 74,
+      "file_id": "ueUct7rV",
+      "before": "Zoro's Recovery",
+      "after": "Zoro's Recovery - 1041-1043"
+    },
+    {
+      "muhn_edit": 75,
+      "file_id": "5XDkcz5p",
+      "before": "Killer and the Mink Warriors",
+      "after": "Killer and the Mink Warriors - 1044-1046"
+    },
+    {
+      "muhn_edit": 76,
+      "file_id": "3URLnqLu",
+      "before": "Sanji vs. Queen",
+      "after": "Sanji vs. Queen - 1046-1048"
+    },
+    {
+      "muhn_edit": 77,
+      "file_id": "E1qpBnXC",
+      "before": "CP0's Watch",
+      "after": "CP0's Watch - 1049-1051"
+    },
+    {
+      "muhn_edit": 78,
+      "file_id": "V4AHLxpp",
+      "before": "Momonosuke and Kaido",
+      "after": "Momonosuke and Kaido - 1051-1053"
+    },
+    {
+      "muhn_edit": 79,
+      "file_id": "BNUodwSU",
+      "before": "Sanji's Struggle",
+      "after": "Sanji's Struggle - 1054-1055"
+    },
+    {
+      "muhn_edit": 80,
+      "file_id": "MkdiUcBG",
+      "before": "Big Mom's Fury",
+      "after": "Big Mom's Fury - 1056-1057"
+    },
+    {
+      "muhn_edit": 81,
+      "file_id": "ewQEeJLF",
+      "before": "Zoro Faces King",
+      "after": "Zoro Faces King - 1058-1060"
+    },
+    {
+      "muhn_edit": 82,
+      "file_id": "4QK6mpqK",
+      "before": "Sanji's Resolve",
+      "after": "Sanji's Resolve - 1060-1062"
+    },
+    {
+      "muhn_edit": 83,
+      "file_id": "CeDwmA3X",
+      "before": "Luffy Meets Kaido's Challenge",
+      "after": "Luffy Meets Kaido's Challenge - 1063-1064"
+    },
+    {
+      "muhn_edit": 84,
+      "file_id": "yhNgGNb2",
+      "before": "CP0 Enters the Fray",
+      "after": "CP0 Enters the Fray - 1065-1067"
+    },
+    {
+      "muhn_edit": 85,
+      "file_id": "63Zouu8b",
+      "before": "Momonosuke Above Onigashima",
+      "after": "Momonosuke Above Onigashima - 1068-1069"
+    },
+    {
+      "muhn_edit": 86,
+      "file_id": "fQSATYeB",
+      "before": "Kaido's Rooftop Battle",
+      "after": "Kaido's Rooftop Battle - 1069-1070"
+    },
+    {
+      "muhn_edit": 87,
+      "file_id": "MGnqnhGi",
+      "before": "Hiyori Confronts Orochi",
+      "after": "Hiyori Confronts Orochi - 1071-1072"
+    },
+    {
+      "muhn_edit": 88,
+      "file_id": "4TJqNjYd",
+      "before": "Gear Five",
+      "after": "Gear Five - 1073-1074"
+    },
+    {
+      "muhn_edit": 89,
+      "file_id": "eVK8TkEP",
+      "before": "Kaido's Flaming Dragon",
+      "after": "Kaido's Flaming Dragon - 1075-1076"
+    },
+    {
+      "muhn_edit": 90,
+      "file_id": "PzEGt8uD",
+      "before": "Chopper and the Survivors",
+      "after": "Chopper and the Survivors - 1077-1078"
+    },
+    {
+      "muhn_edit": 91,
+      "file_id": "SGdkPUxo",
+      "before": "Reunions in Wano",
+      "after": "Reunions in Wano - 1079"
+    },
+    {
+      "muhn_edit": 92,
+      "file_id": "oWi7oUdE",
+      "before": "The Capital Celebrates",
+      "after": "The Capital Celebrates - 1080-1081"
+    },
+    {
+      "muhn_edit": 93,
+      "file_id": "BUkadAqi",
+      "before": "Ryokugyu in Wano",
+      "after": "Ryokugyu in Wano - 1082-1083"
+    },
+    {
+      "muhn_edit": 94,
+      "file_id": "6bRjHz7j",
+      "before": "Friends Before Departure",
+      "after": "Friends Before Departure - 1084"
+    },
+    {
+      "muhn_edit": 95,
+      "file_id": "wcWWHbGJ",
+      "before": "Farewell to Wano",
+      "after": "Farewell to Wano - 1085"
+    }
+  ]
+}

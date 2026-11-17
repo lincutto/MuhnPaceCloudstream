@@ -36,6 +36,14 @@ class Phase4bChecks(unittest.TestCase):
 
     def test_accepted_numbers_match_frozen_published_facts(self):
         facts = {e['file_id']: e for e in json.loads((ROOT/'metadata/phase4b/reference-facts.json').read_text())['entries']}
+        # Display permission is not evidence of exact Muhn Pace correspondence.
+        approximate_labels = (
+            '1034-1036 1037-1038 1039-1040 1041-1043 1044-1046 1046-1048 '
+            '1049-1051 1051-1053 1054-1055 1056-1057 1058-1060 1060-1062 '
+            '1063-1064 1065-1067 1068-1069 1069-1070 1071-1072 1073-1074 '
+            '1075-1076 1077-1078 1079 1080-1081 1082-1083 1084 1085'
+        ).split()
+        self.assertEqual(25, len([r for r in rows() if r['season'] == 16]))
         for r in rows():
             self.assertNotEqual('DIRECTLY_VERIFIED', r['mapping_status'])
             if r['mapping_status'] == 'ONE_PACE_DERIVED':
@@ -52,6 +60,15 @@ class Phase4bChecks(unittest.TestCase):
                 self.assertEqual('EDITORIAL_SCENE_LABEL', r['title_kind'])
                 self.assertTrue(r['correspondence_evidence']['observations'])
                 self.assertEqual('https://pixeldrain.dev/api/file/'+r['file_id'], r['title_source_url'])
+                self.assertEqual(16, r['season'])
+                provisional = r['provisional_display_mapping']
+                label = approximate_labels[r['edit_number'] - 71]
+                self.assertEqual('APPROXIMATE_DISPLAY_ONLY', provisional['status'])
+                self.assertEqual(label, provisional['range_label'])
+                span = list(map(int, label.split('-')))
+                self.assertEqual(list(range(span[0], span[-1] + 1)), provisional['original_episodes'])
+                self.assertEqual(provisional['base_title'] + ' - ' + label, r['display_title'])
+                self.assertTrue(provisional['qualification'])
 
     def test_synopses_are_individual_stories_without_internal_labels(self):
         records = rows()

@@ -10,7 +10,7 @@
       "source_sha256": "48c7bee5473f4a91075ea82a6a444f7382499fa6328ec209a658eae723d02006",
       "edit_number": 71,
       "season": 16,
-      "display_title": "Robin and Her Friends",
+      "display_title": "Robin and Her Friends - 1034-1036",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Robin's memories turn to the companions who gave her a place to belong. Their bonds remain important as the raid on Onigashima continues.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -42,12 +42,23 @@
           ],
           "accepted": false,
           "reason": "Representative samples support the proposed story period, but complete boundaries and all original episodes are unverified.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/8ZxdEP7k.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1034,
+          1035,
+          1036
+        ],
+        "range_label": "1034-1036",
+        "base_title": "Robin and Her Friends",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -57,7 +68,7 @@
       "source_sha256": "ac80ce413fe9c7ee2efa974a1e4e866322b3590be9529f7d979cbfb594f9490d",
       "edit_number": 72,
       "season": 16,
-      "display_title": "Nami and Zeus",
+      "display_title": "Nami and Zeus - 1037-1038",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Zeus appears within Nami's Clima-Tact as the alliance continues fighting on Onigashima.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -88,12 +99,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/MabM9jgS.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1037,
+          1038
+        ],
+        "range_label": "1037-1038",
+        "base_title": "Nami and Zeus",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -103,7 +124,7 @@
       "source_sha256": "a74490ac1b8bf5410bdff22ea79f3cb0ce8c15ed864c6b2d2b1c37d334d583da",
       "edit_number": 73,
       "season": 16,
-      "display_title": "Raizo vs. Fukurokuju",
+      "display_title": "Raizo vs. Fukurokuju - 1039-1040",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Raizo and Fukurokuju confront each other inside Onigashima. Their ninja rivalry becomes another front in the crowded battle.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -134,12 +155,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/wDin5KAc.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1039,
+          1040
+        ],
+        "range_label": "1039-1040",
+        "base_title": "Raizo vs. Fukurokuju",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -149,7 +180,7 @@
       "source_sha256": "cf8182c971b43640cd1e417d1b6f9d2d875f8b79f3abb6f612de03e0c9a5af6a",
       "edit_number": 74,
       "season": 16,
-      "display_title": "Zoro's Recovery",
+      "display_title": "Zoro's Recovery - 1041-1043",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Still heavily bandaged, Zoro waits for a chance to rejoin the fighting. His allies are under pressure as the battles continue around him.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -181,12 +212,23 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/ueUct7rV.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1041,
+          1042,
+          1043
+        ],
+        "range_label": "1041-1043",
+        "base_title": "Zoro's Recovery",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -196,7 +238,7 @@
       "source_sha256": "30acb0052192bf851a2bba3ca27f13fa559821ffbaa2a20a4c2af7c64326eb34",
       "edit_number": 75,
       "season": 16,
-      "display_title": "Killer and the Mink Warriors",
+      "display_title": "Killer and the Mink Warriors - 1044-1046",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Killer presses his battle while Carrot and Wanda remain caught up in the struggle elsewhere on Onigashima.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -228,12 +270,23 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/5XDkcz5p.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1044,
+          1045,
+          1046
+        ],
+        "range_label": "1044-1046",
+        "base_title": "Killer and the Mink Warriors",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -243,7 +296,7 @@
       "source_sha256": "a14d79b3dcefe1fb236f5c94ad36a86b37abb3f05f273c565489a18cca168caf",
       "edit_number": 76,
       "season": 16,
-      "display_title": "Sanji vs. Queen",
+      "display_title": "Sanji vs. Queen - 1046-1048",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Sanji faces Queen as the fighting continues inside the castle. Neither opponent is ready to give up ground.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -275,12 +328,23 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/3URLnqLu.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1046,
+          1047,
+          1048
+        ],
+        "range_label": "1046-1048",
+        "base_title": "Sanji vs. Queen",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -290,7 +354,7 @@
       "source_sha256": "69c05bd57d061e8333f51b68b6cf2e094ebfea11466c74862d7af32592354d12",
       "edit_number": 77,
       "season": 16,
-      "display_title": "CP0's Watch",
+      "display_title": "CP0's Watch - 1049-1051",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "The masked agents of CP0 watch events unfold on Onigashima. Their presence adds another concern to the pirates' ongoing battles.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -322,12 +386,23 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/E1qpBnXC.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1049,
+          1050,
+          1051
+        ],
+        "range_label": "1049-1051",
+        "base_title": "CP0's Watch",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -337,7 +412,7 @@
       "source_sha256": "50d6cb5530c2a237b2e11e463d70e279f9a395c0b5b651ae5f98b376f69c688b",
       "edit_number": 78,
       "season": 16,
-      "display_title": "Momonosuke and Kaido",
+      "display_title": "Momonosuke and Kaido - 1051-1053",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Momonosuke's pink dragon form meets Kaido's blue dragon above Onigashima.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -369,12 +444,23 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/V4AHLxpp.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1051,
+          1052,
+          1053
+        ],
+        "range_label": "1051-1053",
+        "base_title": "Momonosuke and Kaido",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -384,7 +470,7 @@
       "source_sha256": "cad2f66f86e30fdf30cd3a17348cbcf1df5d53fb70c9c45c311980ad53728834",
       "edit_number": 79,
       "season": 16,
-      "display_title": "Sanji's Struggle",
+      "display_title": "Sanji's Struggle - 1054-1055",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Sanji continues fighting despite his injuries. Tama and the other allies remain caught up in the battles inside the castle.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -415,12 +501,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/BNUodwSU.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1054,
+          1055
+        ],
+        "range_label": "1054-1055",
+        "base_title": "Sanji's Struggle",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -430,7 +526,7 @@
       "source_sha256": "dff6a50db0f56db28e9e395f710a916249fe17b3bceae7793f5fe426980e2d64",
       "edit_number": 80,
       "season": 16,
-      "display_title": "Big Mom's Fury",
+      "display_title": "Big Mom's Fury - 1056-1057",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Big Mom towers over the battlefield as the fighting inside Onigashima intensifies.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -461,12 +557,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/MkdiUcBG.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1056,
+          1057
+        ],
+        "range_label": "1056-1057",
+        "base_title": "Big Mom's Fury",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -476,7 +582,7 @@
       "source_sha256": "17cb44a9e3c493e19192f335951b4b7f7506f16e9e1777913595b7eb6124c966",
       "edit_number": 81,
       "season": 16,
-      "display_title": "Zoro Faces King",
+      "display_title": "Zoro Faces King - 1058-1060",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Zoro confronts the armored King amid the fires of Onigashima.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -508,12 +614,23 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/ewQEeJLF.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1058,
+          1059,
+          1060
+        ],
+        "range_label": "1058-1060",
+        "base_title": "Zoro Faces King",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -523,7 +640,7 @@
       "source_sha256": "6a1a017baaaca51b01d7ea26704abc536a5afe62646b12b69c2301e20b1074b5",
       "edit_number": 82,
       "season": 16,
-      "display_title": "Sanji's Resolve",
+      "display_title": "Sanji's Resolve - 1060-1062",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Sanji and Queen exchange powerful attacks as their fight continues through the castle.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -555,12 +672,23 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/4QK6mpqK.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1060,
+          1061,
+          1062
+        ],
+        "range_label": "1060-1062",
+        "base_title": "Sanji's Resolve",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -570,7 +698,7 @@
       "source_sha256": "ba1ac2ba69b4a66a951a4cbed5f3fa4c192d5db88ce40c5ad4433f2f0e8bb2c1",
       "edit_number": 83,
       "season": 16,
-      "display_title": "Luffy Meets Kaido's Challenge",
+      "display_title": "Luffy Meets Kaido's Challenge - 1063-1064",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Luffy continues his confrontation with Kaido while fire spreads through Onigashima.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -601,12 +729,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/CeDwmA3X.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1063,
+          1064
+        ],
+        "range_label": "1063-1064",
+        "base_title": "Luffy Meets Kaido's Challenge",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -616,7 +754,7 @@
       "source_sha256": "0ed5b104a8b8971a9fadd81abdfed69289b69ee46b76cf538e183f0e418cf83f",
       "edit_number": 84,
       "season": 16,
-      "display_title": "CP0 Enters the Fray",
+      "display_title": "CP0 Enters the Fray - 1065-1067",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "A masked CP0 agent moves into the conflict, adding another danger to the fighting inside Onigashima.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -648,12 +786,23 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/yhNgGNb2.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1065,
+          1066,
+          1067
+        ],
+        "range_label": "1065-1067",
+        "base_title": "CP0 Enters the Fray",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -663,7 +812,7 @@
       "source_sha256": "bf3dac717638cd0a121e5c845098ce6ea571c775ceaed58ddcdfa004500723c9",
       "edit_number": 85,
       "season": 16,
-      "display_title": "Momonosuke Above Onigashima",
+      "display_title": "Momonosuke Above Onigashima - 1068-1069",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Momonosuke remains aloft in dragon form as the battle threatens Wano below.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -694,12 +843,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/63Zouu8b.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1068,
+          1069
+        ],
+        "range_label": "1068-1069",
+        "base_title": "Momonosuke Above Onigashima",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -709,7 +868,7 @@
       "source_sha256": "5d526b74c75c76eb4e63aca52e8efa0b26727ccac5b1027ad829c1db7257c436",
       "edit_number": 86,
       "season": 16,
-      "display_title": "Kaido's Rooftop Battle",
+      "display_title": "Kaido's Rooftop Battle - 1069-1070",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Kaido presses his attack above Onigashima. The clash continues to shape the fate of the island below.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -740,12 +899,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/fQSATYeB.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1069,
+          1070
+        ],
+        "range_label": "1069-1070",
+        "base_title": "Kaido's Rooftop Battle",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -755,7 +924,7 @@
       "source_sha256": "9c90f6f3fa64383825f519078f27076779fc537b4a38d530f24ca1906a8e4178",
       "edit_number": 87,
       "season": 16,
-      "display_title": "Hiyori Confronts Orochi",
+      "display_title": "Hiyori Confronts Orochi - 1071-1072",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Hiyori confronts Orochi among the ruins while Kaido's battle continues above.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -786,12 +955,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/MGnqnhGi.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1071,
+          1072
+        ],
+        "range_label": "1071-1072",
+        "base_title": "Hiyori Confronts Orochi",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -801,7 +980,7 @@
       "source_sha256": "c10a229107b3c4066c8a66d286d8ebb87c6f941693a9757b52745ae1f7610972",
       "edit_number": 88,
       "season": 16,
-      "display_title": "Gear Five",
+      "display_title": "Gear Five - 1073-1074",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Luffy takes on a startling new form as his fight with Kaido continues. Hiyori also faces the consequences of Orochi's rule.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -832,12 +1011,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/4TJqNjYd.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1073,
+          1074
+        ],
+        "range_label": "1073-1074",
+        "base_title": "Gear Five",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -847,7 +1036,7 @@
       "source_sha256": "16a991ac3f348a1bdb7e5317d470c32fd30c5e96d8105782841ab90991314597",
       "edit_number": 89,
       "season": 16,
-      "display_title": "Kaido's Flaming Dragon",
+      "display_title": "Kaido's Flaming Dragon - 1075-1076",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Kaido surrounds himself with flame as his confrontation with Luffy reaches a dangerous stage.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -878,12 +1067,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/eVK8TkEP.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1075,
+          1076
+        ],
+        "range_label": "1075-1076",
+        "base_title": "Kaido's Flaming Dragon",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -893,7 +1092,7 @@
       "source_sha256": "1439aaa385e663cfdfe6dba4a29c2c1d4774c444a85d633863e5858379f83716",
       "edit_number": 90,
       "season": 16,
-      "display_title": "Chopper and the Survivors",
+      "display_title": "Chopper and the Survivors - 1077-1078",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Chopper and Nekomamushi face the consequences of the raid. The struggle has left Onigashima's allies battered.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -924,12 +1123,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/PzEGt8uD.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1077,
+          1078
+        ],
+        "range_label": "1077-1078",
+        "base_title": "Chopper and the Survivors",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -939,7 +1148,7 @@
       "source_sha256": "66a69718ca65e3177531331caa6c0cd42088059ce1c679728beddc0c0b31d365",
       "edit_number": 91,
       "season": 16,
-      "display_title": "Reunions in Wano",
+      "display_title": "Reunions in Wano - 1079",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "The Straw Hats gather with their allies in Wano. Reunions and shared meals bring a welcome pause after the fighting.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -969,12 +1178,21 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/SGdkPUxo.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1079
+        ],
+        "range_label": "1079",
+        "base_title": "Reunions in Wano",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -984,7 +1202,7 @@
       "source_sha256": "7841220c36d84ae70bd227f1ad1bfc243b88db023bd76b8d0ede2990a8cfd67c",
       "edit_number": 92,
       "season": 16,
-      "display_title": "The Capital Celebrates",
+      "display_title": "The Capital Celebrates - 1080-1081",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Festival lights and celebrations fill the Flower Capital as the pirates look toward their next voyage.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -1015,12 +1233,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/oWi7oUdE.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1080,
+          1081
+        ],
+        "range_label": "1080-1081",
+        "base_title": "The Capital Celebrates",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -1030,7 +1258,7 @@
       "source_sha256": "a868330badbe2f839d1504daa3371df56664e6ed3c8f05db5c2faef4d3e2f67e",
       "edit_number": 93,
       "season": 16,
-      "display_title": "Ryokugyu in Wano",
+      "display_title": "Ryokugyu in Wano - 1082-1083",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Admiral Ryokugyu appears in Wano, bringing another threat while the samurai and pirates remain on the island.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -1061,12 +1289,22 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/BUkadAqi.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1082,
+          1083
+        ],
+        "range_label": "1082-1083",
+        "base_title": "Ryokugyu in Wano",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -1076,7 +1314,7 @@
       "source_sha256": "222fb401b491c83e1470437dbbe4ca9cc99043c0e0c659da8c1a6f8ded7b0215",
       "edit_number": 94,
       "season": 16,
-      "display_title": "Friends Before Departure",
+      "display_title": "Friends Before Departure - 1084",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "Luffy and the crew spend time with their friends in Wano before setting sail.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -1106,12 +1344,21 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/6bRjHz7j.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1084
+        ],
+        "range_label": "1084",
+        "base_title": "Friends Before Departure",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     },
     {
@@ -1121,7 +1368,7 @@
       "source_sha256": "792a28a0358b3b74caf2c68641b6f1f071d57245c715610cf64596873530eaf9",
       "edit_number": 95,
       "season": 16,
-      "display_title": "Farewell to Wano",
+      "display_title": "Farewell to Wano - 1085",
       "title_kind": "EDITORIAL_SCENE_LABEL",
       "synopsis": "The Straw Hats prepare to leave Wano as their friends react to the approaching farewell.",
       "synopsis_basis": "Self-authored, limited to inspected interior story threads; sparse frame inspection is not a full viewing or boundary audit.",
@@ -1151,13 +1398,31 @@
           ],
           "accepted": false,
           "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
-          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+          "qualification": "Historical evidence classification retained; no verified full range. The subsequent provisional_display_mapping is accepted for approximate title display only; runtime mapping remains UNKNOWN."
         }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/wcWWHbGJ.jpg",
         "artwork_commit": "876d409b1af4947740d38997c3f904ec72921383"
+      },
+      "provisional_display_mapping": {
+        "status": "APPROXIMATE_DISPLAY_ONLY",
+        "original_episodes": [
+          1085
+        ],
+        "range_label": "1085",
+        "base_title": "Farewell to Wano",
+        "qualification": "User-accepted approximate Onigashima Paced reference only; exact Muhn Pace correspondence is not established."
       }
     }
-  ]
+  ],
+  "provisional_display_decision": {
+    "decided_on": "2026-11-17",
+    "status": "APPROXIMATE_DISPLAY_ONLY",
+    "authority": "User explicitly supplied and accepted the Onigashima Paced reference ranges for approximate display on Muhn Pace edits 71-95.",
+    "qualification": "Exact correspondence with Muhn Pace has not been established. These are provisional display ranges, not directly or independently verified Muhn Pace mappings. mapping_status remains UNKNOWN and accepted_original_episodes remains empty.",
+    "prior_evidence_record": "docs/research/season16-mapping-review-2026-11-17.json",
+    "source_url": "https://docs.google.com/spreadsheets/d/1HoYogAchoU5DWxVJzUy3eZcHMZk_hUmzUVnQm9KxeFI/edit?usp=sharing",
+    "scope": "Append the supplied range to each existing title using the Seasons 1-15 display format. No new source research or video inspection. No change to descriptions, identities, playback, ordering, season assignments or artwork."
+  }
 }

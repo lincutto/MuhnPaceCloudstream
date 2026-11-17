@@ -1,5 +1,13 @@
 # Phase 4B: catalogue presentation
 
+## Season 16 provisional display decision — preview v6 (2026-11-17)
+
+The user explicitly supplied and accepted all 25 Onigashima Paced reference ranges for **approximate display only** on Muhn edits 71–95. Existing titles now append ` - <range>` (ASCII hyphens, single numbers where supplied), without `Approx` or `Estimated` markers. Existing Muhn Pace scene labels, descriptions, numbering, order and artwork are preserved. Seasons 1–15 are unchanged; the catalogue remains **274 episodes across 16 seasons**.
+
+**Exact Muhn Pace correspondence has not been established.** These ranges are provisional, not directly or independently verified. In [season-16.json](../metadata/phase4b/season-16.json), each `provisional_display_mapping` records the numbers, original title and qualification; the season-level decision records user authorization and the previously researched spreadsheet. `mapping_status: UNKNOWN`, empty `accepted_original_episodes`, and the prior PARTIAL/UNKNOWN research findings remain intact. The generated runtime data changes only the 25 display titles, so this decision cannot promote approximate numbers into the strict mapping registry or history/navigation inputs. The existing formatter passes these display titles through without adding another suffix.
+
+This explicitly supersedes the historical no-display decision below. No further research, video analysis or exact-equivalence claim was made. The evidence totals remain 249 ONE_PACE_DERIVED and 25 UNKNOWN, with a separate count of 25 approximate display ranges. See the handover for v5 fallback and v6 validation/publication boundaries.
+
 ## Supplied late-Wano references reviewed (2026-11-17)
 
 The [latest mapping record](research/season16-mapping-review-2026-11-17.json) now preserves all 25 user-supplied candidates alongside exact Muhn file IDs, existing scene observations, source-A titles/runtimes and the actual source-B spreadsheet rows. **No complete range is accepted:** 0 DIRECTLY_VERIFIED, 0 DERIVED_VERIFIED, 1 PARTIAL (edit 71), 24 UNKNOWN. These review classifications are separate from the unchanged runtime `mapping_status: UNKNOWN`; research candidates are not serialized into the runtime dataset or visible titles.

@@ -24,12 +24,41 @@ class SeriesCatalogueTest {
             assertFalse(ep.description!!.contains("unverified"))
             assertFalse(ep.description!!.contains("Muhn Pace"))
         }
-        assertTrue(load.episodes.filter { it.season == 16 }.none { it.name!!.contains(" - ") })
+        // User-accepted approximate display only; the UNKNOWN evidence counts above stay unchanged.
+        val lateWano = load.episodes.filter { it.season == 16 }
+        assertEquals((1..25).toList(), lateWano.map { it.episode })
+        assertEquals(listOf(
+            "Robin and Her Friends - 1034-1036",
+            "Nami and Zeus - 1037-1038",
+            "Raizo vs. Fukurokuju - 1039-1040",
+            "Zoro's Recovery - 1041-1043",
+            "Killer and the Mink Warriors - 1044-1046",
+            "Sanji vs. Queen - 1046-1048",
+            "CP0's Watch - 1049-1051",
+            "Momonosuke and Kaido - 1051-1053",
+            "Sanji's Struggle - 1054-1055",
+            "Big Mom's Fury - 1056-1057",
+            "Zoro Faces King - 1058-1060",
+            "Sanji's Resolve - 1060-1062",
+            "Luffy Meets Kaido's Challenge - 1063-1064",
+            "CP0 Enters the Fray - 1065-1067",
+            "Momonosuke Above Onigashima - 1068-1069",
+            "Kaido's Rooftop Battle - 1069-1070",
+            "Hiyori Confronts Orochi - 1071-1072",
+            "Gear Five - 1073-1074",
+            "Kaido's Flaming Dragon - 1075-1076",
+            "Chopper and the Survivors - 1077-1078",
+            "Reunions in Wano - 1079",
+            "The Capital Celebrates - 1080-1081",
+            "Ryokugyu in Wano - 1082-1083",
+            "Friends Before Departure - 1084",
+            "Farewell to Wano - 1085",
+        ), lateWano.map { it.name })
         assertEquals("The Astonishing Thousand Sunny and Usopp's Tearful Apology! - 323-324",
             load.episodes.first { it.season == 2 }.name)
         assertEquals("The Circling Bounties and The Duel on Banaro Island! - 324-325",
             load.episodes.last { it.season == 2 }.name)
-        assertEquals("Gear Five", load.episodes.single { it.data.endsWith("/4TJqNjYd") }.name)
+        assertEquals("Gear Five - 1073-1074", load.episodes.single { it.data.endsWith("/4TJqNjYd") }.name)
     }
 
     private fun snapshot() = javaClass.getResourceAsStream("/catalogue-2026-11-14.json")!!

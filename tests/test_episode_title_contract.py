@@ -30,7 +30,7 @@ class EpisodeTitleContractChecks(unittest.TestCase):
                 ranged += 1
             self.assertEqual(name, row['name'])
             self.assertNotRegex(row['name'], r'^\s*\d+\.\s|Muhn Pace|S\d+:E\d+')
-        self.assertEqual(249, ranged)  # 25 late-Wano ranges remain unknown, never fabricated.
+        self.assertEqual(249, ranged)  # 25 late-Wano suffixes are approximate display only, not accepted mappings.
 
 
 if __name__ == '__main__':

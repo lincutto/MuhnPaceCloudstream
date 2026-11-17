@@ -1,5 +1,19 @@
 # MuhnPaceCloudstream v3 — handover
 
+## Season 16 approximate display ranges — preview v6 (2026-11-17)
+
+**25/25 titles updated**, retaining the existing Muhn Pace scene labels and appending the user-supplied anime range with the same `Title - 1034-1036` format used by Seasons 1–15. Single episodes use `Title - 1079`. No approximation marker is added to visible titles or descriptions.
+
+The user explicitly accepts **provisional, approximate Onigashima Paced reference ranges** for display. Exact correspondence with Muhn Pace has **not** been established; none is directly or independently verified. This display decision supersedes the earlier no-display/no-publication instructions below, not their evidence findings. Each [Season 16 record](../metadata/phase4b/season-16.json) retains `mapping_status: UNKNOWN`, empty accepted ranges and its historical research classification, with a separate `provisional_display_mapping` containing the supplied numbers, original title and qualification. Only the display title is changed in the bundled runtime dataset. No mapping investigation, licensing review or video inspection was repeated.
+
+- Starting remote development: `cf91e6cd41b24f0d8b811c92e5acf563d3c536ac`. Remote preview was still v5; no v6 existed.
+- **Known-good v5 fallback:** preview `091fc774199b2af7572f8e63b3f59bd97543b040`, source `8ffd8958f7e939dc8e1a6985a523c9a0e64a9f75`, package SHA-256 `c55172447f41cb6a4f0390b59edb0317abe702a5d287d3543a818957cfe3ebf4` (92,267 bytes). Preserve this commit and its four publication files in preview history; only fast-forward publication is permitted.
+- [Comparison against public v5 and its recorded source passed](research/preview-v6-v5-comparison.json): the downloaded v5 DEX contains the exact baseline dataset; all **274 episodes / 16 seasons**, IDs, indices, playback URLs, ordering, descriptions, thumbnails, series artwork, provider identities and watch-history inputs are unchanged. Seasons 1–15 remain byte-identical.
+- Preview-only package version is **6**. Existing Python metadata/integrity checks and both Kotlin/Android build targets run once on the final source commit through the read-only development workflow. Publish that validated preview artifact only after success, then verify the public four-file installation chain, manifest/version, ZIP/DEX, hash and size. Record source/preview hashes and results in the publication evidence after validation; this preparation entry alone does not claim success.
+- Installation URL remains `https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/repo.json`. Production `main` and `builds` remain prohibited. Stop after verified v6; no Phase 6.
+
+The entries below are historical checkpoints; their previous unresolved display decisions do not override this explicit user authorization.
+
 ## Supplied Season 16 references — bounded follow-up (2026-11-17)
 
 **0/25 DIRECTLY_VERIFIED, 0/25 DERIVED_VERIFIED, 1/25 PARTIAL, 24/25 UNKNOWN; 0 titles changed.** [Updated evidence, all candidates and exact file identities](research/season16-mapping-review-2026-11-17.json). Latest remote development `15105e83ae0535eca484caa7872c93b85246c608` and preview `091fc774199b2af7572f8e63b3f59bd97543b040` were inspected before changes.
