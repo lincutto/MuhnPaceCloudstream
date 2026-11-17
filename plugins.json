@@ -2,7 +2,7 @@
   {
     "internalName": "MuhnPacePreview",
     "name": "Muhn Pace v3 Preview",
-    "version": 3,
+    "version": 4,
     "apiVersion": 1,
     "status": 3,
     "description": "Isolated v3 visual preview; separate temporary watch history; no progress migration.",
@@ -15,7 +15,7 @@
     "language": "en",
     "repositoryUrl": "https://github.com/lincutto/MuhnPaceCloudstream/tree/codex/v3-overhaul",
     "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/MuhnPacePreview.cs3",
-    "fileSize": 92180,
-    "fileHash": "sha256-43c3704007b0ffab045109c2c1f08d1adfe73ff343c44cd97b63d1edbd9a090c"
+    "fileSize": 92215,
+    "fileHash": "sha256-3cb3e58d6dd24b1472f2452c13ff23f5d52a89560903869349599d3c59a00700"
   }
 ]
