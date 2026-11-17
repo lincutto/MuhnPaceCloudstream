@@ -1,5 +1,16 @@
 # MuhnPaceCloudstream v3 — handover
 
+## Season 16 original-anime mapping review — no supported changes (2026-11-17)
+
+**0/25 complete mappings verified; 0/25 titles updated.** All Season 16 positions **1–25** (Muhn edits **71–95**) remain unresolved. [Exact file list and focused evidence](research/season16-mapping-review-2026-11-17.json).
+
+The live `sF9stHJo` listing still matches all 25 selected filenames and media-reported hashes. Every selected file description is empty; filenames give only the Muhn edit number. The separate 38-byte note redirects to One Pace. The current Muhn-specific metadata tree is identical to the previously inspected tree (`ce627c81bd5985b6322ae7558b41976f316e3c1d`), which lacks these late releases. The directly relevant Plex table stops at Wano 31, and the subtitle mirror at Wano 46. The dub guide supplies viewing order, not per-edit original-anime coverage. Existing sparse scene observations cannot establish full ranges, and another edit's indices are not a supported mapping.
+
+The existing formatter already appends admitted original-anime coverage while preserving the title and navigation indices. No runtime, metadata, artwork, thumbnail, description, playback or identity change was warranted. The catalogue still has **274 entries / 16 seasons**, including **25 in Season 16**. No tests or builds were rerun; no unchanged preview was republished.
+
+Retain the already verified **preview v5**, commit `091fc774199b2af7572f8e63b3f59bd97543b040`, validated source `8ffd8958f7e939dc8e1a6985a523c9a0e64a9f75`; v4 `3317cfccfbf5d81f43ae6c0182f4b75ade96474d` remains the fallback. Production `main` and `builds` are unchanged. Resume mapping work only with a per-edit release table or a sufficiently complete exact-file comparison that establishes the original episodes, including partial/rearranged coverage. No Phase 6.
+
+
 ## Preview v5 — final visual refinements prepared (2026-11-17)
 
 The user tested v4 on Fire TV and requested removal of technical playback text plus a filled portrait poster. [Focused findings, supported player setting and crop trade-offs](V3_VISUAL_REFINEMENTS.md).

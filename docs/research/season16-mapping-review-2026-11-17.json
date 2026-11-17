@@ -1,0 +1,302 @@
+{
+  "reviewed_at": "2026-11-17T08:20:32.292076+00:00",
+  "development_source": "8ffd8958f7e939dc8e1a6985a523c9a0e64a9f75",
+  "retained_preview": {
+    "version": 5,
+    "commit": "091fc774199b2af7572f8e63b3f59bd97543b040"
+  },
+  "verified_mappings": 0,
+  "updated_titles": 0,
+  "episodes_total": 274,
+  "seasons_total": 16,
+  "season_16_episodes": 25,
+  "live_listing": {
+    "url": "https://pixeldrain.dev/api/list/sF9stHJo",
+    "http_status": 200,
+    "response_sha256": "d02dd5576b3bf3e19e68e25c67920cac5fd22f57be687950664934af8804c502",
+    "listed_items": 30,
+    "selected_items": 25,
+    "all_selected_names_and_media_reported_hashes_match": true,
+    "selected_descriptions_all_empty": true,
+    "extra_items": "One viewing-order note and four alternate editions; selection unchanged.",
+    "note_url": "https://pixeldrain.dev/api/file/upzn8DHj",
+    "note_text": "For more Dub on this arc use One Pace "
+  },
+  "sources": [
+    {
+      "url": "https://github.com/ladyisatis/one-pace-metadata/tree/main/other_edits/muhn_pace",
+      "current_tree_sha": "ce627c81bd5985b6322ae7558b41976f316e3c1d",
+      "comparison_commit": "10f9ff4cae297d8015e44675f25355cb247855c6",
+      "comparison_tree_sha": "ce627c81bd5985b6322ae7558b41976f316e3c1d",
+      "finding": "Byte-identical tree to the prior bounded late-Wano investigation; no new late-Muhn mapping records. Onigashima Paced is a separate edit with no established exact-file correspondence."
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934",
+      "finding": "Provides watch order and links to the exact Pixeldrain list, not a per-edit original-anime coverage table. Its linked spreadsheet is for the separate Fun Pace filler project."
+    },
+    {
+      "url": "https://github.com/djpain/one-pace-muhn-pace-to-plex/blob/main/episodes-reference.json",
+      "blob_sha": "1c53a5e9e79f1d36dedec5450a050eb501cf4134",
+      "finding": "Wano keys stop at 31; no entries for Muhn 71-95."
+    },
+    {
+      "url": "https://github.com/superfly310/muhn-pace-subtitles/tree/main/main/Release",
+      "tree_sha": "763427d833179183505c753d757899a881d41fb6",
+      "tree_truncated": false,
+      "finding": "Inspected complete file tree; Wano subtitle release indices stop at 46. No entries for Muhn 71-95. Cleanup script supplies no coverage mappings."
+    }
+  ],
+  "decision": "Preserve all metadata and runtime files. Do not treat sampled scenes, similar titles, other-edit indices or an arc-wide offset as full coverage. No build/test rerun or preview publication for unchanged code.",
+  "unresolved": [
+    {
+      "season_episode": 1,
+      "muhn_edit": 71,
+      "file_id": "8ZxdEP7k",
+      "source_filename": "[Muhn Pace] Wano 71.mp4",
+      "source_sha256": "48c7bee5473f4a91075ea82a6a444f7382499fa6328ec209a658eae723d02006",
+      "display_title": "Robin and Her Friends",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 2,
+      "muhn_edit": 72,
+      "file_id": "MabM9jgS",
+      "source_filename": "[Muhn Pace] Wano 72.mp4",
+      "source_sha256": "ac80ce413fe9c7ee2efa974a1e4e866322b3590be9529f7d979cbfb594f9490d",
+      "display_title": "Nami and Zeus",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 3,
+      "muhn_edit": 73,
+      "file_id": "wDin5KAc",
+      "source_filename": "[Muhn Pace] Wano 73.mp4",
+      "source_sha256": "a74490ac1b8bf5410bdff22ea79f3cb0ce8c15ed864c6b2d2b1c37d334d583da",
+      "display_title": "Raizo vs. Fukurokuju",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 4,
+      "muhn_edit": 74,
+      "file_id": "ueUct7rV",
+      "source_filename": "[Muhn Pace] Wano 74.mp4",
+      "source_sha256": "cf8182c971b43640cd1e417d1b6f9d2d875f8b79f3abb6f612de03e0c9a5af6a",
+      "display_title": "Zoro's Recovery",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 5,
+      "muhn_edit": 75,
+      "file_id": "5XDkcz5p",
+      "source_filename": "[Muhn Pace] Wano 75.mp4",
+      "source_sha256": "30acb0052192bf851a2bba3ca27f13fa559821ffbaa2a20a4c2af7c64326eb34",
+      "display_title": "Killer and the Mink Warriors",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 6,
+      "muhn_edit": 76,
+      "file_id": "3URLnqLu",
+      "source_filename": "[Muhn Pace] Wano 76.mp4",
+      "source_sha256": "a14d79b3dcefe1fb236f5c94ad36a86b37abb3f05f273c565489a18cca168caf",
+      "display_title": "Sanji vs. Queen",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 7,
+      "muhn_edit": 77,
+      "file_id": "E1qpBnXC",
+      "source_filename": "[Muhn Pace] Wano 77.mp4",
+      "source_sha256": "69c05bd57d061e8333f51b68b6cf2e094ebfea11466c74862d7af32592354d12",
+      "display_title": "CP0's Watch",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 8,
+      "muhn_edit": 78,
+      "file_id": "V4AHLxpp",
+      "source_filename": "[Muhn Pace] Wano 78.mp4",
+      "source_sha256": "50d6cb5530c2a237b2e11e463d70e279f9a395c0b5b651ae5f98b376f69c688b",
+      "display_title": "Momonosuke and Kaido",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 9,
+      "muhn_edit": 79,
+      "file_id": "BNUodwSU",
+      "source_filename": "[Muhn Pace] Wano 79.mp4",
+      "source_sha256": "cad2f66f86e30fdf30cd3a17348cbcf1df5d53fb70c9c45c311980ad53728834",
+      "display_title": "Sanji's Struggle",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 10,
+      "muhn_edit": 80,
+      "file_id": "MkdiUcBG",
+      "source_filename": "[Muhn Pace] Wano 80.mp4",
+      "source_sha256": "dff6a50db0f56db28e9e395f710a916249fe17b3bceae7793f5fe426980e2d64",
+      "display_title": "Big Mom's Fury",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 11,
+      "muhn_edit": 81,
+      "file_id": "ewQEeJLF",
+      "source_filename": "[Muhn Pace] Wano 81.mp4",
+      "source_sha256": "17cb44a9e3c493e19192f335951b4b7f7506f16e9e1777913595b7eb6124c966",
+      "display_title": "Zoro Faces King",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 12,
+      "muhn_edit": 82,
+      "file_id": "4QK6mpqK",
+      "source_filename": "[Muhn Pace] Wano 82.mp4",
+      "source_sha256": "6a1a017baaaca51b01d7ea26704abc536a5afe62646b12b69c2301e20b1074b5",
+      "display_title": "Sanji's Resolve",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 13,
+      "muhn_edit": 83,
+      "file_id": "CeDwmA3X",
+      "source_filename": "[Muhn Pace] Wano 83.mp4",
+      "source_sha256": "ba1ac2ba69b4a66a951a4cbed5f3fa4c192d5db88ce40c5ad4433f2f0e8bb2c1",
+      "display_title": "Luffy Meets Kaido's Challenge",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 14,
+      "muhn_edit": 84,
+      "file_id": "yhNgGNb2",
+      "source_filename": "[Muhn Pace] Wano 84.mp4",
+      "source_sha256": "0ed5b104a8b8971a9fadd81abdfed69289b69ee46b76cf538e183f0e418cf83f",
+      "display_title": "CP0 Enters the Fray",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 15,
+      "muhn_edit": 85,
+      "file_id": "63Zouu8b",
+      "source_filename": "[Muhn Pace] Wano 85.mp4",
+      "source_sha256": "bf3dac717638cd0a121e5c845098ce6ea571c775ceaed58ddcdfa004500723c9",
+      "display_title": "Momonosuke Above Onigashima",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 16,
+      "muhn_edit": 86,
+      "file_id": "fQSATYeB",
+      "source_filename": "[Muhn Pace] Wano 86.mp4",
+      "source_sha256": "5d526b74c75c76eb4e63aca52e8efa0b26727ccac5b1027ad829c1db7257c436",
+      "display_title": "Kaido's Rooftop Battle",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 17,
+      "muhn_edit": 87,
+      "file_id": "MGnqnhGi",
+      "source_filename": "[Muhn Pace] Wano 87.mp4",
+      "source_sha256": "9c90f6f3fa64383825f519078f27076779fc537b4a38d530f24ca1906a8e4178",
+      "display_title": "Hiyori Confronts Orochi",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 18,
+      "muhn_edit": 88,
+      "file_id": "4TJqNjYd",
+      "source_filename": "[Muhn Pace] Wano 88.mp4",
+      "source_sha256": "c10a229107b3c4066c8a66d286d8ebb87c6f941693a9757b52745ae1f7610972",
+      "display_title": "Gear Five",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 19,
+      "muhn_edit": 89,
+      "file_id": "eVK8TkEP",
+      "source_filename": "[Muhn Pace] Wano 89.mp4",
+      "source_sha256": "16a991ac3f348a1bdb7e5317d470c32fd30c5e96d8105782841ab90991314597",
+      "display_title": "Kaido's Flaming Dragon",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 20,
+      "muhn_edit": 90,
+      "file_id": "PzEGt8uD",
+      "source_filename": "[Muhn Pace] Wano 90.mp4",
+      "source_sha256": "1439aaa385e663cfdfe6dba4a29c2c1d4774c444a85d633863e5858379f83716",
+      "display_title": "Chopper and the Survivors",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 21,
+      "muhn_edit": 91,
+      "file_id": "SGdkPUxo",
+      "source_filename": "[Muhn Pace] Wano 91.mp4",
+      "source_sha256": "66a69718ca65e3177531331caa6c0cd42088059ce1c679728beddc0c0b31d365",
+      "display_title": "Reunions in Wano",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 22,
+      "muhn_edit": 92,
+      "file_id": "oWi7oUdE",
+      "source_filename": "[Muhn Pace] Wano 92.mp4",
+      "source_sha256": "7841220c36d84ae70bd227f1ad1bfc243b88db023bd76b8d0ede2990a8cfd67c",
+      "display_title": "The Capital Celebrates",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 23,
+      "muhn_edit": 93,
+      "file_id": "BUkadAqi",
+      "source_filename": "[Muhn Pace] Wano 93.mp4",
+      "source_sha256": "a868330badbe2f839d1504daa3371df56664e6ed3c8f05db5c2faef4d3e2f67e",
+      "display_title": "Ryokugyu in Wano",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 24,
+      "muhn_edit": 94,
+      "file_id": "6bRjHz7j",
+      "source_filename": "[Muhn Pace] Wano 94 - Filler.mp4",
+      "source_sha256": "222fb401b491c83e1470437dbbe4ca9cc99043c0e0c659da8c1a6f8ded7b0215",
+      "display_title": "Friends Before Departure",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    },
+    {
+      "season_episode": 25,
+      "muhn_edit": 95,
+      "file_id": "wcWWHbGJ",
+      "source_filename": "[Muhn Pace] Wano 95.mp4",
+      "source_sha256": "792a28a0358b3b74caf2c68641b6f1f071d57245c715610cf64596873530eaf9",
+      "display_title": "Farewell to Wano",
+      "mapping_verified": false,
+      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+    }
+  ]
+}
