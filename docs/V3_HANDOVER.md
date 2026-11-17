@@ -1,5 +1,21 @@
 # MuhnPaceCloudstream v3 — handover
 
+## Artwork preview v4 — published and verified (2026-11-17)
+
+- **Known-good fallback:** preview commit `3317cfccfbf5d81f43ae6c0182f4b75ade96474d`, version **4**, from exact source `8f3e2f8de65a4b6c2385b0487113ecb7954af859`.
+- Reused the existing successful [CI run 43943800055](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/43943800055), job `133567958091`: **25 Python checks, 50 Kotlin/JUnit tests, both Android/DEX/CS3 builds**. Downloaded preview artifact `14263741833` for that exact source; its ZIP SHA-256 matches GitHub's artifact digest. No rebuild or test rerun was needed.
+- [Public verification evidence](research/preview-v4-publication.json): `repo.json`, `plugins.json`, `preview-build.json`, and `MuhnPacePreview.cs3` returned HTTP 200 and matched the validated artifact bytes. ZIP/DEX/manifest/version/namespace/routes/heading/hash/size validation passed. Package: **92,215 bytes**, SHA-256 `3cb3e58d6dd24b1472f2452c13ff23f5d52a89560903869349599d3c59a00700`.
+- Both immutable artwork URLs at `9d8ea67c8d98c1aba6dade4d1e633b753201dde3` returned HTTP 200, `image/jpeg`, decoded correctly, and matched committed bytes/hashes: poster **768×1152**, background **1280×721**. Existing real-preview tests cover home/search/detail poster and detail background assignment; the package contains the exact **One Piece • Muhn Pace (English dub)** heading and artwork commit.
+- All 274 episodes across 16 seasons, episode metadata/thumbnails, playback, provider/plugin/package identities, routes and history inputs remain unchanged. Runtime diff from `89f3c9b` changes only the series artwork base. `repo.json` remains byte-identical to v3.
+- Production remains untouched: `main` at `8ade241e95405d91c0606bd3ea6080ac0709992a`, `builds` at `cbe8d9dce96169da7ed12fefb8adc3787779bab3`. No Fire TV device test is claimed. No Phase 6 or production release.
+
+
+## Secondary UI checks — complete; retain v4 (2026-11-17)
+
+[Focused API/client findings](V3_UI_LIMITATIONS.md): both **episode count** and **provider display label** are **unsupported** under the required preservation constraints. Cloudstream formats the selected season's list size (Dressrosa: 48); it provides no total-count-label override. The visible provider name is also its registry/saved `apiName` lookup key, with no separate display-only name. Relevant code is unchanged between the previously resolved `5d66bbeaf3b35c0c18ad2e0b9ce6b0aea4f5241c` and current upstream `2dcc25c3945c61dfa95d1710ced7c74acfe84baa`.
+
+No runtime changes, episode restructuring/duplication, identity renames, dependency changes or unsupported workarounds. No v5 build/publication; existing v4 remains the deliverable and fallback. No publication blocker remains. These documentation-only results do not require repeating successful tests/builds. Stop here; no Phase 6 or production release.
+
 ## Supplied artwork integration — preview version 4 prepared (2026-11-16)
 
 The user's new instruction supplies exact images and authorizes their integration/public preview publication without repeating the earlier broad licensing research. This supersedes the unresolved sourcing approach below. Picture 1 is now the main poster with proportional scaling and dark blurred portrait padding; Picture 2 is the unchanged 1280×721 background. No specific publication restriction was supplied with these attachments. User supply is recorded as provenance, not as a rightsholder licence.

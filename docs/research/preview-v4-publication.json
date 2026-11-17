@@ -1,0 +1,72 @@
+{
+  "verified_at": "2026-11-17T00:07:41.752898+00:00",
+  "source_commit": "8f3e2f8de65a4b6c2385b0487113ecb7954af859",
+  "preview_commit": "3317cfccfbf5d81f43ae6c0182f4b75ade96474d",
+  "version": 4,
+  "ci_run": 43943800055,
+  "ci_job": 133567958091,
+  "ci_artifact": 14263741833,
+  "ci_archive_sha256": "9e3da0e406d2af67e9454f888bdfbd56d2d06311ccce6fb1b9a3e9428a58ce12",
+  "files": [
+    {
+      "file": "repo.json",
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/repo.json",
+      "http_status": 200,
+      "mime": "text/plain",
+      "bytes": 262,
+      "sha256": "1ef7279adc2a309aa9904e0b10590af9e63a1b6fb6457c610156d6ef6d7c4da6",
+      "dimensions": null
+    },
+    {
+      "file": "plugins.json",
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/plugins.json",
+      "http_status": 200,
+      "mime": "text/plain",
+      "bytes": 683,
+      "sha256": "b953b9b9d9912cc63fadaa1bc15c9c8e6667997d7d23e26eacd5dfce25400cae",
+      "dimensions": null
+    },
+    {
+      "file": "preview-build.json",
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/preview-build.json",
+      "http_status": 200,
+      "mime": "text/plain",
+      "bytes": 247,
+      "sha256": "79d2f502a2834206429db5376e267efdbd8a3b9cd22d2ef9657e397c7ba1762b",
+      "dimensions": null
+    },
+    {
+      "file": "MuhnPacePreview.cs3",
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/v3-preview/MuhnPacePreview.cs3",
+      "http_status": 200,
+      "mime": "application/octet-stream",
+      "bytes": 92215,
+      "sha256": "3cb3e58d6dd24b1472f2452c13ff23f5d52a89560903869349599d3c59a00700",
+      "dimensions": null
+    },
+    {
+      "file": "poster.jpg",
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/9d8ea67c8d98c1aba6dade4d1e633b753201dde3/assets/phase4b/series/poster.jpg",
+      "http_status": 200,
+      "mime": "image/jpeg",
+      "bytes": 219810,
+      "sha256": "838128dec1458ef7c8530c8de39ef924e33b81212f44bd6f51170340651c4fdb",
+      "dimensions": [
+        768,
+        1152
+      ]
+    },
+    {
+      "file": "background.jpg",
+      "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/9d8ea67c8d98c1aba6dade4d1e633b753201dde3/assets/phase4b/series/background.jpg",
+      "http_status": 200,
+      "mime": "image/jpeg",
+      "bytes": 244135,
+      "sha256": "cba8e3c48131879e30c7ca618bdd16fd3cadd05d858a09fb46150528a9449326",
+      "dimensions": [
+        1280,
+        721
+      ]
+    }
+  ]
+}
