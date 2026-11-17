@@ -1,6 +1,6 @@
 {
-  "name": "Muhn Pace Direct (English Dub)",
-  "description": "Read-only Pixeldrain catalog for English dub edits",
+  "name": "Muhn Pace Rework (by lincutto)",
+  "description": "Unofficial Cloudstream extension; Muhn Pace editing project by Muhny",
   "manifestVersion": 1,
   "pluginLists": [
     "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/plugins.json"

@@ -1,13 +1,13 @@
 [
   {
     "internalName": "MuhnPace",
-    "name": "MuhnPace",
-    "description": "Muhn Pace English dub from public Pixeldrain lists; subject to host restrictions.",
-    "version": 2,
+    "name": "Muhn Pace Rework (by lincutto)",
+    "description": "Unofficial Cloudstream extension for the Muhn Pace English dub fan edit by Muhny.",
+    "version": 7,
     "apiVersion": 1,
-    "status": 3,
+    "status": 1,
     "authors": [
-      "Independent prototype"
+      "lincutto"
     ],
     "tvTypes": [
       "TvSeries"
@@ -15,7 +15,7 @@
     "language": "en",
     "repositoryUrl": "https://github.com/lincutto/MuhnPaceCloudstream",
     "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/MuhnPace.cs3",
-    "fileSize": 13779,
-    "fileHash": "sha256-ff5d2d8b6f42be88fef50fb041a6fbbcd1ad7a9763d94c88d4bd748c90e04f8c"
+    "fileSize": 92163,
+    "fileHash": "sha256-a8c93c546e0b6ecf3487448269bf8ab2d7d76b1566db60b04785821f9cb5fb28"
   }
 ]
