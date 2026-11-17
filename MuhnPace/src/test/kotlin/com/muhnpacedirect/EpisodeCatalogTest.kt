@@ -19,7 +19,7 @@ class EpisodeCatalogTest {
         val collections = snapshot.getJSONArray("collections")
         val provider = MuhnPaceProvider()
         assertEquals(16, collections.length())
-        assertEquals("Muhn Pace Direct (English Dub)", provider.name)
+        assertEquals("Muhn Pace Rework (by lincutto)", provider.name)
         assertEquals("https://pixeldrain.dev", provider.mainUrl)
         var total = 0
         for (index in 0 until collections.length()) {

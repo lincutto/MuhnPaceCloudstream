@@ -53,7 +53,7 @@ class PreviewIsolationTest {
         try {
             production.load()
             preview.load()
-            val original = APIHolder.getApiFromNameNull("Muhn Pace Direct (English Dub)")!!
+            val original = APIHolder.getApiFromNameNull("Muhn Pace Rework (by lincutto)")!!
             val isolated = APIHolder.getApiFromNameNull("Muhn Pace v3 Preview")!!
             assertTrue(original is MuhnPaceProvider)
             assertTrue(isolated is MuhnPacePreviewProvider)

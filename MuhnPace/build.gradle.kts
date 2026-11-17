@@ -1,4 +1,4 @@
-version = 2
+version = 7
 
 dependencies {
     testImplementation("junit:junit:4.13.2")
@@ -6,9 +6,9 @@ dependencies {
 }
 
 cloudstream {
-    description = "English-dubbed Muhn Pace arcs from public Pixeldrain lists (direct HTTPS; subject to host restrictions)"
-    authors = listOf("Independent prototype")
-    status = 3  // beta: third-party streaming cannot be verified without real-device testing
+    description = "Unofficial Cloudstream extension for the Muhn Pace English dub fan edit by Muhny."
+    authors = listOf("lincutto")
+    status = 1  // working; promoted from the Fire TV-tested preview v6
     tvTypes = listOf("TvSeries")
     language = "en"
 }

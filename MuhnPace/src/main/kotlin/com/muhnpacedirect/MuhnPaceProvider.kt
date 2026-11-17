@@ -16,7 +16,7 @@ import org.json.JSONObject
  * does not attempt to evade its access controls, paywalls, or transfer restrictions.
  */
 class MuhnPaceProvider : MainAPI() {
-    override var name = "Muhn Pace Direct (English Dub)"
+    override var name = "Muhn Pace Rework (by lincutto)"
     override var mainUrl = "https://pixeldrain.dev"
     override var lang = "en"
     override val supportedTypes = setOf(TvType.TvSeries)

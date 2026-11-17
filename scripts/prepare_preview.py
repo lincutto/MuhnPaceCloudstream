@@ -18,7 +18,7 @@ def transform(name, text):
     text = replace_checked(text, "package com.muhnpacedirect", "package com.muhnpacepreview", 1)
     if name == "MuhnPaceProvider.kt":
         text = replace_checked(text, "class MuhnPaceProvider", "class MuhnPacePreviewProvider", 1)
-        text = replace_checked(text, 'name = "Muhn Pace Direct (English Dub)"', 'name = "Muhn Pace v3 Preview"', 1)
+        text = replace_checked(text, 'name = "Muhn Pace Rework (by lincutto)"', 'name = "Muhn Pace v3 Preview"', 1)
         text = replace_checked(text, '(Muhn Pace)"', '(Muhn Pace Preview)"', 1)
         text = replace_checked(text, '"muhn" to "One Piece • Muhn Pace (English dub)"',
                                '"muhn-preview" to "One Piece • Muhn Pace (English dub)"', 1)

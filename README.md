@@ -1,12 +1,12 @@
-# Muhn Pace Direct (English Dub)
+# Muhn Pace Rework (by lincutto)
 
-A Cloudstream Beta provider for the English-dubbed Muhn Pace catalogue on Pixeldrain. It uses public HTTPS list and file requests. No VPN, Real-Debrid account, torrent client or proxy is required by the extension.
+An unofficial Cloudstream extension maintained by **lincutto** for the English-dubbed **Muhn Pace** fan-editing project by **Muhny**. Editing credit belongs to the original Muhn Pace project; this extension is not an official Muhn Pace, One Piece or Cloudstream release. One Piece belongs to Eiichiro Oda/Shueisha and Toei Animation. It uses public HTTPS list and file requests. No VPN, Real-Debrid account, torrent client or proxy is required by the extension.
 
 ## Install on Fire TV
 
 1. Open **Cloudstream Beta → Settings → Extensions → Add repository**.
 2. Enter the repository URL below. Give it the name **Muhn Pace** if prompted.
-3. Open the repository and install **MuhnPace**. On the home screen select **Muhn Pace Direct (English Dub)**, then choose an arc and episode.
+3. Open the repository and install **Muhn Pace Rework (by lincutto)**. On the home screen select **Muhn Pace Rework (by lincutto)**, then open **One Piece (Muhn Pace)** and choose a season and episode.
 
 ```text
 https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/repo.json
@@ -14,25 +14,17 @@ https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/repo.json
 
 ## Catalogue and playback
 
-The provider reads the 16 collections in the [community dub guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934). It keeps numbered Muhn Pace edits and explicitly dub-labelled episodes, filters out subtitled-only and comparison files, and sorts episodes numerically. Titles explicitly identify fan edits, such as **Dressrosa • Muhn Pace 2**. Only verified original-anime mappings use `One Piece <original range> • <arc> <edit number>`; no such mappings are currently available. Edit numbers and gaps are preserved. For example, Wano Act 3 begins at edit 71.
+Production **version 7** (internal version code **7**) promotes the validated preview v6 catalogue: **274 playable episodes across 16 seasons**, with the same ordering, titles, descriptions, thumbnails, poster, background and Pixeldrain HTTPS playback URLs. The home row remains **One Piece • Muhn Pace (English dub)**.
 
-Original One Piece episode mappings are explicitly marked **unverified** until a source verifies the exact edit. Filename version, resolution and unlabelled range tags are not treated as original anime episode numbers.
+The 25 Wano Act 3 titles retain the approved approximate original-anime ranges. These are provisional display references, not independently verified exact Muhn Pace boundaries. Native season/episode numbers identify navigation positions, not original anime episode numbers.
 
-On the development branch, all 16 collections have original arc-themed posters (768×1152), widescreen backgrounds (1920×1080), distinct synopses, anime/adventure tags and the live number of available edits. The [original geometric artwork](assets/artwork/README.md) is a deliberate fallback, not official anime promotional art. Its HTTPS URLs are pinned to a verified artwork commit.
+The video host controls availability and transfer limits. The plugin uses Pixeldrain directly and contains no video files. [Pixeldrain API documentation](https://pixeldrain.dev/api)
 
-Episodes use Pixeldrain's thumbnail for the exact selected edit, with factual English-dub/edit descriptions. The host supplies small 256×144 previews, which can show opening credits. Missing, mismatched and eight known black-frame previews use the matching arc background. Cloudstream handles image caching and rendering. Phase 2 is implemented on the development branch; real Fire TV layout verification and any production publication remain separate.
+## Updates and saved progress
 
-When several versions share an episode number within a collection, the provider prefers the regular edit. The dedicated Fishman Island episode 15 collection also appears in the guide. Its dub can appear in the main Fishman Island list too.
+The production package identity remains `MuhnPace`, class `com.muhnpacedirect.MuhnPacePlugin`, at the same package URL. Version 7 is newer than production version 2. The provider name is now **Muhn Pace Rework (by lincutto)**; Cloudstream also uses that name to resolve saved entries. Old favourites or Continue Watching entries may require manually reopening/re-adding the series and restoring your position. There is no automatic history migration.
 
-The video host controls availability and transfer limits. If the host blocks a request on your connection, the app may show a playback error. The plugin uses Pixeldrain directly and contains no video files. [Pixeldrain API documentation](https://pixeldrain.dev/api)
-
-## Playback labels and Continue Watching (development branch)
-
-Series cards and player headers identify the anime, arc and edit project, for example **One Piece • Dressrosa (Muhn Pace)**. Episode titles retain the explicit Muhn Pace edit number. Cloudstream's numeric `S1:E25` label means **edit 25**, not original One Piece episode 25.
-
-On supported TV builds, the delayed pause overlay uses the series title, numeric edit position, tags and arc plot. The plot explains edit numbering before the synopsis. The host does not read the episode description into that overlay. Continue Watching uses a cached series title/poster, numeric edit position and progress; it cannot show an independent original-episode range or episode description. Reopening a collection lets Cloudstream refresh its cached title. Existing URLs, numbers, seasons and history inputs are preserved.
-
-Phase 3 research added **zero verified original-episode mappings**. No reliable exact-file evidence establishes which Muhn Pace edit contains original episode **684**, so no transition edit is recommended. See the [mapping investigation](docs/ORIGINAL_EPISODE_RESEARCH.md) and [supported player/history fields](docs/CLOUDSTREAM_METADATA.md). Fire TV layout and persisted-resume behaviour still require device testing; this development work is not published.
+Preview v6 remains unchanged at `v3-preview` as a separately installed fallback. Preview history does not automatically transfer to production. Legacy production arc routes remain supported, but the unified series has separate progress keys. Keep the preview and existing app data until any progress you need has been transferred manually.
 
 ## Build
 
@@ -55,4 +47,4 @@ gradle :MuhnPace:testDebugUnitTest :MuhnPace:make --no-daemon
 python3 scripts/publish.py --build-dir MuhnPace/build --repo lincutto/MuhnPaceCloudstream --out published
 ```
 
-`scripts/publish.py` assembles local files only; it makes no network requests. Kotlin tests use saved catalogue fixtures and do not request media. See [the v3 handover](docs/V3_HANDOVER.md) for recovery details, Phase 2/3 delivery, validation evidence, and limitations.
+`scripts/publish.py` assembles local files only; it makes no network requests. Kotlin tests use saved catalogue fixtures and do not request media. See [the v3 handover](docs/V3_HANDOVER.md) for historical validation evidence and limitations. Its earlier preview-only publication restrictions are superseded by this authorised production release.

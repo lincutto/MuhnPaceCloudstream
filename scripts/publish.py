@@ -28,12 +28,12 @@ def main():
     sha256 = hashlib.sha256(destination.read_bytes()).hexdigest()
     entry = {
         'internalName': 'MuhnPace',
-        'name': 'MuhnPace',
-        'description': 'Muhn Pace English dub from public Pixeldrain lists; subject to host restrictions.',
-        'version': 2,
+        'name': 'Muhn Pace Rework (by lincutto)',
+        'description': 'Unofficial Cloudstream extension for the Muhn Pace English dub fan edit by Muhny.',
+        'version': 7,
         'apiVersion': 1,
-        'status': 3,
-        'authors': ['Independent prototype'],
+        'status': 1,
+        'authors': ['lincutto'],
         'tvTypes': ['TvSeries'],
         'language': 'en',
         'repositoryUrl': f'https://github.com/{args.repo}',
@@ -43,8 +43,8 @@ def main():
     }
     (args.out / 'plugins.json').write_text(json.dumps([entry], indent=2) + '\n', encoding='utf-8')
     (args.out / 'repo.json').write_text(json.dumps({
-        'name': 'Muhn Pace Direct (English Dub)',
-        'description': 'Read-only Pixeldrain catalog for English dub edits',
+        'name': 'Muhn Pace Rework (by lincutto)',
+        'description': 'Unofficial Cloudstream extension; Muhn Pace editing project by Muhny',
         'manifestVersion': 1,
         'pluginLists': [f'{base}/plugins.json'],
     }, indent=2) + '\n', encoding='utf-8')
