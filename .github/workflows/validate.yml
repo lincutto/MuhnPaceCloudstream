@@ -7,6 +7,11 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      production_only:
+        description: 'Build a production release candidate; Python checks must already have passed for this source'
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -52,12 +57,15 @@ jobs:
           test -f "$ANDROID_HOME/platforms/android-35/android.jar"
 
       - name: Run the project checks
+        if: inputs.production_only != true
         run: |
           python3 -m pip install -r tests/requirements.txt
           python3 -m unittest discover -s tests -v
 
       - name: Run Kotlin tests and build the Android Cloudstream extension
-        run: ./gradlew -Ppreview=true :MuhnPace:testDebugUnitTest :MuhnPace:make :MuhnPacePreview:testDebugUnitTest :MuhnPacePreview:make --no-daemon --stacktrace
+        env:
+          PREVIEW_TASKS: ${{ inputs.production_only != true && '-Ppreview=true :MuhnPacePreview:testDebugUnitTest :MuhnPacePreview:make' || '' }}
+        run: ./gradlew :MuhnPace:testDebugUnitTest :MuhnPace:make $PREVIEW_TASKS --no-daemon --stacktrace
 
       - name: Upload Kotlin test reports
         if: always()
@@ -106,9 +114,11 @@ jobs:
           if-no-files-found: error
 
       - name: Assemble and validate the isolated preview
+        if: inputs.production_only != true
         run: python3 scripts/assemble_preview.py --out published-preview --source-sha "$GITHUB_SHA"
 
       - name: Upload isolated preview for review
+        if: inputs.production_only != true
         uses: actions/upload-artifact@v7
         with:
           name: MuhnPacePreview-validation-${{ github.sha }}
