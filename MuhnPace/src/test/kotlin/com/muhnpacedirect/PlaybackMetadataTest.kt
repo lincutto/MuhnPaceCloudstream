@@ -30,7 +30,7 @@ class PlaybackMetadataTest {
                 assertEquals(expectedName, load.name)
                 assertEquals(url, load.url)
                 assertEquals(url, load.uniqueUrl)
-                assertEquals("Muhn Pace Direct (English Dub)", load.apiName)
+                assertEquals("Muhn Pace Rework (by lincutto)", load.apiName)
                 assertEquals(TvType.TvSeries, load.type)
                 assertNull(load.seasonNames)
                 assertTrue(load.syncData.isEmpty()) // No anime-ID lookup that could overwrite edit metadata.

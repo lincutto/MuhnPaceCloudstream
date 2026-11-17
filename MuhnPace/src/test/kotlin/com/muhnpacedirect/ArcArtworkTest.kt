@@ -58,7 +58,7 @@ class ArcArtworkTest {
         val card = cards.single()
         assertEquals("https://pixeldrain.dev/muhnpace/one-piece", card.url)
         assertEquals("One Piece (Muhn Pace)", card.name)
-        assertEquals("Muhn Pace Direct (English Dub)", card.apiName)
+        assertEquals("Muhn Pace Rework (by lincutto)", card.apiName)
         assertEquals(SeriesCatalogue.poster, card.posterUrl)
         val results = provider.search("one piece")
         assertEquals(cards.map { it.url to it.posterUrl }, results.map { it.url to it.posterUrl })
