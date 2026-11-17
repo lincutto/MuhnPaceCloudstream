@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "season": 16,
-  "reviewed_on": "2026-11-16",
+  "reviewed_on": "2026-11-17",
   "entries": [
     {
       "collection_id": "sF9stHJo",
@@ -19,7 +19,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/8ZxdEP7k",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/8ZxdEP7k",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -30,7 +30,20 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "8ZxdEP7k",
+          "classification": "PARTIAL",
+          "candidate_original_episodes": [
+            1034,
+            1035,
+            1036
+          ],
+          "accepted": false,
+          "reason": "Representative samples support the proposed story period, but complete boundaries and all original episodes are unverified.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/8ZxdEP7k.jpg",
@@ -53,7 +66,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/MabM9jgS",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/MabM9jgS",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -64,7 +77,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "MabM9jgS",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1037,
+            1038
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/MabM9jgS.jpg",
@@ -87,7 +112,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/wDin5KAc",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/wDin5KAc",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -98,7 +123,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "wDin5KAc",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1039,
+            1040
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/wDin5KAc.jpg",
@@ -121,7 +158,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/ueUct7rV",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/ueUct7rV",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -132,7 +169,20 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "ueUct7rV",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1041,
+            1042,
+            1043
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/ueUct7rV.jpg",
@@ -155,7 +205,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/5XDkcz5p",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/5XDkcz5p",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -166,7 +216,20 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "5XDkcz5p",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1044,
+            1045,
+            1046
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/5XDkcz5p.jpg",
@@ -189,7 +252,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/3URLnqLu",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/3URLnqLu",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -200,7 +263,20 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "3URLnqLu",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1046,
+            1047,
+            1048
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/3URLnqLu.jpg",
@@ -223,7 +299,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/E1qpBnXC",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/E1qpBnXC",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -234,7 +310,20 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "E1qpBnXC",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1049,
+            1050,
+            1051
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/E1qpBnXC.jpg",
@@ -257,7 +346,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/V4AHLxpp",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/V4AHLxpp",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -268,7 +357,20 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "V4AHLxpp",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1051,
+            1052,
+            1053
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/V4AHLxpp.jpg",
@@ -291,7 +393,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/BNUodwSU",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/BNUodwSU",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -302,7 +404,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "BNUodwSU",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1054,
+            1055
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/BNUodwSU.jpg",
@@ -325,7 +439,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/MkdiUcBG",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/MkdiUcBG",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -336,7 +450,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "MkdiUcBG",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1056,
+            1057
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/MkdiUcBG.jpg",
@@ -359,7 +485,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/ewQEeJLF",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/ewQEeJLF",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -370,7 +496,20 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "ewQEeJLF",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1058,
+            1059,
+            1060
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/ewQEeJLF.jpg",
@@ -393,7 +532,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/4QK6mpqK",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/4QK6mpqK",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -404,7 +543,20 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "4QK6mpqK",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1060,
+            1061,
+            1062
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/4QK6mpqK.jpg",
@@ -427,7 +579,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/CeDwmA3X",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/CeDwmA3X",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -438,7 +590,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "CeDwmA3X",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1063,
+            1064
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/CeDwmA3X.jpg",
@@ -461,7 +625,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/yhNgGNb2",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/yhNgGNb2",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -472,7 +636,20 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "yhNgGNb2",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1065,
+            1066,
+            1067
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/yhNgGNb2.jpg",
@@ -495,7 +672,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/63Zouu8b",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/63Zouu8b",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -506,7 +683,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "63Zouu8b",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1068,
+            1069
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/63Zouu8b.jpg",
@@ -529,7 +718,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/fQSATYeB",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/fQSATYeB",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -540,7 +729,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "fQSATYeB",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1069,
+            1070
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/fQSATYeB.jpg",
@@ -563,7 +764,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/MGnqnhGi",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/MGnqnhGi",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -574,7 +775,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "MGnqnhGi",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1071,
+            1072
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/MGnqnhGi.jpg",
@@ -597,7 +810,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/4TJqNjYd",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/4TJqNjYd",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -608,7 +821,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "4TJqNjYd",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1073,
+            1074
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/4TJqNjYd.jpg",
@@ -631,7 +856,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/eVK8TkEP",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/eVK8TkEP",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -642,7 +867,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "eVK8TkEP",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1075,
+            1076
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/eVK8TkEP.jpg",
@@ -665,7 +902,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/PzEGt8uD",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/PzEGt8uD",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -676,7 +913,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "PzEGt8uD",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1077,
+            1078
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/PzEGt8uD.jpg",
@@ -699,7 +948,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/SGdkPUxo",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/SGdkPUxo",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -710,7 +959,18 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "SGdkPUxo",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1079
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/SGdkPUxo.jpg",
@@ -733,7 +993,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/oWi7oUdE",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/oWi7oUdE",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -744,7 +1004,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "oWi7oUdE",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1080,
+            1081
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/oWi7oUdE.jpg",
@@ -767,7 +1039,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/BUkadAqi",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/BUkadAqi",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -778,7 +1050,19 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "BUkadAqi",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1082,
+            1083
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/BUkadAqi.jpg",
@@ -801,7 +1085,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/6bRjHz7j",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/6bRjHz7j",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -812,7 +1096,18 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "6bRjHz7j",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1084
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/6bRjHz7j.jpg",
@@ -835,7 +1130,7 @@
       "accepted_original_episodes": [],
       "scene_confirmed_episodes": [],
       "title_source_url": "https://pixeldrain.dev/api/file/wcWWHbGJ",
-      "reviewed_on": "2026-11-16",
+      "reviewed_on": "2026-11-17",
       "correspondence_evidence": {
         "source_url": "https://pixeldrain.dev/api/file/wcWWHbGJ",
         "method": "Exact-file selected variant and sampled scenes. Public One Pace metadata has no corresponding release; no numeric offset or full Onigashima Paced equivalence accepted.",
@@ -846,7 +1141,18 @@
           "https://github.com/ladyisatis/one-pace-metadata/tree/10f9ff4cae297d8015e44675f25355cb247855c6/other_edits",
           "https://www.reddit.com/r/onepace/comments/1r211u0/muhn_pace_did_anyone_create_nfos_for_plexjellyfin/",
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3685024934"
-        ]
+        ],
+        "candidate_review": {
+          "record": "docs/research/season16-mapping-review-2026-11-17.json",
+          "file_id": "wcWWHbGJ",
+          "classification": "UNKNOWN",
+          "candidate_original_episodes": [
+            1085
+          ],
+          "accepted": false,
+          "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+          "qualification": "Research-only candidate. Runtime mapping remains UNKNOWN; no verified full range or visible title change."
+        }
       },
       "thumbnail": {
         "file": "assets/phase4b/episodes/wcWWHbGJ.jpg",

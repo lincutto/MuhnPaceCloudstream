@@ -1,6 +1,6 @@
 {
-  "reviewed_at": "2026-11-17T08:20:32.292076+00:00",
-  "development_source": "8ffd8958f7e939dc8e1a6985a523c9a0e64a9f75",
+  "reviewed_at": "2026-11-17T13:34:17.093053+00:00",
+  "development_source": "15105e83ae0535eca484caa7872c93b85246c608",
   "retained_preview": {
     "version": 5,
     "commit": "091fc774199b2af7572f8e63b3f59bd97543b040"
@@ -20,7 +20,8 @@
     "selected_descriptions_all_empty": true,
     "extra_items": "One viewing-order note and four alternate editions; selection unchanged.",
     "note_url": "https://pixeldrain.dev/api/file/upzn8DHj",
-    "note_text": "For more Dub on this arc use One Pace "
+    "note_text": "For more Dub on this arc use One Pace ",
+    "reviewed_at": "2026-11-17T08:20:32.292076+00:00"
   },
   "sources": [
     {
@@ -46,7 +47,7 @@
       "finding": "Inspected complete file tree; Wano subtitle release indices stop at 46. No entries for Muhn 71-95. Cleanup script supplies no coverage mappings."
     }
   ],
-  "decision": "Preserve all metadata and runtime files. Do not treat sampled scenes, similar titles, other-edit indices or an arc-wide offset as full coverage. No build/test rerun or preview publication for unchanged code.",
+  "decision": "No complete range accepted. Edit 71 has partial story correspondence, not a verified full range; 24 other candidates remain UNKNOWN. The supplied sources do not document complete Muhn-to-Onigashima coverage equivalence. Neither identical nor different anime boundaries have been established. Stop the comparison without inspecting the remaining 24 videos, changing visible metadata, building, triggering CI or publishing an unchanged extension. Retain preview v5.",
   "unresolved": [
     {
       "season_episode": 1,
@@ -56,7 +57,37 @@
       "source_sha256": "48c7bee5473f4a91075ea82a6a444f7382499fa6328ec209a658eae723d02006",
       "display_title": "Robin and Her Friends",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Representative samples support the proposed story period, but complete boundaries and all original episodes are unverified.",
+      "candidate_review": {
+        "classification": "PARTIAL",
+        "confidence": "Moderate scene correspondence; insufficient full-range confidence.",
+        "candidate_original_episodes": [
+          1034,
+          1035,
+          1036
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_71",
+          "episode": 71,
+          "title": "A Lifelong Ham Actor",
+          "runtime_minutes": "36",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 30,
+          "section": "Onigashima",
+          "release": "29",
+          "manga_chapters": "1014-1015",
+          "anime_episodes": "1034-1036",
+          "duration": "35:09",
+          "title": "A Lifelong Ham Actor",
+          "last_updated": "2023.08.28",
+          "release_date": "2023.08.27"
+        },
+        "existing_observations": "The sampled interior image shows Robin in tears; the earlier sequence revisits the crew and Sunny. Avoid asserting the complete boundaries of her battle.",
+        "new_video_inspection": true
+      }
     },
     {
       "season_episode": 2,
@@ -66,7 +97,36 @@
       "source_sha256": "ac80ce413fe9c7ee2efa974a1e4e866322b3590be9529f7d979cbfb594f9490d",
       "display_title": "Nami and Zeus",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1037,
+          1038
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_72",
+          "episode": 72,
+          "title": "This is Otama!!",
+          "runtime_minutes": "25",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 31,
+          "section": "Onigashima",
+          "release": "30",
+          "manga_chapters": "1015-1017",
+          "anime_episodes": "1037-1038",
+          "duration": "24:00",
+          "title": "This is Otama!!",
+          "last_updated": "2024.01.20",
+          "release_date": "2024.01.20"
+        },
+        "existing_observations": "Kaido at 180s; Zeus visibly inhabits the Clima-Tact at 360s; festival scene at 900s. The title describes the confirmed Nami/Zeus story thread, not every intercut scene.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 3,
@@ -76,7 +136,36 @@
       "source_sha256": "a74490ac1b8bf5410bdff22ea79f3cb0ce8c15ed864c6b2d2b1c37d334d583da",
       "display_title": "Raizo vs. Fukurokuju",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1039,
+          1040
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_73",
+          "episode": 73,
+          "title": "Jinbe vs Who's Who",
+          "runtime_minutes": "23",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 32,
+          "section": "Onigashima",
+          "release": "31",
+          "manga_chapters": "1017-1018",
+          "anime_episodes": "1039-1040",
+          "duration": "21:50",
+          "title": "Jinbe vs Who's Who",
+          "last_updated": "2024.01.22",
+          "release_date": "2024.01.22"
+        },
+        "existing_observations": "Raizo and Fukurokuju are visible fighting in the exact-file-associated 180s capture; Queen appears in the separate 360s sample.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 4,
@@ -86,7 +175,37 @@
       "source_sha256": "cf8182c971b43640cd1e417d1b6f9d2d875f8b79f3abb6f612de03e0c9a5af6a",
       "display_title": "Zoro's Recovery",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1041,
+          1042,
+          1043
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_74",
+          "episode": 74,
+          "title": "Triceracopter",
+          "runtime_minutes": "30",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 33,
+          "section": "Onigashima",
+          "release": "32",
+          "manga_chapters": "1019-1021",
+          "anime_episodes": "1041-1043",
+          "duration": "29:29",
+          "title": "Triceracopter",
+          "last_updated": "2024.01.25",
+          "release_date": "2024.01.25"
+        },
+        "existing_observations": "Zoro is visibly wrapped in bandages at 180s. No claim that an entire One Pace release is equivalent.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 5,
@@ -96,7 +215,37 @@
       "source_sha256": "30acb0052192bf851a2bba3ca27f13fa559821ffbaa2a20a4c2af7c64326eb34",
       "display_title": "Killer and the Mink Warriors",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1044,
+          1045,
+          1046
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_75",
+          "episode": 75,
+          "title": "The Stars Take the Stage",
+          "runtime_minutes": "28",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 34,
+          "section": "Onigashima",
+          "release": "33",
+          "manga_chapters": "1021-1022",
+          "anime_episodes": "1044-1046",
+          "duration": "27:49",
+          "title": "The Stars Take the Stage",
+          "last_updated": "2024.01.27",
+          "release_date": "2024.01.27"
+        },
+        "existing_observations": "180s shows Killer's distinctive mask, hair and blades; 360s shows Carrot with Wanda. These are separate sampled threads, not a claim they fight together.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 6,
@@ -106,7 +255,37 @@
       "source_sha256": "a14d79b3dcefe1fb236f5c94ad36a86b37abb3f05f273c565489a18cca168caf",
       "display_title": "Sanji vs. Queen",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1046,
+          1047,
+          1048
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_76",
+          "episode": 76,
+          "title": "So-and-So",
+          "runtime_minutes": "33",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 35,
+          "section": "Onigashima",
+          "release": "34",
+          "manga_chapters": "1023-1024",
+          "anime_episodes": "1046-1048",
+          "duration": "32:22",
+          "title": "So-and-So",
+          "last_updated": "2024.02.14",
+          "release_date": "2024.02.14"
+        },
+        "existing_observations": "Sanji at 180s and Queen at 900s; no numbered anime coverage inferred from their opponents alone.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 7,
@@ -116,7 +295,37 @@
       "source_sha256": "69c05bd57d061e8333f51b68b6cf2e094ebfea11466c74862d7af32592354d12",
       "display_title": "CP0's Watch",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1049,
+          1050,
+          1051
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_77",
+          "episode": 77,
+          "title": "Twin Dragons",
+          "runtime_minutes": "37",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 36,
+          "section": "Onigashima",
+          "release": "35",
+          "manga_chapters": "1025-1026",
+          "anime_episodes": "1049-1051",
+          "duration": "36:03",
+          "title": "Twin Dragons",
+          "last_updated": "2024.02.16",
+          "release_date": "2024.02.16"
+        },
+        "existing_observations": "CP0 agents shown together at 180s; later samples show the raid elsewhere. Does not assert their intervention has already occurred.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 8,
@@ -126,7 +335,37 @@
       "source_sha256": "50d6cb5530c2a237b2e11e463d70e279f9a395c0b5b651ae5f98b376f69c688b",
       "display_title": "Momonosuke and Kaido",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1051,
+          1052,
+          1053
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_78",
+          "episode": 78,
+          "title": "Brachiosnakeus",
+          "runtime_minutes": "27",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 37,
+          "section": "Onigashima",
+          "release": "36",
+          "manga_chapters": "1027-1028",
+          "anime_episodes": "1051-1053",
+          "duration": "26:22",
+          "title": "Brachiosnakeus",
+          "last_updated": "2024.02.18",
+          "release_date": "2024.02.18"
+        },
+        "existing_observations": "Two distinct dragons visible together in exact-file capture at 540s; no offset to Onigashima Paced numbering is accepted.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 9,
@@ -136,7 +375,36 @@
       "source_sha256": "cad2f66f86e30fdf30cd3a17348cbcf1df5d53fb70c9c45c311980ad53728834",
       "display_title": "Sanji's Struggle",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1054,
+          1055
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_79",
+          "episode": 79,
+          "title": "The Tower",
+          "runtime_minutes": "29",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 38,
+          "section": "Onigashima",
+          "release": "37",
+          "manga_chapters": "1029-1030",
+          "anime_episodes": "1054-1055",
+          "duration": "29:01",
+          "title": "The Tower",
+          "last_updated": "2024.02.19",
+          "release_date": "2024.02.19"
+        },
+        "existing_observations": "Injured Sanji at 180s, Tama at 540s, Killer at 900s; deliberately limited to directly visible threads.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 10,
@@ -146,7 +414,36 @@
       "source_sha256": "dff6a50db0f56db28e9e395f710a916249fe17b3bceae7793f5fe426980e2d64",
       "display_title": "Big Mom's Fury",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1056,
+          1057
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_80",
+          "episode": 80,
+          "title": "Soldier of Science",
+          "runtime_minutes": "29",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 39,
+          "section": "Onigashima",
+          "release": "38",
+          "manga_chapters": "1030-1031",
+          "anime_episodes": "1056-1057",
+          "duration": "28:44",
+          "title": "Soldier of Science",
+          "last_updated": "2024.02.22",
+          "release_date": "2024.02.22"
+        },
+        "existing_observations": "Exact selected regular file, not its alternate: Big Mom in 360s capture. No opponent-specific or full-range claim.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 11,
@@ -156,7 +453,37 @@
       "source_sha256": "17cb44a9e3c493e19192f335951b4b7f7506f16e9e1777913595b7eb6124c966",
       "display_title": "Zoro Faces King",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1058,
+          1059,
+          1060
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_81",
+          "episode": 81,
+          "title": "Oden's Beloved Blade",
+          "runtime_minutes": "35",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 40,
+          "section": "Onigashima",
+          "release": "39",
+          "manga_chapters": "1032-1033",
+          "anime_episodes": "1058-1060",
+          "duration": "33:54",
+          "title": "Oden's Beloved Blade",
+          "last_updated": "2024.02.24",
+          "release_date": "2024.02.24"
+        },
+        "existing_observations": "Exact-file 540s capture shows Zoro and King facing each other.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 12,
@@ -166,7 +493,37 @@
       "source_sha256": "6a1a017baaaca51b01d7ea26704abc536a5afe62646b12b69c2301e20b1074b5",
       "display_title": "Sanji's Resolve",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1060,
+          1061,
+          1062
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_82",
+          "episode": 82,
+          "title": "Wings of the Pirate King",
+          "runtime_minutes": "28",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 41,
+          "section": "Onigashima",
+          "release": "40",
+          "manga_chapters": "1034-1036",
+          "anime_episodes": "1060-1062",
+          "duration": "27:54",
+          "title": "Wings of the Pirate King",
+          "last_updated": "2024.02.26",
+          "release_date": "2024.02.26"
+        },
+        "existing_observations": "Sanji in 360s scene, attack at 180s and the ongoing castle duel; no invented name for the attack or claim about full source coverage.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 13,
@@ -176,7 +533,36 @@
       "source_sha256": "ba1ac2ba69b4a66a951a4cbed5f3fa4c192d5db88ce40c5ad4433f2f0e8bb2c1",
       "display_title": "Luffy Meets Kaido's Challenge",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1063,
+          1064
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_83",
+          "episode": 83,
+          "title": "Drunken Dragon Bagua",
+          "runtime_minutes": "27",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 42,
+          "section": "Onigashima",
+          "release": "41",
+          "manga_chapters": "1036-1037",
+          "anime_episodes": "1063-1064",
+          "duration": "26:58",
+          "title": "Drunken Dragon Bagua",
+          "last_updated": "2024.03.06",
+          "release_date": "2024.03.06"
+        },
+        "existing_observations": "Luffy at 180s; castle fighters amid fire at 360s; sparse inspection, not a complete edit synopsis.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 14,
@@ -186,7 +572,37 @@
       "source_sha256": "0ed5b104a8b8971a9fadd81abdfed69289b69ee46b76cf538e183f0e418cf83f",
       "display_title": "CP0 Enters the Fray",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1065,
+          1066,
+          1067
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_84",
+          "episode": 84,
+          "title": "The Main Attraction",
+          "runtime_minutes": "39",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 43,
+          "section": "Onigashima",
+          "release": "42",
+          "manga_chapters": "1038-1040",
+          "anime_episodes": "1065-1067",
+          "duration": "38:39",
+          "title": "The Main Attraction",
+          "last_updated": "2024.03.08",
+          "release_date": "2024.03.07"
+        },
+        "existing_observations": "Exact selected regular file shows the masked agent at 360s and combat imagery at 900s. No claim about which numbered anime episode contains the full sequence.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 15,
@@ -196,7 +612,36 @@
       "source_sha256": "bf3dac717638cd0a121e5c845098ce6ea571c775ceaed58ddcdfa004500723c9",
       "display_title": "Momonosuke Above Onigashima",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1068,
+          1069
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_85",
+          "episode": 85,
+          "title": "Komurasaki",
+          "runtime_minutes": "20",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 44,
+          "section": "Onigashima",
+          "release": "43",
+          "manga_chapters": "1041",
+          "anime_episodes": "1068-1069",
+          "duration": "19:22",
+          "title": "Komurasaki",
+          "last_updated": "2024.03.12",
+          "release_date": "2024.03.12"
+        },
+        "existing_observations": "Momonosuke's pink dragon form at 180s; other raid threads in later samples. Full original coverage unknown.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 16,
@@ -206,7 +651,36 @@
       "source_sha256": "5d526b74c75c76eb4e63aca52e8efa0b26727ccac5b1027ad829c1db7257c436",
       "display_title": "Kaido's Rooftop Battle",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1069,
+          1070
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_86",
+          "episode": 86,
+          "title": "Let Us Face Death Together!",
+          "runtime_minutes": "25",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 45,
+          "section": "Onigashima",
+          "release": "44",
+          "manga_chapters": "1042-1043",
+          "anime_episodes": "1069-1070",
+          "duration": "24:50",
+          "title": "Let Us Face Death Together!",
+          "last_updated": "2024.03.20",
+          "release_date": "2024.03.20"
+        },
+        "existing_observations": "Kaido in combat in exact-file samples at 360s and 900s; earlier Roger/Whitebeard memory remains supplementary, not a complete episode mapping.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 17,
@@ -216,7 +690,36 @@
       "source_sha256": "9c90f6f3fa64383825f519078f27076779fc537b4a38d530f24ca1906a8e4178",
       "display_title": "Hiyori Confronts Orochi",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1071,
+          1072
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_87",
+          "episode": 87,
+          "title": "Warrior of Liberation",
+          "runtime_minutes": "26",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 46,
+          "section": "Onigashima",
+          "release": "45",
+          "manga_chapters": "1044-1046",
+          "anime_episodes": "1071-1072",
+          "duration": "28:06",
+          "title": "Warrior of Liberation",
+          "last_updated": "2024.03.26",
+          "release_date": "2024.03.26"
+        },
+        "existing_observations": "Exact selected regular file: Hiyori facing Orochi at 360s, dragon combat at 900s. Original addon image could belong to an alternate and is not used.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 18,
@@ -226,7 +729,36 @@
       "source_sha256": "c10a229107b3c4066c8a66d286d8ebb87c6f941693a9757b52745ae1f7610972",
       "display_title": "Gear Five",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1073,
+          1074
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_88",
+          "episode": 88,
+          "title": "The Skies Above the Capital",
+          "runtime_minutes": "27",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 47,
+          "section": "Onigashima",
+          "release": "46",
+          "manga_chapters": "1046-1047",
+          "anime_episodes": "1073-1074",
+          "duration": "28:54",
+          "title": "The Skies Above the Capital",
+          "last_updated": "2024.03.29",
+          "release_date": "2024.03.29"
+        },
+        "existing_observations": "Distinctive Gear Five Luffy in the uniquely indexed 180s capture; Hiyori at 360s. Naming the visible transformation does not establish every episode in the edit.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 19,
@@ -236,7 +768,36 @@
       "source_sha256": "16a991ac3f348a1bdb7e5317d470c32fd30c5e96d8105782841ab90991314597",
       "display_title": "Kaido's Flaming Dragon",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1075,
+          1076
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_89",
+          "episode": 89,
+          "title": "The World You Wish For",
+          "runtime_minutes": "29",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 48,
+          "section": "Onigashima",
+          "release": "47",
+          "manga_chapters": "1048-1049",
+          "anime_episodes": "1075-1076",
+          "duration": "30:25",
+          "title": "The World You Wish For",
+          "last_updated": "2024.04.03",
+          "release_date": "2024.04.03"
+        },
+        "existing_observations": "Flaming dragon form at 180s and transformed Luffy at 360s; full range not independently established.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 20,
@@ -246,7 +807,36 @@
       "source_sha256": "1439aaa385e663cfdfe6dba4a29c2c1d4774c444a85d633863e5858379f83716",
       "display_title": "Chopper and the Survivors",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1077,
+          1078
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_90",
+          "episode": 90,
+          "title": "Kozuki Momonosuke",
+          "runtime_minutes": "33",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 49,
+          "section": "Onigashima",
+          "release": "48",
+          "manga_chapters": "1050-1051",
+          "anime_episodes": "1077-1078",
+          "duration": "34:31",
+          "title": "Kozuki Momonosuke",
+          "last_updated": "2024.04.05",
+          "release_date": "2024.04.05"
+        },
+        "existing_observations": "Nekomamushi, not Orochi, in the 180s frame; injured Chopper at 360s. No unsupported exact outcome or original range added.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 21,
@@ -256,7 +846,35 @@
       "source_sha256": "66a69718ca65e3177531331caa6c0cd42088059ce1c679728beddc0c0b31d365",
       "display_title": "Reunions in Wano",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1079
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_91",
+          "episode": 91,
+          "title": "New Morning",
+          "runtime_minutes": "17",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 52,
+          "section": "End of Wano",
+          "release": "01",
+          "manga_chapters": "1052",
+          "anime_episodes": "1079",
+          "duration": "19:01",
+          "title": "New Morning",
+          "last_updated": "2024.04.15",
+          "release_date": "2024.04.09"
+        },
+        "existing_observations": "Exact 360s group scene and 900s bathing/reunion scene; no full original coverage claim.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 22,
@@ -266,7 +884,36 @@
       "source_sha256": "7841220c36d84ae70bd227f1ad1bfc243b88db023bd76b8d0ede2990a8cfd67c",
       "display_title": "The Capital Celebrates",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1080,
+          1081
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_92",
+          "episode": 92,
+          "title": "New Emperors",
+          "runtime_minutes": "31",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 53,
+          "section": "End of Wano",
+          "release": "02",
+          "manga_chapters": "1053-1054",
+          "anime_episodes": "1080-1081",
+          "duration": "32:43",
+          "title": "New Emperors",
+          "last_updated": "2024.04.12",
+          "release_date": "2024.04.12"
+        },
+        "existing_observations": "Exact selected regular file: illuminated festival at 360s. No use of an ambiguous alternate-release thumbnail to assign the range.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 23,
@@ -276,7 +923,36 @@
       "source_sha256": "a868330badbe2f839d1504daa3371df56664e6ed3c8f05db5c2faef4d3e2f67e",
       "display_title": "Ryokugyu in Wano",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1082,
+          1083
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_93",
+          "episode": 93,
+          "title": "New Era",
+          "runtime_minutes": "31",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 54,
+          "section": "End of Wano",
+          "release": "03",
+          "manga_chapters": "1055-1056",
+          "anime_episodes": "1082-1083",
+          "duration": "32:44",
+          "title": "New Era",
+          "last_updated": "2024.04.23",
+          "release_date": "2024.04.23"
+        },
+        "existing_observations": "Recognizable Ryokugyu at 180s, samurai/crew scenes later. A scene match cannot establish all original episodes used.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 24,
@@ -286,7 +962,35 @@
       "source_sha256": "222fb401b491c83e1470437dbbe4ca9cc99043c0e0c659da8c1a6f8ded7b0215",
       "display_title": "Friends Before Departure",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1084
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_94",
+          "episode": 94,
+          "title": "Farewell (Filler)",
+          "runtime_minutes": "18",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 55,
+          "section": "End of Wano",
+          "release": "03.5",
+          "manga_chapters": "Filler",
+          "anime_episodes": "1084",
+          "duration": "19:44",
+          "title": "Farewell",
+          "last_updated": "2024.04.23",
+          "release_date": "2024.04.23"
+        },
+        "existing_observations": "The selected file is the Filler edition. Shinobu appears at 180s, the crew gathers at 360s and Luffy appears at 900s. No fabricated One Pace counterpart.",
+        "new_video_inspection": false
+      }
     },
     {
       "season_episode": 25,
@@ -296,7 +1000,147 @@
       "source_sha256": "792a28a0358b3b74caf2c68641b6f1f071d57245c715610cf64596873530eaf9",
       "display_title": "Farewell to Wano",
       "mapping_verified": false,
-      "reason": "No complete original-anime coverage tied to this exact selected edit in the inspected sources."
+      "reason": "Source A/B title correspondence is a candidate only. Existing sparse scene observations have no independently established numbered episode match; no full-range conversion or new video inspection.",
+      "candidate_review": {
+        "classification": "UNKNOWN",
+        "confidence": "Insufficient evidence for a complete range.",
+        "candidate_original_episodes": [
+          1085
+        ],
+        "accepted_original_episodes": [],
+        "source_a": {
+          "id": "MUHN_WA_95",
+          "episode": 95,
+          "title": "Final Curtain",
+          "runtime_minutes": "21",
+          "description_empty": true
+        },
+        "source_b": {
+          "sheet_row": 56,
+          "section": "End of Wano",
+          "release": "04",
+          "manga_chapters": "1057",
+          "anime_episodes": "1085",
+          "duration": "21:13",
+          "title": "Final Curtain",
+          "last_updated": "2024.04.24",
+          "release_date": "2024.04.24"
+        },
+        "existing_observations": "Hiyori's performance at 180s, Momonosuke's reaction at 360s, Nami and Shinobu at 900s. Preserved final source position; no calculated original episode range.",
+        "new_video_inspection": false
+      }
     }
-  ]
+  ],
+  "initial_reviewed_at": "2026-11-17T08:20:32.292076+00:00",
+  "initial_development_source": "8ffd8958f7e939dc8e1a6985a523c9a0e64a9f75",
+  "initial_decision": "Preserve all metadata and runtime files. Do not treat sampled scenes, similar titles, other-edit indices or an arc-wide offset as full coverage. No build/test rerun or preview publication for unchanged code.",
+  "classification_counts": {
+    "DIRECTLY_VERIFIED": 0,
+    "DERIVED_VERIFIED": 0,
+    "PARTIAL": 1,
+    "UNKNOWN": 24
+  },
+  "accepted_episode_ranges": [],
+  "supplied_reference_followup": {
+    "scope": "Supplied sources A/B/C, existing exact-file observations and one representative edit. No unrestricted web search or other-video inspection.",
+    "source_a": {
+      "url": "https://github.com/6ip/onepace-streams/blob/da83ea2664d74bde8b2624d9cea4856f286a07a7/meta/pp_muhnpace.json",
+      "commit": "da83ea2664d74bde8b2624d9cea4856f286a07a7",
+      "blob_sha": "e9fa9bf5d0ef4a9442a5a5046340cd2d661b837b",
+      "finding": "25 Wano metadata entries exist for 71-95, with titles and runtimes but no original-anime coverage field. All 25 descriptions are empty. These titles are not the repository editorial scene labels.",
+      "provenance_url": "https://github.com/6ip/onepace-streams/blob/da83ea2664d74bde8b2624d9cea4856f286a07a7/epis.py",
+      "provenance_finding": "enrich_extra_meta describes the extra metadata catalogues as hand-maintained and enriches runtime/rating; it does not document a creator-authorized Muhn-to-Onigashima boundary conversion.",
+      "edit_71_stream_url": "https://github.com/6ip/onepace-streams/blob/da83ea2664d74bde8b2624d9cea4856f286a07a7/stream/Muhn/MUHN_WA_71.json",
+      "edit_71_stream": {
+        "infoHash": "5d75b3a72fb2894ea9b95d8cdea4cece27ebeeeb",
+        "filename": "[Muhn Pace][1014-1015] Wano 71 [1080p][0F54196B].mp4",
+        "releaseName": "Muhn.Pace.S32E71.Wano.1080p.FHD.H264.8bit.AAC.2.0.ENG-MuhnPace.mp4",
+        "length": "35:35",
+        "duration": 2135,
+        "videoSize": 1030525290,
+        "fileIdx": 29
+      },
+      "edit_71_stream_qualification": "Listed size equals the Pixeldrain file size, which supports association but is not a cryptographic media match. Torrent infoHash and filename CRC are not the Pixeldrain SHA-256. The 1014-1015 filename tag matches the spreadsheet manga chapter field, not its anime episode field."
+    },
+    "source_b": {
+      "url": "https://docs.google.com/spreadsheets/d/1HoYogAchoU5DWxVJzUy3eZcHMZk_hUmzUVnQm9KxeFI/edit?usp=sharing",
+      "accessed_via": "https://docs.google.com/spreadsheets/d/1HoYogAchoU5DWxVJzUy3eZcHMZk_hUmzUVnQm9KxeFI/export?format=csv",
+      "response_sha256": "3bc68d6eaba3f0b581943766d28ce3defff595a05de979c804424a00d8d0f9d9",
+      "finding": "The supplied 25 candidates exactly reproduce Onigashima 29-48 and End of Wano 01, 02, 03, 03.5, 04. The sheet maps its own releases; it supplies no Muhn file IDs, hashes or equivalence statement.",
+      "handover": "Its watch guide transitions from One Pace Wano 62 to Onigashima 29. This is viewing order, not Muhn boundary evidence."
+    },
+    "source_c": {
+      "url": "https://onepace.net/en/watch",
+      "last_released_wano_edit": 62,
+      "title": "Anarchy in the BM (Big Mom)",
+      "manga_chapters": "1012-1013",
+      "anime_episodes": "1032-1034",
+      "finding": "The official page lists 62 released Wano edits and says 63 onward are unreleased, with anime 1034-1085 as the remaining viewing alternative. This confirms the One Pace/Onigashima handover context, not Muhn 71-95 ranges."
+    },
+    "edit_71_discrepancy": {
+      "classification": "PARTIAL",
+      "confidence": "Moderate for story correspondence; insufficient for complete original-anime coverage.",
+      "candidate_anime_episodes": [
+        1034,
+        1035,
+        1036
+      ],
+      "accepted_anime_episodes": [],
+      "rejected_alternative": "1042-1044 is not established by the Robin editorial title or sparse memories/crew imagery; do not substitute it.",
+      "existing_evidence": "The 180s committed thumbnail shows Robin aboard the Sunny. The existing record also describes a tearful Robin sample. Neither observation uniquely identifies an original episode or the complete edit.",
+      "existing_thumbnail": "assets/phase4b/episodes/8ZxdEP7k.jpg",
+      "exact_file_info_url": "https://pixeldrain.dev/api/file/8ZxdEP7k/info",
+      "exact_file_info": {
+        "id": "8ZxdEP7k",
+        "name": "[Muhn Pace] Wano 71.mp4",
+        "size": 1030525290,
+        "mime_type": "video/mp4",
+        "hash_sha256": "48c7bee5473f4a91075ea82a6a444f7382499fa6328ec209a658eae723d02006"
+      },
+      "source_a_duration_seconds": 2135,
+      "source_b_duration_seconds": 2109,
+      "duration_qualification": "The 26-second difference precludes assuming an identical timed edit. It does not itself prove different original-anime episode boundaries.",
+      "scene_reference_urls": [
+        "https://onepiece.fandom.com/wiki/Episode_1036",
+        "https://one-piece.com/anime/o6287/index.html",
+        "https://one-piece.com/anime/o6289/index.html",
+        "https://one-piece.com/anime/o6339/index.html"
+      ],
+      "scene_reference_access": "Indexed search excerpts were available. Full official episode pages returned HTTP 403; the wiki full-page fetch failed. No full-page access is claimed.",
+      "scene_reference_finding": "Episode 1036 synopsis places Momonosuke broadcasting through a Mary in this story period; the official 1037 excerpt continues the frog-Mary announcement. The endpoint therefore supports the proposed story period but does not uniquely establish 1036 versus reused/continued 1037 footage. The official 1043 excerpt describes Brook/Robin resisting Black Maria illusions, not a match to these newly inspected endpoints.",
+      "full_range_limit": "No complete source-to-edit comparison or creator-authored original-anime mapping is available. Opening/middle/end stills cannot enumerate all episodes used, detect every intercut/flashback, or establish exact boundaries.",
+      "new_frames": [
+        {
+          "file": "docs/research/season16-review-2026-11-17/8ZxdEP7k-60s.jpg",
+          "timestamp_seconds": 60,
+          "sha256": "a1595a28847e136bac152d07f1f0f81a088a49345ba8a5bcc46f8bfa1c7aeeea",
+          "observation": "Luffy appears unconscious underwater; compatible with the proposed period, not a unique episode fingerprint."
+        },
+        {
+          "file": "docs/research/season16-review-2026-11-17/8ZxdEP7k-1080s.jpg",
+          "timestamp_seconds": 1080,
+          "sha256": "e51496c41bdfce04f108a455acf91159770f77893e4ae7ac19b45ac5a9fded3d",
+          "observation": "Close-up of sandaled feet below a yellow garment; no original episode identification claimed."
+        },
+        {
+          "file": "docs/research/season16-review-2026-11-17/8ZxdEP7k-2040s.jpg",
+          "timestamp_seconds": 2040,
+          "sha256": "ea154ea8d1c250b974e5b394c8941e38edc23e757fecde5cf6c70764d9d5fe4c",
+          "observation": "Bandaged Momonosuke in tears holds the green frog Mary near his mouth; partial match to the announcement story thread."
+        }
+      ]
+    },
+    "budget": {
+      "new_video_files_inspected": 1,
+      "new_frame_seek_seconds": [
+        60,
+        1067,
+        1080,
+        2040
+      ],
+      "unusable_frame": "1067s was dark; replaced once by the nearby 1080s frame.",
+      "method": "HTTP input seeks with ffmpeg, one 640px still per seek, 35-second command timeout. No full-video file saved, no bulk extraction, no repeat of previously recorded 180/360/900s samples.",
+      "stop_reason": "Partial correspondence for the representative edit does not supply a reliable full-range conversion. Further sparse sampling of 24 files would not resolve that missing evidence."
+    }
+  }
 }

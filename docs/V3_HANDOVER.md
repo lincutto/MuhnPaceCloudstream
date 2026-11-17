@@ -1,5 +1,17 @@
 # MuhnPaceCloudstream v3 — handover
 
+## Supplied Season 16 references — bounded follow-up (2026-11-17)
+
+**0/25 DIRECTLY_VERIFIED, 0/25 DERIVED_VERIFIED, 1/25 PARTIAL, 24/25 UNKNOWN; 0 titles changed.** [Updated evidence, all candidates and exact file identities](research/season16-mapping-review-2026-11-17.json). Latest remote development `15105e83ae0535eca484caa7872c93b85246c608` and preview `091fc774199b2af7572f8e63b3f59bd97543b040` were inspected before changes.
+
+- The supplied `6ip/onepace-streams` catalogue contains Wano 71–95. Its titles correspond to Onigashima 29–48 and End of Wano 01–04 (including 03.5), whose spreadsheet contains all 25 proposed ranges. The catalogue does not supply anime ranges; the spreadsheet does not establish Muhn-file equivalence. Official One Pace stops at Wano 62 (1032–1034) and points to 1034–1085 for the remaining anime; that viewing handover is not a Muhn mapping.
+- **Edit 71 discrepancy is not proof of a different boundary.** The existing Robin title is an editorial scene label. Newly sought exact-file stills at 60s and 2040s show Luffy underwater and Momonosuke with the frog Mary, consistent with the candidate story period. The 1080s midpoint is not independently identifiable; 1067s was dark. Neither the existing Robin imagery nor these samples establishes a complete range. In particular, do not replace 1034–1036 with guessed 1042–1044. The Mary announcement spans/reappears in the 1036/1037 references, so no unique numbered frame attribution is claimed.
+- Source A's linked release lists the same byte size as file `8ZxdEP7k`, but no comparable media hash. Its duration is 35:35 versus the spreadsheet's 35:09. Association and partial scene correspondence are supported; identical coverage and a full-range conversion are not. Different anime boundaries are also **not proven**. Stop here rather than inspect the remaining 24 videos.
+- All candidates and classifications are retained in research-only evidence. Season 16's runtime mapping fields remain UNKNOWN with empty accepted ranges; generated Kotlin and all visible metadata remain unchanged. The new research stills are not application artwork. All 274 episode records, sixteen seasons, ordering, file IDs, URLs, descriptions, thumbnails, artwork, provider identities and history inputs are preserved.
+- No accepted correction means **no CI, Kotlin/Android build, version bump or publication**. Retain known-good **preview v5**, `091fc774199b2af7572f8e63b3f59bd97543b040`, validated source `8ffd8958f7e939dc8e1a6985a523c9a0e64a9f75`. The evidence-only development commit uses `[skip ci]`. No production or Phase 6 changes.
+
+Resume only with creator-authored Muhn anime ranges or an exact-file comparison that establishes complete coverage, including intercuts/flashbacks and boundaries. Matching titles, chapter tags, edit numbers, byte sizes or near-equal runtimes alone are insufficient.
+
 ## Season 16 original-anime mapping review — no supported changes (2026-11-17)
 
 **0/25 complete mappings verified; 0/25 titles updated.** All Season 16 positions **1–25** (Muhn edits **71–95**) remain unresolved. [Exact file list and focused evidence](research/season16-mapping-review-2026-11-17.json).
