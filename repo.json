@@ -1,0 +1,7 @@
+{
+  "name": "Muhn Pace Rework • Egghead Testing",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/plugins.json"
+  ]
+}

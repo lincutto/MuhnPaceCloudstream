@@ -1,0 +1,21 @@
+[
+  {
+    "internalName": "MuhnPaceEggheadDev",
+    "name": "Muhn Pace Rework • Egghead Dev (by lincutto)",
+    "version": 2,
+    "apiVersion": 1,
+    "status": 3,
+    "description": "Fire TV test build with One Pace Egghead 01, New Emperors, in 1080p English dub.",
+    "authors": [
+      "lincutto"
+    ],
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "language": "en",
+    "repositoryUrl": "https://github.com/lincutto/MuhnPaceCloudstream/tree/egghead-test",
+    "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/MuhnPaceEggheadDev.cs3",
+    "fileSize": 107052,
+    "fileHash": "sha256-d431c4a2bbf46c00038d546a2fccd5f7332d86208238aecb80d6c7ee0601bf32"
+  }
+]
