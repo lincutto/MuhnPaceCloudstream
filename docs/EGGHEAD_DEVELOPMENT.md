@@ -76,6 +76,30 @@ The following fields were verified in the source. The only live JSON returned by
 
 The independent Kotlin contract lives in the development module's test source set. Its two suspend callbacks separate fetching a fresh episode/watch response from inspecting a candidate's media and audio. It cross-checks both identities, preserves public playback headers and matching captions, and requires positive evidence of clear MP4 or HLS with English-only audio. Expired URLs, unknown audio, embed pages and provider failures yield no candidate. The tests use synthetic media evidence. The current AniKoto handler emits HLS or embeds; the MP4 case exercises the native handoff contract only.
 
-Six focused JVM tests passed. There is no live Anivexa transport, registered source, or new test package. The previous Android build and its catalogue regression results still apply to the installable v1 package above. Fire TV playback of 1155 remains unverified.
+Six focused JVM tests passed. There is no live Anivexa transport, registered source, or new test package. The previous Android build and its catalogue regression results still apply to the installable v1 package above. Fire TV playback of 1155 through the Muhn Pace development plugin remains unverified.
 
 To resume the live proof, obtain an operational API base whose operator can confirm external-player use of the English media for 1155. Verify the exact dub row, watch identity, real media response and audio on that service before enabling a source or expanding the episode range.
+
+## NivinCNC AniKoto v12, 18 November 2026
+
+The user confirmed English playback of original One Piece episode **1155** in Cloudstream Beta’s native player using NivinCNC’s installed AniKoto v12. The same installation subsequently listed **1160** under English dub. Only 1155 has a reported playback test. Neither observation came from the Muhn Pace provider.
+
+| Published package check | Result |
+| --- | --- |
+| Repository index | `CNC Repo(All Language)`, provider `AniKoto`, author `NivinCNC`, version 12, Cloudstream API version 1 |
+| Downloaded artifact | `AniKoto.cs3`, 66,384 bytes. Its SHA-256 matched the index, `5ce4df1afde0bff6ebb41926c9ef1b70293117d1b50e9045315ef23d2cfebc03` |
+| Contents | ZIP integrity passed. The package contains `classes.dex` and `manifest.json`. The manifest identifies `com.anikoto.AnikotoPlugin` and version 12 |
+| Source and licence | The publisher’s public `master` tree contains repository material and logos. The `builds` branch publishes compiled plugins. Neither tree contains AniKoto Kotlin source or a licence for reusing its implementation. The README attributes the streams to third parties. |
+
+[Publisher’s index](https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/blob/cf8ef61a91aa6de410c7557de93b554311597ce4/plugins.json) · [Exact artifact inspected](https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/blob/cf8ef61a91aa6de410c7557de93b554311597ce4/AniKoto.cs3) · [Public source tree and README](https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/tree/2600586e69dceeb2ecb87936f17fba62ad153df3)
+
+### Backend and audio selection
+
+- The AniKoto provider constructor sets its base to `https://anikototv.to`. It reads the site’s AJAX episode and server lists. Earlier research observed the site redirect to `anikototv.bz`. The v12 playback path has no identified dependency on the disabled Anivexa API, `anikoto.cz` or the WordPress site at `anikoto.wtf`.
+- The load path reads original episode numbers and individual `data-dub` flags, then builds Cloudstream’s dubbed and subbed episode lists. The package index’s `language: en` describes the provider and supplies no per-stream audio evidence.
+- The plugin registers a Cloudstream provider and the MegaPlay, Vidwish and Vidtube extractors. Its `loadLinks` implementation can resolve a watch page or a selected server embed. The bundled MegaPlay resolver handles player tokens and signed playlists and can emit a native `M3U8` link. This accounts for browser-free playback. The successful server and final delivery host on the user’s device are unconfirmed.
+- The package first selects servers for the requested audio category. If those results are empty, it selects linked server rows without the language filter. Its watch-page fallback defaults a missing or blank episode audio type to `sub`. A dubbed listing and a successful callback therefore cannot independently guarantee English-only audio.
+
+**Integration decision.** Cloudstream exposes installed-provider lookup, `search`, `load`, and the `loadLinks` callback. That callback takes opaque episode data and returns links after the provider has chosen and resolved a server. It exposes no option to require a particular approved upstream playback method before resolution. The site identifies its content as third-party hosted. I found no documented, authorised interface for Muhn Pace to obtain the English stream for 1155. Calling the installed provider would still run its server selection before Muhn Pace could inspect the result. The linked site guide redirected to `anikototv.bz` and returned HTTP 403. No protected stream request was made or reproduced. [Cloudstream host interface](https://github.com/recloudstream/cloudstream/blob/master/library/src/commonMain/kotlin/com/lagradost/cloudstream3/MainAPI.kt) · [Provider site](https://anikototv.bz/)
+
+A documented native-player handoff or a media-host-approved English MP4/HLS interface for 1155 would allow the proof to proceed. After that proof, fresh per-episode dub rows could drive discovery without a weekly extension release. Discovery would use the exact series and original episode number, with separate checks for playable English audio and continuous story coverage before a row becomes visible. Episode 1160 is recorded only as a discovery observation. This investigation adds no runtime code or catalogue entries and requires no Android build.
