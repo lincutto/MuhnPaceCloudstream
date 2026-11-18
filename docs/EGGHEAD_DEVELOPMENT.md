@@ -33,7 +33,11 @@ gradle -PeggheadDev=true :MuhnPace:testDebugUnitTest :MuhnPaceEggheadDev:testDeb
 python3 scripts/assemble_egghead_dev.py
 ```
 
-The final local run passed 27 Python checks and 58 Kotlin tests. The validated distribution is under `MuhnPaceEggheadDev/build/fire-tv/`. Publish its three files together to `egghead-test` from the successful development CI artifact. The source branch keeps an installable copy under `dev-install/`.
+The final local run passed 27 Python checks and 58 Kotlin tests. Comparison with the v2 DEX found the same instructions across all 39 baseline and resolver classes and all 122 instructions of the provider's `loadLinks` method. The public JPEGs decoded with the expected dimensions and matched all 30 reviewed hashes.
+
+**Publication.** CI built source `8bd211cecb2f455a2da1415010866b3e59a9ae3e`. The live repo, index and 115,344-byte package match the three release files at `0b69b0085dc7f639d6e282b3dfee053a41759f14`. The CS3 SHA-256 is `7c11caaf8d536e5180f7561463310a0cfe5fd5ba939f44c10cdf8a0f9fc3ab99`. [Successful Actions run](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/44415733011) · [Published files](https://github.com/lincutto/MuhnPaceCloudstream/tree/0b69b0085dc7f639d6e282b3dfee053a41759f14)
+
+The Actions artifact storage download returned HTTP 403 from the development machine. Setting the local CS3's two ZIP entry modes to the runner's 0644 reproduced the package checksum in the CI job log. Packaging those three release files also reproduced the Actions archive digest `d876216b3323558a5eab7168fe00d42b64d9160f40ac2219e7222e885ec1118d`. The source branch's `dev-install/` copy matches this published release.
 
 ## Historical v1 investigation
 
