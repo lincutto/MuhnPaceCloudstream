@@ -51,3 +51,31 @@ https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/codex/egghead-exp
 Install **Muhn Pace Rework • Egghead Dev (by lincutto)**. Keep v7 installed. Open the development provider and test Season 1 episode 1, then Season 16 episode 25. Seek, exit, and resume in the development provider. Check that your original v7 progress is intact and that Egghead has no selectable row while its sources are unapproved. These checks are pending device testing.
 
 Before promotion, obtain an approved native playback path, verify English on-device, and review the One Pace 22 → Kuma 1131 and Shaved 1140 → original 1141 handoffs. Episode 1155 is still a target for a future positive resolution test.
+
+## Anivexa Anime-API feasibility, 18 November 2026
+
+**English-dubbed original episode 1155 remains unresolved.** The AniList catalogue identifies series 21 as *ONE PIECE*. Toei confirms the English release through 1155. Anivexa supplied neither a live episode row connecting these identities nor media for this episode. The API trial used original episode 1155, which is reserved development position S17E45. [AniList series 21](https://anilist.co/anime/21/) · [Toei announcement](https://www.toei-animation-usa.com/press-releases/pressrelease-2-17-26.pdf)
+
+| Public check | Result |
+| --- | --- |
+| Anisurge's published base, `https://anivexa-api.vercel.app/` | HTTP 402, Vercel `DEPLOYMENT_DISABLED` |
+| `GET /episodes/anikoto/21` on that base | HTTP 402 with an error object reporting “Payment required” |
+| `GET /watch/anikoto/21/dub/anikoto-1155` on that base | Same deployment error, before a provider watch response |
+| `https://anikoto.cz/`, the fork's default provider site | HTTP 403, Cloudflare access denied |
+
+The fork implements AniKoto plus eleven other provider routes. Both API repositories document self-hosting. Neither declares a code licence or links a maintained public service with permission for this extension to play the underlying streams. The example adapter's MIT licence covers that repository's code. No third-party code was incorporated or deployed. The disabled deployment applies to the API host, so probing the other providers there would not establish a playback path. [Fork and routing](https://github.com/Anikage-Group/Anime-API/blob/b1c4f9bf42692cf86abf6cde9fa2dd463cc06635/index.js) · [Upstream](https://github.com/walterwhite-69/Anivexa-API/tree/421fb8d9c62aed5e6cca17a63526292e5240f21a) · [Example adapter](https://github.com/Anisurge/extensions/blob/c0aec3a615af3a33a41c366a349664b5dc46a6ec/extensions/anivexa-anikoto/anivexa-anikoto.asx)
+
+The fork expects a show slug, a numeric show ID, and an AJAX episode list with per-episode dub flags. The earlier `anikoto.wtf` examination found WordPress AJAX and different identifiers. A normal request to `.cz` stopped at its access restriction. No interchangeable backend or permission to use the provider's blocked-request recovery and third-party player extraction was established. [AniKoto provider](https://github.com/Anikage-Group/Anime-API/blob/b1c4f9bf42692cf86abf6cde9fa2dd463cc06635/providers/anikoto.js)
+
+### Response contract
+
+The following fields were verified in the source. The only live JSON returned by the example deployment was its error response.
+
+- The filtered list puts the show identity in `anikoto.meta` and the original episode number, relative watch ID and audio flag in `anikoto.episodes.dub[]`. A provider error can also appear inside a successful HTTP response. [Filtered response](https://github.com/Anikage-Group/Anime-API/blob/b1c4f9bf42692cf86abf6cde9fa2dd463cc06635/core/episode-cache.js#L205) · [Episode rows](https://github.com/Anikage-Group/Anime-API/blob/b1c4f9bf42692cf86abf6cde9fa2dd463cc06635/providers/anikoto.js#L430)
+- The watch response has top-level `anilistId`, `malId`, `episode`, `audio`, `streams`, `subtitles` and `headers`. The AniKoto handler can return HLS, an embed, or an empty stream list. Each HLS entry carries its own referrer and can carry captions. Caption URLs use `url`. The Anisurge example looks under `sdub` or `ssub`, selects the first stream, and reads caption `file`. A `dub` label does not identify an English audio track. [Watch response](https://github.com/Anikage-Group/Anime-API/blob/b1c4f9bf42692cf86abf6cde9fa2dd463cc06635/providers/anikoto.js#L637) · [Anisurge example](https://github.com/Anisurge/extensions/blob/c0aec3a615af3a33a41c366a349664b5dc46a6ec/extensions/anivexa-anikoto/anivexa-anikoto.asx)
+
+The independent Kotlin contract lives in the development module's test source set. Its two suspend callbacks separate fetching a fresh episode/watch response from inspecting a candidate's media and audio. It cross-checks both identities, preserves public playback headers and matching captions, and requires positive evidence of clear MP4 or HLS with English-only audio. Expired URLs, unknown audio, embed pages and provider failures yield no candidate. The tests use synthetic media evidence. The current AniKoto handler emits HLS or embeds; the MP4 case exercises the native handoff contract only.
+
+Six focused JVM tests passed. There is no live Anivexa transport, registered source, or new test package. The previous Android build and its catalogue regression results still apply to the installable v1 package above. Fire TV playback of 1155 remains unverified.
+
+To resume the live proof, obtain an operational API base whose operator can confirm external-player use of the English media for 1155. Verify the exact dub row, watch identity, real media response and audio on that service before enabling a source or expanding the episode range.
