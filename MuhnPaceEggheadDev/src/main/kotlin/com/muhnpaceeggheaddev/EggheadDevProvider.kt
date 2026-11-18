@@ -72,6 +72,7 @@ internal class EggheadDevProvider(
             if (data.substringAfterLast('/') !in baselineIds) return false
             return baseline.loadLinks(data, isCasting, subtitleCallback, callback)
         }
+        if (isCasting) return false
         for (file in catalogue.choices(story)) {
             val link = adapter.resolve(file, name) ?: continue
             callback(link)

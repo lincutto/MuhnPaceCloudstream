@@ -18,6 +18,7 @@ internal data class ApprovedFile(
     val sha256: String,
     val audioTracks: Set<String>,
     val originalEpisodes: List<Int>,
+    val quality: Int = Qualities.Unknown.value,
 ) {
     init {
         require(Regex("[A-Za-z0-9_-]{1,64}").matches(id))
@@ -27,7 +28,16 @@ internal data class ApprovedFile(
 
 internal class ExpansionCatalogue(
     // Each key signs off equivalence to that particular cut. Matching anime numbers alone is insufficient.
-    private val filesByStory: Map<String, List<ApprovedFile>> = emptyMap(),
+    private val filesByStory: Map<String, List<ApprovedFile>> = mapOf(
+        "17/1" to listOf(ApprovedFile(
+            SourceType.ONE_PACE,
+            "HZ9VRHCV",
+            "b396740f0b72951c7676958674dc60e34e418a6852b8dbf0aec60c602c5ef082",
+            setOf("en"),
+            listOf(1086, 1087, 1088),
+            Qualities.P1080.value,
+        )),
+    ),
 ) {
     fun choices(episode: ExpansionEpisode): List<ApprovedFile> = filesByStory[episode.key].orEmpty()
         .filter { it.audioTracks == setOf("en") && it.originalEpisodes == episode.originalEpisodes }
@@ -67,7 +77,7 @@ internal class PixeldrainDubAdapter(
                 row.getString("hash_sha256") != file.sha256 || row.getString("mime_type") != "video/mp4" ||
                 row.getString("availability").isNotEmpty() || row.getString("abuse_type").isNotEmpty() ||
                 !row.getBoolean("can_download") || !row.getBoolean("allow_video_player")) return null
-            if (row.has("embed_domains") && row.getJSONArray("embed_domains").length() != 0) return null
+            // Native HTTPS playback uses no embed, referrer, cookies or host override.
             val size = row.getLong("size")
             if (size < 12 || !hasMp4Header(url, size)) return null
         } catch (_: IOException) {
@@ -76,6 +86,6 @@ internal class PixeldrainDubAdapter(
             return null
         }
         return newExtractorLink(providerName, "${file.type.label} • English dub", url,
-            ExtractorLinkType.VIDEO) { quality = Qualities.Unknown.value }
+            ExtractorLinkType.VIDEO) { quality = file.quality }
     }
 }

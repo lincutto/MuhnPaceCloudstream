@@ -1,6 +1,6 @@
 import com.android.build.gradle.BaseExtension
 
-version = 1
+version = 2
 
 // Compile the exact v7 implementation under a private package. Only the dev entry point is registered.
 val baselineSources = layout.buildDirectory.dir("generated/baseline/kotlin")
