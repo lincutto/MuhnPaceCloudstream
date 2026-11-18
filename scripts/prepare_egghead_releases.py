@@ -7,6 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REVIEW = ROOT / "docs/research/egghead-fan-edits.csv"
+ANIME_TITLES = ROOT / "metadata/egghead-original-anime-titles.csv"
 COLLECTION_TYPES = {"nKaeVsMp": "ONE_PACE", "ef1wn8dY": "COMMUNITY_EDIT"}
 
 
@@ -31,6 +32,14 @@ def anime_episodes(label):
 
 
 def generate(target):
+    titles = {}
+    with ANIME_TITLES.open(encoding="utf-8", newline="") as source:
+        for row in csv.DictReader(source):
+            number = int(row["number"])
+            title = row["title"].strip()
+            if number <= 0 or number in titles or not title or not row["source_url"].startswith("https://"):
+                raise ValueError(f"Missing or duplicate anime title evidence for {number}")
+            titles[number] = title
     entries = []
     slots, files = set(), set()
     with REVIEW.open(encoding="utf-8", newline="") as source:
@@ -52,11 +61,14 @@ def generate(target):
             entries.append(f'    "17/{slot}" to EggheadRelease(\n'
                            f'        ApprovedFile(SourceType.{kind}, "{file_id}", "{digest}",\n'
                            f'            setOf("en"), listOf({numbers}), {height}),\n'
-                           f'        {kotlin_string(synopsis)},\n    ),\n')
+                           f'        {kotlin_string(row["release"])}, {kotlin_string(synopsis)},\n    ),\n')
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text("package com.muhnpaceeggheaddev\n\n"
                       "internal val reviewedEggheadReleases = mapOf<String, EggheadRelease>(\n"
-                      + "".join(entries) + ")\n", encoding="utf-8")
+                      + "".join(entries) + ")\n\n"
+                      + "internal val eggheadAnimeTitles = mapOf(\n"
+                      + "".join(f"    {n} to {kotlin_string(t)},\n" for n, t in titles.items())
+                      + ")\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

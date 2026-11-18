@@ -1,5 +1,27 @@
 # Egghead development
 
+## Egghead Dev v4 catalogue audit
+
+| Catalogue | v3 episodes | v4 episodes | v3 seasons | v4 seasons |
+| --- | ---: | ---: | ---: | ---: |
+| Frozen source lists and reviewed Egghead files | 304 | 303 | 16 | 15 |
+| Live source lists, 18 November 2026 | 303 | 302 | 16 | 15 |
+
+**Wano.** All 51 edits keep their development positions in season 15. The first 26 retain their accepted One Pace-derived ranges. After *Enma*, the registry has 25 empty accepted lists. Phase 4B stored approximate numbers from a different cut in its display strings. The v3 formatter stripped those numbers and appended a diagnostic. V4 shows the existing scene titles alone. The internal review identifies each unresolved file, including the partial evidence for edit 71. No new full range qualified. [Per-file review](research/season16-mapping-review-2026-11-17.json) · [Phase 4B records](../metadata/phase4b/season-16.json)
+
+**Fish-Man Island.** Main-season file `G3sZ216k` and alternate `DujFEHwH` have the same filename, size (518,299,087 bytes) and host SHA-256 (`d4acdaa54310f88fa0646337d93a44a2534192968bfddb345a50a0e16db012ad`). Both contain the corrected group shot. The main file returned HTTP 206 with an MP4 header at byte zero and another range at byte 1,048,576. It keeps season 9, position 13, its own thumbnail and its direct route. V4 hides the duplicate and its season. Main-season file `A7NRZuaf` was already absent upstream. All other 21 main-season identities matched. [Main edit list](https://pixeldrain.dev/api/list/ZQhstabS) · [Alternate list](https://pixeldrain.dev/api/list/kuoQYqfR)
+
+**Egghead.** The published One Pace watch entries matched all 22 titles, file IDs and anime coverages, including *Kuma Bear* (1129–1130). The editors list the next six files by project and number. Their displayed titles now use the corresponding English anime headings. The editors assign 1136 to the sixth cut and document a brief post-credits insert from the 1137 recap. The development release records retain the editor's name for every file. The 15 reserved originals (1141–1155) also have sourced titles and still have no approved playback file. [One Pace releases](https://onepace.net/en/watch#egghead) · [Editors' release sheet](https://docs.google.com/spreadsheets/d/1ODt-b2L9PyAr0xEWhj1yIOqp__crBFVXhvejblvP_mU/edit) · [Kuma Cut notes](https://pixeldrain.dev/api/file/uctYEsF5) · [English title sources by episode](../metadata/egghead-original-anime-titles.csv)
+
+The following title tags came from the MP4 movie metadata of the exact Shaved Egghead files. The leading numbers identify the release. Cloudstream supplies the navigation and the episode coverage separately. [Reviewed files and SHA-256 values](research/egghead-fan-edits.csv)
+
+| File | Embedded title | Development display |
+| --- | --- | --- |
+| `usp6W28S` | Episode 1137+8 - Thank You, Daddy | Thank You, Daddy • Episodes 1137–1138 |
+| `2A2TWcz8` | Episode 1139+40 - The Height of Folly | The Height of Folly • Episodes 1139–1140 |
+
+**Other arcs.** All 249 legacy rows with accepted coverage matched the pinned One Pace subtitle titles and the Phase 4B release facts, including single numbers, gaps and overlaps. The independent Muhn catalogue agreed on the 248 corresponding entries it lists. Some companion metadata uses alternate English names, such as *The White Monster* for Marineford 11. Both the subtitle title and the Muhn listing support the current *Monster*. The unavailable Fish-Man Island file keeps its Phase 4B record. The 25 remaining legacy rows are the Wano exceptions above. [Reference facts](../metadata/phase4b/reference-facts.json) · [Published titles](https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties) · [Muhn catalogue](https://github.com/6ip/onepace-streams/blob/da83ea2664d74bde8b2624d9cea4856f286a07a7/meta/pp_muhnpace.json)
+
 ## Egghead Dev v3
 
 Install or update **Muhn Pace Rework • Egghead Dev (by lincutto)** from the [Egghead testing repository](https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/repo.json). The development provider, plugin identity and series URL match v2. The source branch's older `dev-install/repo.json` also follows this index.

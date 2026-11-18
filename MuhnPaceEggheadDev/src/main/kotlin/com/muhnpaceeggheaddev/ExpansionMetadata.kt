@@ -4,7 +4,7 @@ internal enum class SourceType(val label: String) {
     MUHN_PACE("Muhn Pace"), ONE_PACE("One Pace"), COMMUNITY_EDIT("Community edit"), ORIGINAL("Original anime")
 }
 
-internal data class EggheadRelease(val file: ApprovedFile, val synopsis: String) {
+internal data class EggheadRelease(val file: ApprovedFile, val releaseName: String, val synopsis: String) {
     val thumbnailUrl get() = "$ARTWORK_BASE/${file.id}.jpg"
 
     private companion object {
@@ -56,11 +56,12 @@ internal object ExpansionMetadata {
         onePace(21, "Luffy vs. Kizaru", 1127, 1128),
         onePace(22, "Kuma Bear", 1129, 1130),
     ) + (1131..1136).map { original ->
-        ExpansionEpisode(17, 23 + original - 1131, "Kuma Cut", listOf(original), SourceType.COMMUNITY_EDIT)
+        ExpansionEpisode(17, 23 + original - 1131, eggheadAnimeTitles.getValue(original), listOf(original), SourceType.COMMUNITY_EDIT)
     } + listOf(
-        ExpansionEpisode(17, 29, "Shaved Egghead", listOf(1137, 1138), SourceType.COMMUNITY_EDIT),
-        ExpansionEpisode(17, 30, "Shaved Egghead", listOf(1139, 1140), SourceType.COMMUNITY_EDIT),
+        // Titles embedded by the editor in the two combined MP4s (usp6W28S and 2A2TWcz8).
+        ExpansionEpisode(17, 29, "Thank You, Daddy", listOf(1137, 1138), SourceType.COMMUNITY_EDIT),
+        ExpansionEpisode(17, 30, "The Height of Folly", listOf(1139, 1140), SourceType.COMMUNITY_EDIT),
     ) + (1141..1155).map { original ->
-        ExpansionEpisode(17, 31 + original - 1141, "One Piece $original", listOf(original), SourceType.ORIGINAL)
+        ExpansionEpisode(17, 31 + original - 1141, eggheadAnimeTitles.getValue(original), listOf(original), SourceType.ORIGINAL)
     }
 }

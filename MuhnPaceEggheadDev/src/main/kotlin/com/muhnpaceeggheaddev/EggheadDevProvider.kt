@@ -1,5 +1,6 @@
 package com.muhnpaceeggheaddev
 
+import android.util.Log
 import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.muhnpaceeggheaddev.baseline.EditResearch
@@ -32,13 +33,14 @@ internal class EggheadDevProvider(
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse =
         newHomePageResponse(request.name, if (page == 1) listOf(card()) else emptyList(), hasNext = false)
 
-    private val arcNames = SeriesCatalogue.arcs.filter { it.listId != WANO_ACT_3 }.associate { arc ->
+    private val arcNames = SeriesCatalogue.arcs.filterNot {
+        it.listId == WANO_ACT_3 || it.listId == FISHMAN_ALTERNATE
+    }.associate { arc ->
         arc.season to when (arc.listId) {
             WANO_ACTS_1_2 -> "Wano Arc"
             "jVhFqouN" -> "Post-Enies Lobby Arc"
             "MH7AQkgr" -> "Post-War Arc"
             "ZQhstabS" -> "Fish-Man Island Arc"
-            "kuoQYqfR" -> "Fish-Man Island Arc • Alternate scene"
             else -> "${arc.seasonTitle} Arc"
         }
     } + catalogue.availableEpisodes.map { it.season }.distinct().associateWith {
@@ -63,7 +65,15 @@ internal class EggheadDevProvider(
         apiName = this@EggheadDevProvider.name
         plot = "${SeriesCatalogue.DESCRIPTION} Egghead features One Pace, Kuma Cut and Shaved Egghead edits."
         episodes = episodes.mapNotNull { legacy ->
-            val edit = legacyEdits[legacy.data.substringAfterLast('/')] ?: return@mapNotNull null
+            val fileId = legacy.data.substringAfterLast('/')
+            // Only this reviewed second copy of Fish-Man edit 15 is hidden.
+            if (fileId == FISHMAN_DUPLICATE) return@mapNotNull null
+            val edit = legacyEdits[fileId]
+            if (edit == null) {
+                // V3 admits reviewed files only. Surface source drift without attaching another edit's facts.
+                Log.w("EggheadDev", "Unreviewed Pixeldrain file $fileId at S${legacy.season} E${legacy.episode}")
+                return@mapNotNull null
+            }
             legacy.apply {
                 name = legacyTitle(name.orEmpty(), edit)
                 if (edit.collectionId == WANO_ACT_3) {
@@ -91,16 +101,20 @@ internal class EggheadDevProvider(
 
     private fun legacyTitle(title: String, edit: EditResearch): String {
         val accepted = edit.acceptedEpisodes
-        // The v7 builder attaches this suffix only after matching the exact source record.
-        if (accepted.isNotEmpty() && title == "${edit.displayTitle} - ${originalEpisodeLabel(accepted)}") {
-            return titleWithCoverage(edit.displayTitle, accepted)
+        if (accepted.isNotEmpty()) {
+            // V7 emits coverage only after its filename, edit number and hash checks.
+            val suffix = " - ${originalEpisodeLabel(accepted)}"
+            return if (title.endsWith(suffix)) titleWithCoverage(title.removeSuffix(suffix), accepted) else title
         }
-        // Act 3 has provisional reference numbers embedded in its editorial titles.
-        val story = if (edit.collectionId == WANO_ACT_3) title.replace(PROVISIONAL_SUFFIX, "") else title
-        return "$story • Anime episodes unverified"
+        // Phase 4B stored approximate Act 3 numbers inside the editorial title itself.
+        return if (edit.collectionId == WANO_ACT_3 && title == edit.displayTitle) {
+            title.replace(PROVISIONAL_SUFFIX, "")
+        } else title
     }
 
     private companion object {
+        const val FISHMAN_ALTERNATE = "kuoQYqfR"
+        const val FISHMAN_DUPLICATE = "DujFEHwH"
         const val WANO_ACTS_1_2 = "QZw3Ejpy"
         const val WANO_ACT_3 = "sF9stHJo"
         const val WANO_SEASON = 15

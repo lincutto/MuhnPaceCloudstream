@@ -30,6 +30,7 @@ class EggheadReleaseChecks(unittest.TestCase):
 
     def test_discontinuous_coverage_survives_embedding(self):
         self.assertEqual("1108, 1110, 1111", anime_episodes("1108, 1110–1111"))
+        self.assertEqual("955", anime_episodes("955–955"))
         for label in ("", "0", "1108, 1111–1110", "1108, 1108"):
             with self.subTest(label=label), self.assertRaises(ValueError):
                 anime_episodes(label)
