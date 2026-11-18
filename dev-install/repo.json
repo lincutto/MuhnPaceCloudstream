@@ -1,0 +1,7 @@
+{
+  "name": "Muhn Pace Rework • Egghead Dev (by lincutto)",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/codex/egghead-expansion/dev-install/plugins.json"
+  ]
+}

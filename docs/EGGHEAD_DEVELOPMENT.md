@@ -12,7 +12,7 @@ Branch `codex/egghead-expansion` starts from production v7 at `ce052db400fa6d56f
 | Kuma Cut and Shaved Egghead | The editors confirm six single-episode Kuma edits for 1131–1136 and two Shaved edits for 1137–1138 and 1139–1140. Their dub streaming list contains these eight MP4s. The 1134 and 1135 filenames lack an individual dub tag. The sheet marks the releases through 1140 as dual audio and subsequent edits through 1155 as lacking dual audio. | A normal anonymous byte-range request for Kuma 1131 returned HTTP 206 with video/mp4. The guide links the host's viewer. The file info shows availability but supplies no confirmation of permission for this extension's anonymous hotlinking. Pixeldrain specifies premium uploader or downloader conditions. The media response establishes reachability only. |
 | Original English dub | Toei and Crunchyroll announced the completed Egghead dub, including release of 1144–1155 on Crunchyroll. | No permitted direct English stream was established for the original fallback. A service watch page cannot be passed to the built-in player as a video. |
 
-Sources for the review:
+### Review sources
 
 - [Observed episode 1155](https://anikoto.wtf/one-piece-episode-1155/), [observed terms](https://anikoto.wtf/terms/), [reference provider, resolver and extractors](https://github.com/yonkou0/CloudStreamRepo/tree/main/AniKotoAnime/src/main/kotlin/com/anikoto), [reference licence](https://github.com/yonkou0/CloudStreamRepo/blob/main/LICENSE).
 - [One Pace Egghead release metadata](https://onepace.net/en/watch#egghead), [English collection metadata and file restrictions](https://pixeldrain.dev/api/list/nKaeVsMp), [Pixeldrain API](https://pixeldrain.dev/api), [Pixeldrain hotlink policy](https://pixeldrain.net/about).
@@ -40,6 +40,14 @@ python3 scripts/assemble_egghead_dev.py
 
 The packaging script verifies the DEX and plugin identity and prepares `MuhnPaceEggheadDev/build/fire-tv/`. CI uploads that directory after the tests and package checks pass. The files are for the development branch’s `dev-install/` directory only.
 
-With a verified development repository URL, open **Cloudstream Beta → Settings → Extensions → Add repository**, enter that URL and install **Muhn Pace Rework • Egghead Dev (by lincutto)**. Keep v7 installed. Open the development provider and test Season 1 episode 1, then Season 16 episode 25. Seek, exit, and resume in the development provider. Check that your original v7 progress is intact and that Egghead has no selectable row while its sources are unapproved. These checks are pending device testing.
+The Android build from `06c09390689e25a0bda1dedc5934fac2975af789` passed 25 repository checks and seven Kotlin tests. The resulting `MuhnPaceEggheadDev.cs3` is 106,586 bytes, with SHA-256 `f2e8d360514a8f0a6c6decf92ae1c5dcacd54f32a3ae97bc3f56367873176004`. Resolver success and failure tests use offline HTTP fixtures. [Build and test reports](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/44205036756)
+
+Open **Cloudstream Beta → Settings → Extensions → Add repository**. Enter the development URL below.
+
+```text
+https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/codex/egghead-expansion/dev-install/repo.json
+```
+
+Install **Muhn Pace Rework • Egghead Dev (by lincutto)**. Keep v7 installed. Open the development provider and test Season 1 episode 1, then Season 16 episode 25. Seek, exit, and resume in the development provider. Check that your original v7 progress is intact and that Egghead has no selectable row while its sources are unapproved. These checks are pending device testing.
 
 Before promotion, obtain an approved native playback path, verify English on-device, and review the One Pace 22 → Kuma 1131 and Shaved 1140 → original 1141 handoffs. Episode 1155 is still a target for a future positive resolution test.

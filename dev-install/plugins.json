@@ -1,0 +1,21 @@
+[
+  {
+    "internalName": "MuhnPaceEggheadDev",
+    "name": "Muhn Pace Rework • Egghead Dev (by lincutto)",
+    "version": 1,
+    "apiVersion": 1,
+    "status": 3,
+    "description": "Development test of v7 coexistence and English-only playback selection.",
+    "authors": [
+      "lincutto"
+    ],
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "language": "en",
+    "repositoryUrl": "https://github.com/lincutto/MuhnPaceCloudstream/tree/codex/egghead-expansion",
+    "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/codex/egghead-expansion/dev-install/MuhnPaceEggheadDev.cs3",
+    "fileSize": 106586,
+    "fileHash": "sha256-f2e8d360514a8f0a6c6decf92ae1c5dcacd54f32a3ae97bc3f56367873176004"
+  }
+]
