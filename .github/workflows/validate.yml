@@ -67,7 +67,7 @@ jobs:
           PREVIEW_TASKS: ${{ inputs.production_only != true && '-Ppreview=true :MuhnPacePreview:testDebugUnitTest :MuhnPacePreview:make' || '' }}
         run: |
           if [[ "$GITHUB_REF" == refs/heads/codex/egghead-expansion ]]; then
-            ./gradlew -PeggheadDev=true :MuhnPaceEggheadDev:testDebugUnitTest :MuhnPaceEggheadDev:make --no-daemon --stacktrace
+            ./gradlew -PeggheadDev=true :MuhnPace:testDebugUnitTest :MuhnPaceEggheadDev:testDebugUnitTest :MuhnPaceEggheadDev:make --no-daemon --stacktrace
           else
             ./gradlew :MuhnPace:testDebugUnitTest :MuhnPace:make $PREVIEW_TASKS --no-daemon --stacktrace
           fi

@@ -1,5 +1,44 @@
 # Egghead development
 
+## Egghead Dev v3
+
+Install or update **Muhn Pace Rework • Egghead Dev (by lincutto)** from the [Egghead testing repository](https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/repo.json). The development provider, plugin identity and series URL match v2. The source branch's older `dev-install/repo.json` also follows this index.
+
+**Playback baseline.** The v2 publishing commit contains just the package and indexes. Its 107,052-byte package has SHA-256 `d431c4a2bbf46c00038d546a2fccd5f7332d86208238aecb80d6c7ee0601bf32`. The previous source tip still built v1. Reconstructing the v2 changes from the published DEX produced a byte-for-byte identical package at editable commit `b9b5d00c5c608279b2ca18d9c886b9a63bd638f4`. The user's Fire TV playback and 12:00 seek apply to that v2 package. [Published v2](https://github.com/lincutto/MuhnPaceCloudstream/commit/3fc8b8869f5c9968faa57d1bc2c2a419af6077c2) · [Recovered source](https://github.com/lincutto/MuhnPaceCloudstream/commit/b9b5d00c5c608279b2ca18d9c886b9a63bd638f4)
+
+| Egghead positions | Edit | Original anime coverage |
+| --- | --- | --- |
+| 1–22 | One Pace Egghead 01–22 | 1086–1130, with overlapping scenes and individual gaps. Edit 12 uses 1108 and 1110–1111. |
+| 23–28 | Kuma Cut | 1131–1136, one original episode per edit |
+| 29–30 | Shaved Egghead | 1137–1138 and 1139–1140 |
+| 31–45, unavailable | Reserved original-dub fallback | 1141–1155. The editors' dub stream list ends at 1140, later Shaved edits lack dub sync, and the original release has no verified direct native source in this provider. |
+
+The [release table](research/egghead-fan-edits.csv) contains the per-edit coverage, pinned media hash, audio evidence, seek sample and synopsis. The official watch page confirmed all 22 standard English-dub identities and anime mappings. The community release sheet confirmed the remaining eight. The three alternate community edits overlapping One Pace 21–22 are excluded. The 29 additions cover material from anime episodes 1087–1140. [One Pace release guide](https://onepace.net/en/watch#egghead) · [Community release sheet](https://docs.google.com/spreadsheets/d/1ODt-b2L9PyAr0xEWhj1yIOqp__crBFVXhvejblvP_mU/edit)
+
+On November 18 all 30 files matched the editors' list IDs and host hashes and accepted ordinary HTTPS byte ranges. For each addition, FFprobe inspected the MP4 track index and FFmpeg decoded an indexed interior H.264 frame. All had one default AAC track and 1920×1080 video. For the 15 tracks marked `und`, multilingual Whisper Tiny language identification found spoken English in at least two interior audio samples per file. Both Kuma files without individual dub filename tags also passed spoken checks. The adapter rechecks file info, SHA-256, host availability, and a 12-byte MP4 range on Play. Host denials stop resolution.
+
+Each Egghead row has a native description and a distinct 480×270 JPEG from its own edit, pinned to the artwork commit. Indexed byte ranges supplied the stills. Image loading is independent of catalogue and playback resolution, so a failed image request leaves the episode selectable. Existing episode stills and descriptions are preserved. [Still provenance](../assets/egghead/manifest.json) · [Episode story reference](https://www.tvmaze.com/shows/1505/one-piece/episodes)
+
+**Wano and catalogue titles.** The first Wano collection occupies development slots 1–26 and Act 3 occupies 27–51 in internal season 15. The fixed offset keeps a temporary missing file from shifting another slot. The other arcs keep their IDs, including Egghead at 17. Cloudstream's supported name-only selector uses `SeasonData(season, arcName, displaySeason = null)`. Its TV episode history key includes the internal season and episode, so the 25 former development season 16 entries can lose their saved resume associations. The parent URL, provider identity, all file routes and other episode keys are preserved. [Cloudstream season selector](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/result/ResultViewModel2.kt#L587) · [TV episode ID calculation](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/result/ResultViewModel2.kt#L2246)
+
+The development titles label the 249 legacy edits with accepted One Pace-derived coverage. Wano Act 3 retains its editorial story titles with **Anime episodes unverified** on all 25. Its previously displayed provisional numbers came from a different edit. [Legacy mapping evidence](PHASE4B_METADATA.md)
+
+**Local regressions.** The frozen v7 catalogue yields all 274 original routes plus 30 Egghead rows. In the live 16 collections, 273 historical files matched their recorded names, IDs and hashes and served video to a range request. Fish-Man Island's “10,000 Meters Under the Sea” (`A7NRZuaf`, original episodes 526–527) has disappeared from `ZQhstabS` and its file and info endpoints return HTTP 404. The live development catalogue therefore has 303 playable rows at review time. This upstream removal leaves the next Fish-Man Island file at its existing index.
+
+Run locally with JDK 17, Android 35, Gradle 8.12 and Python 3:
+
+```sh
+python3 -m unittest discover -s tests -v
+gradle -PeggheadDev=true :MuhnPace:testDebugUnitTest :MuhnPaceEggheadDev:testDebugUnitTest :MuhnPaceEggheadDev:make
+python3 scripts/assemble_egghead_dev.py
+```
+
+The final local run passed 27 Python checks and 58 Kotlin tests. The validated distribution is under `MuhnPaceEggheadDev/build/fire-tv/`. Publish its three files together to `egghead-test` from the successful development CI artifact. The source branch keeps an installable copy under `dev-install/`.
+
+## Historical v1 investigation
+
+The following records describe v1, its installation and the investigations leading up to v2.
+
 Branch `codex/egghead-expansion` starts from production v7 at `ce052db400fa6d56fc4b54864ae9f26dc9fd6b65`. The opt-in module is `MuhnPaceEggheadDev`, version 1. It relocates the v7 provider at build time and registers one development provider with its own series URL and progress keys. It requests the original sixteen lists and preserves their episode data, artwork and links.
 
 ## Source review, 17–18 November 2026

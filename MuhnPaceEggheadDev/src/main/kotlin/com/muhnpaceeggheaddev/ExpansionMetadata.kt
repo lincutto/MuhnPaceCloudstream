@@ -4,6 +4,15 @@ internal enum class SourceType(val label: String) {
     MUHN_PACE("Muhn Pace"), ONE_PACE("One Pace"), COMMUNITY_EDIT("Community edit"), ORIGINAL("Original anime")
 }
 
+internal data class EggheadRelease(val file: ApprovedFile, val synopsis: String) {
+    val thumbnailUrl get() = "$ARTWORK_BASE/${file.id}.jpg"
+
+    private companion object {
+        const val ARTWORK_BASE = "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/" +
+            "e998a8b732cd90684e5cd368e8308c9fa4189daa/assets/egghead/episodes"
+    }
+}
+
 internal data class ExpansionEpisode(
     val season: Int,
     val number: Int,
@@ -16,7 +25,7 @@ internal data class ExpansionEpisode(
 
 /** Release facts only. Source approvals and availability are evaluated separately. */
 internal object ExpansionMetadata {
-    val seasonNames = mapOf(17 to "Egghead")
+    val seasonNames = mapOf(17 to "Egghead Arc")
 
     private fun onePace(number: Int, title: String, vararg originals: Int) =
         ExpansionEpisode(17, number, title, originals.toList(), SourceType.ONE_PACE)
@@ -47,10 +56,10 @@ internal object ExpansionMetadata {
         onePace(21, "Luffy vs. Kizaru", 1127, 1128),
         onePace(22, "Kuma Bear", 1129, 1130),
     ) + (1131..1136).map { original ->
-        ExpansionEpisode(17, 23 + original - 1131, "Kuma Cut $original", listOf(original), SourceType.COMMUNITY_EDIT)
+        ExpansionEpisode(17, 23 + original - 1131, "Kuma Cut", listOf(original), SourceType.COMMUNITY_EDIT)
     } + listOf(
-        ExpansionEpisode(17, 29, "Shaved Egghead 1137–1138", listOf(1137, 1138), SourceType.COMMUNITY_EDIT),
-        ExpansionEpisode(17, 30, "Shaved Egghead 1139–1140", listOf(1139, 1140), SourceType.COMMUNITY_EDIT),
+        ExpansionEpisode(17, 29, "Shaved Egghead", listOf(1137, 1138), SourceType.COMMUNITY_EDIT),
+        ExpansionEpisode(17, 30, "Shaved Egghead", listOf(1139, 1140), SourceType.COMMUNITY_EDIT),
     ) + (1141..1155).map { original ->
         ExpansionEpisode(17, 31 + original - 1141, "One Piece $original", listOf(original), SourceType.ORIGINAL)
     }

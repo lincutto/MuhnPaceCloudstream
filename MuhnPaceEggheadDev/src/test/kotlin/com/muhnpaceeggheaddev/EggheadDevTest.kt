@@ -55,7 +55,15 @@ class EggheadDevTest {
         assertEquals(listOf(1137, 1138), rows[28].originalEpisodes)
         assertEquals(listOf(1139, 1140), rows[29].originalEpisodes)
         assertEquals((1141..1155).toList(), rows.filter { it.preferred == SourceType.ORIGINAL }.map { it.originalEpisodes.single() })
-        assertTrue(ExpansionCatalogue().availableEpisodes.isEmpty())
+        val catalogue = ExpansionCatalogue()
+        assertEquals(rows.take(30), catalogue.availableEpisodes)
+        for (story in catalogue.availableEpisodes) {
+            val source = catalogue.choices(story).single()
+            assertEquals(story.preferred, source.type)
+            assertEquals(story.originalEpisodes, source.originalEpisodes)
+        }
+        assertEquals(catalogue.availableEpisodes.map { it.key }.toSet(), reviewedEggheadReleases.keys)
+        assertEquals(30, reviewedEggheadReleases.values.map { it.file.id }.toSet().size)
     }
 
     @Test
@@ -68,11 +76,11 @@ class EggheadDevTest {
         val catalogue = ExpansionCatalogue(mapOf(first.key to (sources + listOf(partial, japanese, dual)),
             third.key to listOf(file.copy(originalEpisodes = third.originalEpisodes))))
         assertEquals(SourceType.entries, catalogue.choices(first).map { it.type })
-        assertEquals(listOf(first), catalogue.availableEpisodes)
+        assertEquals(listOf(first, third), catalogue.availableEpisodes)
         assertTrue(ExpansionCatalogue(mapOf("17/2" to sources)).choices(first).isEmpty())
     }
 
-    private fun info() = JSONObject().put("success", true).put("id", file.id).put("hash_sha256", file.sha256)
+    private fun info(source: ApprovedFile = file) = JSONObject().put("success", true).put("id", source.id).put("hash_sha256", source.sha256)
         .put("mime_type", "video/mp4").put("size", 1024L).put("availability", "").put("abuse_type", "")
         .put("can_download", true).put("allow_video_player", true)
 
@@ -115,8 +123,7 @@ class EggheadDevTest {
 
     @Test
     fun restrictionsUnexpectedMediaAndNetworkFailuresEmitNothing() = runBlocking {
-        val cases = listOf(info().put("embed_domains", JSONArray().put("onepace.net")),
-            info().put("availability", "hotlink_detected"), info().put("can_download", false),
+        val cases = listOf(info().put("availability", "hotlink_detected"), info().put("can_download", false),
             info().put("allow_video_player", false), info().put("id", "wrongFixture"),
             info().put("hash_sha256", "b".repeat(64)), info().put("mime_type", "text/html"),
             info().put("abuse_type", "copyright"), JSONObject())
@@ -143,7 +150,8 @@ class EggheadDevTest {
     fun shippedProviderRejects1155UnapprovedFilesAndUnlistedRoutes() = runBlocking {
         val provider = EggheadDevProvider(adapter = PixeldrainDubAdapter { _, _ -> error("unexpected network") })
         val urls = listOf("https://anikoto.wtf/one-piece-episode-1155/", "${provider.seriesUrl}/17/45",
-            "${provider.seriesUrl}/17/1", "${provider.seriesUrl}/18/1", "https://pixeldrain.dev/api/file/HZ9VRHCV")
+            "${provider.seriesUrl}/17/31", "${provider.seriesUrl}/18/1", "https://pixeldrain.dev/api/file/HZ9VRHCV")
+        assertFalse(provider.loadLinks("${provider.seriesUrl}/17/1", true, {}, { fail("unexpected cast link") }))
         for (url in urls) assertFalse(provider.loadLinks(url, false, {}, { fail("unexpected link") }))
         assertNull(provider.load("https://pixeldrain.dev/muhnpace/one-piece"))
     }
@@ -165,28 +173,107 @@ class EggheadDevTest {
         assertEquals(card.url, result.uniqueUrl)
         assertNotEquals(original.uniqueUrl, result.uniqueUrl)
         assertNotEquals(original.apiName, result.apiName)
-        assertEquals(original.seasonNames, result.seasonNames)
         assertEquals(original.posterUrl, result.posterUrl)
         assertEquals(original.backgroundPosterUrl, result.backgroundPosterUrl)
-        assertEquals(original.episodes, result.episodes)
+        val seasons = result.seasonNames!!.associateBy { it.season }
+        assertEquals((1..15).toList() + 17, seasons.keys.toList())
+        assertTrue(seasons.values.all { it.name!!.contains(" Arc") && it.displaySeason == null })
+        assertEquals("Wano Arc", seasons.getValue(15).name)
+        assertEquals("Egghead Arc", seasons.getValue(17).name)
+        assertEquals(card.url, dev.search("Wano Arc").single().url)
+        assertEquals(card.url, dev.search("egghead").single().url)
+
         val frozen = JSONArray(resource("v3-episode-contract.json"))
-        assertEquals(274, result.episodes.size)
+        val legacy = result.episodes.filter { it.season != 17 }
+        assertEquals(274, legacy.size)
         assertEquals(274, frozen.length())
-        result.episodes.forEachIndexed { index, ep ->
+        assertEquals((1..51).toList(), legacy.filter { it.season == 15 }.map { it.episode })
+        assertEquals(result.episodes.size, result.episodes.map { it.data }.toSet().size)
+        assertEquals(result.episodes.size, result.episodes.map { it.season to it.episode }.toSet().size)
+        legacy.forEachIndexed { index, ep ->
             val row = frozen.getJSONObject(index)
-            assertEquals(row.getString("name"), ep.name)
-            assertEquals(row.getInt("season"), ep.season)
-            assertEquals(row.getInt("episode"), ep.episode)
+            val season = row.getInt("season")
+            val number = row.getInt("episode")
+            val old = original.episodes[index]
+            assertEquals(row.getString("name"), old.name)
+            assertEquals(if (season == 16) 15 else season, ep.season)
+            assertEquals(if (season == 16) 26 + number else number, ep.episode)
             assertEquals("https://pixeldrain.dev/api/file/${row.getString("file_id")}", ep.data)
+            assertEquals(old.data, ep.data)
+            assertEquals(old.description, ep.description)
+            assertEquals(old.posterUrl, ep.posterUrl)
+            val title = old.name!!.substringBeforeLast(" - ")
+            val coverage = old.name!!.substringAfterLast(" - ")
+            val suffix = when {
+                season == 16 -> "Anime episodes unverified"
+                coverage.all(Char::isDigit) -> "Episode $coverage"
+                else -> "Episodes ${coverage.replace('-', '–')}"
+            }
+            assertEquals("$title • $suffix", ep.name)
             val links = mutableListOf<ExtractorLink>()
             assertTrue(dev.loadLinks(ep.data, false, {}, links::add))
             assertEquals(ep.data, links.single().url)
             assertEquals(ExtractorLinkType.VIDEO, links.single().type)
         }
-        val candidate = EggheadDevProvider(ExpansionCatalogue(mapOf(first.key to listOf(file))))
-        val expanded = candidate.developmentSeries(v7.seriesFromFiles(v7.seriesUrl, files)!!)
-        assertEquals(original.episodes, expanded.episodes.dropLast(1))
-        assertEquals("Egghead", expanded.seasonNames!!.last().name)
-        assertEquals("${candidate.seriesUrl}/17/1", expanded.episodes.last().data)
+
+        val egghead = result.episodes.filter { it.season == 17 }
+        assertEquals((1..30).toList(), egghead.map { it.episode })
+        assertEquals("New Emperors • Episodes 1086–1088", egghead.first().name)
+        assertEquals("Future Island Egghead • Episodes 1089–1090", egghead[2].name)
+        assertEquals("Escape Limit • Episodes 1108, 1110–1111", egghead[11].name)
+        assertEquals("Kuma Cut • Episode 1131", egghead[22].name)
+        assertEquals("Shaved Egghead • Episodes 1139–1140", egghead.last().name)
+        assertEquals(30, egghead.map { it.description }.toSet().size)
+        assertEquals(30, egghead.map { it.posterUrl }.toSet().size)
+        for (ep in egghead) {
+            val release = reviewedEggheadReleases.getValue("17/${ep.episode}")
+            assertEquals("${dev.seriesUrl}/17/${ep.episode}", ep.data)
+            assertTrue(ep.description.orEmpty().length > 40)
+            assertTrue(ep.posterUrl!!.endsWith("/${release.file.id}.jpg"))
+        }
+
+        // Missing remote files must not shift saved keys on either side of the Wano join.
+        val subset = files.toMutableMap()
+        for ((list, missing) in mapOf("QZw3Ejpy" to "6dQ6oqti", "ZQhstabS" to "A7NRZuaf")) {
+            val rows = files.getValue(list)
+            subset[list] = JSONArray((0 until rows.length()).map(rows::getJSONObject).filter { it.getString("id") != missing })
+        }
+        val reduced = dev.developmentSeries(v7.seriesFromFiles(v7.seriesUrl, subset)!!)
+        assertEquals(result.episodes.filterNot { it.data.substringAfterLast('/') in setOf("6dQ6oqti", "A7NRZuaf") },
+            reduced.episodes)
+    }
+
+    @Test
+    fun allReviewedReleasesUseTheNativeV2Adapter() = runBlocking {
+        val catalogue = ExpansionCatalogue()
+        for (story in catalogue.availableEpisodes) {
+            val source = catalogue.choices(story).single()
+            val url = "https://pixeldrain.dev/api/file/${source.id}"
+            val requests = mutableListOf<String>()
+            val provider = EggheadDevProvider(catalogue, PixeldrainDubAdapter { request, headers ->
+                requests += request
+                if (request.endsWith("/info")) {
+                    assertTrue(headers.isEmpty())
+                    val metadata = info(source).put("embed_domains", JSONArray().put("onepace.net"))
+                    response(request, 200, metadata.toString().toByteArray())
+                } else {
+                    assertEquals(mapOf("Range" to "bytes=0-11"), headers)
+                    response(request, 206, byteArrayOf(0, 0, 0, 32) + "ftypisom".toByteArray(), "video/mp4")
+                }
+            })
+            val links = mutableListOf<ExtractorLink>()
+            assertTrue(provider.loadLinks("${provider.seriesUrl}/${story.key}", false, {}, links::add))
+            val link = links.single()
+            assertEquals(listOf("$url/info", url), requests)
+            assertEquals(url, link.url)
+            assertEquals(ExtractorLinkType.VIDEO, link.type)
+            assertEquals("${story.preferred.label} • English dub", link.name)
+            assertEquals(1080, link.quality)
+            assertTrue(link.headers.isEmpty())
+            assertTrue(link.referer.isEmpty())
+        }
+        val firstFile = catalogue.choices(first).single()
+        assertEquals("HZ9VRHCV", firstFile.id)
+        assertEquals("b396740f0b72951c7676958674dc60e34e418a6852b8dbf0aec60c602c5ef082", firstFile.sha256)
     }
 }

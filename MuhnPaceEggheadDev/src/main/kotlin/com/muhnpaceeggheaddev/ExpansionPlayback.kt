@@ -28,23 +28,15 @@ internal data class ApprovedFile(
 
 internal class ExpansionCatalogue(
     // Each key signs off equivalence to that particular cut. Matching anime numbers alone is insufficient.
-    private val filesByStory: Map<String, List<ApprovedFile>> = mapOf(
-        "17/1" to listOf(ApprovedFile(
-            SourceType.ONE_PACE,
-            "HZ9VRHCV",
-            "b396740f0b72951c7676958674dc60e34e418a6852b8dbf0aec60c602c5ef082",
-            setOf("en"),
-            listOf(1086, 1087, 1088),
-            Qualities.P1080.value,
-        )),
-    ),
+    private val filesByStory: Map<String, List<ApprovedFile>> =
+        reviewedEggheadReleases.mapValues { listOf(it.value.file) },
 ) {
     fun choices(episode: ExpansionEpisode): List<ApprovedFile> = filesByStory[episode.key].orEmpty()
         .filter { it.audioTracks == setOf("en") && it.originalEpisodes == episode.originalEpisodes }
         .sortedBy { it.type.ordinal }
 
-    // Stop at the first gap. Positions are independent of the preferred host or a file replacement.
-    val availableEpisodes = ExpansionMetadata.episodes.takeWhile { choices(it).isNotEmpty() }
+    // Missing releases leave their reserved navigation slots open.
+    val availableEpisodes = ExpansionMetadata.episodes.filter { choices(it).isNotEmpty() }
 }
 
 private const val PIXELDRAIN = "https://pixeldrain.dev/api/file"

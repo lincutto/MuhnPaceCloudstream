@@ -1,6 +1,6 @@
 import com.android.build.gradle.BaseExtension
 
-version = 2
+version = 3
 
 // Compile the exact v7 implementation under a private package. Only the dev entry point is registered.
 val baselineSources = layout.buildDirectory.dir("generated/baseline/kotlin")
@@ -16,16 +16,26 @@ val copyBaseline by tasks.registering(Sync::class) {
     into(baselineSources)
 }
 
+val releaseSources = layout.buildDirectory.dir("generated/egghead/kotlin")
+val prepareReleases by tasks.registering(Exec::class) {
+    val generator = rootProject.file("scripts/prepare_egghead_releases.py")
+    val target = releaseSources.get().file("ReviewedReleases.kt").asFile
+    inputs.files(generator, rootProject.file("docs/research/egghead-fan-edits.csv"))
+    outputs.file(target)
+    commandLine("python3", generator, target)
+}
+
 extensions.configure<BaseExtension> {
     namespace = "com.muhnpaceeggheaddev"
     sourceSets.getByName("main").apply {
         manifest.srcFile(rootProject.file("MuhnPace/src/main/AndroidManifest.xml"))
         java.srcDir(baselineSources)
+        java.srcDir(releaseSources)
     }
     sourceSets.getByName("test").resources.srcDir(rootProject.file("MuhnPace/src/test/resources"))
     testOptions.unitTests.isReturnDefaultValues = true
 }
-tasks.named("preBuild") { dependsOn(copyBaseline) }
+tasks.named("preBuild") { dependsOn(copyBaseline, prepareReleases) }
 
 dependencies {
     testImplementation(project(":MuhnPace"))

@@ -7,9 +7,9 @@ from zipfile import ZipFile
 
 MODULE = "MuhnPaceEggheadDev"
 NAME = "Muhn Pace Rework • Egghead Dev (by lincutto)"
-BRANCH = "codex/egghead-expansion"
+BRANCH = "egghead-test"
 REPO = "lincutto/MuhnPaceCloudstream"
-BASE = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/dev-install"
+BASE = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}"
 BUILD = Path(__file__).resolve().parents[1] / MODULE / "build"
 
 
@@ -18,7 +18,7 @@ def main():
     with ZipFile(package) as archive:
         assert archive.testzip() is None
         manifest = json.loads(archive.read("manifest.json"))
-        assert manifest["name"] == MODULE and manifest["version"] == 1
+        assert manifest["name"] == MODULE and manifest["version"] == 3
         assert manifest["pluginClassName"] == "com.muhnpaceeggheaddev.EggheadDevPlugin"
         dex = archive.read("classes.dex")
         assert dex.startswith(b"dex\n")
@@ -31,11 +31,11 @@ def main():
     shutil.copyfile(package, out / package.name)
     digest = hashlib.sha256(package.read_bytes()).hexdigest()
     entry = dict(internalName=MODULE, name=NAME, version=manifest["version"], apiVersion=1, status=3,
-                 description="Development test of v7 coexistence and English-only playback selection.",
+                 description="English dub with One Pace and community Egghead edits, original anime coverage and one Wano Arc.",
                  authors=["lincutto"], tvTypes=["TvSeries"], language="en",
                  repositoryUrl=f"https://github.com/{REPO}/tree/{BRANCH}",
                  url=f"{BASE}/{package.name}", fileSize=package.stat().st_size, fileHash="sha256-" + digest)
-    index = dict(name=NAME, manifestVersion=1, pluginLists=[f"{BASE}/plugins.json"])
+    index = dict(name="Muhn Pace Rework • Egghead Testing", manifestVersion=1, pluginLists=[f"{BASE}/plugins.json"])
     for name, data in (("repo.json", index), ("plugins.json", [entry])):
         (out / name).write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     print(f"{package.name} passed manifest, DEX and identity checks. SHA-256 {digest}")
