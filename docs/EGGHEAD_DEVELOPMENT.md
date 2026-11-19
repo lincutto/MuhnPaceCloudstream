@@ -2,6 +2,8 @@
 
 ## Egghead Dev v4 catalogue audit
 
+Install **Muhn Pace Rework • Egghead Dev (by lincutto)** using the [development repository URL](https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/repo.json).
+
 | Catalogue | v3 episodes | v4 episodes | v3 seasons | v4 seasons |
 | --- | ---: | ---: | ---: | ---: |
 | Frozen source lists and reviewed Egghead files | 304 | 303 | 16 | 15 |
@@ -21,6 +23,8 @@ The following title tags came from the MP4 movie metadata of the exact Shaved Eg
 | `2A2TWcz8` | Episode 1139+40 - The Height of Folly | The Height of Folly • Episodes 1139–1140 |
 
 **Other arcs.** All 249 legacy rows with accepted coverage matched the pinned One Pace subtitle titles and the Phase 4B release facts, including single numbers, gaps and overlaps. The independent Muhn catalogue agreed on the 248 corresponding entries it lists. Some companion metadata uses alternate English names, such as *The White Monster* for Marineford 11. Both the subtitle title and the Muhn listing support the current *Monster*. The unavailable Fish-Man Island file keeps its Phase 4B record. The 25 remaining legacy rows are the Wano exceptions above. [Reference facts](../metadata/phase4b/reference-facts.json) · [Published titles](https://github.com/one-pace/one-pace-public-subtitles/blob/76eb3421d97f25fa57a7b2db893b4cf36b417607/main/title.properties) · [Muhn catalogue](https://github.com/6ip/onepace-streams/blob/da83ea2664d74bde8b2624d9cea4856f286a07a7/meta/pp_muhnpace.json)
+
+**Package verification.** CI passed 27 Python checks, the production and development Kotlin test suites, the Android build and the development package checks. The artifact download endpoint returned HTTP 403. The local packaging run reproduced the CI SHA-256, `d9660a046d135a6e0c98e4398833a04f6e48bb585da7ea89bcab45dd1bdbdc1d`, for the 116,992-byte CS3. Comparison with v3 found identical disassembled instructions in 337 baseline, catalogue and playback methods, including all 122 instructions of the provider's `loadLinks`. Fire TV validation of v4 remains pending. [CI run](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/44424798249) · [Development install files](https://github.com/lincutto/MuhnPaceCloudstream/tree/07d5120884b2a8662cd353bce4691094c8871f6f)
 
 ## Egghead Dev v3
 
