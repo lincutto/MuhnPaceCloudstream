@@ -2,7 +2,7 @@
   {
     "internalName": "MuhnPaceEggheadDev",
     "name": "Muhn Pace Rework • Egghead Dev (by lincutto)",
-    "version": 3,
+    "version": 4,
     "apiVersion": 1,
     "status": 3,
     "description": "English dub with One Pace and community Egghead edits, original anime coverage and one Wano Arc.",
@@ -15,7 +15,7 @@
     "language": "en",
     "repositoryUrl": "https://github.com/lincutto/MuhnPaceCloudstream/tree/egghead-test",
     "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/MuhnPaceEggheadDev.cs3",
-    "fileSize": 115344,
-    "fileHash": "sha256-7c11caaf8d536e5180f7561463310a0cfe5fd5ba939f44c10cdf8a0f9fc3ab99"
+    "fileSize": 116992,
+    "fileHash": "sha256-d9660a046d135a6e0c98e4398833a04f6e48bb585da7ea89bcab45dd1bdbdc1d"
   }
 ]
