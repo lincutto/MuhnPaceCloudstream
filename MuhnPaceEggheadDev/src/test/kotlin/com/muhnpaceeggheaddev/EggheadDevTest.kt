@@ -6,6 +6,7 @@ import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.ExtractorLinkType
 import com.muhnpaceeggheaddev.baseline.EditResearchRegistry
 import com.muhnpaceeggheaddev.baseline.MuhnPaceProvider
+import com.muhnpaceeggheaddev.baseline.originalEpisodeLabel
 import kotlinx.coroutines.runBlocking
 import okhttp3.Protocol
 import okhttp3.Request
@@ -32,6 +33,18 @@ class EggheadDevTest {
 
     private suspend fun savedSeries(files: Map<String, JSONArray> = savedFiles) =
         MuhnPaceProvider().run { seriesFromFiles(seriesUrl, files)!! }
+
+    private val legacyCoverage by lazy {
+        EditResearchRegistry.entries.associate { edit ->
+            edit.fileId to edit.acceptedEpisodes.ifEmpty {
+                reviewedWanoCoverage[edit.fileId to edit.sourceSha256].orEmpty()
+            }
+        }
+    }
+
+    private fun reviewedOriginals(data: String): List<Int> =
+        legacyCoverage[data.substringAfterLast('/')]
+            ?: reviewedEggheadReleases.getValue(data.substringAfter("/one-piece/")).file.originalEpisodes
 
     @Test
     fun bothPluginsRegisterWithSeparateNames() {
@@ -219,10 +232,10 @@ class EggheadDevTest {
             val coverage = old.name!!.substringAfterLast(" - ")
             if (season == 16) {
                 // The independent Wano fixture checks these numbers. V7 stores a provisional range here.
-                assertEquals(title, ep.name!!.substringBeforeLast(" • "))
+                assertEquals(title, ep.name!!.substringAfter(" - "))
             } else {
-                val expected = if (coverage.all(Char::isDigit)) "$title • Episode $coverage"
-                    else "$title • Episodes ${coverage.replace('-', '–')}"
+                val expected = if (coverage.all(Char::isDigit)) "Episode $coverage - $title"
+                    else "${coverage.replace('-', '–')} - $title"
                 assertEquals(expected, ep.name)
             }
             val links = mutableListOf<ExtractorLink>()
@@ -233,9 +246,9 @@ class EggheadDevTest {
 
         val egghead = result.episodes.filter { it.season == 17 }
         assertEquals((1..30).toList(), egghead.map { it.episode })
-        assertEquals("New Emperors • Episodes 1086–1088", egghead.first().name)
-        assertEquals("Future Island Egghead • Episodes 1089–1090", egghead[2].name)
-        assertEquals("Escape Limit • Episodes 1108, 1110–1111", egghead[11].name)
+        assertEquals("1086–1088 - New Emperors", egghead.first().name)
+        assertEquals("1089–1090 - Future Island Egghead", egghead[2].name)
+        assertEquals("1108, 1110–1111 - Escape Limit", egghead[11].name)
         assertEquals(30, egghead.map { it.description }.toSet().size)
         assertEquals(30, egghead.map { it.posterUrl }.toSet().size)
         for (ep in egghead) {
@@ -244,7 +257,7 @@ class EggheadDevTest {
             assertEquals(release.synopsis, ep.description)
             assertEquals(release.thumbnailUrl, ep.posterUrl)
             if (ep.episode!! <= 22) {
-                assertEquals(release.releaseName.substringAfter(" - "), ep.name!!.substringBefore(" • "))
+                assertEquals(release.releaseName.substringAfter(" - "), ep.name!!.substringAfter(" - "))
             }
         }
 
@@ -273,7 +286,9 @@ class EggheadDevTest {
         // Compare all metadata and route identities, independently of the number assignments.
         assertEquals(previous.episodes.size, current.episodes.size)
         for ((old, numbered) in previous.episodes.zip(current.episodes)) {
-            assertEquals(old.copy(episode = numbered.episode), numbered)
+            val single = reviewedOriginals(old.data).singleOrNull()
+            val expectedTitle = if (single == null) old.name else old.name!!.removePrefix("Episode $single - ")
+            assertEquals(old.copy(episode = numbered.episode, name = expectedTitle), numbered)
         }
 
         // Work backwards through each full arc. The largest covered number below the next
@@ -282,11 +297,7 @@ class EggheadDevTest {
         for (arc in current.episodes.groupBy { it.season }.values) {
             var next = Int.MAX_VALUE
             for (edit in arc.asReversed()) {
-                val label = edit.name!!.substringAfterLast(" • ").substringAfter(' ')
-                val covered = label.split(", ").flatMap { span ->
-                    val ends = span.split('–').map(String::toInt)
-                    (ends.first()..ends.last()).toList()
-                }
+                val covered = reviewedOriginals(edit.data)
                 val expected = covered.last { it < next }
                 assertEquals(edit.name, expected, edit.episode)
                 if (expected == covered.last()) exactEndings++
@@ -296,12 +307,12 @@ class EggheadDevTest {
         assertEquals(294, exactEndings)
 
         val examples = mapOf(
-            "Emperor of the Sea, Charlotte Linlin • Episodes 788–790" to 790,
-            "The Onefold Fox • Episodes 954–955" to 955,
-            "Luffy vs. Kizaru • Episodes 1127–1128" to 1128,
-            "Escape Limit • Episodes 1108, 1110–1111" to 1111,
-            "Kuma's Life • Episode 1136" to 1136,
-            "The Height of Folly • Episodes 1139–1140" to 1140,
+            "788–790 - Emperor of the Sea, Charlotte Linlin" to 790,
+            "954–955 - The Onefold Fox" to 955,
+            "1127–1128 - Luffy vs. Kizaru" to 1128,
+            "1108, 1110–1111 - Escape Limit" to 1111,
+            "Kuma's Life" to 1136,
+            "1139–1140 - The Height of Folly" to 1140,
         )
         for ((title, number) in examples) {
             assertEquals(title, number, current.episodes.single { it.name == title }.episode)
@@ -370,10 +381,10 @@ class EggheadDevTest {
         val dev = EggheadDevProvider()
         val robin = EditResearchRegistry.entries.single { it.fileId == "8ZxdEP7k" }
             .copy(displayTitle = "Robin and Her Friends - 998, 996-995")
-        assertEquals("Robin and Her Friends • Episodes 1034–1036", dev.legacyTitle(robin.displayTitle, robin))
-        assertEquals("Robin and Her Friends", dev.legacyTitle(robin.displayTitle, robin.copy(fileId = "otherCut")))
-        assertEquals("Robin and Her Friends", dev.legacyTitle(robin.displayTitle, robin.copy(sourceSha256 = "0".repeat(64))))
-        assertEquals("One Piece", dev.legacyTitle("One Piece", robin))
+        assertEquals("1034–1036 - Robin and Her Friends", dev.legacyTitle(robin.displayTitle, robin, 1036))
+        assertEquals("Robin and Her Friends", dev.legacyTitle(robin.displayTitle, robin.copy(fileId = "otherCut"), 1036))
+        assertEquals("Robin and Her Friends", dev.legacyTitle(robin.displayTitle, robin.copy(sourceSha256 = "0".repeat(64)), 1036))
+        assertEquals("One Piece", dev.legacyTitle("One Piece", robin, 1036))
     }
 
     @Test
@@ -404,15 +415,15 @@ class EggheadDevTest {
         val series = EggheadDevProvider().developmentSeries(savedSeries())
         val titles = series.episodes.filter { it.season == 17 }.drop(21).map { it.name }
         assertEquals(listOf(
-            "Kuma Bear • Episodes 1129–1130",
-            "A Fleeting Moment of Happiness - Kumachi and Ginny • Episode 1131",
-            "A Pledge to Ginny - Kuma Becomes a Father • Episode 1132",
-            "To Save His Daughter - Kuma the Timid Pacifist • Episode 1133",
-            "Cruel Fate - Kuma's Decision as a Father • Episode 1134",
-            "To the Sea Where My Father is! The Future Bonney Chooses • Episode 1135",
-            "Kuma's Life • Episode 1136",
-            "Thank You, Daddy • Episodes 1137–1138",
-            "The Height of Folly • Episodes 1139–1140",
+            "1129–1130 - Kuma Bear",
+            "A Fleeting Moment of Happiness - Kumachi and Ginny",
+            "A Pledge to Ginny - Kuma Becomes a Father",
+            "To Save His Daughter - Kuma the Timid Pacifist",
+            "Cruel Fate - Kuma's Decision as a Father",
+            "To the Sea Where My Father is! The Future Bonney Chooses",
+            "Kuma's Life",
+            "1137–1138 - Thank You, Daddy",
+            "1139–1140 - The Height of Folly",
         ), titles)
         val releases = (23..30).map { reviewedEggheadReleases.getValue("17/$it") }
         assertTrue(releases.all { it.file.type == SourceType.COMMUNITY_EDIT })
@@ -426,23 +437,31 @@ class EggheadDevTest {
     }
 
     @Test
-    fun catalogueTitlesUseCanonicalCoverageAndKeepShortPublishedTitles() = runBlocking {
+    fun oneOriginalUsesTheHostNumberOnceEvenWhenBothRangeEndpointsAre955() {
+        val dev = EggheadDevProvider()
+        val title = "A story - with its own punctuation"
+        assertEquals(title, dev.titleWithCoverage(title, listOf(955), 955))
+        assertEquals(title, dev.titleWithCoverage(title, listOf(955, 955), 955))
+        assertEquals("Episode 955 - $title", dev.titleWithCoverage(title, listOf(955), 25))
+        assertEquals("954–955 - $title", dev.titleWithCoverage(title, listOf(954, 955), 955))
+    }
+
+    @Test
+    fun rangeAppearsOnceBeforeTheStoryAndNativeSingletonsNeedOnlyTheirStoryTitle() = runBlocking {
         val rows = EggheadDevProvider().developmentSeries(savedSeries()).episodes
-        assertEquals("Monster • Episodes 290, 293", rows.single { it.data.endsWith("/zEmPxD6p") }.name)
+        assertEquals("290, 293 - Monster", rows.single { it.data.endsWith("/zEmPxD6p") }.name)
         for (ep in rows) {
             val title = requireNotNull(ep.name)
-            assertTrue(title, " • " in title)
-            val label = title.substringAfterLast(" • ")
-            val groups = label.substringAfter(' ').split(", ")
-            var previous = 0
-            for (group in groups) {
-                val endpoints = group.split('–').map(String::toInt)
-                assertTrue(title, endpoints.size in 1..2 && endpoints.first() > previous)
-                if (endpoints.size == 2) assertTrue(title, endpoints.last() > endpoints.first())
-                previous = endpoints.last()
+            val originals = reviewedOriginals(ep.data)
+            val label = originalEpisodeLabel(originals).replace('-', '–')
+            assertFalse(title, " • Episode" in title)
+            if (originals.size == 1) {
+                assertEquals(originals.single(), ep.episode)
+                assertFalse(title, title.startsWith("Episode $label") || title.startsWith("$label - "))
+            } else {
+                assertTrue(title, title.startsWith("$label - "))
+                assertEquals(title, 0, title.lastIndexOf(label))
             }
-            val word = if (groups.size == 1 && '–' !in groups.single()) "Episode" else "Episodes"
-            assertEquals(title, word, label.substringBefore(' '))
         }
     }
 

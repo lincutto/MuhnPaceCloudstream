@@ -1,5 +1,21 @@
 # Egghead development
 
+## Egghead Dev v7 range-first player headings
+
+The numbered development series keeps the v6 episode numbers, series URL and playback routes. An edit covering multiple originals puts its full coverage before the descriptive title. A single-original edit supplies just the story title when Cloudstream already shows the same number. The older saved series still supplies the original number explicitly when its native edit number differs.
+
+| Edit | English player heading | Continue Watching and idle badge |
+| --- | --- | --- |
+| Whole Cake Island edit 4 | One Piece (Muhn Pace) - Episode 790 - 788–790 - Emperor of the Sea, Charlotte Linlin | E790 |
+| Egghead edit 28 | One Piece (Muhn Pace) - Episode 1136 - Kuma's Life | E1136 |
+| Egghead edit 12 | One Piece (Muhn Pace) - Episode 1111 - 1108, 1110–1111 - Escape Limit | E1111 |
+
+Cloudstream's TV-series player inserts its numeric episode label between the series name and the provider's episode name. Its episode field accepts one integer. Putting a range inside that built-in label would require Cloudstream to accept a separate display string and use it in the player heading. The current extension supplies the range once in the next available position. These examples assume English strings and a visible, untruncated title. [Episode fields](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/library/src/commonMain/kotlin/com/lagradost/cloudstream3/MainAPI.kt#L2550-L2565) · [Player title construction](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/player/GeneratorPlayer.kt#L1877-L1920) · [Short badge formatting](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/utils/AppContextUtils.kt#L683-L693)
+
+A local JVM check ran the pinned client’s player-heading and short-badge functions with English resource strings and real development-provider output. It produced the headings and badges above. Fire OS 8 rendering awaits the device test.
+
+A single original 955 produces **Episode 955** once. The actual Wano edit *The Onefold Fox* covers 954–955, so its player heading includes the range **954–955**. The nine order-preserving assignments documented for v6 also keep their complete original ranges.
+
 ## Egghead Dev v6 original episode numbering
 
 Update **Muhn Pace Rework • Egghead Dev (by lincutto)** in the Egghead testing repository. Open **One Piece (Muhn Pace)** from that provider’s home row or search. The numbered series uses a new URL so its saved positions have their own keys. Existing v5 bookmarks and Continue Watching entries still open the original series with their original episode numbers and resume positions. Production uses its own provider and history. [Fire TV test repository](https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/repo.json)

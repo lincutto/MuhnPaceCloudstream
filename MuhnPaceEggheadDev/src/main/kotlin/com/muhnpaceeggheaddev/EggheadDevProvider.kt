@@ -79,7 +79,6 @@ internal class EggheadDevProvider(
                 return@mapNotNull null
             }
             legacy.apply {
-                name = legacyTitle(name.orEmpty(), edit)
                 if (edit.collectionId == WANO_ACT_3) {
                     season = WANO_SEASON
                     episode = WANO_ACT_3_OFFSET + requireNotNull(episode)
@@ -90,13 +89,14 @@ internal class EggheadDevProvider(
                     }
                     episode = originalNumber(edit.fileId, coverage) ?: episode
                 }
+                name = legacyTitle(name.orEmpty(), edit, episode)
             }
         } + expansionByUrl.map { (route, story) ->
             val release = reviewedEggheadReleases[story.key]
             newEpisode(route) {
                 season = story.season
                 episode = if (useAnimeNumbers) originalNumber(story.key, story.originalEpisodes) else story.number
-                name = titleWithCoverage(story.title, story.originalEpisodes)
+                name = titleWithCoverage(story.title, story.originalEpisodes, episode)
                 description = release?.synopsis
                 posterUrl = release?.thumbnailUrl
             }
@@ -104,26 +104,30 @@ internal class EggheadDevProvider(
         seasonNames = arcNames.map { (season, title) -> SeasonData(season, title, displaySeason = null) }
     }
 
-    private fun titleWithCoverage(title: String, numbers: List<Int>): String {
-        val label = if (numbers.size == 1) "Episode" else "Episodes"
-        return "$title • $label ${originalEpisodeLabel(numbers).replace('-', '–')}"
+    internal fun titleWithCoverage(title: String, numbers: List<Int>, nativeNumber: Int?): String {
+        val single = numbers.distinct().singleOrNull()
+        if (single != null) {
+            // Cloudstream already prints the native number. Old saved routes can use a different one.
+            return if (single == nativeNumber) title else "Episode $single - $title"
+        }
+        return "${originalEpisodeLabel(numbers).replace('-', '–')} - $title"
     }
 
     private fun originalNumber(key: String, coverage: List<Int>): Int? =
         EARLIER_ORIGINALS[key]?.takeIf { it in coverage } ?: coverage.lastOrNull()
 
-    internal fun legacyTitle(title: String, edit: EditResearch): String {
+    internal fun legacyTitle(title: String, edit: EditResearch, nativeNumber: Int?): String {
         val accepted = edit.acceptedEpisodes
         if (accepted.isNotEmpty()) {
             // V7 emits coverage only after its filename, edit number and hash checks.
             val suffix = " - ${originalEpisodeLabel(accepted)}"
-            return if (title.endsWith(suffix)) titleWithCoverage(title.removeSuffix(suffix), accepted) else title
+            return if (title.endsWith(suffix)) titleWithCoverage(title.removeSuffix(suffix), accepted, nativeNumber) else title
         }
         if (edit.collectionId != WANO_ACT_3 || title != edit.displayTitle) return title
         // V7 matched the selected source. Discard Phase 4B's provisional label even if it looks valid.
         val storyTitle = title.replace(PROVISIONAL_SUFFIX, "")
         val numbers = reviewedWanoCoverage[edit.fileId to edit.sourceSha256] ?: return storyTitle
-        return titleWithCoverage(storyTitle, numbers)
+        return titleWithCoverage(storyTitle, numbers, nativeNumber)
     }
 
     private companion object {
