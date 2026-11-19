@@ -4,6 +4,8 @@
 
 Update **Muhn Pace Rework • Egghead Dev (by lincutto)** in the Egghead testing repository. Open **One Piece (Muhn Pace)** from that provider’s home row or search. The numbered series uses a new URL so its saved positions have their own keys. Existing v5 bookmarks and Continue Watching entries still open the original series with their original episode numbers and resume positions. Production uses its own provider and history. [Fire TV test repository](https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/repo.json)
 
+GitHub Actions passed 27 Python checks, 67 Kotlin tests and the Android development build. The 120,399-byte `MuhnPaceEggheadDev.cs3` has SHA-256 `7605f5e700079d6d9be318737cd7a94aa02ed88f1a15825f0682d8ff7c996118`. Fire TV rendering and persisted resume on Fire OS 8 await the device test. [Build source](https://github.com/lincutto/MuhnPaceCloudstream/commit/ba77d2a30db5922aef42352a68e37ea1f55378f1) · [Actions run](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/44623449067) · [Development package](https://github.com/lincutto/MuhnPaceCloudstream/tree/b3bb985ace46618cdb8a68d9aae5cbf8885a951b)
+
 ### What to expect on Fire TV
 
 1. In Whole Cake Island, select *Emperor of the Sea, Charlotte Linlin*. Pause partway through and wait for the idle information panel. Its episode badge should read **E790**.
