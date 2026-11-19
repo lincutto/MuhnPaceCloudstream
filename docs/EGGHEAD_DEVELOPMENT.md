@@ -16,6 +16,10 @@ A local JVM check ran the pinned client’s player-heading and short-badge funct
 
 A single original 955 produces **Episode 955** once. The actual Wano edit *The Onefold Fox* covers 954–955, so its player heading includes the range **954–955**. The nine order-preserving assignments documented for v6 also keep their complete original ranges.
 
+On Fire TV, update **Muhn Pace Rework • Egghead Dev (by lincutto)** in the existing testing repository. Open *Emperor of the Sea, Charlotte Linlin* from the development provider's Whole Cake Island arc. Pause partway through, check the idle badge, then exit and reopen the edit from Continue Watching to check E790 and the saved position. [Testing repository](https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/repo.json)
+
+GitHub Actions passed 27 Python checks and 68 Kotlin tests. The 120,529-byte development package has SHA-256 `3e1deb1b72b09cd4f7361fbdbaff5f8350751df569b2c59b780472a6b14b80ac`. Its DEX and manifest match the locally checked build byte for byte. All 303 edits kept their order, playback data and non-title episode fields on both the current and older saved series URLs. [Build source](https://github.com/lincutto/MuhnPaceCloudstream/commit/08928c7d9c04496db9a47b12fa4ea278a00ecd9c) · [Actions run](https://github.com/lincutto/MuhnPaceCloudstream/actions/runs/44628590936) · [Development package](https://github.com/lincutto/MuhnPaceCloudstream/tree/626439f6ffd17493658032566d712558c8fba24b)
+
 ## Egghead Dev v6 original episode numbering
 
 Update **Muhn Pace Rework • Egghead Dev (by lincutto)** in the Egghead testing repository. Open **One Piece (Muhn Pace)** from that provider’s home row or search. The numbered series uses a new URL so its saved positions have their own keys. Existing v5 bookmarks and Continue Watching entries still open the original series with their original episode numbers and resume positions. Production uses its own provider and history. [Fire TV test repository](https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/repo.json)
