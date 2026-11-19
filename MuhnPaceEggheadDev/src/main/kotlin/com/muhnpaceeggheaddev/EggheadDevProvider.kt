@@ -12,6 +12,8 @@ import com.muhnpaceeggheaddev.baseline.originalEpisodeLabel
 internal class EggheadDevProvider(
     private val catalogue: ExpansionCatalogue = ExpansionCatalogue(),
     private val adapter: PixeldrainDubAdapter = PixeldrainDubAdapter(),
+    private val loadBaseline: suspend (MuhnPaceProvider) -> TvSeriesLoadResponse? =
+        { it.load(it.seriesUrl) as? TvSeriesLoadResponse },
 ) : MainAPI() {
     override var name = "Muhn Pace Rework • Egghead Dev (by lincutto)"
     override var mainUrl = "https://pixeldrain.dev"
@@ -23,8 +25,10 @@ internal class EggheadDevProvider(
     private val baseline = MuhnPaceProvider().also { it.name = name }
     private val legacyEdits by lazy { EditResearchRegistry.entries.associateBy { it.fileId } }
     private val baselineIds by lazy { legacyEdits.keys }
-    internal val seriesUrl get() = "$mainUrl/muhnpace-egghead-dev/one-piece"
-    private val expansionByUrl = catalogue.availableEpisodes.associateBy { "$seriesUrl/${it.key}" }
+    internal val previousSeriesUrl get() = "$mainUrl/muhnpace-egghead-dev/one-piece"
+    internal val seriesUrl get() = "$mainUrl/muhnpace-egghead-dev/one-piece-anime-numbers"
+    // The series URL identifies the history namespace. Episode data still selects the same cut.
+    private val expansionByUrl = catalogue.availableEpisodes.associateBy { "$previousSeriesUrl/${it.key}" }
 
     private fun card() = newTvSeriesSearchResponse(SeriesCatalogue.TITLE, seriesUrl, TvType.TvSeries) {
         posterUrl = SeriesCatalogue.poster
@@ -54,14 +58,14 @@ internal class EggheadDevProvider(
     }
 
     override suspend fun load(url: String): TvSeriesLoadResponse? {
-        if (url != seriesUrl) return null
-        val series = baseline.load(baseline.seriesUrl) as? TvSeriesLoadResponse ?: return null
-        return developmentSeries(series)
+        if (url != seriesUrl && url != previousSeriesUrl) return null
+        return loadBaseline(baseline)?.let { developmentSeries(it, url) }
     }
 
-    internal fun developmentSeries(series: TvSeriesLoadResponse): TvSeriesLoadResponse = series.apply {
-        url = seriesUrl
-        uniqueUrl = seriesUrl
+    internal fun developmentSeries(series: TvSeriesLoadResponse, pageUrl: String = seriesUrl): TvSeriesLoadResponse = series.apply {
+        val useAnimeNumbers = pageUrl == seriesUrl
+        url = pageUrl
+        uniqueUrl = pageUrl
         apiName = this@EggheadDevProvider.name
         plot = "${SeriesCatalogue.DESCRIPTION} Egghead features One Pace, Kuma Cut and Shaved Egghead edits."
         episodes = episodes.mapNotNull { legacy ->
@@ -80,12 +84,18 @@ internal class EggheadDevProvider(
                     season = WANO_SEASON
                     episode = WANO_ACT_3_OFFSET + requireNotNull(episode)
                 }
+                if (useAnimeNumbers) {
+                    val coverage = edit.acceptedEpisodes.ifEmpty {
+                        reviewedWanoCoverage[edit.fileId to edit.sourceSha256].orEmpty()
+                    }
+                    episode = originalNumber(edit.fileId, coverage) ?: episode
+                }
             }
         } + expansionByUrl.map { (route, story) ->
             val release = reviewedEggheadReleases[story.key]
             newEpisode(route) {
                 season = story.season
-                episode = story.number
+                episode = if (useAnimeNumbers) originalNumber(story.key, story.originalEpisodes) else story.number
                 name = titleWithCoverage(story.title, story.originalEpisodes)
                 description = release?.synopsis
                 posterUrl = release?.thumbnailUrl
@@ -98,6 +108,9 @@ internal class EggheadDevProvider(
         val label = if (numbers.size == 1) "Episode" else "Episodes"
         return "$title • $label ${originalEpisodeLabel(numbers).replace('-', '–')}"
     }
+
+    private fun originalNumber(key: String, coverage: List<Int>): Int? =
+        EARLIER_ORIGINALS[key]?.takeIf { it in coverage } ?: coverage.lastOrNull()
 
     internal fun legacyTitle(title: String, edit: EditResearch): String {
         val accepted = edit.acceptedEpisodes
@@ -114,6 +127,20 @@ internal class EggheadDevProvider(
     }
 
     private companion object {
+        // Cloudstream sorts and deduplicates by the same episode number it shows. These
+        // are the latest covered originals that fit before the next edit in each arc.
+        // Key by release identity so a missing neighbour cannot change anyone's resume ID.
+        val EARLIER_ORIGINALS = mapOf(
+            "fn7rEMkN" to 423, // The Underwater Prison, Impel Down
+            "uAu7YXhH" to 438, // Friend
+            "jmda4ZHb" to 539, // At the Sea Forest! Arlong and Hody
+            "dP3DaScp" to 566, // Phantom
+            "vSkNFYho" to 710, // Bellamy the Pirate
+            "26bBWNGx" to 803, // The Iron Mask
+            "iUiKz18s" to 855, // Wave Room
+            "3VFYgpqk" to 919, // Void
+            "17/1" to 1087,   // New Emperors
+        )
         const val FISHMAN_ALTERNATE = "kuoQYqfR"
         const val FISHMAN_DUPLICATE = "DujFEHwH"
         const val WANO_ACTS_1_2 = "QZw3Ejpy"

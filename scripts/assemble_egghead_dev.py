@@ -18,12 +18,12 @@ def main():
     with ZipFile(package) as archive:
         assert archive.testzip() is None
         manifest = json.loads(archive.read("manifest.json"))
-        assert manifest["name"] == MODULE and manifest["version"] == 5
+        assert manifest["name"] == MODULE and manifest["version"] == 6
         assert manifest["pluginClassName"] == "com.muhnpaceeggheaddev.EggheadDevPlugin"
         dex = archive.read("classes.dex")
         assert dex.startswith(b"dex\n")
         for value in (b"Lcom/muhnpaceeggheaddev/EggheadDevPlugin;", b"Lcom/muhnpaceeggheaddev/EggheadDevProvider;",
-                      b"/muhnpace-egghead-dev/one-piece", NAME.encode()):
+                      b"/muhnpace-egghead-dev/one-piece", b"/muhnpace-egghead-dev/one-piece-anime-numbers", NAME.encode()):
             assert value in dex
         assert b"Lcom/muhnpacedirect/" not in dex and b"Lcom/muhnpacepreview/" not in dex
     out = BUILD / "fire-tv"
@@ -31,7 +31,7 @@ def main():
     shutil.copyfile(package, out / package.name)
     digest = hashlib.sha256(package.read_bytes()).hexdigest()
     entry = dict(internalName=MODULE, name=NAME, version=manifest["version"], apiVersion=1, status=3,
-                 description="English dub with One Pace and community Egghead edits, original anime coverage and one Wano Arc.",
+                 description="English-dub edits in 15 arcs with original anime numbering and full episode coverage.",
                  authors=["lincutto"], tvTypes=["TvSeries"], language="en",
                  repositoryUrl=f"https://github.com/{REPO}/tree/{BRANCH}",
                  url=f"{BASE}/{package.name}", fileSize=package.stat().st_size, fileHash="sha256-" + digest)

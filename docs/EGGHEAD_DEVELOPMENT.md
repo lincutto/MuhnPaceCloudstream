@@ -1,5 +1,38 @@
 # Egghead development
 
+## Egghead Dev v6 original episode numbering
+
+Update **Muhn Pace Rework • Egghead Dev (by lincutto)** in the Egghead testing repository. Open **One Piece (Muhn Pace)** from that provider’s home row or search. The numbered series uses a new URL so its saved positions have their own keys. Existing v5 bookmarks and Continue Watching entries still open the original series with their original episode numbers and resume positions. Production uses its own provider and history. [Fire TV test repository](https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/repo.json)
+
+### What to expect on Fire TV
+
+1. In Whole Cake Island, select *Emperor of the Sea, Charlotte Linlin*. Pause partway through and wait for the idle information panel. Its episode badge should read **E790**.
+2. Exit to Continue Watching. The new development card should read **E790** and reopen that same edit at your saved position. Use a point well before the end because the player can put the following edit on the card near completion.
+3. With English UI strings and the full player title visible, the heading should read **One Piece (Muhn Pace) - Episode 790 - Emperor of the Sea, Charlotte Linlin • Episodes 788–790**. The episode picker should show **790. Emperor of the Sea, Charlotte Linlin • Episodes 788–790**.
+4. In Egghead, start *Luffy vs. Kizaru* (**E1128**) and use Next. It should open *Kuma Bear* (**E1130**). In Wano, *The Onefold Fox* should show **E955** with its reviewed range **954–955**.
+
+### Why the heading and nine numbers are constrained
+
+The inspected rolling Cloudstream pre-release and master refs both resolved to `2dcc25c3945c61dfa95d1710ced7c74acfe84baa`. For TV series the client sorts by season and episode, builds the episode ID from the series ID, internal season and episode number, and drops duplicate IDs. The player advances by list index. Gaps such as E1128 to E1130 work. Equal or decreasing numbers in one arc can hide an edit or change which edit plays next. [TV-series conversion](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/result/ResultViewModel2.kt#L2239-L2289) · [Ordered player playlist](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/result/ResultViewModel2.kt#L2079-L2087) · [Next by index](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/player/PlayerGeneratorViewModel.kt#L264-L275)
+
+The extension API exposes one numeric episode field. A stable file ID or custom JSON in `Episode.data` selects the video for playback. The client computes the history ID independently. `uniqueUrl` identifies the whole series and `displaySeason` controls the season label. `totalEpisodeIndex` is computed for tracking. Sorting by dates or scores in the episode picker cannot restore an entry already discarded. The anime response path also deduplicates equal numbers within one season and dub track. Exact endings for all edits in the existing arcs require a client field for display numbering independent of ordering and saved IDs. [Episode API](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/library/src/commonMain/kotlin/com/lagradost/cloudstream3/MainAPI.kt#L2538-L2575) · [Series ID](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/result/ResultViewModel2.kt#L370-L378) · [Episode picker sorting](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/result/ResultViewModel2.kt#L1895-L1909) · [Anime conversion](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/result/ResultViewModel2.kt#L2182-L2215)
+
+Continue Watching stores the current or next episode number and ID when progress is saved. The home card and the idle panel format that number using the short season/episode formatter. These arcs have a null display season, which gives **E790** in English. The player inserts **Episode 790** between the series name and episode name. Both episode-picker layouts prepend the number. Only a client change could remove those prefixes while retaining the rest of each heading. The extension supplies each story title and its full coverage once. [Resume persistence](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/utils/DataStoreHelper.kt#L702-L749) · [Continue Watching card](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/search/SearchResultBuilder.kt#L254-L268) · [Short formatter](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/utils/AppContextUtils.kt#L683-L693) · [Idle panel](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/player/GeneratorPlayer.kt#L1631-L1662) · [Player heading](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/player/GeneratorPlayer.kt#L1877-L1920) · [Episode picker](https://github.com/recloudstream/cloudstream/blob/2dcc25c3945c61dfa95d1710ced7c74acfe84baa/app/src/main/java/com/lagradost/cloudstream3/ui/result/EpisodeAdapter.kt#L205-L209)
+
+**294 of the 303 reviewed edits use the exact ending number.** Five pairs share an ending and four endings go backwards. The other nine edits use the latest covered original that leaves room for the next edit. Each assignment belongs to the release identity and stays fixed if a neighbouring file goes offline. The titles keep all covered originals, including gaps.
+
+| Arc | Edit | Original anime coverage in title | Display |
+| --- | --- | --- | --- |
+| Impel Down | The Underwater Prison, Impel Down | 422–423, 454 | E423 |
+| Impel Down | Friend | 435–438, 446 | E438 |
+| Fish-Man Island | At the Sea Forest! Arlong and Hody | 538–539, 541 | E539 |
+| Fish-Man Island | Phantom | 563–567 | E566 |
+| Dressrosa | Bellamy the Pirate | 707–711 | E710 |
+| Whole Cake Island | The Iron Mask | 800–803, 807 | E803 |
+| Whole Cake Island | Wave Room | 853–855, 858 | E855 |
+| Wano | Void | 917–919, 924 | E919 |
+| Egghead | New Emperors | 1086–1088 | E1087 |
+
 ## Egghead Dev v5 Wano coverage
 
 All 51 Wano edits retain their season 15 positions. The first 26 match the existing One Pace references, including disjoint coverage at positions 4 and 9. V5 adds original-anime coverage for positions 27–51 (Muhn edits 71–95). Episodes 1046, 1051, 1060 and 1069 each contribute to two edits. The 51-file title fixture records the expected display text in catalogue order. [Published development repository](https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/repo.json) · [Early Wano reference facts](../metadata/phase4b/reference-facts.json) · [All displayed Wano titles](../MuhnPaceEggheadDev/src/test/resources/wano-reviewed-titles.tsv)

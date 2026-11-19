@@ -120,7 +120,7 @@ class EggheadDevTest {
         }
         val provider = EggheadDevProvider(catalogue, adapter)
         val links = mutableListOf<ExtractorLink>()
-        assertTrue(provider.loadLinks("${provider.seriesUrl}/17/1", false, {}, links::add))
+        assertTrue(provider.loadLinks("${provider.previousSeriesUrl}/17/1", false, {}, links::add))
         val url = "https://pixeldrain.dev/api/file/${file.id}"
         assertEquals(listOf("https://pixeldrain.dev/api/file/${preferred.id}/info", "$url/info", url), requested)
         val link = links.single()
@@ -159,24 +159,24 @@ class EggheadDevTest {
     @Test
     fun shippedProviderRejects1155UnapprovedFilesAndUnlistedRoutes() = runBlocking {
         val provider = EggheadDevProvider(adapter = PixeldrainDubAdapter { _, _ -> error("unexpected network") })
-        val urls = listOf("https://anikoto.wtf/one-piece-episode-1155/", "${provider.seriesUrl}/17/45",
-            "${provider.seriesUrl}/17/31", "${provider.seriesUrl}/18/1", "https://pixeldrain.dev/api/file/HZ9VRHCV")
-        assertFalse(provider.loadLinks("${provider.seriesUrl}/17/1", true, {}, { fail("unexpected cast link") }))
+        val urls = listOf("https://anikoto.wtf/one-piece-episode-1155/", "${provider.previousSeriesUrl}/17/45",
+            "${provider.previousSeriesUrl}/17/31", "${provider.previousSeriesUrl}/18/1", "https://pixeldrain.dev/api/file/HZ9VRHCV")
+        assertFalse(provider.loadLinks("${provider.previousSeriesUrl}/17/1", true, {}, { fail("unexpected cast link") }))
         for (url in urls) assertFalse(provider.loadLinks(url, false, {}, { fail("unexpected link") }))
         assertNull(provider.load("https://pixeldrain.dev/muhnpace/one-piece"))
     }
 
     @Test
-    fun isolatedHomeAndCataloguePreserveReviewedTitlesIdentitiesAndLinks() = runBlocking {
+    fun newHomeAndSavedV5CatalogueKeepTheirRoutesAndMetadata() = runBlocking {
         val dev = EggheadDevProvider()
         val original = savedSeries()
-        val result = dev.developmentSeries(savedSeries())
+        val result = dev.developmentSeries(savedSeries(), dev.previousSeriesUrl)
         val page = dev.mainPage.single()
         val card = dev.getMainPage(1, MainPageRequest(page.name, page.data, page.horizontalImages)).items.single().list.single()
         assertEquals(dev.seriesUrl, card.url)
         assertEquals(card.url, dev.search("one piece").single().url)
         assertEquals(dev.name, card.apiName)
-        assertEquals(card.url, result.uniqueUrl)
+        assertEquals(dev.previousSeriesUrl, result.uniqueUrl)
         assertNotEquals(original.uniqueUrl, result.uniqueUrl)
         assertNotEquals(original.apiName, result.apiName)
         assertEquals(original.posterUrl, result.posterUrl)
@@ -240,7 +240,7 @@ class EggheadDevTest {
         assertEquals(30, egghead.map { it.posterUrl }.toSet().size)
         for (ep in egghead) {
             val release = reviewedEggheadReleases.getValue("17/${ep.episode}")
-            assertEquals("${dev.seriesUrl}/17/${ep.episode}", ep.data)
+            assertEquals("${dev.previousSeriesUrl}/17/${ep.episode}", ep.data)
             assertEquals(release.synopsis, ep.description)
             assertEquals(release.thumbnailUrl, ep.posterUrl)
             if (ep.episode!! <= 22) {
@@ -254,9 +254,106 @@ class EggheadDevTest {
             val rows = savedFiles.getValue(list)
             subset[list] = JSONArray((0 until rows.length()).map(rows::getJSONObject).filter { it.getString("id") != missing })
         }
-        val reduced = dev.developmentSeries(savedSeries(subset))
+        val reduced = dev.developmentSeries(savedSeries(subset), dev.previousSeriesUrl)
         assertEquals(result.episodes.filterNot { it.data.substringAfterLast('/') in setOf("6dQ6oqti", "A7NRZuaf") },
             reduced.episodes)
+    }
+
+    @Test
+    fun originalNumbersAreTheLatestCoveredEpisodesThatPreserveEveryEdit() = runBlocking {
+        val provider = EggheadDevProvider(loadBaseline = { savedSeries() })
+        val previous = provider.load(provider.previousSeriesUrl)!!
+        val current = provider.load(provider.search("one piece").single().url)!!
+        assertEquals("One Piece (Muhn Pace)", current.name)
+        assertEquals(provider.seriesUrl, current.uniqueUrl)
+        assertEquals(previous.seasonNames, current.seasonNames)
+        assertEquals(15, current.seasonNames!!.size)
+        assertEquals(303, current.episodes.size)
+
+        // Compare all metadata and route identities, independently of the number assignments.
+        assertEquals(previous.episodes.size, current.episodes.size)
+        for ((old, numbered) in previous.episodes.zip(current.episodes)) {
+            assertEquals(old.copy(episode = numbered.episode), numbered)
+        }
+
+        // Work backwards through each full arc. The largest covered number below the next
+        // slot gives the greatest feasible number for this edit and leaves room for its predecessors.
+        var exactEndings = 0
+        for (arc in current.episodes.groupBy { it.season }.values) {
+            var next = Int.MAX_VALUE
+            for (edit in arc.asReversed()) {
+                val label = edit.name!!.substringAfterLast(" • ").substringAfter(' ')
+                val covered = label.split(", ").flatMap { span ->
+                    val ends = span.split('–').map(String::toInt)
+                    (ends.first()..ends.last()).toList()
+                }
+                val expected = covered.last { it < next }
+                assertEquals(edit.name, expected, edit.episode)
+                if (expected == covered.last()) exactEndings++
+                next = expected
+            }
+        }
+        assertEquals(294, exactEndings)
+
+        val examples = mapOf(
+            "Emperor of the Sea, Charlotte Linlin • Episodes 788–790" to 790,
+            "The Onefold Fox • Episodes 954–955" to 955,
+            "Luffy vs. Kizaru • Episodes 1127–1128" to 1128,
+            "Escape Limit • Episodes 1108, 1110–1111" to 1111,
+            "Kuma's Life • Episode 1136" to 1136,
+            "The Height of Folly • Episodes 1139–1140" to 1140,
+        )
+        for ((title, number) in examples) {
+            assertEquals(title, number, current.episodes.single { it.name == title }.episode)
+        }
+    }
+
+    @Test
+    fun cloudstreamSortDedupAndResumeKeepAllRoutesInPlaybackOrder() = runBlocking {
+        val provider = EggheadDevProvider(loadBaseline = { savedSeries() })
+        val v5Url = "https://pixeldrain.dev/muhnpace-egghead-dev/one-piece"
+        val v5 = provider.load(v5Url)!!
+        val numbered = provider.load(provider.seriesUrl)!!
+        assertEquals(v5Url, v5.uniqueUrl)
+        assertEquals(4, v5.episodes.single { it.data.endsWith("/UaEAvqjm") }.episode)
+        val sorted = numbered.episodes.sortedBy { it.season!! * 10_000 + it.episode!! }
+        assertEquals(v5.episodes.map { it.data }, sorted.map { it.data })
+
+        // These are the parent and TV episode key expressions in Cloudstream's ResultViewModel2.
+        val productionAndV5Ids = mutableSetOf<Int>()
+        val numberedIds = mutableSetOf<Int>()
+        for (mainUrl in listOf(provider.mainUrl, "")) {
+            fun parent(url: String) = url.replace(mainUrl, "").replace("/", "").hashCode()
+            for (url in listOf("https://pixeldrain.dev/muhnpace/one-piece", v5Url)) {
+                val id = parent(url)
+                productionAndV5Ids.add(id)
+                v5.episodes.mapTo(productionAndV5Ids) { id + it.season!! * 100_000 + it.episode!! + 1 }
+            }
+            val id = parent(numbered.uniqueUrl)
+            val hostOrder = sorted.distinctBy { id + it.season!! * 100_000 + it.episode!! + 1 }
+            assertEquals(303, hostOrder.size)
+            // The player takes the next list index, including across arc boundaries.
+            assertEquals(v5.episodes.map { it.data }.zipWithNext(), hostOrder.map { it.data }.zipWithNext())
+            numberedIds.add(id)
+            hostOrder.mapTo(numberedIds) { id + it.season!! * 100_000 + it.episode!! + 1 }
+        }
+        assertTrue(productionAndV5Ids.intersect(numberedIds).isEmpty())
+    }
+
+    @Test
+    fun missingFilesDoNotRenumberSurvivorsOrReuseTheirHistorySlots() = runBlocking {
+        val current = EggheadDevProvider().developmentSeries(savedSeries())
+        val absent = setOf("A7NRZuaf", "YuY3j6Mz", "6dQ6oqti")
+        val subset = savedFiles.mapValues { (_, rows) ->
+            JSONArray((0 until rows.length()).map(rows::getJSONObject).filter { it.getString("id") !in absent })
+        }
+        val releases = reviewedEggheadReleases.filterKeys { it != "17/2" }.mapValues { listOf(it.value.file) }
+        val dev = EggheadDevProvider(catalogue = ExpansionCatalogue(releases), loadBaseline = { savedSeries(subset) })
+        val reduced = dev.load(dev.seriesUrl)!!
+        assertEquals(current.episodes.filterNot {
+            it.data.substringAfterLast('/') in absent || it.data == "${dev.previousSeriesUrl}/17/2"
+        }, reduced.episodes)
+        assertEquals(1087, reduced.episodes.first { it.season == 17 }.episode)
     }
 
     @Test
@@ -264,7 +361,7 @@ class EggheadDevTest {
         val rows = EggheadDevProvider().developmentSeries(savedSeries()).episodes.filter { it.season == 15 }
         val expected = resource("wano-reviewed-titles.tsv").trimEnd().lines().drop(1)
         assertEquals(51, expected.size)
-        assertEquals((1..51).toList(), rows.map { it.episode })
+        assertEquals(51, rows.size)
         assertEquals(expected, rows.map { "${it.data.substringAfterLast('/')}\t${it.name}" })
     }
 
@@ -292,7 +389,7 @@ class EggheadDevTest {
         val series = dev.developmentSeries(savedSeries())
         assertEquals(listOf("Fish-Man Island Arc"), series.seasonNames!!.mapNotNull { it.name }.filter { "Fish-Man" in it })
         val episode = series.episodes.single { it.data.endsWith("/G3sZ216k") }
-        assertEquals(9 to 13, episode.season to episode.episode)
+        assertEquals(9 to 553, episode.season to episode.episode)
         assertFalse(series.episodes.any { it.data.endsWith("/DujFEHwH") || it.season == 10 })
         for (id in listOf(main.fileId, alternate.fileId)) {
             val url = "https://pixeldrain.dev/api/file/$id"
@@ -305,7 +402,7 @@ class EggheadDevTest {
     @Test
     fun eggheadUsesPublishedTitlesAndPreservesCommunityReleaseIdentities() = runBlocking {
         val series = EggheadDevProvider().developmentSeries(savedSeries())
-        val titles = series.episodes.filter { it.season == 17 && it.episode!! >= 22 }.map { it.name }
+        val titles = series.episodes.filter { it.season == 17 }.drop(21).map { it.name }
         assertEquals(listOf(
             "Kuma Bear • Episodes 1129–1130",
             "A Fleeting Moment of Happiness - Kumachi and Ginny • Episode 1131",
@@ -325,7 +422,7 @@ class EggheadDevTest {
         val reserved = ExpansionMetadata.episodes.filter { it.preferred == SourceType.ORIGINAL }
         assertEquals((1131..1136).toSet() + (1141..1155), eggheadAnimeTitles.keys)
         assertTrue(reserved.all { it.title == eggheadAnimeTitles.getValue(it.originalEpisodes.single()) })
-        assertTrue(series.episodes.none { it.season == 17 && it.episode!! > 30 })
+        assertTrue(series.episodes.none { it.season == 17 && it.episode!! > 1140 })
     }
 
     @Test
@@ -334,10 +431,7 @@ class EggheadDevTest {
         assertEquals("Monster • Episodes 290, 293", rows.single { it.data.endsWith("/zEmPxD6p") }.name)
         for (ep in rows) {
             val title = requireNotNull(ep.name)
-            if (" • " !in title) {
-                assertTrue(ep.season == 15 && ep.episode!! in 27..51)
-                continue
-            }
+            assertTrue(title, " • " in title)
             val label = title.substringAfterLast(" • ")
             val groups = label.substringAfter(' ').split(", ")
             var previous = 0
@@ -386,7 +480,7 @@ class EggheadDevTest {
                 }
             })
             val links = mutableListOf<ExtractorLink>()
-            assertTrue(provider.loadLinks("${provider.seriesUrl}/${story.key}", false, {}, links::add))
+            assertTrue(provider.loadLinks("${provider.previousSeriesUrl}/${story.key}", false, {}, links::add))
             val link = links.single()
             assertEquals(listOf("$url/info", url), requests)
             assertEquals(url, link.url)
