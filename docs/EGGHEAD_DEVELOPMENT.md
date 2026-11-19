@@ -1,5 +1,11 @@
 # Egghead development
 
+## Egghead Dev v8 story titles and episode descriptions
+
+Update **Muhn Pace Rework • Egghead Dev (by lincutto)** in the existing Egghead testing repository. On the numbered development series, the Whole Cake Island episode list reads **790. Emperor of the Sea, Charlotte Linlin**. The English player heading reads **One Piece (Muhn Pace) - Episode 790 - Emperor of the Sea, Charlotte Linlin**. Continue Watching and the idle overlay use **E790**. [Testing repository](https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/egghead-test/repo.json)
+
+All 303 episode names contain the story title alone. The 291 edits covering multiple originals show their verified coverage on the first line of the episode description, followed by a blank line and the existing synopsis. For this edit the first line is **Covers original episodes 788–790**. Disjoint coverage stays explicit, such as **Covers original episodes 1108, 1110–1111** for *Escape Limit*. The 12 single-original edits keep their existing descriptions. Both development series URLs retain their episode numbers, including the nine order-preserving assignments on the numbered series and the original edit numbers on older saved entries.
+
 ## Egghead Dev v7 range-first player headings
 
 The numbered development series keeps the v6 episode numbers, series URL and playback routes. An edit covering multiple originals puts its full coverage before the descriptive title. A single-original edit supplies just the story title when Cloudstream already shows the same number. The older saved series still supplies the original number explicitly when its native edit number differs.

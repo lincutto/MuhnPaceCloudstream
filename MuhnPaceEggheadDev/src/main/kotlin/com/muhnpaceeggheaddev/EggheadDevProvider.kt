@@ -83,51 +83,47 @@ internal class EggheadDevProvider(
                     season = WANO_SEASON
                     episode = WANO_ACT_3_OFFSET + requireNotNull(episode)
                 }
-                if (useAnimeNumbers) {
-                    val coverage = edit.acceptedEpisodes.ifEmpty {
-                        reviewedWanoCoverage[edit.fileId to edit.sourceSha256].orEmpty()
-                    }
-                    episode = originalNumber(edit.fileId, coverage) ?: episode
+                val coverage = edit.acceptedEpisodes.ifEmpty {
+                    reviewedWanoCoverage[edit.fileId to edit.sourceSha256].orEmpty()
                 }
-                name = legacyTitle(name.orEmpty(), edit, episode)
+                if (useAnimeNumbers) episode = originalNumber(edit.fileId, coverage) ?: episode
+                legacyStoryTitle(name, edit)?.let { storyTitle ->
+                    name = storyTitle
+                    description = descriptionWithCoverage(description, coverage)
+                }
             }
         } + expansionByUrl.map { (route, story) ->
             val release = reviewedEggheadReleases[story.key]
             newEpisode(route) {
                 season = story.season
                 episode = if (useAnimeNumbers) originalNumber(story.key, story.originalEpisodes) else story.number
-                name = titleWithCoverage(story.title, story.originalEpisodes, episode)
-                description = release?.synopsis
+                name = story.title
+                description = descriptionWithCoverage(release?.synopsis, story.originalEpisodes)
                 posterUrl = release?.thumbnailUrl
             }
         }
         seasonNames = arcNames.map { (season, title) -> SeasonData(season, title, displaySeason = null) }
     }
 
-    internal fun titleWithCoverage(title: String, numbers: List<Int>, nativeNumber: Int?): String {
-        val single = numbers.distinct().singleOrNull()
-        if (single != null) {
-            // Cloudstream already prints the native number. Old saved routes can use a different one.
-            return if (single == nativeNumber) title else "Episode $single - $title"
-        }
-        return "${originalEpisodeLabel(numbers).replace('-', '–')} - $title"
+    internal fun descriptionWithCoverage(synopsis: String?, originals: List<Int>): String? {
+        if (originals.distinct().size < 2) return synopsis
+        val line = "Covers original episodes ${originalEpisodeLabel(originals).replace('-', '–')}"
+        // Cloudstream renders the episode card and expanded TV synopsis with HtmlCompat.
+        return if (synopsis.isNullOrBlank()) line else "$line<br><br>$synopsis"
     }
 
     private fun originalNumber(key: String, coverage: List<Int>): Int? =
         EARLIER_ORIGINALS[key]?.takeIf { it in coverage } ?: coverage.lastOrNull()
 
-    internal fun legacyTitle(title: String, edit: EditResearch, nativeNumber: Int?): String {
+    private fun legacyStoryTitle(title: String?, edit: EditResearch): String? {
         val accepted = edit.acceptedEpisodes
         if (accepted.isNotEmpty()) {
-            // V7 emits coverage only after its filename, edit number and hash checks.
-            val suffix = " - ${originalEpisodeLabel(accepted)}"
-            return if (title.endsWith(suffix)) titleWithCoverage(title.removeSuffix(suffix), accepted, nativeNumber) else title
+            // The baseline emits this title only for a matching release.
+            return edit.displayTitle.takeIf { title == "$it - ${originalEpisodeLabel(accepted)}" }
         }
-        if (edit.collectionId != WANO_ACT_3 || title != edit.displayTitle) return title
-        // V7 matched the selected source. Discard Phase 4B's provisional label even if it looks valid.
-        val storyTitle = title.replace(PROVISIONAL_SUFFIX, "")
-        val numbers = reviewedWanoCoverage[edit.fileId to edit.sourceSha256] ?: return storyTitle
-        return titleWithCoverage(storyTitle, numbers, nativeNumber)
+        if (edit.collectionId != WANO_ACT_3 || title != edit.displayTitle) return null
+        // Late Wano has provisional labels in the old titles. Its coverage comes from the reviewed files.
+        return title.replace(PROVISIONAL_SUFFIX, "")
     }
 
     private companion object {

@@ -18,7 +18,7 @@ def main():
     with ZipFile(package) as archive:
         assert archive.testzip() is None
         manifest = json.loads(archive.read("manifest.json"))
-        assert manifest["name"] == MODULE and manifest["version"] == 7
+        assert manifest["name"] == MODULE and manifest["version"] == 8
         assert manifest["pluginClassName"] == "com.muhnpaceeggheaddev.EggheadDevPlugin"
         dex = archive.read("classes.dex")
         assert dex.startswith(b"dex\n")
