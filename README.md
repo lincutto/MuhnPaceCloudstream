@@ -14,17 +14,17 @@ https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/repo.json
 
 ## Catalogue and playback
 
-Production **version 7** (internal version code **7**) promotes the validated preview v6 catalogue: **274 playable episodes across 16 seasons**, with the same ordering, titles, descriptions, thumbnails, poster, background and Pixeldrain HTTPS playback URLs. The home row remains **One Piece • Muhn Pace (English dub)**.
+Production **version 8** includes 30 reviewed English-dubbed Egghead edits in release order. The first 22 are One Pace edits, followed by six Kuma Cut and two Shaved Egghead edits. Each has a description, a thumbnail from that edit and its original anime episode numbers. The final edit covers episodes 1139–1140.
 
-The 25 Wano Act 3 titles retain the approved approximate original-anime ranges. These are provisional display references, not independently verified exact Muhn Pace boundaries. Native season/episode numbers identify navigation positions, not original anime episode numbers.
+The catalogue has **15 arcs**. Wano has 51 edits in one arc. Fish-Man Island lists the corrected group-shot edit once. The archived source lists yield 303 entries. At release, the live lists yield 302 because the host removed Fish-Man Island’s *10,000 Meters Under the Sea* before v8. The remaining edits keep their navigation positions. Original anime numbers appear in the titles, including nonconsecutive ranges.
 
 The video host controls availability and transfer limits. The plugin uses Pixeldrain directly and contains no video files. [Pixeldrain API documentation](https://pixeldrain.dev/api)
 
 ## Updates and saved progress
 
-The production package identity remains `MuhnPace`, class `com.muhnpacedirect.MuhnPacePlugin`, at the same package URL. Version 7 is newer than production version 2. The provider name is now **Muhn Pace Rework (by lincutto)**; Cloudstream also uses that name to resolve saved entries. Old favourites or Continue Watching entries may require manually reopening/re-adding the series and restoring your position. There is no automatic history migration.
+Cloudstream updates the existing `MuhnPace` package at the repository URL above. The provider name, plugin class, series URL and legacy arc URLs are the same as v7. Wano Act 3 moves from season 16 to Wano positions 27–51. Cloudstream uses season and episode positions for resume history, so those 25 edits may need their positions restored manually.
 
-Preview v6 remains unchanged at `v3-preview` as a separately installed fallback. Preview history does not automatically transfer to production. Legacy production arc routes remain supported, but the unified series has separate progress keys. Keep the preview and existing app data until any progress you need has been transferred manually.
+Egghead Dev v5 has its own package, provider and series URL and can stay installed alongside v8. The release uses the reviewed catalogue and English-only resolver from the [Fire TV-tested development source](https://github.com/lincutto/MuhnPaceCloudstream/commit/5973689bae40dc681029c4f6671c39f83f97d56b). The v7 [source](https://github.com/lincutto/MuhnPaceCloudstream/tree/release/production-v7) and [compiled package and indexes](https://github.com/lincutto/MuhnPaceCloudstream/tree/rollback/production-v7-builds) are preserved for rollback.
 
 ## Build
 

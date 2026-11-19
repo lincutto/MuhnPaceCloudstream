@@ -29,7 +29,7 @@ def transform(name, text):
         text = replace_checked(text, '/muhnpace/one-piece', '/muhnpace-v3-preview/one-piece', 2)
     elif name == "MuhnPacePlugin.kt":
         text = replace_checked(text, "class MuhnPacePlugin", "class MuhnPacePreviewPlugin", 1)
-        text = replace_checked(text, "MuhnPaceProvider()", "MuhnPacePreviewProvider()", 1)
+        text = replace_checked(text, "com.muhnpacedirect.egghead.ReworkProvider()", "MuhnPacePreviewProvider()", 1)
     return text
 
 

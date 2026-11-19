@@ -5,6 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+from zipfile import ZipFile
 
 
 def main():
@@ -20,8 +21,19 @@ def main():
     if '/' not in args.repo or any(c.isspace() for c in args.repo):
         raise SystemExit('Invalid owner/repository name')
 
-    args.out.mkdir(parents=True, exist_ok=True)
     source = artifacts[0]
+    if source.name != 'MuhnPace.cs3':
+        raise SystemExit(f'Unexpected production package name: {source.name}')
+    with ZipFile(source) as package:
+        manifest = json.loads(package.read('manifest.json'))
+        dex = package.read('classes.dex')
+        if (package.testzip() is not None or manifest['name'] != 'MuhnPace' or manifest['version'] != 8
+                or manifest['pluginClassName'] != 'com.muhnpacedirect.MuhnPacePlugin'
+                or b'Lcom/muhnpacedirect/egghead/ReworkProvider;' not in dex
+                or b'Lcom/muhnpaceeggheaddev/' in dex or b'Lcom/muhnpacepreview/' in dex):
+            raise SystemExit('The compiled package does not contain the isolated production provider.')
+
+    args.out.mkdir(parents=True, exist_ok=True)
     destination = args.out / source.name
     shutil.copy2(source, destination)
     base = f'https://raw.githubusercontent.com/{args.repo}/builds'
@@ -30,7 +42,7 @@ def main():
         'internalName': 'MuhnPace',
         'name': 'Muhn Pace Rework (by lincutto)',
         'description': 'Unofficial Cloudstream extension for the Muhn Pace English dub fan edit by Muhny.',
-        'version': 7,
+        'version': manifest['version'],
         'apiVersion': 1,
         'status': 1,
         'authors': ['lincutto'],
@@ -48,7 +60,7 @@ def main():
         'manifestVersion': 1,
         'pluginLists': [f'{base}/plugins.json'],
     }, indent=2) + '\n', encoding='utf-8')
-    print(f'Assembled local files for {args.repo}: {source.name}, plugins.json, repo.json')
+    print(f'Assembled {source.name}, plugins.json and repo.json for {args.repo}. Package SHA-256 {sha256}')
     print(f'Cloudstream repository: {base}/repo.json')
 
 

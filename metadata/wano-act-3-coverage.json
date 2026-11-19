@@ -1,0 +1,237 @@
+{
+  "reviewed_on": "2026-11-19",
+  "collection_id": "sF9stHJo",
+  "edits": [
+    {
+      "muhn_edit": 71, "file_id": "8ZxdEP7k", "sha256": "48c7bee5473f4a91075ea82a6a444f7382499fa6328ec209a658eae723d02006",
+      "reference": {"release": "Onigashima 29", "file_id": "PCtEG462", "sha256": "fd26693cb61d49a37b0ed5b1b97aa197cc1d6b4a3a6e48f325b0db4f0da25cbe"},
+      "matched_frames_seconds": [[117.04, 120.33], [1882.08, 1853.48]],
+      "originals": [
+        {"number": 1034, "at": "00:24", "scene": "Kaido assesses Luffy’s last attack as he falls", "tvmaze_id": 2391226},
+        {"number": 1035, "at": "12:40", "scene": "Kiku confronts the false Oden", "tvmaze_id": 2391227},
+        {"number": 1036, "at": "34:27", "scene": "Momonosuke relays Luffy’s message to the fighters", "tvmaze_id": 2411252}
+      ]
+    },
+    {
+      "muhn_edit": 72, "file_id": "MabM9jgS", "sha256": "ac80ce413fe9c7ee2efa974a1e4e866322b3590be9529f7d979cbfb594f9490d",
+      "reference": {"release": "Onigashima 30", "file_id": "BbL5Kv5j", "sha256": "710adae0f4a5d27dc61131dc2632e7d4bdaeb6e0555c8b83215ace3b7986056a"},
+      "matched_frames_seconds": [[971.08, 933.35], [1356.54, 1314.27]],
+      "originals": [
+        {"number": 1037, "at": "04:37", "scene": "Nami hears a voice from her Clima-Tact", "tvmaze_id": 2411598},
+        {"number": 1038, "at": "11:34", "scene": "Zeus guides Nami’s lightning against Ulti", "tvmaze_id": 2411599}
+      ]
+    },
+    {
+      "muhn_edit": 73, "file_id": "wDin5KAc", "sha256": "a74490ac1b8bf5410bdff22ea79f3cb0ce8c15ed864c6b2d2b1c37d334d583da",
+      "reference": {"release": "Onigashima 31", "file_id": "U3LhPrc3", "sha256": "672696fa3e91bf0559cbe781a648d86971e763dccff92755d8698a55cfd33e03"},
+      "matched_frames_seconds": [[582.5, 530.28], [780.88, 724.89]],
+      "originals": [
+        {"number": 1039, "at": "06:40", "scene": "The Minks offer the recovery drug for Zoro", "tvmaze_id": 2411600},
+        {"number": 1040, "at": "19:21", "scene": "Who’s-Who tells Jinbe about Nika", "tvmaze_id": 2411601}
+      ]
+    },
+    {
+      "muhn_edit": 74, "file_id": "ueUct7rV", "sha256": "cf8182c971b43640cd1e417d1b6f9d2d875f8b79f3abb6f612de03e0c9a5af6a",
+      "reference": {"release": "Onigashima 32", "file_id": "bYsrihXZ", "sha256": "165a96615d45b99a352b5c0899ed914648845cb9ac8e7cbb02eee8b9a47a6c98"},
+      "matched_frames_seconds": [[349.17, 312.77], [1506.5, 1468.38]],
+      "originals": [
+        {"number": 1041, "at": "08:06", "scene": "Sasaki takes flight against Franky", "tvmaze_id": 2430966},
+        {"number": 1042, "at": "17:59", "scene": "Robin sees her mother in Black Maria’s mist", "tvmaze_id": 2430967},
+        {"number": 1043, "at": "21:04", "scene": "Brook explains how he recognized the illusion", "tvmaze_id": 2430968}
+      ]
+    },
+    {
+      "muhn_edit": 75, "file_id": "5XDkcz5p", "sha256": "30acb0052192bf851a2bba3ca27f13fa559821ffbaa2a20a4c2af7c64326eb34",
+      "reference": {"release": "Onigashima 33", "file_id": "YzB2zWM5", "sha256": "6c732e1dd1eada32cbe842f40de862020c78ca09c20e9949bf553e39225b292f"},
+      "matched_frames_seconds": [[164.17, 125.54], [1204.54, 1167.79]],
+      "originals": [
+        {"number": 1044, "at": "10:26", "scene": "Robin turns the fight with Black Maria", "tvmaze_id": 2442123},
+        {"number": 1045, "at": "19:24", "scene": "Hawkins explains the cost to Killer’s partner", "tvmaze_id": 2446311},
+        {"number": 1046, "at": "26:31", "scene": "Marco makes way for Zoro and Sanji", "tvmaze_id": 2446604}
+      ]
+    },
+    {
+      "muhn_edit": 76, "file_id": "3URLnqLu", "sha256": "a14d79b3dcefe1fb236f5c94ad36a86b37abb3f05f273c565489a18cca168caf",
+      "reference": {"release": "Onigashima 34", "file_id": "Tic4G7vB", "sha256": "19e655acb3e9fe88a2e64e2018a6c1096ad8d88e0f9ad49b231df08387796a3b"},
+      "matched_frames_seconds": [[429.92, 392.89], [1894.46, 1864.49]],
+      "originals": [
+        {"number": 1046, "at": "09:39", "scene": "The samurai compare Zoro to Ryuma", "tvmaze_id": 2446604},
+        {"number": 1047, "at": "14:41", "scene": "Cat Viper confronts Perospero", "tvmaze_id": 2464810},
+        {"number": 1048, "at": "29:58", "scene": "Young Yamato meets the imprisoned samurai", "tvmaze_id": 2472283}
+      ]
+    },
+    {
+      "muhn_edit": 77, "file_id": "E1qpBnXC", "sha256": "69c05bd57d061e8333f51b68b6cf2e094ebfea11466c74862d7af32592354d12",
+      "reference": {"release": "Onigashima 35", "file_id": "JirvZpCA", "sha256": "81be0f06618bca712cde4c5f86b6c8a9a123326e0bb2edf3bf721ca7d33dd9ac"},
+      "matched_frames_seconds": [[387.71, 351.93], [857.75, 823.36]],
+      "originals": [
+        {"number": 1049, "at": "11:10", "scene": "Luffy rides the pink dragon back to Onigashima", "tvmaze_id": 2472284},
+        {"number": 1050, "at": "22:27", "scene": "Luffy tells Momonosuke to bite Kaido", "tvmaze_id": 2472285},
+        {"number": 1051, "at": "32:14", "scene": "Luffy and Kaido split the sky", "tvmaze_id": 2486416}
+      ]
+    },
+    {
+      "muhn_edit": 78, "file_id": "V4AHLxpp", "sha256": "50d6cb5530c2a237b2e11e463d70e279f9a395c0b5b651ae5f98b376f69c688b",
+      "reference": {"release": "Onigashima 36", "file_id": "f89x37Xw", "sha256": "fe1bdec2201d30d149be780aac1df4443b61a5d197d011920cc96b628a91133f"},
+      "matched_frames_seconds": [[341.38, 303.68], [1335.0, 1298.51]],
+      "originals": [
+        {"number": 1051, "at": "04:58", "scene": "Yamato explains how dragons fly on clouds", "tvmaze_id": 2486416},
+        {"number": 1052, "at": "08:39", "scene": "Yamato warns about Onigashima’s explosives", "tvmaze_id": 2489105},
+        {"number": 1053, "at": "22:10", "scene": "Queen launches his brachiosnake attack on Sanji", "tvmaze_id": 2489106}
+      ]
+    },
+    {
+      "muhn_edit": 79, "file_id": "BNUodwSU", "sha256": "cad2f66f86e30fdf30cd3a17348cbcf1df5d53fb70c9c45c311980ad53728834",
+      "reference": {"release": "Onigashima 37", "file_id": "T3518kSL", "sha256": "8e89d3688dc88e90c719fba6cde3068d0f625e3375d8441a6367907fbc27d4b7"},
+      "matched_frames_seconds": [[788.71, 757.09], [1410.79, 1383.05]],
+      "originals": [
+        {"number": 1054, "at": "18:59", "scene": "Killer exploits Kid’s missing arm against Hawkins", "tvmaze_id": 2496483},
+        {"number": 1055, "at": "26:15", "scene": "Kanjuro begins his final performance", "tvmaze_id": 2508831}
+      ]
+    },
+    {
+      "muhn_edit": 80, "file_id": "MkdiUcBG", "sha256": "dff6a50db0f56db28e9e395f710a916249fe17b3bceae7793f5fe426980e2d64",
+      "reference": {"release": "Onigashima 38", "file_id": "b9ywzCtY", "sha256": "b254cd5cbc4cb724f880a482d9f24c546990af341bfae06340360d498f6b556f"},
+      "matched_frames_seconds": [[375.0, 333.62], [1323.54, 1280.32]],
+      "originals": [
+        {"number": 1056, "at": "07:56", "scene": "Kid magnetizes Big Mom", "tvmaze_id": 2508832},
+        {"number": 1057, "at": "27:49", "scene": "Sanji asks Zoro for a promise", "tvmaze_id": 2508833}
+      ]
+    },
+    {
+      "muhn_edit": 81, "file_id": "ewQEeJLF", "sha256": "17cb44a9e3c493e19192f335951b4b7f7506f16e9e1777913595b7eb6124c966",
+      "reference": {"release": "Onigashima 39", "file_id": "SprJVWEC", "sha256": "d3806feb3f78a77bd0a5ecdbe7450fbd4deec404d6cadc2aa1e82c4d0de5d1c8"},
+      "matched_frames_seconds": [[253.25, 214.88], [1853.58, 1810.81]],
+      "originals": [
+        {"number": 1058, "at": "02:50", "scene": "Kazenbo spreads fire inside the castle", "tvmaze_id": 2523377},
+        {"number": 1059, "at": "20:17", "scene": "Zoro uses Death Lion’s Song against King", "tvmaze_id": 2523378},
+        {"number": 1060, "at": "29:22", "scene": "Zoro remembers the swordsmith’s lesson", "tvmaze_id": 2523379}
+      ]
+    },
+    {
+      "muhn_edit": 82, "file_id": "4QK6mpqK", "sha256": "6a1a017baaaca51b01d7ea26704abc536a5afe62646b12b69c2301e20b1074b5",
+      "reference": {"release": "Onigashima 40", "file_id": "LKZWuQ7U", "sha256": "4c3b50621b89a2e402570e24a83b2a96e156d853d4ba6ca2f51d92e885905b77"},
+      "matched_frames_seconds": [[604.58, 571.32], [1274.29, 1246.79]],
+      "originals": [
+        {"number": 1060, "at": "02:27", "scene": "Momonosuke tries to divert the island", "tvmaze_id": 2523379},
+        {"number": 1061, "at": "07:55", "scene": "Queen and Sanji counter each other’s invisibility", "tvmaze_id": 2523380},
+        {"number": 1062, "at": "18:01", "scene": "King recalls meeting Kaido", "tvmaze_id": 2542900}
+      ]
+    },
+    {
+      "muhn_edit": 83, "file_id": "CeDwmA3X", "sha256": "ba1ac2ba69b4a66a951a4cbed5f3fa4c192d5db88ce40c5ad4433f2f0e8bb2c1",
+      "reference": {"release": "Onigashima 41", "file_id": "RZPnESTX", "sha256": "dcdc761dc6ad1bcd5aa4d19548f8e460d3659b54866db2661ded573b470f0139"},
+      "matched_frames_seconds": [[414.25, 379.38], [1163.38, 1133.47]],
+      "originals": [
+        {"number": 1063, "at": "06:19", "scene": "Usopp urges the wounded samurai to live", "tvmaze_id": 2544575},
+        {"number": 1064, "at": "17:24", "scene": "Kaido drinks during the rooftop fight", "tvmaze_id": 2544576}
+      ]
+    },
+    {
+      "muhn_edit": 84, "file_id": "yhNgGNb2", "sha256": "0ed5b104a8b8971a9fadd81abdfed69289b69ee46b76cf538e183f0e418cf83f",
+      "reference": {"release": "Onigashima 42", "file_id": "aYvRpFjz", "sha256": "533a3c0a10cd9389e7d944c1f648ceed80361aae4633c62cbfc42ee4c9664665"},
+      "matched_frames_seconds": [[187.54, 149.23], [1945.17, 1910.78]],
+      "originals": [
+        {"number": 1065, "at": "12:23", "scene": "Big Mom turns toward the rooftop", "tvmaze_id": 2563834},
+        {"number": 1066, "at": "25:06", "scene": "Law uses Puncture Wille", "tvmaze_id": 2570302},
+        {"number": 1067, "at": "30:31", "scene": "Law silences Big Mom", "tvmaze_id": 2577792}
+      ]
+    },
+    {
+      "muhn_edit": 85, "file_id": "63Zouu8b", "sha256": "bf3dac717638cd0a121e5c845098ce6ea571c775ceaed58ddcdfa004500723c9",
+      "reference": {"release": "Onigashima 43", "file_id": "vWnqRJa5", "sha256": "ec64b0dab85085554bb830714dbad0a2832565cfabac10f0c1685beecbd11b80"},
+      "matched_frames_seconds": [[637.17, 601.39], [956.96, 920.13]],
+      "originals": [
+        {"number": 1068, "at": "16:52", "scene": "Hiyori explains how she immobilized Orochi", "tvmaze_id": 2577793},
+        {"number": 1069, "at": "19:12", "scene": "Luffy confronts Kaido about starving Wano", "tvmaze_id": 2592405}
+      ]
+    },
+    {
+      "muhn_edit": 86, "file_id": "fQSATYeB", "sha256": "5d526b74c75c76eb4e63aca52e8efa0b26727ccac5b1027ad829c1db7257c436",
+      "reference": {"release": "Onigashima 44", "file_id": "JGsPWfy5", "sha256": "d4853bfa3850b8449f6f327b1d92a4e936e83ba2e66d2ea571afdf5e7c06b113"},
+      "matched_frames_seconds": [[587.21, 542.58], [1261.58, 1222.47]],
+      "originals": [
+        {"number": 1069, "at": "11:41", "scene": "CP0 interrupts the rooftop duel", "tvmaze_id": 2592405},
+        {"number": 1070, "at": "16:43", "scene": "Kaido announces Luffy’s defeat", "tvmaze_id": 2592406}
+      ]
+    },
+    {
+      "muhn_edit": 87, "file_id": "MGnqnhGi", "sha256": "9c90f6f3fa64383825f519078f27076779fc537b4a38d530f24ca1906a8e4178",
+      "reference": {"release": "Onigashima 45", "file_id": "NBaQCGKt", "sha256": "45f44670ad374bce4adf3a594c607fcca6f552b131c0fc2a016e4ee87ed80f07"},
+      "matched_frames_seconds": [[746.75, 751.5], [1475.96, 1483.06]],
+      "originals": [
+        {"number": 1071, "at": "02:01", "scene": "The Elders discuss the Gum-Gum Fruit", "tvmaze_id": 2607697},
+        {"number": 1072, "at": "22:00", "scene": "Luffy calls on his heartbeat during the Gear Five fight", "tvmaze_id": 2616591}
+      ]
+    },
+    {
+      "muhn_edit": 88, "file_id": "4TJqNjYd", "sha256": "c10a229107b3c4066c8a66d286d8ebb87c6f941693a9757b52745ae1f7610972",
+      "reference": {"release": "Onigashima 46", "file_id": "ZDqNEJ1q", "sha256": "6dc93dea2c88bbb4c1a0bd38617ffa37077efb2d0cb5b329519b5e411d430417"},
+      "matched_frames_seconds": [[157.08, 156.36], [1441.42, 1452.58]],
+      "originals": [
+        {"number": 1073, "at": "11:44", "scene": "Raizo releases the water stored in his scroll", "tvmaze_id": 2616592},
+        {"number": 1074, "at": "26:32", "scene": "Luffy tells Momonosuke to move the island away from his fist", "tvmaze_id": 2619413}
+      ]
+    },
+    {
+      "muhn_edit": 89, "file_id": "eVK8TkEP", "sha256": "16a991ac3f348a1bdb7e5317d470c32fd30c5e96d8105782841ab90991314597",
+      "reference": {"release": "Onigashima 47", "file_id": "v6dLmGPc", "sha256": "285b0589267b59de7ec6da0627f47f2e01b85b4ad1fcb27ade3ac23afbb9a413"},
+      "matched_frames_seconds": [[333.08, 333.21], [1651.25, 1658.28]],
+      "originals": [
+        {"number": 1075, "at": "03:01", "scene": "Kaido uses Flame Dragon Torch", "tvmaze_id": 2619414},
+        {"number": 1076, "at": "26:40", "scene": "Luffy tells Kaido what world he wants", "tvmaze_id": 2643596}
+      ]
+    },
+    {
+      "muhn_edit": 90, "file_id": "PzEGt8uD", "sha256": "1439aaa385e663cfdfe6dba4a29c2c1d4774c444a85d633863e5858379f83716",
+      "reference": {"release": "Onigashima 48", "file_id": "AQEiBeR2", "sha256": "e31bf39203badddf8067e6f1ac93c0a28d7462072343bce395915db8b274c5cc"},
+      "matched_frames_seconds": [[301.0, 302.8], [1822.29, 1829.58]],
+      "originals": [
+        {"number": 1077, "at": "13:30", "scene": "The battle result is revised in Luffy’s favor", "tvmaze_id": 2643597},
+        {"number": 1078, "at": "31:59", "scene": "The capital recognizes its new shogun", "tvmaze_id": 2643598}
+      ]
+    },
+    {
+      "muhn_edit": 91, "file_id": "SGdkPUxo", "sha256": "66a69718ca65e3177531331caa6c0cd42088059ce1c679728beddc0c0b31d365",
+      "reference": {"release": "End of Wano 01", "file_id": "2bvaMGHd", "sha256": "8c14f5bc49417e1da3c2df63d55c6c043859a9b57c5aace422c250d294e18f04"},
+      "matched_frames_seconds": [[389.33, 390.31], [1028.04, 1029.95]],
+      "originals": [
+        {"number": 1079, "at": "12:23", "scene": "The Straw Hats prepare to bathe before the banquet", "tvmaze_id": 2661668}
+      ]
+    },
+    {
+      "muhn_edit": 92, "file_id": "oWi7oUdE", "sha256": "7841220c36d84ae70bd227f1ad1bfc243b88db023bd76b8d0ede2990a8cfd67c",
+      "reference": {"release": "End of Wano 02", "file_id": "EZSRG1d8", "sha256": "8f969d158639be444bc6bdb4ba74b07eb13b6bdf8b9abc45958e4bd5960d215e"},
+      "matched_frames_seconds": [[242.04, 238.82], [1578.12, 1569.82]],
+      "originals": [
+        {"number": 1080, "at": "13:30", "scene": "Kid interrupts the festival toast", "tvmaze_id": 2661669},
+        {"number": 1081, "at": "19:50", "scene": "Ryokugyu explains his forest power to the defenders", "tvmaze_id": 2661670}
+      ]
+    },
+    {
+      "muhn_edit": 93, "file_id": "BUkadAqi", "sha256": "a868330badbe2f839d1504daa3371df56664e6ed3c8f05db5c2faef4d3e2f67e",
+      "reference": {"release": "End of Wano 03", "file_id": "aCjRQHjD", "sha256": "6ac1d298c7f2aef2f7525aa9a139a2a0a0fbeebc83e36b8d48bc37eab9c6a6bd"},
+      "matched_frames_seconds": [[165.96, 166.46], [1689.25, 1690.15]],
+      "originals": [
+        {"number": 1082, "at": "13:32", "scene": "Ryokugyu recognizes the Red-Haired Pirates", "tvmaze_id": 2661671},
+        {"number": 1083, "at": "28:47", "scene": "Kid identifies Cross Guild", "tvmaze_id": 2685944}
+      ]
+    },
+    {
+      "muhn_edit": 94, "file_id": "6bRjHz7j", "sha256": "222fb401b491c83e1470437dbbe4ca9cc99043c0e0c659da8c1a6f8ded7b0215",
+      "reference": {"release": "End of Wano 03.5", "file_id": "SUif3131", "sha256": "36d7d1d08e20d42aceb454281efce550147f61f8b7ced821328d3fc40a2dc903"},
+      "matched_frames_seconds": [[298.79, 293.54], [961.17, 955.16]],
+      "originals": [
+        {"number": 1084, "at": "15:10", "scene": "Tama and Luffy share red-bean soup", "tvmaze_id": 2685945}
+      ]
+    },
+    {
+      "muhn_edit": 95, "file_id": "wcWWHbGJ", "sha256": "792a28a0358b3b74caf2c68641b6f1f071d57245c715610cf64596873530eaf9",
+      "reference": {"release": "End of Wano 04", "file_id": "FsTt9nDe", "sha256": "3d95c2af4ec9ec6575b5b9f01779718ae8e9650e8f5ea1cf920173f3b1566811"},
+      "matched_frames_seconds": [[458.79, 458.54], [1186.71, 1186.81]],
+      "originals": [
+        {"number": 1085, "at": "19:19", "scene": "Momonosuke decides where to fly the Straw Hats’ flag", "tvmaze_id": 2685946}
+      ]
+    }
+  ]
+}

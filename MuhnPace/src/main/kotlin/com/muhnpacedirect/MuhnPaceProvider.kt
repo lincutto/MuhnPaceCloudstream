@@ -15,7 +15,7 @@ import org.json.JSONObject
  * Pixeldrain may block direct playback from third-party applications; the provider
  * does not attempt to evade its access controls, paywalls, or transfer restrictions.
  */
-class MuhnPaceProvider : MainAPI() {
+open class MuhnPaceProvider : MainAPI() {
     override var name = "Muhn Pace Rework (by lincutto)"
     override var mainUrl = "https://pixeldrain.dev"
     override var lang = "en"
@@ -29,7 +29,7 @@ class MuhnPaceProvider : MainAPI() {
 
     override val mainPage = mainPageOf("muhn" to "One Piece • Muhn Pace (English dub)")
 
-    private fun seriesSearchResponse(): SearchResponse =
+    protected fun seriesSearchResponse(): SearchResponse =
         newTvSeriesSearchResponse(SeriesCatalogue.TITLE, seriesUrl, TvType.TvSeries) {
             posterUrl = SeriesCatalogue.poster
         }
@@ -117,7 +117,7 @@ class MuhnPaceProvider : MainAPI() {
     }
 
     /** Same builders and native Episode/SeasonData fields used by live loading and offline regressions. */
-    internal suspend fun seriesFromFiles(url: String, filesByCollection: Map<String, JSONArray>): TvSeriesLoadResponse? {
+    internal open suspend fun seriesFromFiles(url: String, filesByCollection: Map<String, JSONArray>): TvSeriesLoadResponse? {
         if (!isSeriesUrl(url)) return null
         val episodes = arcs.flatMap { arc ->
             val files = filesByCollection[arc.listId]

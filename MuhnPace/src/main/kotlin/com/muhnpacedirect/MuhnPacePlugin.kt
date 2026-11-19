@@ -6,6 +6,6 @@ import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
 @CloudstreamPlugin
 class MuhnPacePlugin : BasePlugin() {
     override fun load() {
-        registerMainAPI(MuhnPaceProvider())
+        registerMainAPI(com.muhnpacedirect.egghead.ReworkProvider())
     }
 }
