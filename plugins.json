@@ -3,7 +3,7 @@
     "internalName": "MuhnPace",
     "name": "Muhn Pace Rework (by lincutto)",
     "description": "Unofficial Cloudstream extension for the Muhn Pace English dub fan edit by Muhny.",
-    "version": 7,
+    "version": 8,
     "apiVersion": 1,
     "status": 1,
     "authors": [
@@ -15,7 +15,7 @@
     "language": "en",
     "repositoryUrl": "https://github.com/lincutto/MuhnPaceCloudstream",
     "url": "https://raw.githubusercontent.com/lincutto/MuhnPaceCloudstream/builds/MuhnPace.cs3",
-    "fileSize": 92163,
-    "fileHash": "sha256-a8c93c546e0b6ecf3487448269bf8ab2d7d76b1566db60b04785821f9cb5fb28"
+    "fileSize": 117444,
+    "fileHash": "sha256-556caef71645057b7c09df0f26e97ed964d00539745ce7a7efb3dbf77e9246a1"
   }
 ]
