@@ -8,6 +8,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 REVIEW = ROOT / "docs/research/egghead-fan-edits.csv"
 ANIME_TITLES = ROOT / "metadata/egghead-original-anime-titles.csv"
+WANO_REVIEW = ROOT / "metadata/wano-act-3-coverage.json"
+WANO_BASELINE = ROOT / "metadata/phase4b/season-16.json"
 COLLECTION_TYPES = {"nKaeVsMp": "ONE_PACE", "ef1wn8dY": "COMMUNITY_EDIT"}
 
 
@@ -29,6 +31,24 @@ def anime_episodes(label):
     if not numbers or numbers != sorted(set(numbers)):
         raise ValueError(f"Invalid anime coverage: {label}")
     return ", ".join(map(str, numbers))
+
+
+def wano_coverage():
+    review = json.loads(WANO_REVIEW.read_text(encoding="utf-8"))
+    baseline = json.loads(WANO_BASELINE.read_text(encoding="utf-8"))["entries"]
+    sources = {(e["collection_id"], e["file_id"], e["source_sha256"], e["edit_number"]) for e in baseline}
+    seen = set()
+    rows = []
+    for edit in review["edits"]:
+        file_id, digest = edit["file_id"], edit["sha256"]
+        if (review["collection_id"], file_id, digest, edit["muhn_edit"]) not in sources or file_id in seen:
+            raise ValueError(f"Unmatched or duplicate Wano source {file_id}")
+        seen.add(file_id)
+        numbers = [original["number"] for original in edit["originals"]]
+        if not numbers or numbers != sorted(set(numbers)) or any(n <= 0 for n in numbers):
+            raise ValueError(f"Invalid reviewed Wano coverage for {file_id}")
+        rows.append(f'    ("{file_id}" to "{digest}") to listOf({", ".join(map(str, numbers))}),\n')
+    return "internal val reviewedWanoCoverage = mapOf(\n" + "".join(rows) + ")\n"
 
 
 def generate(target):
@@ -68,7 +88,7 @@ def generate(target):
                       + "".join(entries) + ")\n\n"
                       + "internal val eggheadAnimeTitles = mapOf(\n"
                       + "".join(f"    {n} to {kotlin_string(t)},\n" for n, t in titles.items())
-                      + ")\n", encoding="utf-8")
+                      + ")\n\n" + wano_coverage(), encoding="utf-8")
 
 
 if __name__ == "__main__":

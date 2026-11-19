@@ -99,17 +99,18 @@ internal class EggheadDevProvider(
         return "$title • $label ${originalEpisodeLabel(numbers).replace('-', '–')}"
     }
 
-    private fun legacyTitle(title: String, edit: EditResearch): String {
+    internal fun legacyTitle(title: String, edit: EditResearch): String {
         val accepted = edit.acceptedEpisodes
         if (accepted.isNotEmpty()) {
             // V7 emits coverage only after its filename, edit number and hash checks.
             val suffix = " - ${originalEpisodeLabel(accepted)}"
             return if (title.endsWith(suffix)) titleWithCoverage(title.removeSuffix(suffix), accepted) else title
         }
-        // Phase 4B stored approximate Act 3 numbers inside the editorial title itself.
-        return if (edit.collectionId == WANO_ACT_3 && title == edit.displayTitle) {
-            title.replace(PROVISIONAL_SUFFIX, "")
-        } else title
+        if (edit.collectionId != WANO_ACT_3 || title != edit.displayTitle) return title
+        // V7 matched the selected source. Discard Phase 4B's provisional label even if it looks valid.
+        val storyTitle = title.replace(PROVISIONAL_SUFFIX, "")
+        val numbers = reviewedWanoCoverage[edit.fileId to edit.sourceSha256] ?: return storyTitle
+        return titleWithCoverage(storyTitle, numbers)
     }
 
     private companion object {
@@ -120,7 +121,7 @@ internal class EggheadDevProvider(
         const val WANO_SEASON = 15
         // The reviewed first collection owns slots 1–26, even when a file is temporarily missing.
         const val WANO_ACT_3_OFFSET = 26
-        val PROVISIONAL_SUFFIX = Regex(""" - [0-9]+(?:-[0-9]+)?$""")
+        val PROVISIONAL_SUFFIX = Regex(""" - [0-9]+(?:[-–][0-9]+)?(?:, [0-9]+(?:[-–][0-9]+)?)*$""")
     }
 
     override suspend fun loadLinks(

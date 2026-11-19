@@ -217,12 +217,14 @@ class EggheadDevTest {
             assertEquals(old.posterUrl, ep.posterUrl)
             val title = old.name!!.substringBeforeLast(" - ")
             val coverage = old.name!!.substringAfterLast(" - ")
-            val expected = when {
-                season == 16 -> title
-                coverage.all(Char::isDigit) -> "$title • Episode $coverage"
-                else -> "$title • Episodes ${coverage.replace('-', '–')}"
+            if (season == 16) {
+                // The independent Wano fixture checks these numbers. V7 stores a provisional range here.
+                assertEquals(title, ep.name!!.substringBeforeLast(" • "))
+            } else {
+                val expected = if (coverage.all(Char::isDigit)) "$title • Episode $coverage"
+                    else "$title • Episodes ${coverage.replace('-', '–')}"
+                assertEquals(expected, ep.name)
             }
-            assertEquals(expected, ep.name)
             val links = mutableListOf<ExtractorLink>()
             assertTrue(dev.loadLinks(ep.data, false, {}, links::add))
             assertEquals(ep.data, links.single().url)
@@ -258,19 +260,23 @@ class EggheadDevTest {
     }
 
     @Test
-    fun mergedWanoRetainsAcceptedCoverageAndOnlyTheStoryTitleForUnknowns() = runBlocking {
+    fun all51WanoFilesDisplayTheirReviewedTitlesAndCoverageInOrder() = runBlocking {
         val rows = EggheadDevProvider().developmentSeries(savedSeries()).episodes.filter { it.season == 15 }
-        val reviewed = EditResearchRegistry.entries.filter { it.collectionId in setOf("QZw3Ejpy", "sF9stHJo") }
-        assertEquals(reviewed.map { it.fileId }, rows.map { it.data.substringAfterLast('/') })
+        val expected = resource("wano-reviewed-titles.tsv").trimEnd().lines().drop(1)
+        assertEquals(51, expected.size)
         assertEquals((1..51).toList(), rows.map { it.episode })
-        assertEquals(26, reviewed.count { it.acceptedEpisodes.isNotEmpty() })
-        assertEquals("Enma • Episodes 955–956", rows[25].name)
-        assertEquals("Robin and Her Friends", rows[26].name)
-        assertEquals("Nami and Zeus", rows[27].name)
-        for ((row, edit) in rows.drop(26).zip(reviewed.drop(26))) {
-            assertTrue(edit.acceptedEpisodes.isEmpty())
-            assertEquals(edit.displayTitle.substringBeforeLast(" - "), row.name)
-        }
+        assertEquals(expected, rows.map { "${it.data.substringAfterLast('/')}\t${it.name}" })
+    }
+
+    @Test
+    fun act3RequiresTheReviewedFileAndIgnoresNumbersEmbeddedInEditorialTitles() {
+        val dev = EggheadDevProvider()
+        val robin = EditResearchRegistry.entries.single { it.fileId == "8ZxdEP7k" }
+            .copy(displayTitle = "Robin and Her Friends - 998, 996-995")
+        assertEquals("Robin and Her Friends • Episodes 1034–1036", dev.legacyTitle(robin.displayTitle, robin))
+        assertEquals("Robin and Her Friends", dev.legacyTitle(robin.displayTitle, robin.copy(fileId = "otherCut")))
+        assertEquals("Robin and Her Friends", dev.legacyTitle(robin.displayTitle, robin.copy(sourceSha256 = "0".repeat(64))))
+        assertEquals("One Piece", dev.legacyTitle("One Piece", robin))
     }
 
     @Test
@@ -351,9 +357,13 @@ class EggheadDevTest {
         val rows = JSONArray(savedFiles.getValue("QZw3Ejpy").toString())
         val first = (0 until rows.length()).map(rows::getJSONObject).first { it.getString("id") == "6dQ6oqti" }
         first.put("hash_sha256", "0".repeat(64))
-        val result = EggheadDevProvider().developmentSeries(savedSeries(savedFiles + ("QZw3Ejpy" to rows)))
-        val changed = result.episodes.single { it.data.endsWith("/6dQ6oqti") }
-        assertEquals("One Piece", changed.name)
+        val late = JSONArray(savedFiles.getValue("sF9stHJo").toString())
+        val robin = (0 until late.length()).map(late::getJSONObject).single { it.getString("id") == "8ZxdEP7k" }
+        robin.put("hash_sha256", "0".repeat(64))
+        val result = EggheadDevProvider().developmentSeries(savedSeries(savedFiles + mapOf("QZw3Ejpy" to rows, "sF9stHJo" to late)))
+        for (id in listOf("6dQ6oqti", "8ZxdEP7k")) {
+            assertEquals("One Piece", result.episodes.single { it.data.endsWith("/$id") }.name)
+        }
         assertEquals(303, result.episodes.size)
     }
 
